@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: shui
+  m_Shader: {fileID: 4800000, guid: 0920565ffbf8d7242a7b96c474750f2b, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _DetailTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 83b6fa9d32cd3fd4ea342f8f6913c44f, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 86f1b31da2ae41545bee0f998102173b, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _RflTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 86f1b31da2ae41545bee0f998102173b, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _WaterTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 9bd7767591176bd4e8d942897999437b, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _MMultiplier
+      second: 2
+    - first:
+        name: _RflScale
+      second: 0.14642856
+    - first:
+        name: _Scroll2X
+      second: 1.06
+    - first:
+        name: _Scroll2Y
+      second: 0.21
+    - first:
+        name: _ScrollX
+      second: 0.59
+    - first:
+        name: _ScrollY
+      second: 0.08
+    - first:
+        name: _SpeedU
+      second: -0.07142856
+    - first:
+        name: _SpeedV
+      second: -0.035714325
+    - first:
+        name: _SplPow
+      second: 3.7749999
+    - first:
+        name: _WaterDepth
+      second: 0.68
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.11305147, g: 0.30147058, b: 0.122147575, a: 1}
+    - first:
+        name: _SplColor
+      second: {r: 0.37240484, g: 0.9044118, b: 0.88239765, a: 1}
+    - first:
+        name: _WaterColor
+      second: {r: 0.10553633, g: 0.44852942, b: 0.122094646, a: 1}

@@ -1,0 +1,21 @@
+<rechargelist>
+<!--id=商品id
+	乐游平台的充值表
+	name=商品名称
+	desc=前端商品描述
+	golden=商品RMB价格
+	golden_value=到账元宝数量
+	first_double=首次购买是否双倍元宝
+	mutex 领取叠加类型 有这个字段时 代表之后的若干天内 每天都可以领取 相同ID的可叠加天数
+	days    领取天数
+  daynum  每日领取数量
+	-->
+  <recharge id="1" payid="1" ios_id="com.sswz.25yk" android_id="" name="超值月卡" desc="立即到账&lt;color=#FF0000&gt;280&lt;/color&gt;钻石{n}持续30天，每天可领取&lt;color=#FF0000&gt;100&lt;/color&gt;钻石和&lt;color=#FF0000&gt;150&lt;/color&gt;绑钻" desc1="立即到账280钻石，持续30天，每天可领取100钻石和150绑钻" golden="25" golden_value="280" first_double="0" rebate="1" days="30" daynum="120" ka="1"/>
+  <recharge id="2" payid="2" ios_id="com.sswz.60zsk" android_id="" name="超值终身卡" desc="立即到账&lt;color=#FF0000&gt;600&lt;/color&gt;钻石{n}持续永久，每天可领取&lt;color=#FF0000&gt;100&lt;/color&gt;钻石和&lt;color=#FF0000&gt;150&lt;/color&gt;绑钻" desc1="立即到账600钻石，持续永久，每天可领取100钻石和150绑钻" golden="60" golden_value="600" first_double="0" rebate="1" days="0"  daynum="100" ka="2"/>
+  <recharge id="3" payid="3" ios_id="com.sswz.6" android_id="" name="钻石" desc="立即到账&lt;color=#FF0000&gt;60&lt;/color&gt;钻石{n}首充额外赠送&lt;color=#FF0000&gt;60&lt;/color&gt;钻石" desc2="立即到账&lt;color=#FF0000&gt;60&lt;/color&gt;钻石" desc1="立即到账60钻石" golden="6" golden_value="60" first_double="1" rebate="2" days="0"  daynum="0"/>
+  <recharge id="4" payid="4" ios_id="com.sswz.30" android_id="" name="钻石" desc="立即到账&lt;color=#FF0000&gt;300&lt;/color&gt;钻石{n}首充额外赠送&lt;color=#FF0000&gt;300&lt;/color&gt;钻石" desc2="立即到账&lt;color=#FF0000&gt;300&lt;/color&gt;钻石" desc1="立即到账300钻石" golden="30" golden_value="300" first_double="1" rebate="2" days="0"  daynum="0"/>
+  <recharge id="5" payid="5" ios_id="com.sswz.98" android_id="" name="钻石" desc="立即到账&lt;color=#FF0000&gt;980&lt;/color&gt;钻石{n}首充额外赠送&lt;color=#FF0000&gt;980&lt;/color&gt;钻石" desc2="立即到账&lt;color=#FF0000&gt;980&lt;/color&gt;钻石" desc1="立即到账980钻石" golden="98" golden_value="980" first_double="1" rebate="2" days="0"  daynum="0"/>
+  <recharge id="6" payid="6" ios_id="com.sswz.198" android_id="" name="钻石" desc="立即到账&lt;color=#FF0000&gt;1980&lt;/color&gt;钻石{n}首充额外赠送&lt;color=#FF0000&gt;1980&lt;/color&gt;钻石" desc2="立即到账&lt;color=#FF0000&gt;1980&lt;/color&gt;钻石" desc1="立即到账1980钻石" golden="198" golden_value="1980" first_double="1" rebate="2" days="0"  daynum="0"/>
+  <recharge id="7" payid="7" ios_id="com.sswz.328" android_id="" name="钻石" desc="立即到账&lt;color=#FF0000&gt;3280&lt;/color&gt;钻石{n}首充额外赠送&lt;color=#FF0000&gt;3280&lt;/color&gt;钻石" desc2="立即到账&lt;color=#FF0000&gt;3280&lt;/color&gt;钻石" desc1="立即到账3280钻石" golden="328" golden_value="3280" first_double="1" rebate="2" days="0"  daynum="0"/>
+  <recharge id="8" payid="8" ios_id="com.sswz.648" android_id="" name="钻石" desc="立即到账&lt;color=#FF0000&gt;6480&lt;/color&gt;钻石{n}首充额外赠送&lt;color=#FF0000&gt;6480&lt;/color&gt;钻石" desc2="立即到账&lt;color=#FF0000&gt;6480&lt;/color&gt;钻石" desc1="立即到账6480钻石" golden="648" golden_value="6480" first_double="1" rebate="2" days="0"  daynum="0"/>
+</rechargelist>

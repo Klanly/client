@@ -1,0 +1,29 @@
+<creat_character>
+<!--job_type=职业id
+	desc=职业中文描述
+	activate=0 不可创建  1可以创建-->
+	<character name="狂战士" job_type="2" desc="挥动巨斧，仿佛可以碾碎一切。擅长近战攻击，速度偏慢，如果躲不开这毁灭般的打击，等待敌人的就只有绝望。" activate="1">
+		<character att_type="1" att_per="100" att_value="22"/>
+		<character att_type="2" att_per="50" att_value="30"/>
+		<character att_type="3" att_per="100" att_value="28"/>
+		<character att_type="34" att_per="70" att_value="20"/>
+	</character>
+	<character name="法师" job_type="3" desc="性感的容貌，冷漠的笑容加上金色的长发，挥舞法杖以法术作为战斗方式，远距攻击敌人。擅长使用各种华丽的元素魔法，是战场中的艺术家。" activate="1">
+		<character att_type="4" att_per="100" att_value="35"/>
+		<character att_type="1" att_per="50" att_value="18"/>
+		<character att_type="3" att_per="65" att_value="25"/>
+		<character att_type="34" att_per="100" att_value="22"/>
+	</character>
+	<character name="弓手" job_type="4" desc="身材小巧的金发少女，像阳光一般的微笑，让人很难将她和精准而致命的攻击联系到一起。弓手是战场上最具威胁的狙击手，拥有比法师更远的攻击距离，精准的箭术足以杀敌于百步之外。" activate="1">
+		<character att_type="1" att_per="100" att_value="30"/>
+		<character att_type="2" att_per="50" att_value="16"/>
+		<character att_type="3" att_per="80" att_value="25"/>
+		<character att_type="34" att_per="70" att_value="25"/>
+	</character>
+	<character name="暗影" job_type="5" desc="没有人知道一个暗影真正的容貌，来无影去无踪。擅长从黑暗中寻找机会，一招毙命。使用双刀进行多段连击，在高速攻击的同时还能进行闪躲。" activate="0">
+		<character att_type="1" att_per="100" att_value="22"/>
+		<character att_type="2" att_per="75" att_value="32"/>
+		<character att_type="3" att_per="80" att_value="26"/>
+		<character att_type="34" att_per="65" att_value="20"/>
+	</character>
+</creat_character>

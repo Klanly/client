@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 8c75b6271f1d2914dac47e295ca94a7c
+timeCreated: 1494295706
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Particle View 001
+    100004: Terrain01
+    100006: Terrain02
+    100008: Terrain03
+    100010: Terrain04
+    100012: Terrain05
+    100014: Terrain06
+    100016: Terrain07
+    100018: Terrain08
+    100020: Terrain09
+    100022: Terrain10
+    100024: Terrain11
+    100026: Terrain12
+    100028: Terrain13
+    100030: Terrain14
+    100032: Terrain15
+    100034: Terrain16
+    100036: Terrain17
+    100038: Terrain18
+    100040: Terrain19
+    100042: Terrain20
+    100044: UB095_1
+    100046: Ytlds_ Pillar
+    100048: Ytlds_ Stele_1_2
+    100050: Ytlds_ Stele_1_3
+    100052: Ytlds_ Stele_1_4
+    100054: Ytlds_ Stele_1_5
+    100056: Ytlds_ Stele_2
+    100058: Ytlds__Boat_1
+    100060: Ytlds__Boat_1_1
+    100062: Ytlds__Boat_2
+    100064: Ytlds__Boat_2_1
+    100066: Ytlds__Boat_3
+    100068: Ytlds__Pillar_02
+    100070: Ytlds__Pillar_03
+    100072: Ytlds__plant_1
+    100074: Ytlds__SeaSnail_1_1
+    100076: Ytlds__SeaSnail_1_2
+    100078: Ytlds__Stele_1_1
+    100080: Ytlds__Stele_2
+    100082: Ytlds_Anchor_1
+    100084: Ytlds_Anchor_2
+    100086: Ytlds_Door_1
+    100088: Ytlds_Door_2
+    100090: Ytlds_Face_1
+    100092: Ytlds_Face_2
+    100094: Ytlds_Pavilion_2
+    100096: Ytlds_plant_1
+    100098: Ytlds_Sea_grass_10
+    100100: Ytlds_Sea_grass_11
+    100102: Ytlds_Sea_grass_11 1
+    100104: Ytlds_Sea_grass_12
+    100106: Ytlds_Sea_grass_12 1
+    100108: Ytlds_Sea_grass_14
+    100110: Ytlds_Sea_grass_14 1
+    100112: Ytlds_Sea_grass_15
+    100114: Ytlds_Sea_grass_15 1
+    100116: Ytlds_Sea_grass_16
+    100118: Ytlds_Sea_grass_5
+    100120: Ytlds_Sea_grass_5 1
+    100122: Ytlds_Sea_grass_6
+    100124: Ytlds_Sea_grass_7
+    100126: Ytlds_Sea_grass_8
+    100128: Ytlds_Sea_grass_9
+    100130: Ytlds_Shell_1
+    100132: Ytlds_Shell_1 1
+    100134: Ytlds_Shell_10
+    100136: Ytlds_Shell_11
+    100138: Ytlds_Shell_12
+    100140: Ytlds_Shell_13
+    100142: Ytlds_Shell_14
+    100144: Ytlds_Shell_15
+    100146: Ytlds_Shell_2
+    100148: Ytlds_Shell_3
+    100150: Ytlds_Shell_4
+    100152: Ytlds_Shell_5
+    100154: Ytlds_Shell_6
+    100156: Ytlds_Shell_7
+    100158: Ytlds_Shell_8
+    100160: Ytlds_Shell_9
+    100162: Ytlds_Starfish_1
+    100164: Ytlds_Starfish_1 1
+    100166: Ytlds_Starfish_2
+    100168: Ytlds_Starfish_2 1
+    100170: Ytlds_Stone_006
+    100172: Ytlds_Stone_007
+    100174: Ytlds_Stone_1
+    100176: Ytlds_Stone_2
+    100178: Ytlds_Stone_3
+    100180: Ytlds_Stone_4
+    100182: Ytlds_Stone_5
+    100184: Ytlds_Vat_1
+    100186: Ytlds_Vat_1 1
+    100188: Ytlds_Vat_2
+    100190: Ytlds_Vat_2 1
+    100192: Ytlds_Woodblock_1
+    100194: Ytlds_Woodblock_2
+    100196: Ytlds_yu
+    400000: //RootNode
+    400002: Particle View 001
+    400004: Terrain01
+    400006: Terrain02
+    400008: Terrain03
+    400010: Terrain04
+    400012: Terrain05
+    400014: Terrain06
+    400016: Terrain07
+    400018: Terrain08
+    400020: Terrain09
+    400022: Terrain10
+    400024: Terrain11
+    400026: Terrain12
+    400028: Terrain13
+    400030: Terrain14
+    400032: Terrain15
+    400034: Terrain16
+    400036: Terrain17
+    400038: Terrain18
+    400040: Terrain19
+    400042: Terrain20
+    400044: UB095_1
+    400046: Ytlds_ Pillar
+    400048: Ytlds_ Stele_1_2
+    400050: Ytlds_ Stele_1_3
+    400052: Ytlds_ Stele_1_4
+    400054: Ytlds_ Stele_1_5
+    400056: Ytlds_ Stele_2
+    400058: Ytlds__Boat_1
+    400060: Ytlds__Boat_1_1
+    400062: Ytlds__Boat_2
+    400064: Ytlds__Boat_2_1
+    400066: Ytlds__Boat_3
+    400068: Ytlds__Pillar_02
+    400070: Ytlds__Pillar_03
+    400072: Ytlds__plant_1
+    400074: Ytlds__SeaSnail_1_1
+    400076: Ytlds__SeaSnail_1_2
+    400078: Ytlds__Stele_1_1
+    400080: Ytlds__Stele_2
+    400082: Ytlds_Anchor_1
+    400084: Ytlds_Anchor_2
+    400086: Ytlds_Door_1
+    400088: Ytlds_Door_2
+    400090: Ytlds_Face_1
+    400092: Ytlds_Face_2
+    400094: Ytlds_Pavilion_2
+    400096: Ytlds_plant_1
+    400098: Ytlds_Sea_grass_10
+    400100: Ytlds_Sea_grass_11
+    400102: Ytlds_Sea_grass_11 1
+    400104: Ytlds_Sea_grass_12
+    400106: Ytlds_Sea_grass_12 1
+    400108: Ytlds_Sea_grass_14
+    400110: Ytlds_Sea_grass_14 1
+    400112: Ytlds_Sea_grass_15
+    400114: Ytlds_Sea_grass_15 1
+    400116: Ytlds_Sea_grass_16
+    400118: Ytlds_Sea_grass_5
+    400120: Ytlds_Sea_grass_5 1
+    400122: Ytlds_Sea_grass_6
+    400124: Ytlds_Sea_grass_7
+    400126: Ytlds_Sea_grass_8
+    400128: Ytlds_Sea_grass_9
+    400130: Ytlds_Shell_1
+    400132: Ytlds_Shell_1 1
+    400134: Ytlds_Shell_10
+    400136: Ytlds_Shell_11
+    400138: Ytlds_Shell_12
+    400140: Ytlds_Shell_13
+    400142: Ytlds_Shell_14
+    400144: Ytlds_Shell_15
+    400146: Ytlds_Shell_2
+    400148: Ytlds_Shell_3
+    400150: Ytlds_Shell_4
+    400152: Ytlds_Shell_5
+    400154: Ytlds_Shell_6
+    400156: Ytlds_Shell_7
+    400158: Ytlds_Shell_8
+    400160: Ytlds_Shell_9
+    400162: Ytlds_Starfish_1
+    400164: Ytlds_Starfish_1 1
+    400166: Ytlds_Starfish_2
+    400168: Ytlds_Starfish_2 1
+    400170: Ytlds_Stone_006
+    400172: Ytlds_Stone_007
+    400174: Ytlds_Stone_1
+    400176: Ytlds_Stone_2
+    400178: Ytlds_Stone_3
+    400180: Ytlds_Stone_4
+    400182: Ytlds_Stone_5
+    400184: Ytlds_Vat_1
+    400186: Ytlds_Vat_1 1
+    400188: Ytlds_Vat_2
+    400190: Ytlds_Vat_2 1
+    400192: Ytlds_Woodblock_1
+    400194: Ytlds_Woodblock_2
+    400196: Ytlds_yu
+    2300000: //RootNode
+    2300002: Terrain01
+    2300004: Terrain02
+    2300006: Terrain03
+    2300008: Terrain04
+    2300010: Terrain05
+    2300012: Terrain06
+    2300014: Terrain07
+    2300016: Terrain08
+    2300018: Terrain09
+    2300020: Terrain10
+    2300022: Terrain11
+    2300024: Terrain12
+    2300026: Terrain13
+    2300028: Terrain14
+    2300030: Terrain15
+    2300032: Terrain16
+    2300034: Terrain17
+    2300036: Terrain18
+    2300038: Terrain19
+    2300040: Terrain20
+    2300042: UB095_1
+    2300044: Ytlds_ Pillar
+    2300046: Ytlds_ Stele_1_2
+    2300048: Ytlds_ Stele_1_3
+    2300050: Ytlds_ Stele_1_4
+    2300052: Ytlds_ Stele_1_5
+    2300054: Ytlds_ Stele_2
+    2300056: Ytlds__Boat_1
+    2300058: Ytlds__Boat_1_1
+    2300060: Ytlds__Boat_2
+    2300062: Ytlds__Boat_2_1
+    2300064: Ytlds__Boat_3
+    2300066: Ytlds__Pillar_02
+    2300068: Ytlds__Pillar_03
+    2300070: Ytlds__plant_1
+    2300072: Ytlds__SeaSnail_1_1
+    2300074: Ytlds__SeaSnail_1_2
+    2300076: Ytlds__Stele_1_1
+    2300078: Ytlds__Stele_2
+    2300080: Ytlds_Anchor_1
+    2300082: Ytlds_Anchor_2
+    2300084: Ytlds_Door_1
+    2300086: Ytlds_Door_2
+    2300088: Ytlds_Face_1
+    2300090: Ytlds_Face_2
+    2300092: Ytlds_Pavilion_2
+    2300094: Ytlds_plant_1
+    2300096: Ytlds_Sea_grass_10
+    2300098: Ytlds_Sea_grass_11
+    2300100: Ytlds_Sea_grass_11 1
+    2300102: Ytlds_Sea_grass_12
+    2300104: Ytlds_Sea_grass_12 1
+    2300106: Ytlds_Sea_grass_14
+    2300108: Ytlds_Sea_grass_14 1
+    2300110: Ytlds_Sea_grass_15
+    2300112: Ytlds_Sea_grass_15 1
+    2300114: Ytlds_Sea_grass_16
+    2300116: Ytlds_Sea_grass_5
+    2300118: Ytlds_Sea_grass_5 1
+    2300120: Ytlds_Sea_grass_6
+    2300122: Ytlds_Sea_grass_7
+    2300124: Ytlds_Sea_grass_8
+    2300126: Ytlds_Sea_grass_9
+    2300128: Ytlds_Shell_1
+    2300130: Ytlds_Shell_1 1
+    2300132: Ytlds_Shell_10
+    2300134: Ytlds_Shell_11
+    2300136: Ytlds_Shell_12
+    2300138: Ytlds_Shell_13
+    2300140: Ytlds_Shell_14
+    2300142: Ytlds_Shell_15
+    2300144: Ytlds_Shell_2
+    2300146: Ytlds_Shell_3
+    2300148: Ytlds_Shell_4
+    2300150: Ytlds_Shell_5
+    2300152: Ytlds_Shell_6
+    2300154: Ytlds_Shell_7
+    2300156: Ytlds_Shell_8
+    2300158: Ytlds_Shell_9
+    2300160: Ytlds_Starfish_1
+    2300162: Ytlds_Starfish_1 1
+    2300164: Ytlds_Starfish_2
+    2300166: Ytlds_Starfish_2 1
+    2300168: Ytlds_Stone_006
+    2300170: Ytlds_Stone_007
+    2300172: Ytlds_Stone_1
+    2300174: Ytlds_Stone_2
+    2300176: Ytlds_Stone_3
+    2300178: Ytlds_Stone_4
+    2300180: Ytlds_Stone_5
+    2300182: Ytlds_Vat_1
+    2300184: Ytlds_Vat_1 1
+    2300186: Ytlds_Vat_2
+    2300188: Ytlds_Vat_2 1
+    2300190: Ytlds_Woodblock_1
+    2300192: Ytlds_Woodblock_2
+    2300194: Ytlds_yu
+    3300000: //RootNode
+    3300002: Terrain01
+    3300004: Terrain02
+    3300006: Terrain03
+    3300008: Terrain04
+    3300010: Terrain05
+    3300012: Terrain06
+    3300014: Terrain07
+    3300016: Terrain08
+    3300018: Terrain09
+    3300020: Terrain10
+    3300022: Terrain11
+    3300024: Terrain12
+    3300026: Terrain13
+    3300028: Terrain14
+    3300030: Terrain15
+    3300032: Terrain16
+    3300034: Terrain17
+    3300036: Terrain18
+    3300038: Terrain19
+    3300040: Terrain20
+    3300042: UB095_1
+    3300044: Ytlds_ Pillar
+    3300046: Ytlds_ Stele_1_2
+    3300048: Ytlds_ Stele_1_3
+    3300050: Ytlds_ Stele_1_4
+    3300052: Ytlds_ Stele_1_5
+    3300054: Ytlds_ Stele_2
+    3300056: Ytlds__Boat_1
+    3300058: Ytlds__Boat_1_1
+    3300060: Ytlds__Boat_2
+    3300062: Ytlds__Boat_2_1
+    3300064: Ytlds__Boat_3
+    3300066: Ytlds__Pillar_02
+    3300068: Ytlds__Pillar_03
+    3300070: Ytlds__plant_1
+    3300072: Ytlds__SeaSnail_1_1
+    3300074: Ytlds__SeaSnail_1_2
+    3300076: Ytlds__Stele_1_1
+    3300078: Ytlds__Stele_2
+    3300080: Ytlds_Anchor_1
+    3300082: Ytlds_Anchor_2
+    3300084: Ytlds_Door_1
+    3300086: Ytlds_Door_2
+    3300088: Ytlds_Face_1
+    3300090: Ytlds_Face_2
+    3300092: Ytlds_Pavilion_2
+    3300094: Ytlds_plant_1
+    3300096: Ytlds_Sea_grass_10
+    3300098: Ytlds_Sea_grass_11
+    3300100: Ytlds_Sea_grass_11 1
+    3300102: Ytlds_Sea_grass_12
+    3300104: Ytlds_Sea_grass_12 1
+    3300106: Ytlds_Sea_grass_14
+    3300108: Ytlds_Sea_grass_14 1
+    3300110: Ytlds_Sea_grass_15
+    3300112: Ytlds_Sea_grass_15 1
+    3300114: Ytlds_Sea_grass_16
+    3300116: Ytlds_Sea_grass_5
+    3300118: Ytlds_Sea_grass_5 1
+    3300120: Ytlds_Sea_grass_6
+    3300122: Ytlds_Sea_grass_7
+    3300124: Ytlds_Sea_grass_8
+    3300126: Ytlds_Sea_grass_9
+    3300128: Ytlds_Shell_1
+    3300130: Ytlds_Shell_1 1
+    3300132: Ytlds_Shell_10
+    3300134: Ytlds_Shell_11
+    3300136: Ytlds_Shell_12
+    3300138: Ytlds_Shell_13
+    3300140: Ytlds_Shell_14
+    3300142: Ytlds_Shell_15
+    3300144: Ytlds_Shell_2
+    3300146: Ytlds_Shell_3
+    3300148: Ytlds_Shell_4
+    3300150: Ytlds_Shell_5
+    3300152: Ytlds_Shell_6
+    3300154: Ytlds_Shell_7
+    3300156: Ytlds_Shell_8
+    3300158: Ytlds_Shell_9
+    3300160: Ytlds_Starfish_1
+    3300162: Ytlds_Starfish_1 1
+    3300164: Ytlds_Starfish_2
+    3300166: Ytlds_Starfish_2 1
+    3300168: Ytlds_Stone_006
+    3300170: Ytlds_Stone_007
+    3300172: Ytlds_Stone_1
+    3300174: Ytlds_Stone_2
+    3300176: Ytlds_Stone_3
+    3300178: Ytlds_Stone_4
+    3300180: Ytlds_Stone_5
+    3300182: Ytlds_Vat_1
+    3300184: Ytlds_Vat_1 1
+    3300186: Ytlds_Vat_2
+    3300188: Ytlds_Vat_2 1
+    3300190: Ytlds_Woodblock_1
+    3300192: Ytlds_Woodblock_2
+    3300194: Ytlds_yu
+    4300000: hd_ly_hc04_shuicao_04
+    4300002: Ytlds_Sea_grass_5
+    4300004: Ytlds_Sea_grass_6
+    4300006: Ytlds_Sea_grass_7
+    4300008: Ytlds_Sea_grass_8
+    4300010: Ytlds_Sea_grass_11
+    4300012: Ytlds_Sea_grass_12
+    4300014: Ytlds_Sea_grass_15
+    4300016: Ytlds_Sea_grass_14
+    4300018: Ytlds_Sea_grass_16
+    4300020: Ytlds_Sea_grass_9
+    4300022: Ytlds_Sea_grass_10
+    4300024: Ytlds_Pavilion_2
+    4300026: Ytlds__Stele_1_1
+    4300028: Ytlds__Stele_2
+    4300030: Terrain01
+    4300032: Terrain02
+    4300034: Terrain03
+    4300036: Terrain04
+    4300038: Terrain05
+    4300040: Terrain06
+    4300042: Terrain07
+    4300044: Terrain08
+    4300046: Terrain09
+    4300048: Terrain10
+    4300050: Terrain11
+    4300052: Terrain12
+    4300054: Terrain13
+    4300056: Terrain14
+    4300058: Terrain15
+    4300060: Terrain16
+    4300062: Terrain17
+    4300064: Terrain18
+    4300066: Terrain19
+    4300068: Terrain20
+    4300070: Ytlds__plant_1
+    4300072: Ytlds__Boat_1
+    4300074: Ytlds__Boat_1_1
+    4300076: Ytlds__Boat_2
+    4300078: Ytlds__Boat_2_1
+    4300080: Ytlds__Boat_3
+    4300082: Ytlds_Shell_1
+    4300084: Ytlds_Shell_6
+    4300086: Ytlds_Shell_4
+    4300088: Ytlds_Shell_3
+    4300090: Ytlds_Shell_2
+    4300092: Ytlds_Shell_5
+    4300094: Ytlds_Shell_15
+    4300096: Ytlds_Shell_14
+    4300098: Ytlds_Shell_13
+    4300100: Ytlds_Shell_12
+    4300102: Ytlds_Shell_11
+    4300104: Ytlds_Shell_10
+    4300106: Ytlds_Shell_9
+    4300108: Ytlds_Shell_8
+    4300110: Ytlds_Shell_7
+    4300112: Ytlds_Anchor_1
+    4300114: Ytlds_Anchor_2
+    4300116: Ytlds__Pillar_02
+    4300118: Ytlds__Pillar_03
+    4300120: Ytlds_Vat_1
+    4300122: Ytlds_Vat_2
+    4300124: Ytlds_Woodblock_1
+    4300126: Ytlds_Woodblock_2
+    4300128: Ytlds_Face_1
+    4300130: Ytlds_Face_2
+    4300132: Ytlds__SeaSnail_1_1
+    4300134: Ytlds__SeaSnail_1_2
+    4300136: Ytlds_Stone_1
+    4300138: Ytlds_Stone_2
+    4300140: Ytlds_Stone_3
+    4300142: Ytlds_Stone_4
+    4300144: Ytlds_Stone_5
+    4300146: Ytlds_Door_1
+    4300148: Ytlds_Door_2
+    4300150: Ytlds_Starfish_1
+    4300152: Ytlds_Starfish_2
+    4300154: Ytlds_ Pillar
+    4300156: Ytlds_yu
+    4300158: Ytlds_ Stele_2
+    4300160: UB095_1
+    4300162: Ytlds_ Stele_1_2
+    4300164: Ytlds_ Stele_1_3
+    4300166: Ytlds_ Stele_1_4
+    4300168: Ytlds_ Stele_1_5
+    4300170: Ytlds_Stone_006
+    4300172: Ytlds_Stone_007
+    4300174: Ytlds_Sea_grass_5
+    4300176: Ytlds_Sea_grass_15
+    4300178: Ytlds_Sea_grass_12
+    4300180: Ytlds_Sea_grass_11
+    4300182: Ytlds_Starfish_2
+    4300184: Ytlds_Starfish_1
+    4300186: Ytlds_plant_1
+    4300188: Ytlds_Shell_1
+    4300190: Ytlds_Sea_grass_14
+    4300192: Ytlds_Vat_2
+    4300194: Ytlds_Vat_1
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

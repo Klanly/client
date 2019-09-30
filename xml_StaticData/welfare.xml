@@ -1,0 +1,206 @@
+<welfare>
+  <!--首冲奖励 itemid表示给予的礼包ID-->
+  <newbie id= "303" />
+  <firstcharge itemid="2017">
+    <item id="803" carr="5"/>
+    <item id="801" carr="2"/>
+    <item id="802" carr="3"/>
+    <item id="1540" />
+    <item id="1533" />
+    <item id="1501" />
+      
+  </firstcharge>
+
+<!--在线奖励buff id 表示第几次领取  need_time表示需要的时间 state_id表示获得的状态ID last 表示持续时间-->
+  <olreward>
+    <times id="1" need_time="5"/>
+    <times id="2" need_time="5"/>
+    <times id="3" need_time="5"/>
+    <times id="4" need_time="5"/>
+    <times id="5" need_time="5"/>
+    <times id="6" need_time="5"/>
+    
+    <reward id="1" state_id="1" last="5" limit="0" val="30"/>
+    <reward id="2" state_id="1" last="5" limit="0" val="1"/>
+    <reward id="3" state_id="1" last="5" limit="0" val="50"/>
+    <reward id="4" state_id="1" last="5" limit="0" val="50"/>
+    <reward id="5" state_id="1" last="5" limit="0" val="10000"/>
+    <reward id="6" state_id="1" last="5" limit="0" val="8"/>
+    <reward id="7" state_id="1" last="5" limit="0" val="20"/>
+    <reward id="8" state_id="1" last="5" limit="0" val="3"/>
+  </olreward>
+<!--每日登录奖励 id表示连续登录的天数 itemid 表示奖励的物品ID  num 表示数量-->
+  <dailyreward>
+
+    <day id="1" item_id="2160" num="1"/>
+    <day id="2" item_id="2023" num="1"/>
+    <day id="3" item_id="2161" num="1"/>
+    <day id="4" item_id="2162" num="1"/>
+    <day id="5" item_id="2163" num="1"/>
+    <day id="6" item_id="2164" num="1"/>
+    <day id="7" item_id="2018" num="1"/>
+
+  </dailyreward>
+ <!--角色升级奖励 zhuan表示需要的转生数 lvl表示需要的等级数 item_id表示奖励的ID num为数量-->
+  <level_reward>
+    
+    <level id="1" zhuan="1" lvl="1" item_id="2025" num="1" award="500"/>
+    <level id="2" zhuan="2" lvl="1" item_id="2026" num="1" award="3500"/>
+    <level id="3" zhuan="3" lvl="1" item_id="2027" num="1" award="6000"/>
+    <level id="4" zhuan="4" lvl="1" item_id="2028" num="1" award="10000"/>
+    <level id="5" zhuan="5" lvl="1" item_id="2029" num="1" award="10000"/>
+    <level id="6" zhuan="6" lvl="1" item_id="2030" num="1" award="10000"/>
+    <level id="7" zhuan="7" lvl="1" item_id="2031" num="1" award="10000"/>
+    <level id="8" zhuan="8" lvl="1" item_id="2032" num="1" award="10000"/>
+    <level id="9" zhuan="9" lvl="1" item_id="2033" num="1" award="10000"/>
+    <level id="10" zhuan="10" lvl="1" item_id="2034" num="1" award="10000"/>
+
+  </level_reward>
+
+<!--累积充值的奖励 cumulate表示需要累积充值的钻石量 item_id 表示奖励的ID  num表示数量  worth表示价值 前端显示用-->
+  <charge_cumulate>
+
+    <charge id="1"  cumulate="1000"  item_id="2035" num="1"  worth="188"  />
+    <charge id="2"  cumulate="2000"  item_id="2036" num="1"  worth="288"  />
+    <charge id="3"  cumulate="3000"  item_id="2037" num="1"  worth="388"  />
+    <charge id="4"  cumulate="4000"  item_id="2038" num="1"  worth="488"  />
+    <charge id="5"  cumulate="5000"  item_id="2039" num="1"  worth="588"  />
+    <charge id="6"  cumulate="6000"  item_id="2040" num="1"  worth="688"  />
+    <charge id="7"  cumulate="7000"  item_id="2041" num="1"  worth="788"  />
+    <charge id="8"  cumulate="8000"  item_id="2042" num="1"  worth="888"  />
+    <charge id="9"  cumulate="9000"  item_id="2043" num="1"  worth="988"  />
+    <charge id="10"  cumulate="10000"  item_id="2044" num="1" worth="1088"  />
+    
+    
+  </charge_cumulate>
+
+<!--累积的消费奖励 cumulate表示累积消费的钻石量 item_id表示奖励的ID  num表示数量-->
+  <consumption_cumulate>
+
+    <consumption id="1"   cumulate="1000"   item_id="2045" num="1"  />
+    <consumption id="2"   cumulate="2000"   item_id="2046" num="1"  />
+    <consumption id="3"   cumulate="3000"   item_id="2047" num="1"  />
+    <consumption id="4"   cumulate="4000"   item_id="2048" num="1"  />
+    <consumption id="5"   cumulate="5000"   item_id="2049" num="1"  />
+    <consumption id="6"   cumulate="6000"   item_id="2050" num="1"  />
+    <consumption id="7"   cumulate="7000"   item_id="2051" num="1"  />
+    <consumption id="8"   cumulate="8000"   item_id="2052" num="1"  />
+    <consumption id="9"   cumulate="9000"   item_id="2053" num="1"  />
+    <consumption id="10"  cumulate="10000"  item_id="2054" num="1" />
+
+
+  </consumption_cumulate>
+
+
+	<!--每日充值奖励 cumulate表示当日累积充值的钻石量 item_id表示奖励ID  num表示数量-->
+	<daily_charge>
+		<charge id="1" cumulate="500">
+			<RewardItem item_id="1501" value="300"/>
+			<RewardItem item_id="1509" value="80"/>
+			<RewardItem item_id="1560" value="2"/>
+			<RewardItem item_id="1600" value="1"/>
+		</charge>
+		<charge id="2" cumulate="1000">
+			<RewardItem item_id="3118" value="1"/>
+			<RewardItem item_id="1509" value="100"/>
+			<RewardItem item_id="1715" value="1"/>
+			<RewardItem item_id="1710" value="1"/>
+		</charge>
+		<charge id="3" cumulate="2000">
+			<RewardItem item_id="3123" value="1"/>
+			<RewardItem item_id="1509" value="160"/>
+			<RewardItem item_id="1720" value="1"/>
+			<RewardItem item_id="1735" value="1"/>
+		</charge>
+		<charge id="4" cumulate="4000">
+			<RewardItem item_id="3124" value="1"/>
+			<RewardItem item_id="1509" value="320"/>
+			<RewardItem item_id="1725" value="1"/>
+			<RewardItem item_id="1705" value="1"/>
+		</charge>
+		<charge id="5" cumulate="7000">
+			<RewardItem item_id="3121" value="1"/>
+			<RewardItem item_id="1509" value="480"/>
+			<RewardItem item_id="1730" value="1"/>
+			<RewardItem item_id="1541" value="200"/>
+		</charge>
+		<charge id="6" cumulate="10000">
+			<RewardItem item_id="3138" value="1"/>
+			<RewardItem item_id="1509" value="600"/>
+			<RewardItem item_id="1740" value="1"/>
+			<RewardItem item_id="1541" value="250"/>
+		</charge>
+		<charge id="7" cumulate="15000">
+			<RewardItem item_id="3139" value="1"/>
+			<RewardItem item_id="1509" value="800"/>
+			<RewardItem item_id="1745" value="1"/>
+			<RewardItem item_id="1541" value="300"/>
+		</charge>
+		<charge id="8" cumulate="20000">
+			<RewardItem item_id="1601" value="1"/>
+			<RewardItem item_id="1509" value="1000"/>
+			<RewardItem item_id="1611" value="1"/>
+			<RewardItem item_id="1541" value="350"/>
+		</charge>
+		<charge id="9" cumulate="25000">
+			<RewardItem item_id="1611" value="1"/>
+			<RewardItem item_id="1509" value="1200"/>
+			<RewardItem item_id="1518" value="2000"/>
+			<RewardItem item_id="1541" value="400"/>
+		</charge>
+		<charge id="10" cumulate="30000">
+			<RewardItem item_id="1542" value="3000"/>
+			<RewardItem item_id="1509" value="1400"/>
+			<RewardItem item_id="1518" value="3000"/>
+			<RewardItem item_id="1611" value="1"/>
+		</charge>
+		<charge id="11" cumulate="40000">
+			<RewardItem item_id="1542" value="3500"/>
+			<RewardItem item_id="1509" value="1600"/>
+			<RewardItem item_id="1518" value="5000"/>
+			<RewardItem item_id="1601" value="1"/>
+		</charge>
+		<charge id="12" cumulate="50000">
+			<RewardItem item_id="1542" value="4000"/>
+			<RewardItem item_id="1509" value="2000"/>
+			<RewardItem item_id="1612" value="1"/>
+			<RewardItem item_id="1602" value="1"/>
+		</charge>
+	</daily_charge>
+	
+	<!--开服七日限时出售礼包显示-->
+	<daily_gift>
+		<gift id="1" title="9999" note="购买后立即获得大量升级宝石和魔晶！" yb="1530钻">
+			<item id="1501" name="升级宝石×130"/>
+			<item id="1540" name="魔晶×2000"/>
+		</gift>
+		<gift id="2" title="9999" note="购买后立即获得3星水元素，3级灵兽经验丹和资质丹！" yb="2500钻">
+			<item id="4538" name="灵魂石·水元素·3星"/>
+			<item id="1584" name="3级灵兽经验丹×370"/>
+			<item id="1754" name="资质丹×100"/>
+		</gift>
+		<gift id="3" title="9999" note="购买后立即获得烈焰火种和神圣之羽！" yb="2000钻">
+			<item id="1509" name="烈焰火种×500"/>
+			<item id="1510" name="神圣之羽×100"/>
+		</gift>
+		<gift id="4" title="9999" note="购买后立即获得圣魂果实和幻象气息！" yb="2800钻">
+			<item id="1518" name="圣魂果实×2600"/>
+			<item id="1516" name="幻象气息×10"/>
+		</gift>
+		<gift id="5" title="9999" note="购买后立即获得3星海妖塞壬，水晶灵石和紫晶灵石！" yb="1400钻">
+			<item id="4553" name="灵魂石·海妖塞壬·3星"/>
+			<item id="1502" name="水晶灵石×200"/>
+			<item id="1503" name="紫晶灵石×30"/>
+		</gift>
+		<gift id="6" title="9999" note="购买后立即获得红宝石，黄宝石和蓝宝石！" yb="3750钻">
+			<item id="1589" name="3级红宝石×25"/>
+			<item id="1609" name="3级黄宝石×25"/>
+			<item id="1599" name="3级蓝宝石×25"/>
+		</gift>
+		<gift id="7" title="9999" note="购买后立即获得天醒宝石和魔晶！" yb="3000钻">
+			<item id="1504" name="天醒宝石×200"/>
+			<item id="1540" name="魔晶×3000"/>
+		</gift>
+	</daily_gift>
+	
+</welfare>

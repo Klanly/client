@@ -1,0 +1,1122 @@
+<worldboss>
+<!--
+trance 传送的目标地图
+time 刷新的时间
+name boss名称
+mapname 刷新地点名称
+icon BOSS图标
+levellimit 等级限制
+tracemap传送的地图id
+trancelocal 传送的具体坐标
+announce1  滚动公告1 在开放前15分钟发送 每分钟发1次 在BOSS刷新时停止发送
+announce2  滚动公告2  在BOSS刷新时发送1次
+close_tm 世界BOSS关闭时间 回收刷新的所有怪物
+
+monsterID 刷新的怪物ID  
+MAPID 刷新的地图ID
+local  刷新的具体位置  不填在随机位置刷新
+
+dropset
+name 掉落的套装预览名称
+icon 掉落的套装预览图表
+droplist
+intro 介绍内容
+equipid  掉落的具体装备
+-->
+	<!--神佑之地开启前5分钟广播通知-->
+	<broadcast id="1" h="18" min="55" msg_type="20"/>
+	<!--神佑之地开启广播通知-->
+	<broadcast id="2" h="19" min="00" msg_type="21"/>
+	<kill_boss_cnt cnt="10" vip_cost="10"/>
+	<boss_awd mid="30001">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1504" value="3"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="20000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1504" value="2"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="10000"/>
+			<RewardItem item_id="1540" value="10"/>
+			<RewardItem item_id="1504" value="1"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="5000"/>
+			<RewardItem item_id="1540" value="5"/>
+		</rank_awd>
+	</boss_awd>
+	<boss_awd mid="30002">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1504" value="3"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="20000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1504" value="2"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="10000"/>
+			<RewardItem item_id="1540" value="10"/>
+			<RewardItem item_id="1504" value="1"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="5000"/>
+			<RewardItem item_id="1540" value="5"/>
+		</rank_awd>
+	</boss_awd>
+	<boss_awd mid="30003">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1504" value="3"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="20000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1504" value="2"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="10000"/>
+			<RewardItem item_id="1540" value="10"/>
+			<RewardItem item_id="1504" value="1"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="5000"/>
+			<RewardItem item_id="1540" value="5"/>
+		</rank_awd>
+	</boss_awd>
+	<boss_awd mid="30004">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1504" value="3"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="20000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1504" value="2"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="10000"/>
+			<RewardItem item_id="1540" value="10"/>
+			<RewardItem item_id="1504" value="1"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="5000"/>
+			<RewardItem item_id="1540" value="5"/>
+		</rank_awd>
+	</boss_awd>
+	<boss_awd mid="30005">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1504" value="3"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="20000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1504" value="2"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="10000"/>
+			<RewardItem item_id="1540" value="10"/>
+			<RewardItem item_id="1504" value="1"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="5000"/>
+			<RewardItem item_id="1540" value="5"/>
+		</rank_awd>
+	</boss_awd>
+	<boss_awd mid="30006">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1504" value="3"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="20000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1504" value="2"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="10000"/>
+			<RewardItem item_id="1540" value="10"/>
+			<RewardItem item_id="1504" value="1"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="5000"/>
+			<RewardItem item_id="1540" value="5"/>
+		</rank_awd>
+	</boss_awd>
+	<boss_awd mid="30007">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1504" value="3"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="20000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1504" value="2"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="10000"/>
+			<RewardItem item_id="1540" value="10"/>
+			<RewardItem item_id="1504" value="1"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="5000"/>
+			<RewardItem item_id="1540" value="5"/>
+		</rank_awd>
+	</boss_awd>
+	<boss_awd mid="2000">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="50000"/>
+			<RewardItem item_id="1540" value="50"/>
+			<RewardItem item_id="1518" value="5"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="40000"/>
+			<RewardItem item_id="1540" value="40"/>
+			<RewardItem item_id="1518" value="4"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1518" value="3"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="2000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1518" value="1"/>
+		</rank_awd>	
+	</boss_awd>
+	<boss_awd mid="2005">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="50000"/>
+			<RewardItem item_id="1540" value="50"/>
+			<RewardItem item_id="1518" value="5"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="40000"/>
+			<RewardItem item_id="1540" value="40"/>
+			<RewardItem item_id="1518" value="4"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1518" value="3"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="2000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1518" value="1"/>
+		</rank_awd>	
+	</boss_awd>
+	<boss_awd mid="2012">
+		<rank_awd rank="0">
+			<RewardValue type="2" value="50000"/>
+			<RewardItem item_id="1540" value="50"/>
+			<RewardItem item_id="1518" value="5"/>
+		</rank_awd>
+		<rank_awd rank="1">
+			<RewardValue type="2" value="40000"/>
+			<RewardItem item_id="1540" value="40"/>
+			<RewardItem item_id="1518" value="4"/>
+		</rank_awd>
+		<rank_awd rank="2">
+			<RewardValue type="2" value="30000"/>
+			<RewardItem item_id="1540" value="30"/>
+			<RewardItem item_id="1518" value="3"/>
+		</rank_awd>
+		<rank_awd rank="3">
+			<RewardValue type="2" value="2000"/>
+			<RewardItem item_id="1540" value="20"/>
+			<RewardItem item_id="1518" value="1"/>
+		</rank_awd>	
+	</boss_awd>
+	
+	<boss id="1" time="12,18"  name="赤血军团" map_name="地下城" icon="1" level_limit="1,1" point_id="20001" announce1="空间通道即将开启，X分种后异界魔王将率军入侵，请各位勇士做好准备！" announce2="异界魔王已经率军入侵，世界的命运就掌握在各位勇士手中了！" boss_id="2012" target_map_id="14" target_x="59" target_y="64">
+		<monster mid="2012" map_id="14" release_time="3600">
+			<mappoint id="1" x="98" y="96" />
+		</monster>
+		<monster mid="2001" map_id="13" release_time="3600">
+			<mappoint id="1" x="54" y="24" />
+		</monster>
+		<monster mid="2001" map_id="13" release_time="3600">
+			<mappoint id="2" x="75" y="48" />
+		</monster>
+		<monster mid="2001" map_id="13" release_time="3600">
+			<mappoint id="1" x="55" y="71"/>
+		</monster>
+		<monster mid="2001" map_id="12" release_time="3600">
+			<mappoint id="4" x="125" y="36" />
+		</monster>
+		<monster mid="2001" map_id="12" release_time="3600">
+			<mappoint id="3" x="75" y="39"/>
+		</monster>
+		<monster mid="2001" map_id="11" release_time="3600">
+			<mappoint id="4" x="80" y="49"/>
+		</monster>
+		<monster mid="2001" map_id="11" release_time="3600">
+			<mappoint id="1" x="55" y="126"/>
+		</monster>
+		<monster mid="2001" map_id="11" release_time="3600">
+			<mappoint id="3" x="35" y="57"/>
+		</monster>
+		<monster mid="2013" map_id="14" release_time="3600">
+			<mappoint id="3" x="84" y="97"/>
+		</monster>
+		<monster mid="2013" map_id="14" release_time="3600">
+			<mappoint id="3" x="87" y="107" />
+		</monster>
+		<monster mid="2013" map_id="14" release_time="3600">
+			<mappoint id="3" x="114" y="101" />
+		</monster>
+		<monster mid="2013" map_id="14" release_time="3600">
+			<mappoint id="3" x="109" y="110" />
+		</monster>
+		<monster mid="2013" map_id="14" release_time="3600">
+			<mappoint id="3" x="121" y="113" />
+		</monster>
+		<monster mid="2013" map_id="14" release_time="3600">
+			<mappoint id="3" x="78" y="106" />
+		</monster>
+	</boss>
+	<boss id="2" time="12,18"  name="堕落军团" map_name="暗黑神殿" icon="1" level_limit="3,1" point_id="20000" announce1="空间通道即将开启，X分种后异界魔王将率军入侵，请各位勇士做好准备！" announce2="异界魔王已经率军入侵，世界的命运就掌握在各位勇士手中了！" boss_id="2005" target_map_id="7" target_x="67" target_y="40">
+		<!--wideth 和height 表示地图的面积右上为起点，需要这个值确定地图的面积，debug的括号内第二个值-->
+		<monster mid="2005" map_id="7"  release_time="3600">
+			<mappoint id="1" x="113" y="56"/>
+		</monster>
+		<monster mid="2001" map_id="6" release_time="3600">
+			<mappoint id="2" x="124" y="124"/>
+		</monster>
+		<monster mid="2001" map_id="6" release_time="3600">
+			<mappoint id="2" x="103" y="56"/>
+		</monster>
+		<monster mid="2001" map_id="6" release_time="3600">
+			<mappoint id="1" x="125" y="31" />
+		</monster>
+		<monster mid="2001" map_id="5" release_time="3600">
+			<mappoint id="1" x="56" y="140" />
+		</monster>
+		<monster mid="2001" map_id="5" release_time="3600">
+			<mappoint id="2" x="97" y="73" />
+		</monster>
+		<monster mid="2001" map_id="5" release_time="3600">
+			<mappoint id="4" x="125" y="36" />
+		</monster>
+		<monster mid="2001" map_id="4" release_time="3600">
+			<mappoint id="1" x="124" y="124" />
+		</monster>
+		<monster mid="2001" map_id="4" release_time="3600">
+			<mappoint id="2" x="77" y="86" />
+		</monster>
+		<monster mid="2001" map_id="4" release_time="3600">
+			<mappoint id="4" x="124" y="87" />
+		</monster>
+	</boss>
+	<boss id="3" time="12,18"  name="暗天军团" map_name="末日神殿" icon="1" level_limit="6,1" point_id="20002" announce1="空间通道即将开启，X分种后异界魔王将率军入侵，请各位勇士做好准备！" announce2="异界魔王已经率军入侵，世界的命运就掌握在各位勇士手中了！" boss_id="2000">
+		<monster mid="2000" map_id="18" release_time="3600">
+			<mappoint id="1" x="187" y="195" />
+		</monster>
+		<!--<monster mid="2014" map_id="23" release_time="3600">
+			<mappoint id="1" x="140" y="75"/>
+		</monster>
+		<monster mid="2001" map_id="6" release_time="3600">
+			<mappoint id="1" x="125" y="31"/>
+			<mappoint id="2" x="103" y="56"/>
+			<mappoint id="1" x="125" y="80"/>
+			<mappoint id="2" x="124" y="124"/>
+		</monster>
+		<monster mid="2001" map_id="6" release_time="3600">
+			<mappoint id="1" x="125" y="31"/>
+			<mappoint id="2" x="103" y="56"/>
+			<mappoint id="1" x="125" y="80"/>
+			<mappoint id="2" x="124" y="124"/>
+		</monster>
+		<monster mid="2001" map_id="6" release_time="3600">
+			<mappoint id="1" x="125" y="31"/>
+			<mappoint id="2" x="103" y="56"/>
+			<mappoint id="1" x="125" y="80"/>
+			<mappoint id="2" x="124" y="124"/>
+		</monster>
+		<monster mid="2001" map_id="5" release_time="3600">
+			<mappoint id="1" x="56" y="140"/>
+			<mappoint id="2" x="97" y="73"/>
+			<mappoint id="3" x="49" y="76"/>
+			<mappoint id="4" x="125" y="36"/>
+		</monster>
+		<monster mid="2001" map_id="5" release_time="3600">
+			<mappoint id="1" x="56" y="140"/>
+			<mappoint id="2" x="97" y="73"/>
+			<mappoint id="3" x="49" y="76"/>
+			<mappoint id="4" x="125" y="36"/>
+		</monster>
+		<monster mid="2001" map_id="5" release_time="3600">
+			<mappoint id="1" x="56" y="140"/>
+			<mappoint id="2" x="97" y="73"/>
+			<mappoint id="3" x="49" y="76"/>
+			<mappoint id="4" x="125" y="36"/>
+		</monster>
+		<monster mid="2001" map_id="4" release_time="3600">
+			<mappoint id="1" x="124" y="124"/>
+			<mappoint id="2" x="77" y="86"/>
+			<mappoint id="3" x="169" y="184"/>
+			<mappoint id="4" x="124" y="87"/>
+		</monster>
+		<monster mid="2001" map_id="4" release_time="3600">
+			<mappoint id="1" x="124" y="124"/>
+			<mappoint id="2" x="77" y="86"/>
+			<mappoint id="3" x="169" y="184"/>
+			<mappoint id="4" x="124" y="87"/>
+		</monster>
+		<monster mid="2001" map_id="4" release_time="3600">
+			<mappoint id="1" x="124" y="124"/>
+			<mappoint id="2" x="77" y="86"/>
+			<mappoint id="3" x="169" y="184"/>
+			<mappoint id="4" x="124" y="87"/>
+		</monster>-->
+	</boss>
+	<dropset id="1">
+		<set name="强化雪狼淘" icon=""/>
+		<set name="强化雪狼淘" icon=""/>
+		<set name="强化雪狼淘" icon=""/>
+	</dropset>
+	<dropset id="2">
+		<set name="强化雪狼淘" icon=""/>
+		<set name="强化雪狼淘" icon=""/>
+		<set name="强化雪狼淘" icon=""/>
+	</dropset>
+	<dropset id="3">
+		<set name="强化雪狼淘" icon=""/>
+		<set name="强化雪狼淘" icon=""/>
+		<set name="强化雪狼淘" icon=""/>
+	</dropset>
+	<droplist id="1" intro1="堕落狂魔在暗黑神殿进行惨无人道的血腥研究，为了强化他的军团力量，他折磨无数无辜的村民，用他们痛苦的灵魂建造了一只势不可挡的活尸军队。" intro2="每天12点和18点刷新，地点为暗黑殿堂">
+		<equip id="141"/>
+		<equip id="142"/>
+		<equip id="143"/>
+		<equip id="144"/>
+		<equip id="145"/>
+		<equip id="146"/>
+		<equip id="147"/>
+		<equip id="241"/>
+		<equip id="242"/>
+		<equip id="243"/>
+		<equip id="244"/>
+		<equip id="245"/>
+		<equip id="246"/>
+		<equip id="247"/>
+		<equip id="341"/>
+		<equip id="342"/>
+		<equip id="343"/>
+		<equip id="344"/>
+		<equip id="345"/>
+		<equip id="346"/>
+		<equip id="347"/>
+	</droplist>
+	<droplist id="2" intro1="赤血狂魔是吸食地下城中无数先王的王血而形成的强大恶魔，他暴戾而疯狂，任何接近他的生物都将成为他赤色长戟下的可悲灵魂。" intro2="每天12点和18点刷新，地点为王族陵墓">
+		<equip id="171"/>
+		<equip id="172"/>
+		<equip id="173"/>
+		<equip id="174"/>
+		<equip id="175"/>
+		<equip id="176"/>
+		<equip id="177"/>
+		<equip id="271"/>
+		<equip id="272"/>
+		<equip id="273"/>
+		<equip id="274"/>
+		<equip id="275"/>
+		<equip id="276"/>
+		<equip id="277"/>
+		<equip id="371"/>
+		<equip id="372"/>
+		<equip id="373"/>
+		<equip id="374"/>
+		<equip id="375"/>
+		<equip id="376"/>
+		<equip id="377"/>
+	</droplist>
+	<droplist id="3" intro1="暗天狂魔是远古时期被神所封印的黑暗恶魔，如今那里已经成为了无人之境，没人知道如今的他到底有多强大，这是因为去过那里的人们再也没有回来。" intro2="每天12点和18点刷新，地点为寒冰宫殿">
+		<equip id="191"/>
+		<equip id="192"/>
+		<equip id="193"/>
+		<equip id="194"/>
+		<equip id="195"/>
+		<equip id="196"/>
+		<equip id="197"/>
+		<equip id="291"/>
+		<equip id="292"/>
+		<equip id="293"/>
+		<equip id="294"/>
+		<equip id="295"/>
+		<equip id="296"/>
+		<equip id="297"/>
+		<equip id="391"/>
+		<equip id="392"/>
+		<equip id="393"/>
+		<equip id="394"/>
+		<equip id="395"/>
+		<equip id="396"/>
+		<equip id="397"/>
+	</droplist>
+	<droplist id="30000">
+		<equip id="191"/>
+		<equip id="192"/>
+		<equip id="193"/>
+		<equip id="194"/>
+		<equip id="195"/>
+		<equip id="196"/>
+		<equip id="197"/>
+		<item id="1501"/>
+	</droplist>
+	<droplist id="30001">
+		<equip id="291"/>
+		<equip id="292"/>
+		<equip id="293"/>
+		<equip id="294"/>
+		<equip id="295"/>
+		<equip id="296"/>
+		<equip id="297"/>
+		<item id="1501"/>
+	</droplist>
+	<droplist id="30002">
+		<equip id="391"/>
+		<equip id="392"/>
+		<equip id="393"/>
+		<equip id="394"/>
+		<equip id="395"/>
+		<equip id="396"/>
+		<equip id="397"/>
+		<item id="1501"/>
+	</droplist>
+	<droplist id="30007">
+		<equip id="191"/>
+		<equip id="192"/>
+		<equip id="193"/>
+		<equip id="194"/>
+		<equip id="195"/>
+		<equip id="196"/>
+		<equip id="197"/>
+		<item id="1501"/>
+	</droplist>
+	<droplist id="30003">
+		<equip id="191"/>
+		<equip id="192"/>
+		<equip id="193"/>
+		<equip id="194"/>
+		<equip id="195"/>
+		<equip id="196"/>
+		<equip id="197"/>
+		<item id="1501"/>
+	</droplist>
+	<droplist id="30004">
+		<equip id="191"/>
+		<equip id="192"/>
+		<equip id="193"/>
+		<equip id="194"/>
+		<equip id="195"/>
+		<equip id="196"/>
+		<equip id="197"/>
+		<item id="1501"/>
+	</droplist>
+	<droplist id="2002">
+		<equip id="191"/>
+		<equip id="192"/>
+		<equip id="193"/>
+		<equip id="194"/>
+		<equip id="195"/>
+		<equip id="196"/>
+		<equip id="197"/>
+		<item id="1501"/>
+	</droplist>
+	<droplist id="2003">
+		<equip id="191"/>
+		<equip id="192"/>
+		<equip id="193"/>
+		<equip id="194"/>
+		<equip id="195"/>
+		<equip id="196"/>
+		<equip id="197"/>
+		<item id="1501"/>
+	</droplist>
+	<droplist id="2004">
+		<equip id="191"/>
+		<equip id="192"/>
+		<equip id="193"/>
+		<equip id="194"/>
+		<equip id="195"/>
+		<equip id="196"/>
+		<equip id="197"/>
+		<item id="1501"/>
+	</droplist>
+	<droplist id="2005">
+		<equip id="191"/>
+		<equip id="192"/>
+		<equip id="193"/>
+		<equip id="194"/>
+		<equip id="195"/>
+		<equip id="196"/>
+		<equip id="197"/>
+		<item id="1501"/>
+	</droplist>
+	<!--首领界面怪物掉落展示TIP配置
+	type:1道具；2装备；3特殊提示；-->
+	<mdrop mid="30000">
+		<item id="116" type="3">
+			<item_name tip="绿色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生2条附加属性"/>
+			<random_tip2 tip=" "/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+	</mdrop>
+	<mdrop mid="30001">
+		<item id="116" type="3">
+			<item_name tip="绿色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生2条附加属性"/>
+			<random_tip2 tip=" "/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+	</mdrop>
+	<mdrop mid="30002">
+		<item id="116" type="3">
+			<item_name tip="绿色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生2条附加属性"/>
+			<random_tip2 tip=" "/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+	</mdrop>
+	<mdrop mid="30007">
+		<item id="116" type="3">
+			<item_name tip="绿色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生2条附加属性"/>
+			<random_tip2 tip=" "/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+	</mdrop>
+	<mdrop mid="30003">
+		<item id="116" type="3">
+			<item_name tip="绿色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生2条附加属性"/>
+			<random_tip2 tip=" "/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+	</mdrop>
+	<mdrop mid="30004">
+		<item id="116" type="3">
+			<item_name tip="绿色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生2条附加属性"/>
+			<random_tip2 tip=" "/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+	</mdrop>
+	<mdrop mid="30005">
+		<item id="116" type="3">
+			<item_name tip="绿色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生2条附加属性"/>
+			<random_tip2 tip=" "/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+	</mdrop>
+	<mdrop mid="30006">
+		<item id="116" type="3">
+			<item_name tip="绿色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生2条附加属性"/>
+			<random_tip2 tip=" "/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+	</mdrop>
+	<mdrop mid="2012">
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1141" type="3">
+			<item_name tip="金色首饰"/>
+			<carr_limit tip="通用"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1501" type="1"/>
+		<item id="1504" type="1"/>
+		<item id="1509" type="1"/>
+		<item id="1510" type="1"/>
+		<item id="1587" type="1"/>
+		<item id="1597" type="1"/>
+		<item id="1607" type="1"/>
+	</mdrop>
+	<mdrop mid="2005">
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1141" type="3">
+			<item_name tip="金色首饰"/>
+			<carr_limit tip="通用"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1501" type="1"/>
+		<item id="1504" type="1"/>
+		<item id="1509" type="1"/>
+		<item id="1510" type="1"/>
+		<item id="1587" type="1"/>
+		<item id="1597" type="1"/>
+		<item id="1607" type="1"/>
+	</mdrop>
+	<mdrop mid="2000">
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1141" type="3">
+			<item_name tip="金色首饰"/>
+			<carr_limit tip="通用"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1501" type="1"/>
+		<item id="1504" type="1"/>
+		<item id="1509" type="1"/>
+		<item id="1510" type="1"/>
+		<item id="1587" type="1"/>
+		<item id="1597" type="1"/>
+		<item id="1607" type="1"/>
+	</mdrop>
+	<!--组队副本怪物掉落展示TIP配置-->
+	<mdrop mid="108">
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1141" type="3">
+			<item_name tip="金色首饰"/>
+			<carr_limit tip="通用"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1501" type="1"/>
+		<item id="1504" type="1"/>
+		<item id="1509" type="1"/>
+		<item id="1510" type="1"/>
+		<item id="1587" type="1"/>
+		<item id="1597" type="1"/>
+		<item id="1607" type="1"/>
+	</mdrop>
+	<mdrop mid="109">
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1141" type="3">
+			<item_name tip="金色首饰"/>
+			<carr_limit tip="通用"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1501" type="1"/>
+		<item id="1504" type="1"/>
+		<item id="1509" type="1"/>
+		<item id="1510" type="1"/>
+		<item id="1587" type="1"/>
+		<item id="1597" type="1"/>
+		<item id="1607" type="1"/>
+	</mdrop>
+	<mdrop mid="110">
+		<item id="126" type="3">
+			<item_name tip="蓝色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生3条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="136" type="3">
+			<item_name tip="紫色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生4条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip=" "/>
+		</item>
+		<item id="146" type="3">
+			<item_name tip="金色装备"/>
+			<carr_limit tip="未知"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1141" type="3">
+			<item_name tip="金色首饰"/>
+			<carr_limit tip="通用"/>
+			<desc1 tip="未知"/>
+			<desc2 tip="未知"/>
+			<random_tip1 tip="随机产生5条附加属性"/>
+			<random_tip2 tip="随机产生1~3个宝石孔"/>
+			<random_tip3 tip="随机产生1条灵魂属性"/>
+		</item>
+		<item id="1501" type="1"/>
+		<item id="1504" type="1"/>
+		<item id="1509" type="1"/>
+		<item id="1510" type="1"/>
+		<item id="1587" type="1"/>
+		<item id="1597" type="1"/>
+		<item id="1607" type="1"/>
+	</mdrop>
+
+</worldboss>

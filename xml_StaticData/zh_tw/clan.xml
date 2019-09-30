@@ -1,0 +1,259 @@
+<clanlist>		
+	<!-- 騎士團說明:	
+	clan_lvl:騎士團等級	
+	member:成員數量	
+	verteran:元老數量	
+	elite:精英數量	
+	ordinary:普通成員數量	
+	money_cost:升級所需金幣	
+	money_limit：金幣限制	
+	exp_cost:升級所需經驗	
+	buff:騎士團buff	
+		
+	-->	
+		
+	<clan clan_lvl="1" member="20" veteran="1" elite="5" ordinary="10" money_cost="2500000" exp_cost="500000" money_limit="3000000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="2" member="21" veteran="1" elite="5" ordinary="10" money_cost="5000000" exp_cost="1000000" money_limit="5500000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="3" member="22" veteran="1" elite="5" ordinary="10" money_cost="7500000" exp_cost="1500000" money_limit="8000000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="4" member="23" veteran="1" elite="5" ordinary="10" money_cost="10000000" exp_cost="2000000" money_limit="10500000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="5" member="24" veteran="1" elite="5" ordinary="10" money_cost="12500000" exp_cost="2500000" money_limit="13000000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="6" member="25" veteran="1" elite="5" ordinary="10" money_cost="15000000" exp_cost="3000000" money_limit="15500000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="7" member="26" veteran="1" elite="5" ordinary="10" money_cost="17500000" exp_cost="3500000" money_limit="18000000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="8" member="27" veteran="1" elite="5" ordinary="10" money_cost="20000000" exp_cost="4000000" money_limit="20500000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="9" member="28" veteran="1" elite="5" ordinary="10" money_cost="22500000" exp_cost="4500000" money_limit="23000000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="10" member="29" veteran="1" elite="5" ordinary="10" money_cost="25000000" exp_cost="5000000" money_limit="25500000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="11" member="30" veteran="1" elite="5" ordinary="10" money_cost="27500000" exp_cost="5500000" money_limit="28000000" >	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+	<clan clan_lvl="12" member="31" veteran="1" elite="5" ordinary="10" money_cost="30000000" exp_cost="6000000" money_limit="30500000">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan>	
+		
+	<!-- 創建條件 -->	
+	<create zhuan="1" lvl="1" money_cost="1000000"/>	
+	<!-- 遠征配置 wd 星期幾 ltpid 副本id -->	
+	<anabasis wd="1" ltpid="110"/>	
+	<anabasis wd="2" ltpid="110"/>	
+	<anabasis wd="3" ltpid="110"/>	
+	<anabasis wd="4" ltpid="110"/>	
+	<anabasis wd="5" ltpid="110"/>	
+	<anabasis wd="6" ltpid="110"/>	
+	<anabasis wd="7" ltpid="110"/>	
+		
+	<ana_awd rank="1" money="1000000"/>	
+	<ana_awd rank="2" money="900000"/>	
+	<ana_awd rank="3" money="800000"/>	
+	<ana_awd rank="4" money="700000"/>	
+	<ana_awd rank="5" money="600000"/>	
+	<ana_awd rank="6" money="500000"/>	
+	<ana_awd rank="7" money="400000"/>	
+	<ana_awd rank="8" money="300000"/>	
+	<ana_awd rank="9" money="200000"/>	
+	<ana_awd rank="10" money="100000"/>	
+	<ana_awd rank="11" money="50000"/>	
+		
+	<!-- 軍團技能 -->	
+	<clan_buff lvl="0" cost_donate="0" cost_item="0" cost_num="0" buff_name="榮耀與共" buff_dc="攻擊下限+0;攻擊上限+0;物理防禦+0;魔法防禦+0">	
+	  <buff att_type="38" att_value="0"/>	
+	  <buff att_type="5" att_value="0"/>	
+	  <buff att_type="6" att_value="0"/>	
+	  <buff att_type="7" att_value="0"/>	
+	</clan_buff>	
+	<clan_buff lvl="1" cost_donate="2200" cost_item="1627" cost_num="10" buff_name="榮耀與共" buff_dc="攻擊下限+80;攻擊上限+120;物理防禦+100;魔法防禦+100">	
+	  <buff att_type="38" att_value="80"/>	
+	  <buff att_type="5" att_value="120"/>	
+	  <buff att_type="6" att_value="100"/>	
+	  <buff att_type="7" att_value="100"/>	
+	</clan_buff>	
+	<clan_buff lvl="2" cost_donate="5300" cost_item="1627" cost_num="20" buff_name="榮耀與共" buff_dc="攻擊下限+160;攻擊上限+240;物理防禦+190;魔法防禦+190">	
+	  <buff att_type="38" att_value="160"/>	
+	  <buff att_type="5" att_value="240"/>	
+	  <buff att_type="6" att_value="190"/>	
+	  <buff att_type="7" att_value="190"/>	
+	</clan_buff>	
+	<clan_buff lvl="3" cost_donate="8800" cost_item="1627" cost_num="30" buff_name="榮耀與共" buff_dc="攻擊下限+240;攻擊上限+360;物理防禦+280;魔法防禦+280">	
+	  <buff att_type="38" att_value="240"/>	
+	  <buff att_type="5" att_value="360"/>	
+	  <buff att_type="6" att_value="280"/>	
+	  <buff att_type="7" att_value="280"/>	
+	</clan_buff>	
+	<clan_buff lvl="4" cost_donate="12000" cost_item="1627" cost_num="40" buff_name="榮耀與共" buff_dc="攻擊下限+320;攻擊上限+480;物理防禦+370;魔法防禦+370">	
+	  <buff att_type="38" att_value="320"/>	
+	  <buff att_type="5" att_value="480"/>	
+	  <buff att_type="6" att_value="370"/>	
+	  <buff att_type="7" att_value="370"/>	
+	</clan_buff>	
+	<clan_buff lvl="5" cost_donate="15000" cost_item="1627" cost_num="50" buff_name="榮耀與共" buff_dc="攻擊下限+400;攻擊上限+600;物理防禦+460;魔法防禦+460">	
+	  <buff att_type="38" att_value="400"/>	
+	  <buff att_type="5" att_value="600"/>	
+	  <buff att_type="6" att_value="460"/>	
+	  <buff att_type="7" att_value="460"/>	
+	</clan_buff>	
+	<clan_buff lvl="6" cost_donate="19000" cost_item="1627" cost_num="60" buff_name="榮耀與共" buff_dc="攻擊下限+480;攻擊上限+720;物理防禦+550;魔法防禦+550">	
+	  <buff att_type="38" att_value="480"/>	
+	  <buff att_type="5" att_value="720"/>	
+	  <buff att_type="6" att_value="550"/>	
+	  <buff att_type="7" att_value="550"/>	
+	</clan_buff>	
+	<clan_buff lvl="7" cost_donate="22000" cost_item="1627" cost_num="70" buff_name="榮耀與共" buff_dc="攻擊下限+560;攻擊上限+840;物理防禦+640;魔法防禦+640">	
+	  <buff att_type="38" att_value="560"/>	
+	  <buff att_type="5" att_value="840"/>	
+	  <buff att_type="6" att_value="640"/>	
+	  <buff att_type="7" att_value="640"/>	
+	</clan_buff>	
+	<clan_buff lvl="8" cost_donate="25000" cost_item="1627" cost_num="80" buff_name="榮耀與共" buff_dc="攻擊下限+640;攻擊上限+960;物理防禦+730;魔法防禦+730">	
+	  <buff att_type="38" att_value="640"/>	
+	  <buff att_type="5" att_value="960"/>	
+	  <buff att_type="6" att_value="730"/>	
+	  <buff att_type="7" att_value="730"/>	
+	</clan_buff>	
+	<clan_buff lvl="9" cost_donate="29000" cost_item="1627" cost_num="90" buff_name="榮耀與共" buff_dc="攻擊下限+720;攻擊上限+1080;物理防禦+820;魔法防禦+820">	
+	  <buff att_type="38" att_value="720"/>	
+	  <buff att_type="5" att_value="1080"/>	
+	  <buff att_type="6" att_value="820"/>	
+	  <buff att_type="7" att_value="820"/>	
+	</clan_buff>	
+	<clan_buff lvl="10" cost_donate="32000" cost_item="1627" cost_num="100" buff_name="榮耀與共" buff_dc="攻擊下限+800;攻擊上限+1200;物理防禦+910;魔法防禦+910">	
+	  <buff att_type="38" att_value="800"/>	
+	  <buff att_type="5" att_value="1200"/>	
+	  <buff att_type="6" att_value="910"/>	
+	  <buff att_type="7" att_value="910"/>	
+	</clan_buff>	
+	<clan_buff lvl="11" cost_donate="35000" cost_item="1627" cost_num="110" buff_name="榮耀與共" buff_dc="攻擊下限+880;攻擊上限+1320;物理防禦+1000;魔法防禦+1000">	
+	  <buff att_type="38" att_value="880"/>	
+	  <buff att_type="5" att_value="1320"/>	
+	  <buff att_type="6" att_value="1000"/>	
+	  <buff att_type="7" att_value="1000"/>	
+	</clan_buff>	
+	<clan_buff lvl="12" cost_donate="38000" cost_item="1627" cost_num="120" buff_name="榮耀與共" buff_dc="攻擊下限+960;攻擊上限+1440;物理防禦+1090;魔法防禦+1090">	
+	  <buff att_type="38" att_value="960"/>	
+	  <buff att_type="5" att_value="1440"/>	
+	  <buff att_type="6" att_value="1090"/>	
+	  <buff att_type="7" att_value="1090"/>	
+	</clan_buff>	
+		
+	<!--軍團屠龍-->	
+	<!--clan_lv 表示開啟此級別的boss需要的軍團等級-->	
+		
+	<clan_boss clan_lv="1" item_id="1626" item_cost="23" diff_lvl="1" tm="21" tm_ready="1">	
+		<award level_id="1201" item_id="2066" name="烈焰紅龍"/>
+		<award level_id="1202" item_id="2067" name="光明飛龍"/>
+		<award level_id="1203" item_id="2068" name="腐蝕毒龍"/>
+		<award level_id="1204" item_id="2069" name="冰霜巨龍"/>
+		<award level_id="1205" item_id="2070" name="黑暗魔龍"/>
+		<award level_id="1206" item_id="2071" name="大地之龍"/>
+	</clan_boss>	
+	<clan_boss clan_lv="3" item_id="1626" item_cost="25" diff_lvl="2" tm="21" tm_ready="1">	
+		<award level_id="1201" item_id="2066" name="烈焰紅龍"/>
+		<award level_id="1202" item_id="2067" name="光明飛龍"/>
+		<award level_id="1203" item_id="2068" name="腐蝕毒龍"/>
+		<award level_id="1204" item_id="2069" name="冰霜巨龍"/>
+		<award level_id="1205" item_id="2070" name="黑暗魔龍"/>
+		<award level_id="1206" item_id="2071" name="大地之龍"/>
+	</clan_boss>	
+	<clan_boss clan_lv="5" item_id="1626" item_cost="28" diff_lvl="3" tm="21" tm_ready="1">	
+		<award level_id="1201" item_id="2066" name="烈焰紅龍"/>
+		<award level_id="1202" item_id="2067" name="光明飛龍"/>
+		<award level_id="1203" item_id="2068" name="腐蝕毒龍"/>
+		<award level_id="1204" item_id="2069" name="冰霜巨龍"/>
+		<award level_id="1205" item_id="2070" name="黑暗魔龍"/>
+		<award level_id="1206" item_id="2071" name="大地之龍"/>
+	</clan_boss>	
+	<clan_boss clan_lv="7" item_id="1626" item_cost="30" diff_lvl="4" tm="21" tm_ready="1">	
+		<award level_id="1201" item_id="2066" name="烈焰紅龍"/>
+		<award level_id="1202" item_id="2067" name="光明飛龍"/>
+		<award level_id="1203" item_id="2068" name="腐蝕毒龍"/>
+		<award level_id="1204" item_id="2069" name="冰霜巨龍"/>
+		<award level_id="1205" item_id="2070" name="黑暗魔龍"/>
+		<award level_id="1206" item_id="2071" name="大地之龍"/>
+	</clan_boss>	
+	<clan_boss clan_lv="9" item_id="1626" item_cost="32" diff_lvl="5" tm="21" tm_ready="1">	
+		<award level_id="1201" item_id="2066" name="烈焰紅龍"/>
+		<award level_id="1202" item_id="2067" name="光明飛龍"/>
+		<award level_id="1203" item_id="2068" name="腐蝕毒龍"/>
+		<award level_id="1204" item_id="2069" name="冰霜巨龍"/>
+		<award level_id="1205" item_id="2070" name="黑暗魔龍"/>
+		<award level_id="1206" item_id="2071" name="大地之龍"/>
+	</clan_boss>	
+	<clan_boss clan_lv="11" item_id="1626" item_cost="35" diff_lvl="6" tm="21" tm_ready="1">	
+		<award level_id="1201" item_id="2066" name="烈焰紅龍"/>
+		<award level_id="1202" item_id="2067" name="光明飛龍"/>
+		<award level_id="1203" item_id="2068" name="腐蝕毒龍"/>
+		<award level_id="1204" item_id="2069" name="冰霜巨龍"/>
+		<award level_id="1205" item_id="2070" name="黑暗魔龍"/>
+		<award level_id="1206" item_id="2071" name="大地之龍"/>
+	</clan_boss>	
+		
+	<!-- 日常維護資金 -->	
+	<clan_repair clan_lv="1" repair_money="2000"/>	
+	<clan_repair clan_lv="2" repair_money="3000"/>	
+	<clan_repair clan_lv="3" repair_money="4000"/>	
+	<clan_repair clan_lv="4" repair_money="5000"/>	
+	<clan_repair clan_lv="5" repair_money="6000"/>	
+	<clan_repair clan_lv="6" repair_money="7000"/>	
+	<clan_repair clan_lv="7" repair_money="8000"/>	
+	<clan_repair clan_lv="8" repair_money="9000"/>	
+	<clan_repair clan_lv="9" repair_money="10000"/>	
+	<clan_repair clan_lv="10" repair_money="11000"/>	
+	<clan_repair clan_lv="11" repair_money="12000"/>	
+	<clan_repair clan_lv="12" repair_money="13000"/>	
+		
+	<!-- 日常維護通知時間 -->	
+	<clan_guard_notice tm="0,6,12,18"/>	
+</clanlist>

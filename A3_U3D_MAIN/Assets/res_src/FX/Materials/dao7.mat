@@ -1,0 +1,235 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: dao7
+  m_Shader: {fileID: 4800000, guid: 9c7cff8e8a0e6a24fb51115a7968f66f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BlendTex
+      second:
+        m_Texture: {fileID: 2800000, guid: f72c6b33486a75d4c8fa4d99961fa90b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EnvTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _FalloffTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _LightTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 27a92163e501195468c4d82826a9fac5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.01}
+    - first:
+        name: _MaskTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 4ba9c260b393bff4397ca765c0332512, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 1269ae24b76eb254cbbce8484fd99148, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ShadowTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TerrainTex01
+      second:
+        m_Texture: {fileID: 2800000, guid: 427bd7c0443d51a428051d3a8fbc4970, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _TerrainTex02
+      second:
+        m_Texture: {fileID: 2800000, guid: a7fce0c7ac47ea948bb888f234afe479, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AlphaCtl
+      second: 0
+    - first:
+        name: _AlphaScale
+      second: 1
+    - first:
+        name: _AnimU
+      second: 0
+    - first:
+        name: _AnimV
+      second: 0
+    - first:
+        name: _Cutoff
+      second: 0
+    - first:
+        name: _DLDensity
+      second: 8.857142
+    - first:
+        name: _DLScale
+      second: 1
+    - first:
+        name: _DLSpeed
+      second: 0.14285715
+    - first:
+        name: _DistortionScaleX
+      second: 5
+    - first:
+        name: _DistortionScaleY
+      second: 0
+    - first:
+        name: _EnvIntensity
+      second: 1
+    - first:
+        name: _EnvSpeed
+      second: 30
+    - first:
+        name: _FlashIntensity
+      second: 2
+    - first:
+        name: _FlashInterval
+      second: 3
+    - first:
+        name: _ForceX
+      second: 1
+    - first:
+        name: _ForceY
+      second: 1
+    - first:
+        name: _HeatTime
+      second: 0.07142856
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _MainScale
+      second: 4.464286
+    - first:
+        name: _MoveScale01
+      second: 1
+    - first:
+        name: _MoveScale02
+      second: 1
+    - first:
+        name: _MoveSpeed01
+      second: 0.1
+    - first:
+        name: _MoveSpeed02
+      second: 0.2
+    - first:
+        name: _Movekind
+      second: 1
+    - first:
+        name: _OffSet
+      second: 0.001
+    - first:
+        name: _Posui
+      second: 0
+    - first:
+        name: _PosuiWidth
+      second: 1.9285716
+    - first:
+        name: _RimScale
+      second: 10
+    - first:
+        name: _Rimpow
+      second: 0.1
+    - first:
+        name: _SpIntensity
+      second: 2
+    - first:
+        name: _SpInterval
+      second: 2
+    - first:
+        name: _SpSpeed
+      second: -3
+    - first:
+        name: _SpeInt
+      second: 0.8928572
+    - first:
+        name: _SpePow
+      second: 0.01
+    - first:
+        name: _Speed
+      second: 0
+    - first:
+        name: _SpeedU
+      second: 0.2
+    - first:
+        name: _SpeedV
+      second: -0.05
+    - first:
+        name: _UNumber
+      second: 4
+    - first:
+        name: _UVOrder
+      second: 0
+    - first:
+        name: _VNumber
+      second: 4
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _DLColor
+      second: {r: 0.8, g: 0.5, b: 0.5, a: 0}
+    - first:
+        name: _EnvColor
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _FlashColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _MoveColor01
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _MoveColor02
+      second: {r: 0, g: 1, b: 0, a: 1}
+    - first:
+        name: _PosuiColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 1, g: 0, b: 0, a: 1}
+    - first:
+        name: _ShadowColor
+      second: {r: 0.4, g: 0.4, b: 0.4, a: 1}
+    - first:
+        name: _SpecularColor
+      second: {r: 0, g: 0.05, b: 1, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.375, g: 0.66379315, b: 1, a: 1}

@@ -1,0 +1,427 @@
+<viplist>
+	<!--
+	VIP level VIP的等级 
+	VIP point 此VIP等级需要的充值宝石量(单级需要量)
+	type0 强化概率提升
+	tpye1 VIP专属副本 0没1有
+	tpye2  场景传送免费 0没1有
+	type3  每天可招财的次数
+	type4  每天可使用圣魂果的数量(经验道具，全等级圣魂果一起算)
+	type5 竞技场无CD 0没1有 
+	type6 同时研究多个符文
+	type7 购买竞技场次数
+	tpye8 经验副本次数
+	tpye9 世界BOSS传送 0没1有
+	tpye10 金币副本次数
+	tpye11 离线经验2倍购买 0没1有
+	tpye12 离线经验3倍购买 0没1有
+	tpye13 离线经验4倍购买 0没1有
+	tpye14 随身仓库 0没1有
+	tpye15 一键日常 0没1有
+	tpye16 风神王座掉率倍数，2.5倍就填2.5
+	tpye17 金币副本收益
+	tpye18 经验副本收益
+	tpye19 挂机自动处理装备 0没有1有
+	type20 星图行动力购买次数
+	type21 拍卖行上架装备和道具的数量上限
+	type22 军团建设次数
+	type23 组队副本vip额外购买次数
+	type24 兽灵秘境vip额外购买次数
+	type25 魔物猎人vip额外购买次数
+	type26 世界boss奖励额外次数
+	show_type 1图片2数字
+	其他等待功能完善后再添加
+	-->
+	<viplevel vip_level="0" vip_point="0" >
+		<!--<vt type="9" value="0" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="0" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="0" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="0" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="0" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="0" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="0" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="0" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="1" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="0" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="0" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="10" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="10" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="0" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="0" show_type="2" show_name="购买竞技场次数"/>
+		<!--<vt type="20" value="0" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="5" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="1" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="0" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="0" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="0" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="0" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="1" vip_point="10">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="0" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="0" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="0" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="0" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="0" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="0" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="1" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="0" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="0" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="15" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="11" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="0" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="10" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="1" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="5" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="2" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="0" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="0" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="0" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="1" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="2" vip_point="30">
+	   <!-- <vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="0" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="0" show_type="1" show_name="3倍经离线验购买"/>
+		<!--<vt type="15" value="0" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="0" show_type="1" show_name="4倍经离线验购买"/>
+		<!--<vt type="5" value="0" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="1" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="1" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="1" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="20" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="12" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="1" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="12" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="2" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="5" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="3" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="1" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="1" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="1" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="2" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="3" vip_point="1000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="0" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="0" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="0" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="1" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="1" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="1" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="25" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="13" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="1" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="14" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="3" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="5" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="4" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="1" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="1" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="1" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="3" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="4" vip_point="2000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="1" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="0" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="0" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="1" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="2" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="2" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="30" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="14" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="2" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="16" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="4" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="10" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="5" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="2" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="2" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="2" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="4" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="5" vip_point="5000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="1" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="1" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="1" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="2" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="2" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="2" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="35" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="16" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="2" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="18" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="5" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="10" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="6" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="2" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="2" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="2" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="5" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="6" vip_point="8000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="1" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="1" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="1" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="2" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="2" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="2" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="40" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="17" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="2" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="20" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="6" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="10" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="7" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="2" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="2" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="2" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="6" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="7" vip_point="12000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="1" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="1" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="1" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="2" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="2" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="2" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="45" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="18" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0.01" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="2" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="22" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="7" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="15" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="8" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="2" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="2" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="2" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="7" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="8" vip_point="20000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="1" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="1" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="1" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="2" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="2" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="2" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="50" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="19" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0.02" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="2" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="24" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="8" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="15" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="9" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="2" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="2" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="2" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="8" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="9" vip_point="30000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="1" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="1" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="1" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="3" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="2" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="2" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="55" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="22" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0.04" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="2" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="26" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="9" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="15" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="10" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="2" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="2" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="2" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="9" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="10" vip_point="50000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="1" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="1" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="1" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="3" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="2" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="2" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="60" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="23" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0.06" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="2" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="28" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="10" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="20" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="11" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="2" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="2" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="2" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="10" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="11" vip_point="80000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="1" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="1" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="1" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="3" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="2" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="2" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="65" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="24" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0.08" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="2" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="30" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="11" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="20" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="12" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="2" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="2" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="2" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="11" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+	<viplevel vip_level="12" vip_point="100000">
+		<!--<vt type="9" value="1" show_type="1" show_name="世界BOSS快传"/>-->
+		<vt type="11" value="1" show_type="1" show_name="2倍离线经验购买"/>
+		<vt type="14" value="1" show_type="1" show_name="随身仓库"/>
+		<vt type="19" value="1" show_type="1" show_name="挂机自动处理装备"/>
+		<vt type="12" value="1" show_type="1" show_name="3倍离线经验购买"/>
+		<!--<vt type="15" value="1" show_type="1" show_name="一键日常任务"/>-->
+		<vt type="13" value="1" show_type="1" show_name="4倍离线经验购买"/>
+		<!--<vt type="5" value="1" show_type="1" show_name="竞技场无CD"/>-->
+		<vt type="6" value="3" show_type="2" show_name="同时研究符文数"/>
+		<vt type="17" value="2" show_type="2" show_name="黄金宝库额外次数"/>
+		<vt type="18" value="2" show_type="2" show_name="破碎深渊额外次数"/>
+		<vt type="3" value="70" show_type="2" show_name="每日金币兑换次数"/>
+		<!--<vt type="4" value="25" show_type="2" show_name="使用圣魂果次数"/>-->
+		<vt type="0" value="0.1" show_type="3" show_name="强化概率增加"/>
+		<vt type="16" value="2" show_type="2" show_name="黑暗王座额外次数"/>
+		<vt type="7" value="32" show_type="2" show_name="购买竞技场次数"/>
+		<!-- <vt type="20" value="12" show_type="2" show_name="每日购买行动力次数"/> -->
+		<vt type="21" value="20" show_type="2" show_name="拍卖行上架上限"/>
+		<!-- <vt type="22" value="13" show_type="2" show_name="军团建设额外次数"/> -->
+		<vt type="23" value="2" show_type="2" show_name="组队副本额外次数"/>
+		<vt type="24" value="2" show_type="2" show_name="兽灵秘境额外次数"/>
+		<vt type="25" value="2" show_type="2" show_name="魔物猎人额外次数"/>
+		<vt type="26" value="12" show_type="2" show_name="世界boss奖励额外次数"/>
+	</viplevel>
+
+
+
+  <!--vip礼包-->
+  <gift vip_level="0" >
+  </gift>
+  
+  <gift vip_level="1" >
+    <item item_id="2005" num="1"/>
+  </gift>
+
+  <gift vip_level="2" >
+    <item item_id="2006" num="1"/>
+  </gift>
+
+  <gift vip_level="3" >
+    <item item_id="2007" num="1"/>
+  </gift>
+
+  <gift vip_level="4" >
+    <item item_id="2008" num="1"/>
+  </gift>
+
+  <gift vip_level="5" >
+    <item item_id="2009" num="1"/>
+  </gift>
+  
+  <gift vip_level="6" >
+    <item item_id="2010" num="1"/>
+  </gift>
+
+  <gift vip_level="7" >
+    <item item_id="2011" num="1"/>
+  </gift>
+
+  <gift vip_level="8" >
+    <item item_id="2012" num="1"/>
+  </gift>
+
+  <gift vip_level="9" >
+    <item item_id="2013" num="1"/>
+  </gift>
+
+  <gift vip_level="10" >
+    <item item_id="2014" num="1"/>
+  </gift>
+
+  <gift vip_level="11" >
+    <item item_id="2015" num="1"/>
+  </gift>
+
+  <gift vip_level="12" >
+    <item item_id="2016" num="1"/>
+  </gift>
+  
+  <vip_state state_str="
+离线经验3倍购买    V1   V2   V3   v4   V5   V6   V7   V8   V9   V10   V11   V12
+离线经验4倍购买    V1   V2   V3   v4   V5   V6   V7   V8   V9   V10   V11   V12
+随身仓库           V1   V2   V3   v4   V5   V6   V7   V8   V9   V10   V11   V12
+金币副本增益       V1   V2   V3   v4   V5   V6   V7   V8   V9   V10   V11   V12
+经验副本增益       V1   V2   V3   v4   V5   V6   V7   V8   V9   V10   V11   V12
+每日可招财次数     V1   V2   V3   v4   V5   V6   V7   V8   V9   V10   V11   V12
+每日圣魂果使用次数 V1   V2   V3   v4   V5   V6   V7   V8   V9   V10   V11   V12
+
+   " />
+
+  
+</viplist>

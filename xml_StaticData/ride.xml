@@ -1,0 +1,2528 @@
+<ride>
+	<!--属性枚举
+		1 hp 生命值
+		2 physics  物理攻击
+		3 phy_def  物理防御
+		4 magic  魔法攻击
+		5 mag_def  魔法防御
+		6 ice_att  冰攻击
+		7 fire_att  火攻击
+		8 thunder_att  雷攻击
+		9 ice_def  冰防御
+		10 fire_def  火防御
+		11 thunder_def  雷防御
+		12 critical_damage  暴击伤害
+		13 critical_def  韧性
+		14 constitution
+		15 strength
+		16 intelligence
+		17 减伤
+	-->
+	<!--坐骑培养道具-->
+	<upgrade_ride need_item="1518"/>
+	<!-- 天赋升级道具 -->
+	<upgrade_gift need_item="1517"/>
+    <!--坐骑培养 speed：100-160-->
+	<lvl_info lvl="1" exp="500" speed="110" dressment="1001">
+		<carr_att carr="2">
+			<att att_type="1" add="80"/>
+			<att att_type="2" add="90"/>
+			<att att_type="3" add="240"/>
+			<att att_type="34" add="30"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="80"/>
+			<att att_type="1" add="90"/>
+			<att att_type="3" add="240"/>
+			<att att_type="34" add="30"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="80"/>
+			<att att_type="1" add="90"/>
+			<att att_type="3" add="240"/>
+			<att att_type="34" add="30"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="2" exp="1500" speed="110">
+		<carr_att carr="2">
+			<att att_type="1" add="160"/>
+			<att att_type="2" add="180"/>
+			<att att_type="3" add="540"/>
+			<att att_type="34" add="60"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="160"/>
+			<att att_type="1" add="180"/>
+			<att att_type="3" add="540"/>
+			<att att_type="34" add="60"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="160"/>
+			<att att_type="1" add="180"/>
+			<att att_type="3" add="540"/>
+			<att att_type="34" add="60"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="3" exp="3000" speed="110">
+		<carr_att carr="2">
+			<att att_type="1" add="250"/>
+			<att att_type="2" add="300"/>
+			<att att_type="3" add="780"/>
+			<att att_type="34" add="100"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="250"/>
+			<att att_type="1" add="300"/>
+			<att att_type="3" add="780"/>
+			<att att_type="34" add="100"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="250"/>
+			<att att_type="1" add="300"/>
+			<att att_type="3" add="780"/>
+			<att att_type="34" add="100"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="4" exp="4500" speed="110">
+		<carr_att carr="2">
+			<att att_type="1" add="330"/>
+			<att att_type="2" add="390"/>
+			<att att_type="3" add="1020"/>
+			<att att_type="34" add="130"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="330"/>
+			<att att_type="1" add="390"/>
+			<att att_type="3" add="1020"/>
+			<att att_type="34" add="130"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="330"/>
+			<att att_type="1" add="390"/>
+			<att att_type="3" add="1020"/>
+			<att att_type="34" add="130"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="5" exp="6000" speed="110">
+		<carr_att carr="2">
+			<att att_type="1" add="410"/>
+			<att att_type="2" add="480"/>
+			<att att_type="3" add="1320"/>
+			<att att_type="34" add="160"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="410"/>
+			<att att_type="1" add="480"/>
+			<att att_type="3" add="1320"/>
+			<att att_type="34" add="160"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="410"/>
+			<att att_type="1" add="180"/>
+			<att att_type="3" add="1320"/>
+			<att att_type="34" add="160"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="6" exp="7500" speed="110">
+		<carr_att carr="2">
+			<att att_type="1" add="490"/>
+			<att att_type="2" add="570"/>
+			<att att_type="3" add="1560"/>
+			<att att_type="34" add="190"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="490"/>
+			<att att_type="1" add="570"/>
+			<att att_type="3" add="1560"/>
+			<att att_type="34" add="190"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="490"/>
+			<att att_type="1" add="570"/>
+			<att att_type="3" add="1560"/>
+			<att att_type="34" add="190"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="7" exp="9000" speed="110">
+		<carr_att carr="2">
+			<att att_type="1" add="570"/>
+			<att att_type="2" add="690"/>
+			<att att_type="3" add="1860"/>
+			<att att_type="34" add="230"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="570"/>
+			<att att_type="1" add="690"/>
+			<att att_type="3" add="1860"/>
+			<att att_type="34" add="230"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="570"/>
+			<att att_type="1" add="690"/>
+			<att att_type="3" add="1860"/>
+			<att att_type="34" add="230"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="8" exp="10500" speed="110">
+		<carr_att carr="2">
+			<att att_type="1" add="650"/>
+			<att att_type="2" add="780"/>
+			<att att_type="3" add="2100"/>
+			<att att_type="34" add="260"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="650"/>
+			<att att_type="1" add="780"/>
+			<att att_type="3" add="2100"/>
+			<att att_type="34" add="260"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="650"/>
+			<att att_type="1" add="780"/>
+			<att att_type="3" add="2100"/>
+			<att att_type="34" add="260"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="9" exp="12000" speed="110">
+		<carr_att carr="2">
+			<att att_type="1" add="740"/>
+			<att att_type="2" add="870"/>
+			<att att_type="3" add="2340"/>
+			<att att_type="34" add="290"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="740"/>
+			<att att_type="1" add="870"/>
+			<att att_type="3" add="2340"/>
+			<att att_type="34" add="290"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="740"/>
+			<att att_type="1" add="870"/>
+			<att att_type="3" add="2340"/>
+			<att att_type="34" add="290"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="10" exp="13500" speed="110">
+		<carr_att carr="2">
+			<att att_type="1" add="820"/>
+			<att att_type="2" add="960"/>
+			<att att_type="3" add="2640"/>
+			<att att_type="34" add="320"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="820"/>
+			<att att_type="1" add="960"/>
+			<att att_type="3" add="2640"/>
+			<att att_type="34" add="320"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="820"/>
+			<att att_type="1" add="960"/>
+			<att att_type="3" add="2640"/>
+			<att att_type="34" add="320"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="11" exp="15000" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="900"/>
+			<att att_type="2" add="1080"/>
+			<att att_type="3" add="2880"/>
+			<att att_type="34" add="360"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="900"/>
+			<att att_type="1" add="1080"/>
+			<att att_type="3" add="2880"/>
+			<att att_type="34" add="360"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="900"/>
+			<att att_type="1" add="1080"/>
+			<att att_type="3" add="2880"/>
+			<att att_type="34" add="360"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="12" exp="16500" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="980"/>
+			<att att_type="2" add="1170"/>
+			<att att_type="3" add="3120"/>
+			<att att_type="34" add="390"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="980"/>
+			<att att_type="1" add="1170"/>
+			<att att_type="3" add="3120"/>
+			<att att_type="34" add="390"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="980"/>
+			<att att_type="1" add="1170"/>
+			<att att_type="3" add="3120"/>
+			<att att_type="34" add="390"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="13" exp="18000" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="1060"/>
+			<att att_type="2" add="1260"/>
+			<att att_type="3" add="3420"/>
+			<att att_type="34" add="420"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1060"/>
+			<att att_type="1" add="1260"/>
+			<att att_type="3" add="3420"/>
+			<att att_type="34" add="420"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1060"/>
+			<att att_type="1" add="1260"/>
+			<att att_type="3" add="3420"/>
+			<att att_type="34" add="420"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="14" exp="19500" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="1140"/>
+			<att att_type="2" add="1350"/>
+			<att att_type="3" add="3660"/>
+			<att att_type="34" add="450"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1140"/>
+			<att att_type="1" add="1350"/>
+			<att att_type="3" add="3660"/>
+			<att att_type="34" add="450"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1140"/>
+			<att att_type="1" add="1350"/>
+			<att att_type="3" add="3660"/>
+			<att att_type="34" add="450"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="15" exp="21000" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="1230"/>
+			<att att_type="2" add="1440"/>
+			<att att_type="3" add="3960"/>
+			<att att_type="34" add="480"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1230"/>
+			<att att_type="1" add="1440"/>
+			<att att_type="3" add="3960"/>
+			<att att_type="34" add="480"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1230"/>
+			<att att_type="1" add="1440"/>
+			<att att_type="3" add="3960"/>
+			<att att_type="34" add="480"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="16" exp="22500" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="1310"/>
+			<att att_type="2" add="1560"/>
+			<att att_type="3" add="4200"/>
+			<att att_type="34" add="520"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1310"/>
+			<att att_type="1" add="1560"/>
+			<att att_type="3" add="4200"/>
+			<att att_type="34" add="520"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1310"/>
+			<att att_type="1" add="1560"/>
+			<att att_type="3" add="4200"/>
+			<att att_type="34" add="520"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="17" exp="24000" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="1390"/>
+			<att att_type="2" add="1650"/>
+			<att att_type="3" add="4440"/>
+			<att att_type="34" add="550"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1390"/>
+			<att att_type="1" add="1650"/>
+			<att att_type="3" add="4440"/>
+			<att att_type="34" add="550"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1390"/>
+			<att att_type="1" add="1650"/>
+			<att att_type="3" add="4440"/>
+			<att att_type="34" add="550"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="18" exp="25500" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="1470"/>
+			<att att_type="2" add="1740"/>
+			<att att_type="3" add="4740"/>
+			<att att_type="34" add="580"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1470"/>
+			<att att_type="1" add="1740"/>
+			<att att_type="3" add="4740"/>
+			<att att_type="34" add="580"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1470"/>
+			<att att_type="1" add="1740"/>
+			<att att_type="3" add="4740"/>
+			<att att_type="34" add="580"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="19" exp="27000" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="1550"/>
+			<att att_type="2" add="1830"/>
+			<att att_type="3" add="4980"/>
+			<att att_type="34" add="610"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1550"/>
+			<att att_type="1" add="1830"/>
+			<att att_type="3" add="4980"/>
+			<att att_type="34" add="610"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1550"/>
+			<att att_type="1" add="1830"/>
+			<att att_type="3" add="4980"/>
+			<att att_type="34" add="610"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="20" exp="28500" speed="120">
+		<carr_att carr="2">
+			<att att_type="1" add="1630"/>
+			<att att_type="2" add="1950"/>
+			<att att_type="3" add="5220"/>
+			<att att_type="34" add="650"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1630"/>
+			<att att_type="1" add="1950"/>
+			<att att_type="3" add="5220"/>
+			<att att_type="34" add="650"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1630"/>
+			<att att_type="1" add="1950"/>
+			<att att_type="3" add="5220"/>
+			<att att_type="34" add="650"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="21" exp="30000" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="1720"/>
+			<att att_type="2" add="2040"/>
+			<att att_type="3" add="5520"/>
+			<att att_type="34" add="680"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1720"/>
+			<att att_type="1" add="2040"/>
+			<att att_type="3" add="5520"/>
+			<att att_type="34" add="680"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1720"/>
+			<att att_type="1" add="2040"/>
+			<att att_type="3" add="5520"/>
+			<att att_type="34" add="680"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="22" exp="31500" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="1800"/>
+			<att att_type="2" add="2130"/>
+			<att att_type="3" add="5760"/>
+			<att att_type="34" add="710"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1800"/>
+			<att att_type="1" add="2130"/>
+			<att att_type="3" add="5760"/>
+			<att att_type="34" add="710"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1800"/>
+			<att att_type="1" add="2130"/>
+			<att att_type="3" add="5760"/>
+			<att att_type="34" add="710"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="23" exp="33000" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="1880"/>
+			<att att_type="2" add="2220"/>
+			<att att_type="3" add="6060"/>
+			<att att_type="34" add="740"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1880"/>
+			<att att_type="1" add="2220"/>
+			<att att_type="3" add="6060"/>
+			<att att_type="34" add="740"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1880"/>
+			<att att_type="1" add="2220"/>
+			<att att_type="3" add="6060"/>
+			<att att_type="34" add="740"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="24" exp="34500" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="1960"/>
+			<att att_type="2" add="2340"/>
+			<att att_type="3" add="6300"/>
+			<att att_type="34" add="780"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="1960"/>
+			<att att_type="1" add="2340"/>
+			<att att_type="3" add="6300"/>
+			<att att_type="34" add="780"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="1960"/>
+			<att att_type="1" add="2340"/>
+			<att att_type="3" add="6300"/>
+			<att att_type="34" add="780"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="25" exp="36000" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="2040"/>
+			<att att_type="2" add="2430"/>
+			<att att_type="3" add="6540"/>
+			<att att_type="34" add="810"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2040"/>
+			<att att_type="1" add="2430"/>
+			<att att_type="3" add="6540"/>
+			<att att_type="34" add="810"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2040"/>
+			<att att_type="1" add="2430"/>
+			<att att_type="3" add="6540"/>
+			<att att_type="34" add="810"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="26" exp="37500" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="2120"/>
+			<att att_type="2" add="2520"/>
+			<att att_type="3" add="6840"/>
+			<att att_type="34" add="840"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2120"/>
+			<att att_type="1" add="2520"/>
+			<att att_type="3" add="6840"/>
+			<att att_type="34" add="840"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2120"/>
+			<att att_type="1" add="2520"/>
+			<att att_type="3" add="6840"/>
+			<att att_type="34" add="840"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="27" exp="39000" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="2210"/>
+			<att att_type="2" add="2610"/>
+			<att att_type="3" add="7080"/>
+			<att att_type="34" add="870"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2210"/>
+			<att att_type="1" add="2610"/>
+			<att att_type="3" add="7080"/>
+			<att att_type="34" add="870"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2210"/>
+			<att att_type="1" add="2610"/>
+			<att att_type="3" add="7080"/>
+			<att att_type="34" add="870"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="28" exp="40500" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="2290"/>
+			<att att_type="2" add="2700"/>
+			<att att_type="3" add="7320"/>
+			<att att_type="34" add="900"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2290"/>
+			<att att_type="1" add="2700"/>
+			<att att_type="3" add="7320"/>
+			<att att_type="34" add="900"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2290"/>
+			<att att_type="1" add="2700"/>
+			<att att_type="3" add="7320"/>
+			<att att_type="34" add="900"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="29" exp="42000" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="2370"/>
+			<att att_type="2" add="2820"/>
+			<att att_type="3" add="7620"/>
+			<att att_type="34" add="940"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2370"/>
+			<att att_type="1" add="2820"/>
+			<att att_type="3" add="7620"/>
+			<att att_type="34" add="940"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2370"/>
+			<att att_type="1" add="2820"/>
+			<att att_type="3" add="7620"/>
+			<att att_type="34" add="940"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="30" exp="43500" speed="130">
+		<carr_att carr="2">
+			<att att_type="1" add="2450"/>
+			<att att_type="2" add="2910"/>
+			<att att_type="3" add="7860"/>
+			<att att_type="34" add="970"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2450"/>
+			<att att_type="1" add="2910"/>
+			<att att_type="3" add="7860"/>
+			<att att_type="34" add="970"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2450"/>
+			<att att_type="1" add="2910"/>
+			<att att_type="3" add="7860"/>
+			<att att_type="34" add="970"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="31" exp="45000" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="2530"/>
+			<att att_type="2" add="3000"/>
+			<att att_type="3" add="8100"/>
+			<att att_type="34" add="1000"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2530"/>
+			<att att_type="1" add="3000"/>
+			<att att_type="3" add="8100"/>
+			<att att_type="34" add="1000"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2530"/>
+			<att att_type="1" add="3000"/>
+			<att att_type="3" add="8100"/>
+			<att att_type="34" add="1000"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="32" exp="46500" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="2610"/>
+			<att att_type="2" add="3090"/>
+			<att att_type="3" add="8400"/>
+			<att att_type="34" add="1030"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2610"/>
+			<att att_type="1" add="3090"/>
+			<att att_type="3" add="8400"/>
+			<att att_type="34" add="1030"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2610"/>
+			<att att_type="1" add="3090"/>
+			<att att_type="3" add="8400"/>
+			<att att_type="34" add="1030"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="33" exp="48000" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="2700"/>
+			<att att_type="2" add="3210"/>
+			<att att_type="3" add="8640"/>
+			<att att_type="34" add="1070"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2700"/>
+			<att att_type="1" add="3210"/>
+			<att att_type="3" add="8640"/>
+			<att att_type="34" add="1070"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2700"/>
+			<att att_type="1" add="3210"/>
+			<att att_type="3" add="8640"/>
+			<att att_type="34" add="1070"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="34" exp="49500" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="2780"/>
+			<att att_type="2" add="3300"/>
+			<att att_type="3" add="8940"/>
+			<att att_type="34" add="1100"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2780"/>
+			<att att_type="1" add="3300"/>
+			<att att_type="3" add="8940"/>
+			<att att_type="34" add="1100"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2780"/>
+			<att att_type="1" add="3300"/>
+			<att att_type="3" add="8940"/>
+			<att att_type="34" add="1100"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="35" exp="51000" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="2860"/>
+			<att att_type="2" add="3390"/>
+			<att att_type="3" add="9180"/>
+			<att att_type="34" add="1130"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2860"/>
+			<att att_type="1" add="3390"/>
+			<att att_type="3" add="9180"/>
+			<att att_type="34" add="1130"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2860"/>
+			<att att_type="1" add="3390"/>
+			<att att_type="3" add="9180"/>
+			<att att_type="34" add="1130"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="36" exp="52500" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="2940"/>
+			<att att_type="2" add="3480"/>
+			<att att_type="3" add="9420"/>
+			<att att_type="34" add="1160"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="2940"/>
+			<att att_type="1" add="3480"/>
+			<att att_type="3" add="9420"/>
+			<att att_type="34" add="1160"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="2940"/>
+			<att att_type="1" add="3480"/>
+			<att att_type="3" add="9420"/>
+			<att att_type="34" add="1160"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="37" exp="54000" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="3020"/>
+			<att att_type="2" add="3600"/>
+			<att att_type="3" add="9720"/>
+			<att att_type="34" add="1200"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3020"/>
+			<att att_type="1" add="3600"/>
+			<att att_type="3" add="9720"/>
+			<att att_type="34" add="1200"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3020"/>
+			<att att_type="1" add="3600"/>
+			<att att_type="3" add="9720"/>
+			<att att_type="34" add="1200"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="38" exp="55500" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="3100"/>
+			<att att_type="2" add="3690"/>
+			<att att_type="3" add="9960"/>
+			<att att_type="34" add="1230"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3100"/>
+			<att att_type="1" add="3690"/>
+			<att att_type="3" add="9960"/>
+			<att att_type="34" add="1230"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3100"/>
+			<att att_type="1" add="3690"/>
+			<att att_type="3" add="9960"/>
+			<att att_type="34" add="1230"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="39" exp="57000" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="3190"/>
+			<att att_type="2" add="3780"/>
+			<att att_type="3" add="10200"/>
+			<att att_type="34" add="1260"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3190"/>
+			<att att_type="1" add="3780"/>
+			<att att_type="3" add="10200"/>
+			<att att_type="34" add="1260"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3190"/>
+			<att att_type="1" add="3780"/>
+			<att att_type="3" add="10200"/>
+			<att att_type="34" add="1260"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="40" exp="58500" speed="140">
+		<carr_att carr="2">
+			<att att_type="1" add="3270"/>
+			<att att_type="2" add="3870"/>
+			<att att_type="3" add="10500"/>
+			<att att_type="34" add="1290"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3270"/>
+			<att att_type="1" add="3870"/>
+			<att att_type="3" add="10500"/>
+			<att att_type="34" add="1290"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3270"/>
+			<att att_type="1" add="3870"/>
+			<att att_type="3" add="10500"/>
+			<att att_type="34" add="1290"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="41" exp="60000" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="3350"/>
+			<att att_type="2" add="3960"/>
+			<att att_type="3" add="10740"/>
+			<att att_type="34" add="1320"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3350"/>
+			<att att_type="1" add="3960"/>
+			<att att_type="3" add="10740"/>
+			<att att_type="34" add="1320"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3350"/>
+			<att att_type="1" add="3960"/>
+			<att att_type="3" add="10740"/>
+			<att att_type="34" add="1320"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="42" exp="61500" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="3430"/>
+			<att att_type="2" add="4080"/>
+			<att att_type="3" add="11040"/>
+			<att att_type="34" add="1360"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3430"/>
+			<att att_type="1" add="4080"/>
+			<att att_type="3" add="11040"/>
+			<att att_type="34" add="1360"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3430"/>
+			<att att_type="1" add="4080"/>
+			<att att_type="3" add="11040"/>
+			<att att_type="34" add="1360"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="43" exp="63000" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="3510"/>
+			<att att_type="2" add="4170"/>
+			<att att_type="3" add="11280"/>
+			<att att_type="34" add="1390"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3510"/>
+			<att att_type="1" add="4170"/>
+			<att att_type="3" add="11280"/>
+			<att att_type="34" add="1390"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3510"/>
+			<att att_type="1" add="4170"/>
+			<att att_type="3" add="11280"/>
+			<att att_type="34" add="1390"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="44" exp="64500" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="3590"/>
+			<att att_type="2" add="4260"/>
+			<att att_type="3" add="11520"/>
+			<att att_type="34" add="1420"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3590"/>
+			<att att_type="1" add="4260"/>
+			<att att_type="3" add="11520"/>
+			<att att_type="34" add="1420"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3590"/>
+			<att att_type="1" add="4260"/>
+			<att att_type="3" add="11520"/>
+			<att att_type="34" add="1420"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="45" exp="66000" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="3680"/>
+			<att att_type="2" add="4350"/>
+			<att att_type="3" add="11820"/>
+			<att att_type="34" add="1450"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3680"/>
+			<att att_type="1" add="4350"/>
+			<att att_type="3" add="11820"/>
+			<att att_type="34" add="1450"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3680"/>
+			<att att_type="1" add="4350"/>
+			<att att_type="3" add="11820"/>
+			<att att_type="34" add="1450"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="46" exp="67500" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="3760"/>
+			<att att_type="2" add="4470"/>
+			<att att_type="3" add="12060"/>
+			<att att_type="34" add="1490"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3760"/>
+			<att att_type="1" add="4470"/>
+			<att att_type="3" add="12060"/>
+			<att att_type="34" add="1490"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3760"/>
+			<att att_type="1" add="4470"/>
+			<att att_type="3" add="12060"/>
+			<att att_type="34" add="1490"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="47" exp="69000" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="3840"/>
+			<att att_type="2" add="4560"/>
+			<att att_type="3" add="12300"/>
+			<att att_type="34" add="1520"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3840"/>
+			<att att_type="1" add="4560"/>
+			<att att_type="3" add="12300"/>
+			<att att_type="34" add="1520"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3840"/>
+			<att att_type="1" add="4560"/>
+			<att att_type="3" add="12300"/>
+			<att att_type="34" add="1520"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="48" exp="70500" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="3920"/>
+			<att att_type="2" add="4650"/>
+			<att att_type="3" add="12600"/>
+			<att att_type="34" add="1550"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="3920"/>
+			<att att_type="1" add="4650"/>
+			<att att_type="3" add="12600"/>
+			<att att_type="34" add="1550"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="3920"/>
+			<att att_type="1" add="4650"/>
+			<att att_type="3" add="12600"/>
+			<att att_type="34" add="1550"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="49" exp="72000" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="4000"/>
+			<att att_type="2" add="4740"/>
+			<att att_type="3" add="12840"/>
+			<att att_type="34" add="1580"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4000"/>
+			<att att_type="1" add="4740"/>
+			<att att_type="3" add="12840"/>
+			<att att_type="34" add="1580"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4000"/>
+			<att att_type="1" add="4740"/>
+			<att att_type="3" add="12840"/>
+			<att att_type="34" add="1580"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="50" exp="73500" speed="150">
+		<carr_att carr="2">
+			<att att_type="1" add="4090"/>
+			<att att_type="2" add="4860"/>
+			<att att_type="3" add="13140"/>
+			<att att_type="34" add="1620"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4090"/>
+			<att att_type="1" add="4860"/>
+			<att att_type="3" add="13140"/>
+			<att att_type="34" add="1620"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4090"/>
+			<att att_type="1" add="4860"/>
+			<att att_type="3" add="13140"/>
+			<att att_type="34" add="1620"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="51" exp="75000" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4170"/>
+			<att att_type="2" add="4950"/>
+			<att att_type="3" add="13380"/>
+			<att att_type="34" add="1650"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4170"/>
+			<att att_type="1" add="4950"/>
+			<att att_type="3" add="13380"/>
+			<att att_type="34" add="1650"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4170"/>
+			<att att_type="1" add="4950"/>
+			<att att_type="3" add="13380"/>
+			<att att_type="34" add="1650"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="52" exp="76500" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4250"/>
+			<att att_type="2" add="5040"/>
+			<att att_type="3" add="13620"/>
+			<att att_type="34" add="1680"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4250"/>
+			<att att_type="1" add="5040"/>
+			<att att_type="3" add="13620"/>
+			<att att_type="34" add="1680"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4250"/>
+			<att att_type="1" add="5040"/>
+			<att att_type="3" add="13620"/>
+			<att att_type="34" add="1680"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="53" exp="78000" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4330"/>
+			<att att_type="2" add="5130"/>
+			<att att_type="3" add="13920"/>
+			<att att_type="34" add="1710"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4330"/>
+			<att att_type="1" add="5130"/>
+			<att att_type="3" add="13920"/>
+			<att att_type="34" add="1710"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4330"/>
+			<att att_type="1" add="5130"/>
+			<att att_type="3" add="13920"/>
+			<att att_type="34" add="1710"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="54" exp="79500" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4410"/>
+			<att att_type="2" add="5220"/>
+			<att att_type="3" add="14160"/>
+			<att att_type="34" add="1740"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4410"/>
+			<att att_type="1" add="5220"/>
+			<att att_type="3" add="14160"/>
+			<att att_type="34" add="1740"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4410"/>
+			<att att_type="1" add="5220"/>
+			<att att_type="3" add="14160"/>
+			<att att_type="34" add="1740"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="55" exp="81000" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4490"/>
+			<att att_type="2" add="5340"/>
+			<att att_type="3" add="14400"/>
+			<att att_type="34" add="1780"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4490"/>
+			<att att_type="1" add="5340"/>
+			<att att_type="3" add="14400"/>
+			<att att_type="34" add="1780"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4490"/>
+			<att att_type="1" add="5340"/>
+			<att att_type="3" add="14400"/>
+			<att att_type="34" add="1780"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="56" exp="82500" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4580"/>
+			<att att_type="2" add="5430"/>
+			<att att_type="3" add="14700"/>
+			<att att_type="34" add="1810"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4580"/>
+			<att att_type="1" add="5430"/>
+			<att att_type="3" add="14700"/>
+			<att att_type="34" add="1810"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4580"/>
+			<att att_type="1" add="5430"/>
+			<att att_type="3" add="14700"/>
+			<att att_type="34" add="1810"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="57" exp="84000" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4660"/>
+			<att att_type="2" add="5520"/>
+			<att att_type="3" add="14940"/>
+			<att att_type="34" add="1840"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4660"/>
+			<att att_type="1" add="5520"/>
+			<att att_type="3" add="14940"/>
+			<att att_type="34" add="1840"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4660"/>
+			<att att_type="1" add="5520"/>
+			<att att_type="3" add="14940"/>
+			<att att_type="34" add="1840"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="58" exp="85500" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4740"/>
+			<att att_type="2" add="5610"/>
+			<att att_type="3" add="15180"/>
+			<att att_type="34" add="1870"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4740"/>
+			<att att_type="1" add="5610"/>
+			<att att_type="3" add="15180"/>
+			<att att_type="34" add="1870"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4740"/>
+			<att att_type="1" add="5610"/>
+			<att att_type="3" add="15180"/>
+			<att att_type="34" add="1870"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="59" exp="87000" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4820"/>
+			<att att_type="2" add="5730"/>
+			<att att_type="3" add="15480"/>
+			<att att_type="34" add="1910"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4820"/>
+			<att att_type="1" add="5730"/>
+			<att att_type="3" add="15480"/>
+			<att att_type="34" add="1910"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4820"/>
+			<att att_type="1" add="5730"/>
+			<att att_type="3" add="15480"/>
+			<att att_type="34" add="1910"/>
+		</carr_att>
+	</lvl_info>
+	<lvl_info lvl="60" speed="160">
+		<carr_att carr="2">
+			<att att_type="1" add="4900"/>
+			<att att_type="2" add="5820"/>
+			<att att_type="3" add="15720"/>
+			<att att_type="34" add="1940"/>
+		</carr_att>
+		<carr_att carr="3">
+			<att att_type="4" add="4900"/>
+			<att att_type="1" add="5820"/>
+			<att att_type="3" add="15720"/>
+			<att att_type="34" add="1940"/>
+		</carr_att>
+		<carr_att carr="5">
+			<att att_type="2" add="4900"/>
+			<att att_type="1" add="5820"/>
+			<att att_type="3" add="15720"/>
+			<att att_type="34" add="1940"/>
+		</carr_att>
+	</lvl_info>	
+    <!--坐骑天赋-->
+	<!--gift_type:
+	1 风 
+	2 火
+	3 雷
+	4 冰
+	5 土-->
+	<gift_info lvl="0" num="5">
+	    <gift_type type="1">
+			<att att_type="6" add="0"/>
+			<att att_type="7" add="0"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="0"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="0"/>
+			<att att_type="9" add="0"/>
+			<att att_type="10" add="0"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="0"/>
+			<att att_type="5" add="0"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="0"/>
+			<att att_type="12" add="0"/>
+			<att att_type="13" add="0"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="1" num="10">
+	    <gift_type type="1">
+			<att att_type="6" add="35"/>
+			<att att_type="7" add="35"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="3500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="26"/>
+			<att att_type="9" add="26"/>
+			<att att_type="10" add="26"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="40"/>
+			<att att_type="5" add="60"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="24"/>
+			<att att_type="12" add="24"/>
+			<att att_type="13" add="24"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="2" num="15">
+	    <gift_type type="1">
+			<att att_type="6" add="70"/>
+			<att att_type="7" add="70"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="7000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="52"/>
+			<att att_type="9" add="52"/>
+			<att att_type="10" add="52"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="80"/>
+			<att att_type="5" add="120"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="49"/>
+			<att att_type="12" add="49"/>
+			<att att_type="13" add="49"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="3" num="20">
+	    <gift_type type="1">
+			<att att_type="6" add="105"/>
+			<att att_type="7" add="105"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="10500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="77"/>
+			<att att_type="9" add="77"/>
+			<att att_type="10" add="77"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="120"/>
+			<att att_type="5" add="180"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="73"/>
+			<att att_type="12" add="73"/>
+			<att att_type="13" add="73"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="4" num="25">
+	    <gift_type type="1">
+			<att att_type="6" add="140"/>
+			<att att_type="7" add="140"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="14000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="103"/>
+			<att att_type="9" add="103"/>
+			<att att_type="10" add="103"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="160"/>
+			<att att_type="5" add="240"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="97"/>
+			<att att_type="12" add="97"/>
+			<att att_type="13" add="97"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="5" num="30">
+	    <gift_type type="1">
+			<att att_type="6" add="175"/>
+			<att att_type="7" add="175"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="17500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="129"/>
+			<att att_type="9" add="129"/>
+			<att att_type="10" add="129"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="200"/>
+			<att att_type="5" add="300"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="121"/>
+			<att att_type="12" add="121"/>
+			<att att_type="13" add="121"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="6" num="35">
+	    <gift_type type="1">
+			<att att_type="6" add="210"/>
+			<att att_type="7" add="210"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="21000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="155"/>
+			<att att_type="9" add="155"/>
+			<att att_type="10" add="155"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="240"/>
+			<att att_type="5" add="360"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="146"/>
+			<att att_type="12" add="146"/>
+			<att att_type="13" add="146"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="7" num="40">
+	    <gift_type type="1">
+			<att att_type="6" add="245"/>
+			<att att_type="7" add="245"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="24500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="180"/>
+			<att att_type="9" add="180"/>
+			<att att_type="10" add="180"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="280"/>
+			<att att_type="5" add="420"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="170"/>
+			<att att_type="12" add="170"/>
+			<att att_type="13" add="170"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="8" num="45">
+	    <gift_type type="1">
+			<att att_type="6" add="280"/>
+			<att att_type="7" add="280"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="28000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="206"/>
+			<att att_type="9" add="206"/>
+			<att att_type="10" add="206"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="320"/>
+			<att att_type="5" add="480"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="194"/>
+			<att att_type="12" add="194"/>
+			<att att_type="13" add="194"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="9" num="50">
+	    <gift_type type="1">
+			<att att_type="6" add="315"/>
+			<att att_type="7" add="315"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="31500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="232"/>
+			<att att_type="9" add="232"/>
+			<att att_type="10" add="232"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="360"/>
+			<att att_type="5" add="540"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="218"/>
+			<att att_type="12" add="218"/>
+			<att att_type="13" add="218"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="10" num="55">
+	    <gift_type type="1">
+			<att att_type="6" add="420"/>
+			<att att_type="7" add="420"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="42000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="308"/>
+			<att att_type="9" add="308"/>
+			<att att_type="10" add="308"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="480"/>
+			<att att_type="5" add="720"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="293"/>
+			<att att_type="12" add="293"/>
+			<att att_type="13" add="293"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="11" num="60">
+	    <gift_type type="1">
+			<att att_type="6" add="455"/>
+			<att att_type="7" add="455"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="45500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="333"/>
+			<att att_type="9" add="333"/>
+			<att att_type="10" add="333"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="540"/>
+			<att att_type="5" add="780"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="317"/>
+			<att att_type="12" add="317"/>
+			<att att_type="13" add="317"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="12" num="65">
+	    <gift_type type="1">
+			<att att_type="6" add="490"/>
+			<att att_type="7" add="490"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="49000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="359"/>
+			<att att_type="9" add="359"/>
+			<att att_type="10" add="359"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="560"/>
+			<att att_type="5" add="840"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="341"/>
+			<att att_type="12" add="341"/>
+			<att att_type="13" add="341"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="13" num="70">
+	    <gift_type type="1">
+			<att att_type="6" add="525"/>
+			<att att_type="7" add="525"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="52500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="385"/>
+			<att att_type="9" add="385"/>
+			<att att_type="10" add="385"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="600"/>
+			<att att_type="5" add="900"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="365"/>
+			<att att_type="12" add="365"/>
+			<att att_type="13" add="365"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="14" num="75">
+	    <gift_type type="1">
+			<att att_type="6" add="560"/>
+			<att att_type="7" add="560"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="56000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="411"/>
+			<att att_type="9" add="411"/>
+			<att att_type="10" add="411"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="640"/>
+			<att att_type="5" add="960"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="390"/>
+			<att att_type="12" add="390"/>
+			<att att_type="13" add="390"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="15" num="80">
+	    <gift_type type="1">
+			<att att_type="6" add="595"/>
+			<att att_type="7" add="595"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="59500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="436"/>
+			<att att_type="9" add="436"/>
+			<att att_type="10" add="436"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="680"/>
+			<att att_type="5" add="1020"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="414"/>
+			<att att_type="12" add="414"/>
+			<att att_type="13" add="414"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="16" num="85">
+	    <gift_type type="1">
+			<att att_type="6" add="630"/>
+			<att att_type="7" add="630"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="63000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="462"/>
+			<att att_type="9" add="462"/>
+			<att att_type="10" add="462"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="720"/>
+			<att att_type="5" add="1080"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="438"/>
+			<att att_type="12" add="438"/>
+			<att att_type="13" add="438"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="17" num="90">
+	    <gift_type type="1">
+			<att att_type="6" add="665"/>
+			<att att_type="7" add="665"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="66500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="488"/>
+			<att att_type="9" add="488"/>
+			<att att_type="10" add="488"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="760"/>
+			<att att_type="5" add="1140"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="462"/>
+			<att att_type="12" add="462"/>
+			<att att_type="13" add="462"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="18" num="95">
+	    <gift_type type="1">
+			<att att_type="6" add="700"/>
+			<att att_type="7" add="700"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="70000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="514"/>
+			<att att_type="9" add="514"/>
+			<att att_type="10" add="514"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="800"/>
+			<att att_type="5" add="1200"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="487"/>
+			<att att_type="12" add="487"/>
+			<att att_type="13" add="487"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="19" num="100">
+	    <gift_type type="1">
+			<att att_type="6" add="735"/>
+			<att att_type="7" add="735"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="73500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="539"/>
+			<att att_type="9" add="539"/>
+			<att att_type="10" add="539"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="840"/>
+			<att att_type="5" add="1260"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="511"/>
+			<att att_type="12" add="511"/>
+			<att att_type="13" add="511"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="20" num="105">
+	    <gift_type type="1">
+			<att att_type="6" add="840"/>
+			<att att_type="7" add="840"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="84000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="615"/>
+			<att att_type="9" add="615"/>
+			<att att_type="10" add="615"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="960"/>
+			<att att_type="5" add="1440"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="585"/>
+			<att att_type="12" add="585"/>
+			<att att_type="13" add="585"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="21" num="110">
+	    <gift_type type="1">
+			<att att_type="6" add="875"/>
+			<att att_type="7" add="875"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="87500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="641"/>
+			<att att_type="9" add="641"/>
+			<att att_type="10" add="641"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1000"/>
+			<att att_type="5" add="1500"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="609"/>
+			<att att_type="12" add="609"/>
+			<att att_type="13" add="609"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="22" num="115">
+	    <gift_type type="1">
+			<att att_type="6" add="910"/>
+			<att att_type="7" add="910"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="91000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="667"/>
+			<att att_type="9" add="667"/>
+			<att att_type="10" add="667"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1040"/>
+			<att att_type="5" add="1560"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="634"/>
+			<att att_type="12" add="634"/>
+			<att att_type="13" add="634"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="23" num="120">
+	    <gift_type type="1">
+			<att att_type="6" add="945"/>
+			<att att_type="7" add="945"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="94500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="692"/>
+			<att att_type="9" add="692"/>
+			<att att_type="10" add="692"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1080"/>
+			<att att_type="5" add="1620"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="658"/>
+			<att att_type="12" add="658"/>
+			<att att_type="13" add="658"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="24" num="125">
+	    <gift_type type="1">
+			<att att_type="6" add="980"/>
+			<att att_type="7" add="980"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="98000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="718"/>
+			<att att_type="9" add="718"/>
+			<att att_type="10" add="718"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1120"/>
+			<att att_type="5" add="1680"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="682"/>
+			<att att_type="12" add="682"/>
+			<att att_type="13" add="682"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="25" num="130">
+	    <gift_type type="1">
+			<att att_type="6" add="1015"/>
+			<att att_type="7" add="1015"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="101500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="744"/>
+			<att att_type="9" add="744"/>
+			<att att_type="10" add="744"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1160"/>
+			<att att_type="5" add="1740"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="706"/>
+			<att att_type="12" add="706"/>
+			<att att_type="13" add="706"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="26" num="135">
+	    <gift_type type="1">
+			<att att_type="6" add="1050"/>
+			<att att_type="7" add="1050"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="105000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="770"/>
+			<att att_type="9" add="770"/>
+			<att att_type="10" add="770"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1200"/>
+			<att att_type="5" add="1800"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="731"/>
+			<att att_type="12" add="731"/>
+			<att att_type="13" add="731"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="27" num="140">
+	    <gift_type type="1">
+			<att att_type="6" add="1085"/>
+			<att att_type="7" add="1085"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="108500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="795"/>
+			<att att_type="9" add="795"/>
+			<att att_type="10" add="795"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1240"/>
+			<att att_type="5" add="1860"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="755"/>
+			<att att_type="12" add="755"/>
+			<att att_type="13" add="755"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="28" num="145">
+	    <gift_type type="1">
+			<att att_type="6" add="1120"/>
+			<att att_type="7" add="1120"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="112000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="821"/>
+			<att att_type="9" add="821"/>
+			<att att_type="10" add="821"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1280"/>
+			<att att_type="5" add="1920"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="779"/>
+			<att att_type="12" add="779"/>
+			<att att_type="13" add="779"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="29" num="150">
+	    <gift_type type="1">
+			<att att_type="6" add="1155"/>
+			<att att_type="7" add="1155"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="115500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="847"/>
+			<att att_type="9" add="847"/>
+			<att att_type="10" add="847"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1320"/>
+			<att att_type="5" add="1980"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="803"/>
+			<att att_type="12" add="803"/>
+			<att att_type="13" add="803"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="30" num="155">
+	    <gift_type type="1">
+			<att att_type="6" add="1260"/>
+			<att att_type="7" add="1260"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="126000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="923"/>
+			<att att_type="9" add="923"/>
+			<att att_type="10" add="923"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1440"/>
+			<att att_type="5" add="2160"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="878"/>
+			<att att_type="12" add="878"/>
+			<att att_type="13" add="878"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="31" num="160">
+	    <gift_type type="1">
+			<att att_type="6" add="1295"/>
+			<att att_type="7" add="1295"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="129500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="948"/>
+			<att att_type="9" add="948"/>
+			<att att_type="10" add="948"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1480"/>
+			<att att_type="5" add="2220"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="902"/>
+			<att att_type="12" add="902"/>
+			<att att_type="13" add="902"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="32" num="165">
+	    <gift_type type="1">
+			<att att_type="6" add="1330"/>
+			<att att_type="7" add="1330"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="133000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="974"/>
+			<att att_type="9" add="974"/>
+			<att att_type="10" add="974"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1520"/>
+			<att att_type="5" add="2280"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="926"/>
+			<att att_type="12" add="926"/>
+			<att att_type="13" add="926"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="33" num="170">
+	    <gift_type type="1">
+			<att att_type="6" add="1365"/>
+			<att att_type="7" add="1365"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="136500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1000"/>
+			<att att_type="9" add="1000"/>
+			<att att_type="10" add="1000"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1560"/>
+			<att att_type="5" add="2340"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="950"/>
+			<att att_type="12" add="950"/>
+			<att att_type="13" add="950"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="34" num="175">
+	    <gift_type type="1">
+			<att att_type="6" add="1400"/>
+			<att att_type="7" add="1400"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="140000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1026"/>
+			<att att_type="9" add="1026"/>
+			<att att_type="10" add="1026"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1600"/>
+			<att att_type="5" add="2400"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="975"/>
+			<att att_type="12" add="975"/>
+			<att att_type="13" add="975"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="35" num="180">
+	    <gift_type type="1">
+			<att att_type="6" add="1435"/>
+			<att att_type="7" add="1435"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="143500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1051"/>
+			<att att_type="9" add="1051"/>
+			<att att_type="10" add="1051"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1640"/>
+			<att att_type="5" add="2460"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="999"/>
+			<att att_type="12" add="999"/>
+			<att att_type="13" add="999"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="36" num="185">
+	    <gift_type type="1">
+			<att att_type="6" add="1470"/>
+			<att att_type="7" add="1470"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="147000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1077"/>
+			<att att_type="9" add="1077"/>
+			<att att_type="10" add="1077"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1680"/>
+			<att att_type="5" add="2520"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1023"/>
+			<att att_type="12" add="1023"/>
+			<att att_type="13" add="1023"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="37" num="190">
+	    <gift_type type="1">
+			<att att_type="6" add="1505"/>
+			<att att_type="7" add="1505"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="150500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1103"/>
+			<att att_type="9" add="1103"/>
+			<att att_type="10" add="1103"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1720"/>
+			<att att_type="5" add="2580"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1047"/>
+			<att att_type="12" add="1047"/>
+			<att att_type="13" add="1047"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="38" num="195">
+	    <gift_type type="1">
+			<att att_type="6" add="1540"/>
+			<att att_type="7" add="1540"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="154000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1129"/>
+			<att att_type="9" add="1129"/>
+			<att att_type="10" add="1129"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1760"/>
+			<att att_type="5" add="2640"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1072"/>
+			<att att_type="12" add="1072"/>
+			<att att_type="13" add="1072"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="39" num="200">
+	    <gift_type type="1">
+			<att att_type="6" add="1575"/>
+			<att att_type="7" add="1575"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="157500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1154"/>
+			<att att_type="9" add="1154"/>
+			<att att_type="10" add="1154"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1800"/>
+			<att att_type="5" add="2700"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1096"/>
+			<att att_type="12" add="1096"/>
+			<att att_type="13" add="1096"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="40" num="205">
+	    <gift_type type="1">
+			<att att_type="6" add="1680"/>
+			<att att_type="7" add="1680"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="168000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1230"/>
+			<att att_type="9" add="1230"/>
+			<att att_type="10" add="1230"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1920"/>
+			<att att_type="5" add="2880"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1170"/>
+			<att att_type="12" add="1170"/>
+			<att att_type="13" add="1170"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="41" num="210">
+	    <gift_type type="1">
+			<att att_type="6" add="1715"/>
+			<att att_type="7" add="1715"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="171500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1256"/>
+			<att att_type="9" add="1256"/>
+			<att att_type="10" add="1256"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="1960"/>
+			<att att_type="5" add="2940"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1194"/>
+			<att att_type="12" add="1194"/>
+			<att att_type="13" add="1194"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="42" num="215">
+	    <gift_type type="1">
+			<att att_type="6" add="1750"/>
+			<att att_type="7" add="1750"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="175000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1282"/>
+			<att att_type="9" add="1282"/>
+			<att att_type="10" add="1282"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="2000"/>
+			<att att_type="5" add="3000"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1219"/>
+			<att att_type="12" add="1219"/>
+			<att att_type="13" add="1219"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="43" num="220">
+	    <gift_type type="1">
+			<att att_type="6" add="1785"/>
+			<att att_type="7" add="1785"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="178500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1307"/>
+			<att att_type="9" add="1307"/>
+			<att att_type="10" add="1307"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="2040"/>
+			<att att_type="5" add="3060"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1243"/>
+			<att att_type="12" add="1243"/>
+			<att att_type="13" add="1243"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="44" num="225">
+	    <gift_type type="1">
+			<att att_type="6" add="1820"/>
+			<att att_type="7" add="1820"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="182000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1333"/>
+			<att att_type="9" add="1333"/>
+			<att att_type="10" add="1333"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="2080"/>
+			<att att_type="5" add="3120"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1267"/>
+			<att att_type="12" add="1267"/>
+			<att att_type="13" add="1267"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="45" num="230">
+	    <gift_type type="1">
+			<att att_type="6" add="1855"/>
+			<att att_type="7" add="1855"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="185500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1359"/>
+			<att att_type="9" add="1359"/>
+			<att att_type="10" add="1359"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="2120"/>
+			<att att_type="5" add="3180"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1291"/>
+			<att att_type="12" add="1291"/>
+			<att att_type="13" add="1291"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="46" num="235">
+	    <gift_type type="1">
+			<att att_type="6" add="1890"/>
+			<att att_type="7" add="1890"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="189000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1385"/>
+			<att att_type="9" add="1385"/>
+			<att att_type="10" add="1385"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="2160"/>
+			<att att_type="5" add="3240"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1316"/>
+			<att att_type="12" add="1316"/>
+			<att att_type="13" add="1316"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="47" num="240">
+	    <gift_type type="1">
+			<att att_type="6" add="1925"/>
+			<att att_type="7" add="1925"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="192500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1410"/>
+			<att att_type="9" add="1410"/>
+			<att att_type="10" add="1410"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="2200"/>
+			<att att_type="5" add="3300"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1340"/>
+			<att att_type="12" add="1340"/>
+			<att att_type="13" add="1340"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="48" num="245">
+	    <gift_type type="1">
+			<att att_type="6" add="1960"/>
+			<att att_type="7" add="1960"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="196000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1436"/>
+			<att att_type="9" add="1436"/>
+			<att att_type="10" add="1436"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="2240"/>
+			<att att_type="5" add="3360"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1364"/>
+			<att att_type="12" add="1364"/>
+			<att att_type="13" add="1364"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="49" num="250">
+	    <gift_type type="1">
+			<att att_type="6" add="1995"/>
+			<att att_type="7" add="1995"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="199500"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1462"/>
+			<att att_type="9" add="1462"/>
+			<att att_type="10" add="1462"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="2280"/>
+			<att att_type="5" add="3420"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1388"/>
+			<att att_type="12" add="1388"/>
+			<att att_type="13" add="1388"/>
+		</gift_type>
+	</gift_info>
+	<gift_info lvl="50">
+	    <gift_type type="1">
+			<att att_type="6" add="2100"/>
+			<att att_type="7" add="2100"/>
+		</gift_type>
+		<gift_type type="2">
+			<att att_type="14" add="210000"/>
+		</gift_type>
+		<gift_type type="3">
+			<att att_type="8" add="1538"/>
+			<att att_type="9" add="1538"/>
+			<att att_type="10" add="1538"/>
+		</gift_type>
+		<gift_type type="4">
+			<att att_type="38" add="2400"/>
+			<att att_type="5" add="3600"/>
+		</gift_type>
+		<gift_type type="5">
+			<att att_type="11" add="1463"/>
+			<att att_type="12" add="1463"/>
+			<att att_type="13" add="1463"/>
+		</gift_type>
+	</gift_info>
+	<!--坐骑幻化
+		condition 多条件  (没有这个字段任意条件都可以)
+		unlock type:1坐骑等级,2外观碎片,3外观卡 condition
+    -->
+	<mount id="1001" name="军团战马" desc="初始" avatar="skin4" icon="1005">
+		<unlock type="1" lvl="1"/>
+	</mount>
+	<mount id="1002" name="幽冥战马" desc="坐骑10级解锁" avatar="skin1" condition="1" icon="1001">
+		<unlock type="1" lvl="10"/>
+		<unlock type="2" need_item="1516" need_num="10"/>
+	</mount>
+	<mount id="1003" name="钢甲巨兽" desc="坐骑20级解锁" avatar="skin0" condition="1" icon="1002">
+		<unlock type="1" lvl="20"/>
+		<unlock type="2" need_item="1516" need_num="15"/>
+	</mount>
+	<mount id="1004" name="沧澜幼龙" desc="坐骑30级解锁" avatar="skin2" condition="1" icon="1003">
+		<unlock type="1" lvl="30"/>
+		<unlock type="2" need_item="1516" need_num="20"/>
+	</mount>
+	<mount id="1005" name="夜魇" desc="坐骑40级解锁" avatar="skin3" condition="1" icon="1004">
+		<unlock type="1" lvl="40"/>
+		<unlock type="2" need_item="1516" need_num="30"/>
+	</mount>
+	<mount id="1006" name="烈焰暴君" desc="攻城奖励" avatar="skin5" condition="1" icon="1006">
+		<unlock type="2" need_item="6001" need_num="1"/>
+	</mount>
+	<mount id="1007" name="炼狱战马" desc="坐骑10级解锁" avatar="skin7" condition="1" icon="1007">
+		<unlock type="1" lvl="10"/>
+		<unlock type="2" need_item="1516" need_num="15"/>
+	</mount>
+	<mount id="1008" name="骸骨战马" desc="坐骑10级解锁" avatar="skin8" condition="1" icon="1008">
+		<unlock type="1" lvl="10"/>
+		<unlock type="2" need_item="1516" need_num="15"/>
+	</mount>
+	<mount id="1009" name="赤钢巨兽" desc="坐骑20级解锁" avatar="skin6" condition="1" icon="1009">
+		<unlock type="1" lvl="10"/>
+		<unlock type="2" need_item="1516" need_num="20"/>
+	</mount>
+	
+	<!--	
+	id = "1001" 坐骑模型id
+	career  id  对应的职业  1.刺客 2.法师 3.战士
+	坐骑模型transform 调整 
+	positon="x,y,z"    位置
+	rotation ="x,y,z"  旋转
+	yinziposition  影子位置的调整
+	yinziscale     影子大小的调整
+	baseoffest   上升高度
+    --> 
+	
+
+	<transform id="1001">    
+		<career id="1" postion="0.03,0.01,-1.79" rotation="180,90,90" scale="1,1,1" baseoffest="0.3" yinziposition="0,0.1,0.33" yinziscale="2,2,3"  />
+		<career id="2" postion="0.03,0.01,-1.79" rotation="180,90,90" scale="1,1,1" baseoffest="0.3" yinziposition="0,0.1,0.33" yinziscale="2,2,3"  />
+		<career id="3" postion="0.03,0.01,-1.79" rotation="180,90,90" scale="1,1,1" baseoffest="0.3" yinziposition="0,0.1,0.33" yinziscale="2,2,3"  />	
+	</transform>   	
+	
+	 <transform id="1002"> 
+		<career id="1" postion="-0.06,0.01,-2.414" rotation="180,90,90" scale="1.2,1.2,1.2" baseoffest="0.7" yinziposition="0,0,-0.16" yinziscale="2,2,3"  runpostion="-0.06,0.01,-2.26" />  
+		<career id="2" postion="-0.08,0.01,-2.414" rotation="180,90,90" scale="1.2,1.2,1.2" baseoffest="0.7" yinziposition="0,0,-0.16" yinziscale="2,2,3"  runpostion="-0.08,0.01,-2.26" />
+		<career id="3" postion="-0.18,0.01,-2.414" rotation="180,90,90" scale="1.2,1.2,1.2" baseoffest="0.7" yinziposition="0,0,-0.16" yinziscale="2,2,3"  runpostion="-0.18,0.01,-2.26" />	
+	</transform> 
+	
+	
+	<transform id="1003">
+		<career id="1" postion="0.23,0,-1.711" rotation="180,90,90" scale="1.1,1.1,1.1" baseoffest="0" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+		<career id="2" postion="0.23,0,-1.62" rotation="180,90,90" scale="1.1,1.1,1.1" baseoffest="0" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+		<career id="3" postion="0.23,0,-1.62" rotation="180,90,90" scale="1.1,1.1,1.1" baseoffest="0" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+	</transform> 
+   
+    <transform id="1004">
+		<career id="1" postion="-0.01,0,-2.273" rotation="180,90,90" scale="0.85,0.85,0.85" baseoffest="0.55" yinziposition="0.11,0.1,-0.23" yinziscale="2,2,2"/>
+		<career id="2" postion="-0.01,0,-2.227" rotation="180,90,90" scale="0.85,0.85,0.85" baseoffest="0.55" yinziposition="0.11,0.1,-0.23" yinziscale="2,2,3"/>
+		<career id="3" postion="-0.01,0,-2.121" rotation="180,90,90" scale="0.85,0.85,0.85" baseoffest="0.5" yinziposition="0.11,0.1,-0.23" yinziscale="2,2,3"/>	
+	</transform>   
+	
+    <transform id="1005">    
+		<career id="1" postion="0.151,0,-1.698" rotation="180,90,90" scale="1,1,1" baseoffest="0" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+		<career id="2" postion="0.076,0,-1.722" rotation="180,90,90" scale="1,1,1" baseoffest="0" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+		<career id="3" postion="0.124,0,-1.671" rotation="180,90,90" scale="1,1,1" baseoffest="0" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>	
+	</transform>  
+	
+	 <transform id="1006">    
+		<career id="1" postion="-0.52,0,-2.56" rotation="180,90,90" scale="1,1,1" baseoffest="0.8" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+		<career id="2" postion="-0.52,0,-2.56" rotation="180,90,90" scale="1,1,1" baseoffest="0.8" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+		<career id="3" postion="-0.52,0,-2.56" rotation="180,90,90" scale="1,1,1" baseoffest="0.8" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>	
+	</transform>  	
+	
+	 <transform id="1007"> 
+		<career id="1" postion="-0.06,0.01,-2.414" rotation="180,90,90" scale="1.2,1.2,1.2" baseoffest="0.7" yinziposition="0,0,-0.16" yinziscale="2,2,3"  runpostion="-0.06,0.01,-2.26" />  
+		<career id="2" postion="-0.08,0.01,-2.414" rotation="180,90,90" scale="1.2,1.2,1.2" baseoffest="0.7" yinziposition="0,0,-0.16" yinziscale="2,2,3"  runpostion="-0.08,0.01,-2.26" />
+		<career id="3" postion="-0.18,0.01,-2.414" rotation="180,90,90" scale="1.2,1.2,1.2" baseoffest="0.7" yinziposition="0,0,-0.16" yinziscale="2,2,3"  runpostion="-0.18,0.01,-2.26" />	
+	</transform>  	
+	
+	 <transform id="1008"> 
+		<career id="1" postion="-0.06,0.01,-2.414" rotation="180,90,90" scale="1.2,1.2,1.2" baseoffest="0.7" yinziposition="0,0,-0.16" yinziscale="2,2,3"  runpostion="-0.06,0.01,-2.26" />  
+		<career id="2" postion="-0.08,0.01,-2.414" rotation="180,90,90" scale="1.2,1.2,1.2" baseoffest="0.7" yinziposition="0,0,-0.16" yinziscale="2,2,3"  runpostion="-0.08,0.01,-2.26" />
+		<career id="3" postion="-0.18,0.01,-2.414" rotation="180,90,90" scale="1.2,1.2,1.2" baseoffest="0.7" yinziposition="0,0,-0.16" yinziscale="2,2,3"  runpostion="-0.18,0.01,-2.26" />	
+	</transform> 
+	
+	
+	<transform id="1009">
+		<career id="1" postion="0.23,0,-1.711" rotation="180,90,90" scale="1.1,1.1,1.1" baseoffest="0" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+		<career id="2" postion="0.23,0,-1.62" rotation="180,90,90" scale="1.1,1.1,1.1" baseoffest="0" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+		<career id="3" postion="0.23,0,-1.62" rotation="180,90,90" scale="1.1,1.1,1.1" baseoffest="0" yinziposition="0,0.1,0.33" yinziscale="2,2,3"/>
+	</transform> 
+	
+   <!--		
+	  Weapon 位置的调整	   
+	      -->   
+	<Weapon id="1">  
+		<Rigth postion="-0.101,0.756,-0.309" rotation="31.76,-127.725,-46.561"/>
+		<Left postion="-0.132,-0.604,-0.406" rotation="218.52,51.51599,25.35199"/>
+	</Weapon>
+	<Weapon id="2">
+		<Rigth postion="-1.2,0.29,1.29" rotation="-39.859,101.468,-41.596"/>
+		<Left postion="-0.679,0.278,-0.115" rotation="43.313,-84.424,-63.624"/>
+	</Weapon>  
+	<Weapon id="3">
+		<Rigth postion="-1.269,1.233,0.008" rotation="48.647,113.204,30.99"/>
+		<Left postion="-1.269,1.233,0.008" rotation="48.647,113.204,30.99"/>
+	</Weapon>	
+</ride>

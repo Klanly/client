@@ -1,0 +1,95 @@
+<clanwar>
+	<arena_info name="攻城战" desc="战场描述" ltpid="8000" max_atknum="3" />
+
+	<open_tm id="1" name="攻城战" date="6," > 
+	  <time id="1" start_h="19" start_m="00" end_h="19" end_m="30"/>
+	</open_tm>
+
+	<apply_tm date="4" start_h="14" start_m="00" end_h="17" end_m="00" min_cost="200" max_cost="900" change_min= "100"/>
+	
+	<!--战场数据 战场准备时间、玩家复活时间、算伤害的怪物、显示血量的怪物-->
+	<arenatime preptm="30" revive="10" boss_mid="3233" mid_hp="3232,3233,"/>
+	
+	<!--荣誉获得   杀人、助攻-->
+	<prestige kill="3" sup="1" />
+	
+	
+	<!--会长奖励-->
+	<clanwin_awd clan_c_tp="4">
+      <RewardItem item_id="3126" value="1"/>
+      <RewardItem item_id="6001" value="1"/>
+    </clanwin_awd>
+	
+	<!-- 防守方提升 -->
+	<def_info id="1" mid="3232,3233" intensify_type="14," name="防御" value_name="提升防御">
+		<lvl lv="1" cost="100" value="300"/>
+		<lvl lv="2" cost="100" value="500"/>
+		<lvl lv="3" cost="100" value="750"/>
+	</def_info>
+	<def_info id="2" mid="3232,3233" intensify_type="5,38" name="攻击" value_name="提升攻击">
+		<lvl lv="1" cost="100" value="400"/>
+		<lvl lv="2" cost="100" value="800"/>
+		<lvl lv="3" cost="100" value="1500"/>
+	</def_info>
+	<def_info id="3" mid="3232,3233" intensify_type="14," name="暴击" value_name="提升暴击">
+		<lvl lv="1" cost="100" value="100"/>
+		<lvl lv="2" cost="100" value="200"/>
+		<lvl lv="3" cost="100" value="300"/>
+	</def_info>
+
+	<awd_all>
+		<RewardValue type="3" value="5000"/>
+		<RewardValue type="5" value="2500"/>
+		<RewardItem item_id="6001" value="1"/>
+		<RewardItem item_id="3126" value="1"/>
+		<RewardItem item_id="1540" value="3000"/>
+	</awd_all>
+
+	<!-- 进攻方奖励 -->
+	<atk_awd min="0" max="0">
+		<RewardValue type="2" value="10000"/>
+		<RewardItem item_id="1540" value="200"/>
+	</atk_awd>
+	<atk_awd min="1" max="1">
+		<RewardValue type="2" value="500000"/>
+		<RewardValue type="3" value="500"/>
+		<RewardValue type="5" value="2000"/>
+		<RewardItem item_id="1540" value="1000"/>
+	</atk_awd>
+	<atk_awd min="2" max="2">
+		<RewardValue type="2" value="200000"/>
+		<RewardValue type="3" value="300"/>
+		<RewardValue type="5" value="1500"/>
+		<RewardItem item_id="1540" value="750"/>
+	</atk_awd>
+	<atk_awd min="3" max="999">
+		<RewardValue type="2" value="100000"/>
+		<RewardValue type="3" value="150"/>
+		<RewardValue type="5" value="1000"/>
+		<RewardItem item_id="1540" value="450"/>
+	</atk_awd>
+	
+	<!-- 防守方奖励 -->
+	<def_awd min="0" max="0">
+		<RewardValue type="2" value="8000"/>
+		<RewardItem item_id="1540" value="300"/>
+	</def_awd>
+	<def_awd min="100" max="100">
+		<RewardValue type="2" value="400000"/>
+		<RewardValue type="3" value="450"/>
+		<RewardValue type="5" value="1800"/>
+		<RewardItem item_id="1540" value="800"/>
+	</def_awd>
+	<def_awd min="80" max="99">
+		<RewardValue type="2" value="180000"/>
+		<RewardValue type="3" value="255"/>
+		<RewardValue type="5" value="1800"/>
+		<RewardItem item_id="1540" value="600"/>
+	</def_awd>
+	<def_awd min="1" max="79">
+		<RewardValue type="2" value="20000"/>
+		<RewardValue type="5" value="100"/>
+		<RewardItem item_id="1540" value="300"/>
+	</def_awd>
+
+</clanwar>

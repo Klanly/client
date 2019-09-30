@@ -1,0 +1,1110 @@
+
+
+
+<monster_collect>	
+  <kill_monster_get id="1" num="2,2,3,3,4,4,5,6,6,6,7,8,8,8,10,10,12,12,15">	
+    <!--玩家殺死盜寶妖後可能會獲得的寶圖數量-->	
+	<!--dfsdf-->
+  </kill_monster_get>	
+  <appear_map boss_id="1,2,3,4,5,6,7,8,9,10,11,12,13">	
+  <!--地圖id對應下面<boss id=""> 在下面加一個地圖的怪獸這裡也加入相應的id，可以在隨機選擇的時候增加一個地圖的可能-->	
+  </appear_map>	
+  <protect  protect_num="10" protect_rate="50"/>	
+ <!--設置玩家寶圖數量低於10個的時候，玩家有50%的可能不會被搶奪寶圖-->	
+  <monster_id id="10005"/>	
+    <!--盜寶妖id 直接設置盜寶妖的id-->	
+  <count id="1" time="14,14,14" minute="0,20,40"><!-- minute至少設置兩個-->	
+  </count><!--活動開始時間必須和刷第一波怪物的時間一致-->	
+  <active_start start_h="14" start_min="0" start_second="50402"/>	
+   <!--start_second = start_h*3600+start_min*60-->	
+  <active_end end_h="15" end_min="0"/>	
+  <!--刷新盜寶妖的時間點hour-->	
+  <db_flash_time h="15" min="0"/>	
+  <!--寶圖清空時間-->	
+  <start_list zhuan="0" lv="1" boss_id="7,4,10"/>	
+  <start_list zhuan="1" lv="1" boss_id="7,4,10"/>	
+  <start_list zhuan="2" lv="1" boss_id="7,4,10,11"/>	
+  <start_list zhuan="3" lv="1" boss_id="7,4,10,11,13"/>	
+  <start_list zhuan="4" lv="1" boss_id="7,4,10,11,13,5"/>	
+  <start_list zhuan="5" lv="1" boss_id="7,4,10,11,13,5,8"/>	
+  <start_list zhuan="6" lv="1" boss_id="7,4,10,11,13,5,8,6"/>	
+  <start_list zhuan="7" lv="1" boss_id="7,4,10,11,13,5,8,6"/>	
+  <start_list zhuan="8" lv="1" boss_id="7,4,10,11,13,5,8,6"/>	
+  <start_list zhuan="9" lv="1" boss_id="7,4,10,11,13,5,8,6"/>	
+  <start_list zhuan="10" lv="1" boss_id="7,4,10,11,13,5,8,6"/>	
+  <!--根據等級上限劃分盜寶妖刷新區域-->	
+  <rate count="0"/>	
+  <!--殺死普通妖怪得到寶圖的概率1-100-->	
+  <boss id="1" time="12,18,21"  name="盜寶妖" map_name="暗黑神殿1層" map_id="4">	
+    <monster mid="10008" map_id="4"  release_time="3600" nums="1">	
+    <mappoint id="1" x="45" y="124" />	
+    <mappoint id="1" x="58" y="136" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="2" x="72" y="167" />	
+    <mappoint id="2" x="96" y="175" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="2" x="72" y="145" />	
+    <mappoint id="2" x="90" y="154" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="1" x="86" y="132" />	
+    <mappoint id="1" x="94" y="141" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="1" x="72" y="116" />	
+    <mappoint id="1" x="88" y="131" />	
+    </monster>	
+    	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="2" x="69" y="83" />	
+    <mappoint id="2" x="78" y="107" />	
+    </monster>	
+    	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="4" x="70" y="74" />	
+    <mappoint id="4" x="107" y="78" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="1" x="115" y="74" />	
+    <mappoint id="1" x="137" y="79" />	
+     </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="2" x="141" y="74" />	
+    <mappoint id="2" x="175" y="78" />	
+     </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="4" x="157" y="107" />	
+    <mappoint id="4" x="178" y="119" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="4" x="157" y="123" />	
+    <mappoint id="4" x="178" y="137" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="4" x="157" y="147" />	
+    <mappoint id="4" x="178" y="160" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="4" x="190" y="132" />	
+    <mappoint id="4" x="206" y="138" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="4" x="190" y="111" />	
+    <mappoint id="4" x="206" y="123" />	
+    </monster>	
+	
+    <monster mid="10008" map_id="4" release_time="3600" nums="1">	
+    <mappoint id="4" x="215" y="120" />	
+    <mappoint id="4" x="225" y="131" />	
+    </monster>	
+  </boss>	
+  <boss id="2" time="12,18,21"  name="盜寶妖" map_name="暗黑神殿2層" map_id="5">	
+   	
+    <monster mid="10009" map_id="5"  release_time="3600" nums="1">	
+      <mappoint id="1" x="117" y="183" />	
+    <mappoint id="1" x="128" y="197" />	
+    </monster>	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="2" x="78" y="168" />	
+    <mappoint id="2" x="110" y="173" />	
+    </monster>	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="2" x="72" y="146" />	
+    <mappoint id="2" x="91" y="154" />	
+    </monster>	
+	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="1" x="72" y="114" />	
+    <mappoint id="1" x="89" y="131" />	
+    </monster>	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="1" x="72" y="89" />	
+    <mappoint id="1" x="89" y="104" />	
+    </monster>	
+    	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="2" x="72" y="75" />	
+    <mappoint id="2" x="89" y="81" />	
+    </monster>	
+    	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="4" x="119" y="155" />	
+    <mappoint id="4" x="129" y="173" />	
+    </monster>	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="4" x="119" y="76" />	
+    <mappoint id="4" x="129" y="94" />	
+     </monster>	
+	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="2" x="118" y="114" />	
+    <mappoint id="2" x="132" y="134" />	
+     </monster>	
+	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="4" x="139" y="167" />	
+    <mappoint id="4" x="164" y="174" />	
+    </monster>	
+	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="4" x="158" y="147" />	
+    <mappoint id="4" x="177" y="160" />	
+    </monster>	
+	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="4" x="158" y="107" />	
+    <mappoint id="4" x="177" y="138" />	
+    </monster>	
+	
+    <monster mid="10009" map_id="5" release_time="3600" nums="1">	
+      <mappoint id="4" x="115" y="55" />	
+    <mappoint id="4" x="131" y="65" />	
+    </monster>	
+  </boss>	
+  <boss id="3" time="12,18,21"  name="盜寶妖" map_name="暗黑神殿3層" map_id="6" >	
+   	
+     <monster mid="10010" map_id="6"  release_time="3600" nums="1">	
+      <mappoint id="1" x="110" y="169" />	
+     <mappoint id="1" x="129" y="184" />	
+     </monster>	
+  	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="2" x="104" y="152" />	
+     <mappoint id="2" x="116" y="162" />	
+     </monster>	
+  	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="2" x="99" y="132" />	
+     <mappoint id="2" x="110" y="147" />	
+     </monster>	
+	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="1" x="104" y="114" />	
+     <mappoint id="1" x="113" y="129" />	
+     </monster>	
+  	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="1" x="100" y="90" />	
+     <mappoint id="1" x="115" y="98" />	
+     </monster>	
+    	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="2" x="83" y="132" />	
+     <mappoint id="2" x="97" y="145" />	
+     </monster>	
+    	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="4" x="80" y="107" />	
+     <mappoint id="4" x="89" y="114" />	
+     </monster>	
+  	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="1" x="87" y="78" />	
+     <mappoint id="1" x="95" y="99" />	
+     </monster>	
+	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="2" x="69" y="75" />	
+     <mappoint id="2" x="82" y="84" />	
+     </monster>	
+ 	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="4" x="56" y="134" />	
+     <mappoint id="4" x="66" y="143" />	
+     </monster>	
+	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="4" x="37" y="122" />	
+     <mappoint id="4" x="46" y="143" />	
+     </monster>	
+	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="4" x="68" y="25" />	
+     <mappoint id="4" x="80" y="39" />	
+     </monster>	
+	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="4" x="84" y="26" />	
+     <mappoint id="4" x="102" y="39" />	
+     </monster>	
+	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="4" x="116" y="28" />	
+     <mappoint id="4" x="127" y="40" />	
+     </monster>	
+	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="4" x="135" y="36" />	
+     <mappoint id="4" x="145" y="44" />	
+     </monster>	
+	
+     <monster mid="10010" map_id="6" release_time="3600" nums="1">	
+      <mappoint id="4" x="135" y="25" />	
+     <mappoint id="4" x="145" y="38" />	
+     </monster>	
+  </boss>	
+  <boss id="4" time="12,18,21"  name="盜寶妖" map_name="死亡沙漠" map_id="3" >	
+   	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="268" y="279" />	
+      <mappoint id="1" x="283" y="296" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="263" y="255" />	
+      <mappoint id="1" x="282" y="270" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+     <mappoint id="1" x="241" y="220" />	
+     <mappoint id="1" x="268" y="233" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="215" y="210" />	
+      <mappoint id="1" x="232" y="223" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="169" y="206" />	
+      <mappoint id="1" x="187" y="218" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="138" y="162" />	
+      <mappoint id="1" x="163" y="179" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="113" y="115" />	
+      <mappoint id="1" x="128" y="130" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="168" y="110" />	
+      <mappoint id="1" x="191" y="122" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="257" y="148" />	
+      <mappoint id="1" x="279" y="169" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="263" y="185" />	
+      <mappoint id="1" x="279" y="203" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="251" y="144" />	
+      <mappoint id="1" x="273" y="161" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="192" y="101" />	
+      <mappoint id="1" x="209" y="121" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="152" y="129" />	
+      <mappoint id="1" x="168" y="144" />	
+     </monster>	
+  	
+     <monster mid="10007" map_id="3"  release_time="3600" nums="3">	
+      <mappoint id="1" x="107" y="127" />	
+      <mappoint id="1" x="120" y="144" />	
+     </monster>	
+  </boss>	
+  <boss id="5" time="12,18,21"  name="盜寶妖" map_name="亞特蘭蒂斯"  map_id="9" >	
+   	
+    <monster mid="10015" map_id="9"  release_time="3600" nums="5">	
+    <mappoint id="1" x="183" y="73" />	
+    <mappoint id="1" x="200" y="92" />	
+    </monster>	
+  	
+    <monster mid="10015" map_id="9"  release_time="3600" nums="2">	
+    <mappoint id="1" x="156" y="29" />	
+    <mappoint id="1" x="174" y="39" />	
+    </monster>	
+  	
+    <monster mid="10015" map_id="9"  release_time="3600" nums="3">	
+    <mappoint id="1" x="100" y="30" />	
+    <mappoint id="1" x="122" y="44" />	
+    </monster>	
+  	
+    <monster mid="10015" map_id="9"  release_time="3600" nums="9">	
+    <mappoint id="1" x="175" y="177" />	
+    <mappoint id="1" x="205" y="198" />	
+    </monster>	
+  	
+    <monster mid="10015" map_id="9"  release_time="3600" nums="8">	
+    <mappoint id="1" x="31" y="103" />	
+    <mappoint id="1" x="72" y="122" />	
+    </monster>	
+  	
+    <monster mid="10015" map_id="9"  release_time="3600" nums="8">	
+    <mappoint id="1" x="34" y="77" />	
+    <mappoint id="1" x="69" y="92" />	
+    </monster>	
+  </boss>	
+  <boss id="6" time="12,18,21"  name="盜寶妖" map_name="洛瓦濕地" map_id="8">	
+   	
+    <monster mid="10005" map_id="8"  release_time="3600" nums="3">	
+      <mappoint id="1" x="34" y="80"/>	
+      <mappoint id="1" x="47" y="89"/>	
+    </monster>	
+  	
+    <monster mid="10005" map_id="8"  release_time="3600" nums="3">	
+      <mappoint id="1" x="34" y="60"/>	
+      <mappoint id="1" x="48" y="69"/>	
+    </monster>	
+  	
+    <monster mid="10005" map_id="8"  release_time="3600" nums="3">	
+      <mappoint id="1" x="62" y="42"/>	
+      <mappoint id="1" x="81" y="55"/>	
+    </monster>	
+  	
+    <monster mid="10005" map_id="8"  release_time="3600" nums="3">	
+      <mappoint id="1" x="86" y="36"/>	
+      <mappoint id="1" x="107" y="45"/>	
+    </monster>	
+  	
+    <monster mid="10005" map_id="8"  release_time="3600" nums="3">	
+      <mappoint id="1" x="113" y="75"/>	
+     <mappoint id="1" x="125" y="86"/>	
+    </monster>	
+  	
+    <monster mid="10005" map_id="8"  release_time="3600" nums="3">	
+      <mappoint id="1" x="111" y="111"/>	
+      <mappoint id="1" x="121" y="118"/>	
+    </monster>	
+  	
+    <monster mid="10005" map_id="8"  release_time="3600" nums="3">	
+      <mappoint id="1" x="85" y="103"/>	
+      <mappoint id="1" x="95" y="116"/>	
+    </monster>	
+  	
+    <monster mid="10005" map_id="8"  release_time="3600" nums="3">	
+      <mappoint id="1" x="50" y="111"/>	
+      <mappoint id="1" x="59" y="123"/>	
+    </monster>	
+  </boss>	
+  <boss id="7" time="12,18,21"  name="盜寶妖" map_name="幽暗森林" map_id="1">	
+   	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="148" y="197"/>	
+    <mappoint id="1" x="164" y="210"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="135" y="179"/>	
+    <mappoint id="1" x="150" y="189"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="94" y="173"/>	
+    <mappoint id="1" x="121" y="180"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="91" y="209"/>	
+    <mappoint id="1" x="108" y="232"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="47" y="154"/>	
+    <mappoint id="1" x="63" y="165"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="37" y="124"/>	
+    <mappoint id="1" x="56" y="133"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="56" y="99"/>	
+    <mappoint id="1" x="74" y="109"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="51" y="50"/>	
+    <mappoint id="1" x="62" y="64"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="169" y="99"/>	
+    <mappoint id="1" x="183" y="112"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="133" y="66"/>	
+    <mappoint id="1" x="145" y="89"/>	
+    </monster>	
+  	
+    <monster mid="10006" map_id="1"  release_time="3600" nums="3">	
+    <mappoint id="1" x="186" y="64"/>	
+    <mappoint id="1" x="199" y="86"/>	
+    </monster>	
+  </boss>	
+  <boss id="8" time="12,18,21"  name="盜寶妖" map_name="冰風穀1層" map_id="17">	
+   	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="121" y="35" />	
+    <mappoint id="1" x="144" y="49" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="102" y="67" />	
+    <mappoint id="1" x="124" y="85" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="127" y="67" />	
+    <mappoint id="1" x="143" y="85" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="66" y="81" />	
+    <mappoint id="1" x="82" y="93" />	
+    </monster>	
+  	
+     <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="51" y="101" />	
+    <mappoint id="1" x="63" y="131" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="19" y="109" />	
+    <mappoint id="1" x="28" y="122" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="29" y="125" />	
+    <mappoint id="1" x="48" y="135" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="68" y="138" />	
+    <mappoint id="1" x="82" y="148" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="84" y="142" />	
+    <mappoint id="1" x="106" y="156" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="123" y="121" />	
+    <mappoint id="1" x="135" y="134" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="110" y="138" />	
+    <mappoint id="1" x="121" y="148" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="131" y="101" />	
+    <mappoint id="1" x="147" y="117" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="131" y="85" />	
+    <mappoint id="1" x="148" y="98" />	
+    </monster>	
+  	
+    <monster mid="10016" map_id="17"  release_time="3600" nums="1">	
+      <mappoint id="1" x="83" y="103" />	
+    <mappoint id="1" x="103" y="115" />	
+    </monster>	
+  </boss>	
+  <boss id="9" time="12,18,21"  name="盜寶妖" map_name="冰風穀2層" map_id="18" >	
+   	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="146" y="43" />	
+    <mappoint id="1" x="171" y="68" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="120" y="49" />	
+    <mappoint id="1" x="143" y="68" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="106" y="62" />	
+    <mappoint id="1" x="117" y="80" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="94" y="90" />	
+    <mappoint id="1" x="108" y="122" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="65" y="107" />	
+    <mappoint id="1" x="90" y="120" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="60" y="149" />	
+    <mappoint id="1" x="106" y="165" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="99" y="124" />	
+    <mappoint id="1" x="153" y="155" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="154" y="122" />	
+    <mappoint id="1" x="177" y="130" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="186" y="105" />	
+    <mappoint id="1" x="201" y="124" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="165" y="185" />	
+    <mappoint id="1" x="190" y="204" />	
+    </monster>	
+  	
+    <monster mid="10017" map_id="18"  release_time="3600" nums="1">	
+      <mappoint id="1" x="196" y="85" />	
+    <mappoint id="1" x="206" y="105" />	
+    </monster>	
+  </boss>	
+  <boss id="10" time="12,18,21"  name="盜寶妖" map_name="地下城1層" map_id="11">	
+   	
+    <monster mid="10012" map_id="11"  release_time="3600" nums="1">	
+    <mappoint id="1" x="144" y="61" />	
+    <mappoint id="1" x="147" y="63" />	
+    </monster>	
+	
+    <monster mid="10012" map_id="11" release_time="3600" nums="1">	
+    <mappoint id="1" x="128" y="49" />	
+    <mappoint id="1" x="131" y="52" />	
+    </monster>	
+	
+    <monster mid="10012" map_id="11" release_time="3600" nums="1">	
+    <mappoint id="1" x="79" y="29" />	
+    <mappoint id="1" x="82" y="32" />	
+    </monster>	
+	
+    <monster mid="10012" map_id="11" release_time="3600" nums="1">	
+    <mappoint id="1" x="148" y="52" />	
+    <mappoint id="1" x="152" y="55" />	
+    </monster>	
+	
+    <monster mid="10012" map_id="11" release_time="3600" nums="1">	
+    <mappoint id="1" x="146" y="39" />	
+    <mappoint id="1" x="149" y="42" />	
+    </monster>	
+    	
+    <monster mid="10012" map_id="11" release_time="3600" nums="1">	
+    <mappoint id="1" x="137" y="43" />	
+    <mappoint id="1" x="141" y="46" />	
+    </monster>	
+    	
+    <monster mid="10012" map_id="11" release_time="3600" nums="1">	
+    <mappoint id="1" x="115" y="46" />	
+    <mappoint id="1" x="118" y="49" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="101" y="45" />	
+    <mappoint id="1" x="104" y="48" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="83" y="54" />	
+    <mappoint id="1" x="86" y="57" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="78" y="40" />	
+    <mappoint id="1" x="82" y="43" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="66" y="71" />	
+    <mappoint id="1" x="69" y="74" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="65" y="30" />	
+    <mappoint id="1" x="69" y="33" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="73" y="62" />	
+    <mappoint id="1" x="76" y="65" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="57" y="23" />	
+    <mappoint id="1" x="61" y="26" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="33" y="41" />	
+    <mappoint id="1" x="37" y="44" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="45" y="26" />	
+    <mappoint id="1" x="48" y="29" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="29" y="54" />	
+    <mappoint id="1" x="32" y="57" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="30" y="68" />	
+    <mappoint id="1" x="33" y="71" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="39" y="64" />	
+    <mappoint id="1" x="43" y="67" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="57" y="64" />	
+    <mappoint id="1" x="60" y="67" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="53" y="76" />	
+    <mappoint id="1" x="56" y="79" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="43" y="100" />	
+    <mappoint id="1" x="46" y="103" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="58" y="118" />	
+    <mappoint id="1" x="62" y="121" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="44" y="136" />	
+    <mappoint id="1" x="48" y="139" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="60" y="135" />	
+    <mappoint id="1" x="63" y="138" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="45" y="118" />	
+    <mappoint id="1" x="49" y="121" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="40" y="30" />	
+    <mappoint id="1" x="43" y="33" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="55" y="103" />	
+    <mappoint id="1" x="59" y="106" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="73" y="51" />	
+    <mappoint id="1" x="76" y="54" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="138" y="36" />	
+    <mappoint id="1" x="141" y="39" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="90" y="45" />	
+    <mappoint id="1" x="93" y="48" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="39" y="73" />	
+    <mappoint id="1" x="43" y="76" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="70" y="23" />	
+    <mappoint id="1" x="73" y="25" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="81" y="23" />	
+    <mappoint id="1" x="84" y="25" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="55" y="32" />	
+    <mappoint id="1" x="58" y="35" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="35" y="50" />	
+    <mappoint id="1" x="38" y="53" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="51" y="111" />	
+    <mappoint id="1" x="54" y="114" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="52" y="128" />	
+    <mappoint id="1" x="55" y="131" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="73" y="69" />	
+    <mappoint id="1" x="76" y="72" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="70" y="41" />	
+    <mappoint id="1" x="73" y="44" />	
+    </monster>	
+	
+	<monster mid="10012" map_id="11" release_time="3600" nums="1">
+    <mappoint id="1" x="47" y="20" />	
+    <mappoint id="1" x="51" y="23" />	
+    </monster>	
+  </boss>	
+  <boss id="11" time="12,18,21"  name="盜寶妖" map_name="地下城2層" map_id="12" >	
+   	
+    <monster mid="10013" map_id="12"  release_time="3600" nums="1">	
+    <mappoint id="1" x="21" y="128" />	
+    <mappoint id="1" x="25" y="131" />	
+    </monster>	
+  	
+    <monster mid="10013" map_id="12"  release_time="3600" nums="1">	
+    <mappoint id="1" x="29" y="126" />	
+    <mappoint id="1" x="32" y="130" />	
+    </monster>	
+  	
+    <monster mid="10013" map_id="12"  release_time="3600" nums="1">	
+    <mappoint id="1" x="16" y="121" />	
+    <mappoint id="1" x="19" y="125" />	
+    </monster>	
+  	
+    <monster mid="10013" map_id="12"  release_time="3600" nums="1">	
+    <mappoint id="1" x="32" y="122" />	
+    <mappoint id="1" x="36" y="126" />	
+    </monster>	
+  	
+    <monster mid="10013" map_id="12"  release_time="3600" nums="1">	
+    <mappoint id="1" x="21" y="112" />	
+    <mappoint id="1" x="25" y="116" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="34" y="113" />	
+    <mappoint id="1" x="37" y="117" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="15" y="115" />	
+    <mappoint id="1" x="19" y="118" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="14" y="103" />	
+    <mappoint id="1" x="18" y="107" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="38" y="107" />	
+    <mappoint id="1" x="41" y="110" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="17" y="97" />	
+    <mappoint id="1" x="21" y="101" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="26" y="91" />	
+    <mappoint id="1" x="29" y="95" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="35" y="98" />	
+    <mappoint id="1" x="39" y="102" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="17" y="92" />	
+    <mappoint id="1" x="20" y="96" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="17" y="85" />	
+    <mappoint id="1" x="20" y="88" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="29" y="85" />	
+    <mappoint id="1" x="32" y="89" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="46" y="86" />	
+    <mappoint id="1" x="49" y="89" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="37" y="88" />	
+    <mappoint id="1" x="41" y="91" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="26" y="74" />	
+    <mappoint id="1" x="29" y="77" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="21" y="64" />	
+    <mappoint id="1" x="25" y="68" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="28" y="60" />	
+    <mappoint id="1" x="32" y="63" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="3" y="39" />	
+    <mappoint id="1" x="7" y="43" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="21" y="49" />	
+    <mappoint id="1" x="25" y="53" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="30" y="50" />	
+    <mappoint id="1" x="33" y="54" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="6" y="32" />	
+    <mappoint id="1" x="10" y="36" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="19" y="38" />	
+    <mappoint id="1" x="22" y="42" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="16" y="31" />	
+    <mappoint id="1" x="19" y="35" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="29" y="42" />	
+    <mappoint id="1" x="32" y="45" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="31" y="32" />	
+    <mappoint id="1" x="34" y="36" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="21" y="28" />	
+    <mappoint id="1" x="25" y="31" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="43" y="37" />	
+    <mappoint id="1" x="47" y="40" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="25" y="18" />	
+    <mappoint id="1" x="29" y="22" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="54" y="37" />	
+    <mappoint id="1" x="57" y="40" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="66" y="39" />	
+    <mappoint id="1" x="69" y="42" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="81" y="40" />	
+    <mappoint id="1" x="84" y="44" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="71" y="32" />	
+    <mappoint id="1" x="74" y="36" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="78" y="50" />	
+    <mappoint id="1" x="81" y="54" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="92" y="47" />	
+    <mappoint id="1" x="96" y="50" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="81" y="27" />	
+    <mappoint id="1" x="84" y="31" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="92" y="27" />	
+    <mappoint id="1" x="96" y="31" />	
+    </monster>	
+	
+	<monster mid="10013" map_id="12"  release_time="3600" nums="1">
+    <mappoint id="1" x="90" y="36" />	
+    <mappoint id="1" x="94" y="40" />	
+    </monster>	
+  </boss>	
+  <boss id="12" time="12,18,21"  name="盜寶妖" map_name="地下城3層" map_id="13" >	
+   	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="36" y="107" />	
+    <mappoint id="1" x="46" y="144" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="34" y="62" />	
+    <mappoint id="1" x="43" y="101" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="42" y="45" />	
+    <mappoint id="1" x="64" y="58" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="58" y="35" />	
+    <mappoint id="1" x="81" y="42" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="91" y="28" />	
+    <mappoint id="1" x="125" y="41" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="129" y="30" />	
+    <mappoint id="1" x="151" y="41" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="141" y="44" />	
+    <mappoint id="1" x="151" y="58" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="141" y="61" />	
+    <mappoint id="1" x="150" y="69" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="134" y="81" />	
+    <mappoint id="1" x="141" y="88" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="129" y="97" />	
+    <mappoint id="1" x="136" y="106" />	
+    </monster>	
+  	
+    <monster mid="10014" map_id="13"  release_time="3600" nums="1">	
+      <mappoint id="1" x="121" y="116" />	
+    <mappoint id="1" x="159" y="132" />	
+    </monster>	
+  </boss>	
+  <boss id="13" time="12,18,21"  name="盜寶妖" map_name="坎特魯遺址" map_id="15" >	
+   	
+    <monster mid="10011" map_id="15"  release_time="3600" nums="2">	
+    <mappoint id="1" x="46" y="104"/>	
+    <mappoint id="1" x="59" y="114"/>	
+    </monster>	
+	
+	<monster mid="10011" map_id="15"  release_time="3600" nums="2">
+    <mappoint id="1" x="27" y="85"/>	
+    <mappoint id="1" x="40" y="94"/>	
+    </monster>	
+	
+	<monster mid="10011" map_id="15"  release_time="3600" nums="2">
+    <mappoint id="1" x="78" y="104"/>	
+    <mappoint id="1" x="93" y="112"/>	
+    </monster>	
+	
+	<monster mid="10011" map_id="15"  release_time="3600" nums="2">
+    <mappoint id="1" x="55" y="69"/>	
+    <mappoint id="1" x="70" y="79"/>	
+    </monster>	
+	
+	<monster mid="10011" map_id="15"  release_time="3600" nums="2">
+    <mappoint id="1" x="46" y="101"/>	
+    <mappoint id="1" x="64" y="115"/>	
+    </monster>	
+	
+	<monster mid="10011" map_id="15"  release_time="3600" nums="2">
+    <mappoint id="1" x="52" y="42"/>	
+    <mappoint id="1" x="66" y="53"/>	
+    </monster>	
+	
+	<monster mid="10011" map_id="15"  release_time="3600" nums="2">
+    <mappoint id="1" x="86" y="63"/>	
+    <mappoint id="1" x="99" y="75"/>	
+    </monster>	
+	
+	<monster mid="10011" map_id="15"  release_time="3600" nums="2">
+    <mappoint id="1" x="123" y="49"/>	
+    <mappoint id="1" x="137" y="58"/>	
+    </monster>	
+	
+	<monster mid="10011" map_id="15"  release_time="3600" nums="2">
+    <mappoint id="1" x="158" y="63"/>	
+    <mappoint id="1" x="179" y="78"/>	
+    </monster>	
+	
+	<monster mid="10011" map_id="15"  release_time="3600" nums="2">
+    <mappoint id="1" x="122" y="116"/>	
+    <mappoint id="1" x="137" y="124"/>	
+    </monster>	
+  </boss>
+	
+</monster_collect>

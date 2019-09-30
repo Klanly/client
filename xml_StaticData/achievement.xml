@@ -1,0 +1,556 @@
+<achievementlist>
+	<!-- 成就 -->
+	<!-- 成就字段说明：
+	achievement_id 成就id
+	category 组id(同一类型)
+	type 成就类型 1.完成每日任务数量 
+   	              2.角色到达等级 
+				  3.独立击杀怪物param2 param1次 
+				  4.通关tpid=p2的副本p1次; 5.在单次的p3副本中击杀param1次的p2怪物; 6.解锁param1个技能
+                7.JJC中排名达到PARAM1 8.VIP等级到达param1 9.角色战斗力到达param1 10.强化装备param1次 11.拾取金币param1量 12.罪恶值达到param1 13.好友数量达到param1 
+               14.佣兵等级达到param1 15.param1个符文到达param2级 16.翅膀阶数到达param1 17.拍卖上架的物品数量到达param1 18.穿戴param1个quality为param2的装备 19.宠物阶数 ;
+			   20在单次的p3副本中击杀param1个怪物;21,参与击杀param2的世界BOSS param1次;
+			   22.访问NPC;23.击杀怪物;24.采集;25.达到指定的等级（和转生数）;
+			   26.完成p1次id为p2的任务；
+			   27.重铸装备param1次；	28.装备进阶param1次；		29.装备进行param1此宝石灌注；30.加入或着创建param1级军团；31加入或着创建一个队伍；32.仇人数量达到param1;33.解锁param1个符文；
+			   34.发送param1封邮件；	35.商城消费param1钻石；		36.参加param1次竞技场；		37.进行param1次传承；
+			   38.分解p1次装备；		39.升级p1次技能；			40.军衔等级达到p1级；
+			   41.收集1件配置id=p2的道具（含装备）；	
+			   42.击杀1次p2(专属怪)；		
+			   43.指定位置进行读条；need_tm=读条时间，单位秒；
+			   44.委托任务：完成param1次委托任务
+	param1 param2 param3 参数1 参数2 参数3
+	bndyb 礼金
+	point 成就点数 -->
+ <!--成长--> 
+<!--到达等级的成就-->
+  <achievement achievement_id="901" category="1" name="首次转生" desc="角色达到等级1转1级" type="2" param1="1" param2="1,1" bndyb="5" title_id="1" />
+  <achievement achievement_id="902" category="1" name="二次转生" desc="角色达到等级2转1级" type="2" param1="1" param2="2,1" bndyb="10" title_id="2" />
+  <achievement achievement_id="903" category="1" name="三次转生" desc="角色达到等级3转1级" type="2" param1="1" param2="3,1" bndyb="15" title_id="3" />
+  <achievement achievement_id="904" category="1" name="四次转生" desc="角色达到等级4转1级" type="2" param1="1" param2="4,1" bndyb="20" />
+  <achievement achievement_id="905" category="1" name="五次转生" desc="角色达到等级5转1级" type="2" param1="1" param2="5,1" bndyb="25" />
+  <achievement achievement_id="906" category="1" name="六次转生" desc="角色达到等级6转1级" type="2" param1="1" param2="6,1" bndyb="30" />
+  <!--
+  <achievement achievement_id="1007" category="1" name="七次转生" desc="角色达到等级7转1级" type="2" param1="1" param2="7,1" bndyb="35" point="700" />
+  <achievement achievement_id="1008" category="1" name="八次转生" desc="角色达到等级8转1级" type="2" param1="1" param2="8,1" bndyb="40" point="800" />
+  <achievement achievement_id="1009" category="1" name="九次转生" desc="角色达到等级9转1级" type="2" param1="1" param2="9,1" bndyb="45" point="900" />
+  <achievement achievement_id="1010" category="1" name="最终转生" desc="角色达到等级10转1级" type="2" param1="1" param2="10,1" bndyb="50" point="1000" />
+  -->
+  <!--技能与符文成就-->
+  <achievement achievement_id="911" category="1" name="初学武技" desc="解锁1个技能" type="6" param1="1" bndyb="10" />
+  <achievement achievement_id="912" category="1" name="精通武技" desc="解锁5个技能 " type="6" param1="5" bndyb="20" />
+  <achievement achievement_id="913" category="1" name="武学大师" desc="解锁9个技能 " type="6" param1="9" bndyb="30" />
+  <achievement achievement_id="914" category="1" name="初识符文" desc="解锁1个符文 " type="33" param1="1" bndyb="10" />
+  <achievement achievement_id="915" category="1" name="精通符文" desc="解锁5个符文 " type="33" param1="5" bndyb="20" />
+  <achievement achievement_id="916" category="1" name="符文大师" desc="解锁9个符文 " type="33" param1="9" bndyb="30" />
+  <!--翅膀的成就-->
+  <achievement achievement_id="921" category="1" name="1阶飞翼" desc="翅膀等级达到的1阶 " type="16" param1="1" bndyb="25" />
+  <achievement achievement_id="922" category="1" name="2阶飞翼" desc="翅膀等级达到的2阶 " type="16" param1="2" bndyb="35" />
+  <achievement achievement_id="923" category="1" name="3阶飞翼" desc="翅膀等级达到的3阶 " type="16" param1="3" bndyb="45" />
+  <achievement achievement_id="924" category="1" name="4阶飞翼" desc="翅膀等级达到的4阶 " type="16" param1="4" bndyb="55" />
+  <achievement achievement_id="925" category="1" name="5阶飞翼" desc="翅膀等级达到的5阶 " type="16" param1="5" bndyb="65" />
+  <achievement achievement_id="926" category="1" name="6阶飞翼" desc="翅膀等级达到的6阶 " type="16" param1="6" bndyb="75" />
+  <achievement achievement_id="927" category="1" name="7阶飞翼" desc="翅膀等级达到的7阶 " type="16" param1="7" bndyb="85" />
+  <achievement achievement_id="928" category="1" name="8阶飞翼" desc="翅膀等级达到的8阶 " type="16" param1="8" bndyb="95" />
+
+<!--装备成就-->
+  <achievement achievement_id="1011" category="1" name="初识良品" desc="曾穿戴过一件绿色装备" type="18" param1="1" param2="2" bndyb="5" />
+  <achievement achievement_id="1012" category="1" name="全身良品" desc="曾全身穿戴过绿色装备" type="18" param1="7" param2="2" bndyb="10"/>
+  <achievement achievement_id="1013" category="1" name="初识精品" desc="曾穿戴过一件蓝色装备" type="18" param1="1" param2="3" bndyb="15"/>
+  <achievement achievement_id="1014" category="1" name="全身精品" desc="曾全身穿戴过蓝色装备" type="18" param1="7" param2="3" bndyb="30"/>
+  <achievement achievement_id="1015" category="1" name="初识神品" desc="曾穿戴过一件紫色装备" type="18" param1="1" param2="4" bndyb="50"/>
+  <achievement achievement_id="1016" category="1" name="全身神品" desc="曾全身穿戴过紫色装备" type="18" param1="7" param2="4" bndyb="100"/>
+  <achievement achievement_id="1017" category="1" name="初识圣品" desc="曾穿戴过一件橙色装备" type="18" param1="1" param2="5" bndyb="200"/>
+  <achievement achievement_id="1018" category="1" name="全身圣品" desc="曾全身穿戴过橙色装备" type="18" param1="7" param2="5" bndyb="500"/>
+  <achievement achievement_id="1019" category="1" name="强化装备" desc="完成一次装备强化" type="10" param1="1" bndyb="10"/>
+  <achievement achievement_id="1020" category="1" name="重铸装备" desc="完成一次装备重铸" type="27" param1="1" bndyb="10"/>
+  <achievement achievement_id="1021" category="1" name="装备传承" desc="完成一次装备传承" type="37" param1="1" bndyb="10"/>
+  <achievement achievement_id="1022" category="1" name="装备进阶" desc="完成一次装备精炼" type="28" param1="1" bndyb="10"/>
+  <achievement achievement_id="1023" category="1" name="宝石镶嵌" desc="完成一次宝石镶嵌" type="29" param1="1" bndyb="10"/>
+<!--社交成就--> 
+  <achievement achievement_id="1024" category="1" name="初识好友 " desc="添加1个好友 " type="13" param1="1" bndyb="5" />
+  <achievement achievement_id="1025" category="1" name="义气相投 " desc="添加10个好友 " type="13" param1="10" bndyb="10" />
+  <achievement achievement_id="1026" category="1" name="社交达人 " desc="添加50个好友 " type="13" param1="50" bndyb="20" />
+  <achievement achievement_id="1027" category="1" name="名扬天下 " desc="添加100个好友 " type="13" param1="100" bndyb="30" title_id="4" />
+  <achievement achievement_id="1028" category="1" name="初入军团 " desc="加入或创建一个一级军团 " type="30" param1="1" param2="1" bndyb="10" />
+  <achievement achievement_id="1029" category="1" name="二级军团 " desc="加入或创建一个二级军团 " type="30" param1="1" param2="2" bndyb="20" />
+  <achievement achievement_id="1030" category="1" name="三级军团 " desc="加入或创建一个三级军团 " type="30" param1="1" param2="3" bndyb="30" />
+  <achievement achievement_id="1031" category="1" name="四级军团 " desc="加入或创建一个四级军团 " type="30" param1="1" param2="4" bndyb="40" />
+  <achievement achievement_id="1032" category="1" name="五级军团 " desc="加入或创建一个五级军团 " type="30" param1="1" param2="5" bndyb="50" />
+  <achievement achievement_id="1033" category="1" name="六级军团 " desc="加入或创建一个六级军团 " type="30" param1="1" param2="6" bndyb="60" />
+  <achievement achievement_id="1034" category="1" name="七级军团 " desc="加入或创建一个七级军团 " type="30" param1="1" param2="7" bndyb="70" />
+  <achievement achievement_id="1035" category="1" name="八级军团 " desc="加入或创建一个八级军团 " type="30" param1="1" param2="8" bndyb="80" />
+  <achievement achievement_id="1035" category="1" name="九级军团 " desc="加入或创建一个九级军团 " type="30" param1="1" param2="9" bndyb="90" />
+  <achievement achievement_id="1035" category="1" name="十级军团 " desc="加入或创建一个十级军团 " type="30" param1="1" param2="10" bndyb="100" />
+  <achievement achievement_id="1035" category="1" name="十一级军团 " desc="加入或创建一个十一级军团 " type="30" param1="1" param2="11" bndyb="110" />
+  <achievement achievement_id="1035" category="1" name="十二级军团 " desc="加入或创建一个十二级军团 " type="30" param1="1" param2="12" bndyb="120" />
+  <achievement achievement_id="1036" category="1" name="结伴而行 " desc="加入或创建一个队伍 " type="31" param1="1" bndyb="5" /> 
+
+<!--敌人与罪恶值成就-->
+  <achievement achievement_id="1037" category="1" name="首杀" desc="罪恶值达到1点" type="12" param1="1" bndyb="5" />
+  <achievement achievement_id="1038" category="1" name="作恶多端" desc="罪恶值达到50点" type="12" param1="50" bndyb="10" />
+  <achievement achievement_id="1039" category="1" name="罪行累累" desc="罪恶值达到100点" type="12" param1="100" bndyb="20" title_id="5" />
+  <achievement achievement_id="1040" category="1" name="杀人如麻" desc="罪恶值达到500点" type="12" param1="500" bndyb="50" />
+  <achievement achievement_id="1041" category="1" name="罪名昭彰" desc="罪恶值达到999点" type="12" param1="999" bndyb="100" title_id="6" />
+  <achievement achievement_id="1043" category="1" name="初结仇人" desc="拥有1个仇人" type="32" param1="1" bndyb="5" /> 
+  <achievement achievement_id="1044" category="1" name="愤懑不平" desc="拥有10个仇人" type="32" param1="10" bndyb="5" /> 
+  <achievement achievement_id="1045" category="1" name="血海深仇" desc="拥有50个仇人" type="32" param1="50" bndyb="5" />  
+
+
+  <!--
+  <achievement achievement_id="1060" category="1" name="9阶飞翼" desc="翅膀等级达到的9阶 " type="16" param1="9" bndyb="50" point="900" />
+  <achievement achievement_id="1061" category="1" name="10阶飞翼" desc="翅膀等级达到的10阶 " type="16" param1="10" bndyb="55" point="1000" />
+  <achievement achievement_id="1062" category="1" name="11阶飞翼" desc="翅膀等级达到的11阶 " type="16" param1="11" bndyb="60" point="1100" />
+  <achievement achievement_id="1063" category="1" name="12阶飞翼" desc="翅膀等级达到的12阶 " type="16" param1="12" bndyb="65" point="1200" />
+  -->
+<!--主线剧情的成就-->
+  <!-- <achievement achievement_id="1060" category="1" name="正史·序" desc="完成序章的剧情任务" type="26" param1="1" param2="18" bndyb="5" point="100"/>
+  <achievement achievement_id="1061" category="1" name="正史·一" desc="完成第一章的剧情任务" type="26" param1="1" param2="113" bndyb="10" point="200"/>
+  <achievement achievement_id="1062" category="1" name="正史·二" desc="完成第二章的剧情任务" type="26" param1="1" param2="214" bndyb="15" point="300"/>
+  <achievement achievement_id="1063" category="1" name="正史·三" desc="完成第三章的剧情任务" type="26" param1="1" param2="326" bndyb="20" point="400"/>
+  <achievement achievement_id="1064" category="1" name="正史·四" desc="完成第四章的剧情任务" type="26" param1="1" param2="424" bndyb="25" point="500"/>
+  <achievement achievement_id="1065" category="1" name="正史·五" desc="完成第五章的剧情任务" type="26" param1="1" param2="518" bndyb="30" point="600"/>
+  <achievement achievement_id="1066" category="1" name="正史·六" desc="完成第六章的剧情任务" type="26" param1="1" param2="626" bndyb="35" point="700"/>
+  <achievement achievement_id="1067" category="1" name="正史·七" desc="完成第七章的剧情任务" type="26" param1="1" param2="715" bndyb="40" point="800"/>
+  <achievement achievement_id="1068" category="1" name="正史·八" desc="完成第八章的剧情任务" type="26" param1="1" param2="816" bndyb="45" point="900"/>
+  <achievement achievement_id="1069" category="1" name="正史·九" desc="完成第九章的剧情任务" type="26" param1="1" param2="913" bndyb="50" point="1000"/>
+  <achievement achievement_id="1070" category="1" name="正史·十" desc="完成第十章的剧情任务" type="26" param1="1" param2="1014" bndyb="55" point="1100"/>
+  <achievement achievement_id="1071" category="1" name="正史·十一" desc="完成第十一章的剧情任务" type="26" param1="1" param2="1112" bndyb="60" point="1200"/>
+  <achievement achievement_id="1072" category="1" name="正史·十二" desc="完成第十二章的剧情任务" type="26" param1="1" param2="1213" bndyb="65" point="1300"/> -->
+<!--完成每日任务的成就-->
+  <achievement achievement_id="1073" category="1" name="委以重任" desc="完成10次委托任务 " type="44" param1="10" bndyb="10"/>
+  <achievement achievement_id="1074" category="1" name="完成使命" desc="完成30次委托任务 " type="44" param1="30" bndyb="20"/>
+  <achievement achievement_id="1075" category="1" name="恪尽职守" desc="完成70次委托任务 " type="44" param1="70" bndyb="30"/>
+  <achievement achievement_id="1076" category="1" name="持之以恒" desc="完成150次委托任务 " type="44" param1="150" bndyb="40"/>
+  <achievement achievement_id="1077" category="1" name="孜孜不倦" desc="完成300次委托任务 " type="44" param1="300" bndyb="50"/>
+  <achievement achievement_id="1078" category="1" name="任务达人" desc="完成500次委托任务 " type="44" param1="500" bndyb="60"/>
+  <achievement achievement_id="1079" category="1" name="赏金猎人" desc="完成1000次委托任务 " type="44" param1="1000" bndyb="70"/> 
+<!--战斗力的成就-->
+  <achievement achievement_id="1080" category="1" name="一段" desc="角色达到战斗力10000 " type="9" param1="10000" bndyb="10" title_id="7" />
+  <achievement achievement_id="1081" category="1" name="二段" desc="角色达到战斗力20000 " type="9" param1="20000" bndyb="20" />
+  <achievement achievement_id="1082" category="1" name="三段" desc="角色达到战斗力30000 " type="9" param1="30000" bndyb="30" />
+  <achievement achievement_id="1083" category="1" name="四段" desc="角色达到战斗力50000 " type="9" param1="50000" bndyb="50" />
+  <achievement achievement_id="1084" category="1" name="五段" desc="角色达到战斗力70000 " type="9" param1="70000" bndyb="70" />
+  <achievement achievement_id="1085" category="1" name="六段" desc="角色达到战斗力100000 " type="9" param1="100000" bndyb="100" />
+  <achievement achievement_id="1086" category="1" name="七段" desc="角色达到战斗力300000 " type="9" param1="300000" bndyb="300" />
+  <achievement achievement_id="1087" category="1" name="八段" desc="角色达到战斗力500000 " type="9" param1="500000" bndyb="500" />
+  <achievement achievement_id="1088" category="1" name="九段" desc="角色达到战斗力700000 " type="9" param1="700000" bndyb="700" />
+  <achievement achievement_id="1089" category="1" name="化境" desc="角色达到战斗力1000000 " type="9" param1="1000000" bndyb="1000" /> 
+<!--拍卖的成就-->
+  <achievement achievement_id="1090" category="1" name="初识拍卖" desc="在拍卖行上架1件物品 " type="17" param1="1" bndyb="5" />
+  <achievement achievement_id="1091" category="1" name="渐入拍卖" desc="在拍卖行上架10件物品 " type="17" param1="10" bndyb="15"/>
+  <achievement achievement_id="1092" category="1" name="熟悉拍卖" desc="在拍卖行上架50件物品 " type="17" param1="50" bndyb="30"/>
+  <achievement achievement_id="1093" category="1" name="拍卖达人" desc="在拍卖行上架100件物品 " type="17" param1="100" bndyb="70" />
+  <achievement achievement_id="1094" category="1" name="职业商人" desc="在拍卖行上架500件物品 " type="17" param1="500" bndyb="150" /> 
+  
+  
+ 
+ 
+<!--副本的成就-->
+  <achievement achievement_id="2001" category="2" name="初临深渊" desc="单人或组队通关经验副本1次" type="4" param1="1" param2="101" bndyb="5"/>
+  <achievement achievement_id="2002" category="2" name="毁灭深渊" desc="单人或组队通关经验副本100次" type="4" param1="100" param2="101" bndyb="100"/>
+  <achievement achievement_id="2003" category="2" name="深渊裁决" desc="单人或组队通关经验副本1000次" type="4" param1="1000" param2="101" bndyb="500" title_id="8"/>
+  <achievement achievement_id="2004" category="2" name="初窥宝藏" desc="单人或组队通关金币副本1次" type="4" param1="1" param2="102" bndyb="5"/>
+  <achievement achievement_id="2005" category="2" name="抢夺宝藏" desc="单人或组队通关金币副本100次" type="4" param1="100" param2="102" bndyb="100"/>
+  <achievement achievement_id="2006" category="2" name="黄金王的噩梦" desc="单人或组队通关金币副本1000次" type="4" param1="1000" param2="102" bndyb="500" title_id="9"/>
+  <achievement achievement_id="2007" category="2" name="初识风神王座" desc="单人或组队通关材料副本1次" type="4" param1="1" param2="103" bndyb="5"/>
+  <achievement achievement_id="2008" category="2" name="毁灭邪恶天使" desc="单人或组队通关材料副本100次" type="4" param1="100" param2="103" bndyb="100"/>
+  <achievement achievement_id="2009" category="2" name="净化天使之城" desc="单人或组队通关材料副本1000次" type="4" param1="1000" param2="103" bndyb="500" title_id="10"/>
+<!--世界boss的成就-->
+  <achievement achievement_id="2010" category="2" name="尤格索图斯" desc="参与击杀尤格索图斯1次" type="3" param1="1" param2="2012" bndyb="300" title_id="11"/>
+  <achievement achievement_id="2011" category="2" name="鲜血女王" desc="参与击杀鲜血女王1次" type="3" param1="1" param2="2005" bndyb="300" title_id="12"/>
+  <achievement achievement_id="2012" category="2" name="冰龙·斯卡萨" desc="参与击杀冰龙·斯卡萨1次" type="3" param1="1" param2="2000" bndyb="300" title_id="13"/>
+  <achievement achievement_id="2013" category="2" name="勇者大陆的暗影" desc="击杀勇者大陆随机出现的精英怪物一次" type="3" param1="1" param2="30000" bndyb="100"/>
+  <achievement achievement_id="2014" category="2" name="幽暗森林的悲伤" desc="击杀幽暗森林随机出现的精英怪物一次" type="3" param1="1" param2="30001" bndyb="100"/>
+  <achievement achievement_id="2015" category="2" name="死亡沙漠的狂沙" desc="击杀死亡沙漠随机出现的精英怪物一次" type="3" param1="1" param2="30002" bndyb="100"/>
+  <achievement achievement_id="2016" category="2" name="坎特鲁遗址的暗潮" desc="击杀坎特鲁遗址随机出现的精英怪物一次" type="3" param1="1" param2="30003" bndyb="100"/>
+  <achievement achievement_id="2017" category="2" name="亚特兰蒂斯的侵袭" desc="击杀亚特兰蒂斯随机出现的精英怪物一次" type="3" param1="1" param2="30004" bndyb="100"/>
+  <!--
+  <achievement achievement_id="2018" category="2" name="失落圣殿的暗潮" desc="击杀失落圣殿随机出现的精英怪物一次" type="3" param1="1" param2="30003" bndyb="100" point="450"/>
+  <achievement achievement_id="2019" category="2" name="熔岩神殿的烈焰" desc="击杀熔岩神殿随机出现的精英怪物一次" type="3" param1="1" param2="2001" bndyb="100" point="525"/>
+  <achievement achievement_id="2020" category="2" name="拜鲁神殿的祭祀" desc="击杀拜鲁神殿随机出现的精英怪物一次" type="3" param1="1" param2="2001" bndyb="100" point="600"/>
+  <achievement achievement_id="2021" category="2" name="黑暗沼泽的危机" desc="击杀地城废墟随机出现的精英怪物一次" type="3" param1="1" param2="2001" bndyb="100" point="675"/>
+  <achievement achievement_id="2022" category="2" name="人之禁地的秘密" desc="击杀人之禁地随机出现的精英怪物一次" type="3" param1="1" param2="2001" bndyb="100" point="750"/>
+  -->
+<!--地图的成就-->
+
+
+
+  
+  
+ 
+<!--VIP等级的成就-->
+  <!-- <achievement achievement_id="3001" category="3" name="VIP1级" desc="VIP等级达到1级 " type="8" param1="1"/> -->
+  <!-- <achievement achievement_id="3002" category="3" name="VIP2级" desc="VIP等级达到2级 " type="8" param1="2"/> -->
+  <!-- <achievement achievement_id="3003" category="3" name="VIP3级" desc="VIP等级达到3级 " type="8" param1="3"/> -->
+  <!-- <achievement achievement_id="3004" category="3" name="VIP4级" desc="VIP等级达到4级 " type="8" param1="4"/> -->
+  <!-- <achievement achievement_id="3005" category="3" name="VIP5级" desc="VIP等级达到5级 " type="8" param1="5"/> -->
+  <!-- <achievement achievement_id="3006" category="3" name="VIP6级" desc="VIP等级达到6级 " type="8" param1="6"/> -->
+  <!-- <achievement achievement_id="3007" category="3" name="VIP7级" desc="VIP等级达到7级 " type="8" param1="7"/> -->
+  <!-- <achievement achievement_id="3008" category="3" name="VIP8级" desc="VIP等级达到8级 " type="8" param1="8"/> -->
+  <!-- <achievement achievement_id="3009" category="3" name="VIP9级" desc="VIP等级达到9级 " type="8" param1="9"/> -->
+  <!-- <achievement achievement_id="3010" category="3" name="VIP10级" desc="VIP等级达到10级 " type="8" param1="10"/> -->
+  <!-- <achievement achievement_id="3011" category="3" name="VIP11级" desc="VIP等级达到11级 " type="8" param1="11"/> -->
+  <!-- <achievement achievement_id="3012" category="3" name="VIP12级" desc="VIP等级达到12级 " type="8" param1="12"/> -->
+<!--钻石消费的成就-->
+  <achievement achievement_id="3013" category="3" name="初次消费" desc="商城消费10钻石及以上 " type="35" param1="10" bndyb="5" />
+  <achievement achievement_id="3014" category="3" name="奇迹平民" desc="商城消费100钻石及以上" type="35" param1="100" bndyb="50" />
+  <achievement achievement_id="3015" category="3" name="奇迹男爵" desc="商城消费500钻石及以上" type="35" param1="500" bndyb="100" />
+  <achievement achievement_id="3016" category="3" name="奇迹子爵" desc="商城消费1000钻石及以上" type="35" param1="1000" bndyb="200" title_id="14" />
+  <achievement achievement_id="3017" category="3" name="奇迹伯爵" desc="商城消费2000钻石及以上" type="35" param1="2000" bndyb="300" />
+  <achievement achievement_id="3018" category="3" name="奇迹侯爵" desc="商城消费5000钻石及以上" type="35" param1="5000" bndyb="400" />
+  <achievement achievement_id="3019" category="3" name="奇迹公爵" desc="商城消费10000钻石及以上" type="35" param1="10000" bndyb="500" title_id="15" />
+
+  
+  
+  
+<!--竞技场中的成就-->
+  <achievement achievement_id="4001" category="4" name="试剑" desc="参与一次竞技场活动 "    type="36" param1="1" bndyb="10"/>
+  <achievement achievement_id="4002" category="4" name="入门" desc="在竞技场中的段位达到入门" type="7" param1="1" param2="2" bndyb="10"/>
+  <achievement achievement_id="4003" category="4" name="新锐" desc="在竞技场中的段位达到新锐" type="7" param1="1" param2="3" bndyb="15"/>
+  <achievement achievement_id="4004" category="4" name="斗士" desc="在竞技场中的段位达到斗士" type="7" param1="1" param2="4" bndyb="20" />
+  <achievement achievement_id="4005" category="4" name="强者" desc="在竞技场中的段位达到强者" type="7" param1="1" param2="5" bndyb="25" />
+  <achievement achievement_id="4006" category="4" name="狂人" desc="在竞技场中的段位达到狂人" type="7" param1="1" param2="6" bndyb="30" />
+  <achievement achievement_id="4007" category="4" name="达人" desc="在竞技场中的段位达到达人" type="7" param1="1" param2="7" bndyb="50" />
+  <achievement achievement_id="4008" category="4" name="名人" desc="在竞技场中的段位达到名人" type="7" param1="1" param2="8" bndyb="100" />
+  <achievement achievement_id="4009" category="4" name="霸者" desc="在竞技场中的段位达到霸者" type="7" param1="1" param2="9" bndyb="200" />
+  <achievement achievement_id="4010" category="4" name="大师" desc="在竞技场中的段位达到大师" type="7" param1="1" param2="10" bndyb="300" />
+  <achievement achievement_id="4011" category="4" name="至尊" desc="在竞技场中的段位达到至尊" type="7" param1="1" param2="11" bndyb="500" />
+  <achievement achievement_id="4012" category="4" name="斗神" desc="在竞技场中的段位达到斗神" type="7" param1="1" param2="12" bndyb="1000" title_id="16" />
+  
+  
+  
+
+
+
+  
+
+
+
+
+  
+
+
+ 
+
+
+
+  <!--<achievement achievement_id="1" category="1" name="任务达人" desc="完成一次每日任务数量 " type="1" param1="1" bndyb="5" point="10"/>
+	<achievement achievement_id="2" category="1" name="任务达人" desc="角色达到等级10 " type="2" param1="10" bndyb="5" point="10" />
+	<achievement achievement_id="3" category="1" name="任务达人" desc="击杀15怪物数量10 " type="3" param1="15" param2="100" bndyb="5" point="10"/>
+	<achievement achievement_id="4" category="1" name="任务达人" desc="通关110副本 " type="4" param1="110" bndyb="5" point="10"/>
+	<achievement achievement_id="5" category="1" name="任务达人" desc="一次副本过程中，击杀112怪物的数量10" type="5" param1="112" param2="10" bndyb="5" point="10"/>
+	<achievement achievement_id="6" category="1" name="任务达人" desc="把3个技能提升到5等级 " type="6" param1="3" param2="5" bndyb="5" point="10" />
+	<achievement achievement_id="7" category="1" name="任务达人" desc="在JJC中的排名达到100 " type="7" param1="100" bndyb="5" point="10" />
+	<achievement achievement_id="8" category="1" name="任务达人" desc="VIP等级3 " type="8" param1="3" bndyb="5" point="10" />
+	<achievement achievement_id="9" category="1" name="任务达人" desc="角色达到战斗力1000 " type="9" param1="1000" bndyb="5" point="10" />
+	<achievement achievement_id="10" category="1" name="任务达人" desc="强化装备次数5 " type="10" param1="5" bndyb="5" point="10" />
+	<achievement achievement_id="11" category="1" name="任务达人" desc="拾取的金币总量10000 " type="11" param1="10000" bndyb="5" point="10" />
+	<achievement achievement_id="12" category="1" name="任务达人" desc="达到的罪恶值50 " type="12" param1="50" bndyb="5" point="10" />
+	<achievement achievement_id="13" category="1" name="任务达人" desc="好友数量20 " type="13" param1="20" bndyb="5" point="10" />
+	<achievement achievement_id="14" category="1" name="任务达人" desc="佣兵等级5 " type="14" param1="5" bndyb="5" point="10" />
+	<achievement achievement_id="15" category="1" name="任务达人" desc="2个符文达到的10级 " type="15" param1="2" param2="10" bndyb="5" point="10" />
+	<achievement achievement_id="16" category="1" name="任务达人" desc="翅膀达到的阶数5 " type="16" param1="5" bndyb="5" point="10" />
+	<achievement achievement_id="17" category="1" name="任务达人" desc="在拍卖行上架过的商品总数量10 " type="17" param1="10" bndyb="5" point="10" />
+	<achievement achievement_id="18" category="1" name="任务达人" desc="穿戴的装备有2个是2阶以上" type="18" param1="2" param2="2" bndyb="5" point="10"/>
+	<achievement achievement_id="19" category="1" name="任务达人" desc="宠物的阶数3 " type="19" param1="3" bndyb="5" point="10"/>-->
+
+
+	<!-- 军衔-->
+	<!-- 军衔字段说明：
+	title_id 军衔id
+	title_name 军衔名称
+	para 升至下级所需名望
+	nature  军衔属性  att_type 属性类型 att_value 属性值 -->
+	<title title_id="1" title_name="见习兵长" para="100">
+    	<nature att_type="14" att_value="2800"/> 	
+		<nature att_type="38" att_value="32"/>
+		<nature att_type="5" att_value="48"/>
+    	<nature att_type="6" att_value="28"/>
+    	<nature att_type="7" att_value="28"/>
+		<nature att_type="22" att_value="1"/>
+		<nature att_type="23" att_value="2"/>
+		<nature att_type="33" att_value="1"/>
+  	</title>
+	<title title_id="2" title_name="低阶兵长" para="1000">
+    	<nature att_type="14" att_value="5600"/> 	
+		<nature att_type="38" att_value="64"/>
+		<nature att_type="5" att_value="96"/>
+    	<nature att_type="6" att_value="56"/>
+    	<nature att_type="7" att_value="56"/>
+		<nature att_type="22" att_value="2"/>
+		<nature att_type="23" att_value="5"/>
+		<nature att_type="33" att_value="2"/>
+  	</title>
+	<title title_id="3" title_name="中阶兵长" para="1600">
+    	<nature att_type="14" att_value="8400"/> 	
+		<nature att_type="38" att_value="96"/>
+		<nature att_type="5" att_value="144"/>
+    	<nature att_type="6" att_value="84"/>
+    	<nature att_type="7" att_value="84"/>
+		<nature att_type="22" att_value="3"/>
+		<nature att_type="23" att_value="8"/>
+		<nature att_type="33" att_value="3"/>
+  	</title>
+	<title title_id="4" title_name="高阶兵长" para="2300">
+    	<nature att_type="14" att_value="11200"/> 	
+		<nature att_type="38" att_value="128"/>
+		<nature att_type="5" att_value="192"/>
+    	<nature att_type="6" att_value="112"/>
+    	<nature att_type="7" att_value="112"/>
+		<nature att_type="22" att_value="4"/>
+		<nature att_type="23" att_value="10"/>
+		<nature att_type="33" att_value="4"/>
+  	</title>
+	<title title_id="5" title_name="见习尉长" para="3000">
+    	<nature att_type="14" att_value="14000"/> 	
+		<nature att_type="38" att_value="160"/>
+		<nature att_type="5" att_value="240"/>
+    	<nature att_type="6" att_value="140"/>
+    	<nature att_type="7" att_value="140"/>
+		<nature att_type="22" att_value="5"/>
+		<nature att_type="23" att_value="13"/>
+		<nature att_type="33" att_value="5"/>
+  	</title>
+	<title title_id="6" title_name="低阶尉长" para="3800">
+    	<nature att_type="14" att_value="16800"/> 	
+		<nature att_type="38" att_value="192"/>
+		<nature att_type="5" att_value="288"/>
+    	<nature att_type="6" att_value="168"/>
+    	<nature att_type="7" att_value="168"/>
+		<nature att_type="22" att_value="6"/>
+		<nature att_type="23" att_value="16"/>
+		<nature att_type="33" att_value="6"/>
+  	</title>
+	<title title_id="7" title_name="中阶尉长" para="4800">
+    	<nature att_type="14" att_value="19600"/> 	
+		<nature att_type="38" att_value="224"/>
+		<nature att_type="5" att_value="336"/>
+    	<nature att_type="6" att_value="196"/>
+    	<nature att_type="7" att_value="196"/>
+		<nature att_type="22" att_value="7"/>
+		<nature att_type="23" att_value="18"/>
+		<nature att_type="33" att_value="7"/>
+  	</title>
+	<title title_id="8" title_name="高阶尉长" para="5800">
+    	<nature att_type="14" att_value="22400"/> 	
+		<nature att_type="38" att_value="256"/>
+		<nature att_type="5" att_value="384"/>
+    	<nature att_type="6" att_value="224"/>
+    	<nature att_type="7" att_value="224"/>
+		<nature att_type="22" att_value="8"/>
+		<nature att_type="23" att_value="21"/>
+		<nature att_type="33" att_value="8"/>
+  	</title>
+	<title title_id="9" title_name="见习骑士" para="7100">
+    	<nature att_type="14" att_value="25200"/> 	
+		<nature att_type="38" att_value="288"/>
+		<nature att_type="5" att_value="432"/>
+    	<nature att_type="6" att_value="252"/>
+    	<nature att_type="7" att_value="252"/>
+		<nature att_type="22" att_value="9"/>
+		<nature att_type="23" att_value="24"/>
+		<nature att_type="33" att_value="9"/>
+  	</title>
+	<title title_id="10" title_name="低阶骑士" para="8600">
+    	<nature att_type="14" att_value="28000"/> 	
+		<nature att_type="38" att_value="320"/>
+		<nature att_type="5" att_value="480"/>
+    	<nature att_type="6" att_value="280"/>
+    	<nature att_type="7" att_value="280"/>
+		<nature att_type="22" att_value="10"/>
+		<nature att_type="23" att_value="26"/>
+		<nature att_type="33" att_value="10"/>
+  	</title>
+	<title title_id="11" title_name="中阶骑士" para="11000">
+    	<nature att_type="14" att_value="30800"/> 	
+		<nature att_type="38" att_value="352"/>
+		<nature att_type="5" att_value="528"/>
+    	<nature att_type="6" att_value="308"/>
+    	<nature att_type="7" att_value="308"/>
+		<nature att_type="22" att_value="11"/>
+		<nature att_type="23" att_value="29"/>
+		<nature att_type="33" att_value="11"/>
+  	</title>
+	<title title_id="12" title_name="高阶骑士" para="13000">
+    	<nature att_type="14" att_value="33600"/> 	
+		<nature att_type="38" att_value="384"/>
+		<nature att_type="5" att_value="576"/>
+    	<nature att_type="6" att_value="336"/>
+    	<nature att_type="7" att_value="336"/>
+		<nature att_type="22" att_value="12"/>
+		<nature att_type="23" att_value="32"/>
+		<nature att_type="33" att_value="12"/>
+  	</title>
+	<title title_id="13" title_name="自由骑士" para="16000">
+    	<nature att_type="14" att_value="36400"/> 	
+		<nature att_type="38" att_value="416"/>
+		<nature att_type="5" att_value="624"/>
+    	<nature att_type="6" att_value="364"/>
+    	<nature att_type="7" att_value="364"/>
+		<nature att_type="22" att_value="14"/>
+		<nature att_type="23" att_value="34"/>
+		<nature att_type="33" att_value="13"/>
+  	</title>
+	<title title_id="14" title_name="圆桌骑士" para="20000">
+    	<nature att_type="14" att_value="39200"/> 	
+		<nature att_type="38" att_value="448"/>
+		<nature att_type="5" att_value="672"/>
+    	<nature att_type="6" att_value="392"/>
+    	<nature att_type="7" att_value="392"/>
+		<nature att_type="22" att_value="15"/>
+		<nature att_type="23" att_value="37"/>
+		<nature att_type="33" att_value="14"/>
+  	</title>
+	<title title_id="15" title_name="龙骑士" para="25000">
+    	<nature att_type="14" att_value="42000"/> 	
+		<nature att_type="38" att_value="480"/>
+		<nature att_type="5" att_value="720"/>
+    	<nature att_type="6" att_value="420"/>
+    	<nature att_type="7" att_value="420"/>
+		<nature att_type="22" att_value="16"/>
+		<nature att_type="23" att_value="40"/>
+		<nature att_type="33" att_value="15"/>
+  	</title>
+	<title title_id="16" title_name="真龙骑士" para="31000">
+    	<nature att_type="14" att_value="44800"/> 	
+		<nature att_type="38" att_value="512"/>
+		<nature att_type="5" att_value="768"/>
+    	<nature att_type="6" att_value="448"/>
+    	<nature att_type="7" att_value="448"/>
+		<nature att_type="22" att_value="17"/>
+		<nature att_type="23" att_value="42"/>
+		<nature att_type="33" att_value="16"/>
+  	</title>
+	<title title_id="17" title_name="青铜之王" para="39000">
+    	<nature att_type="14" att_value="47600"/> 	
+		<nature att_type="38" att_value="544"/>
+		<nature att_type="5" att_value="816"/>
+    	<nature att_type="6" att_value="476"/>
+    	<nature att_type="7" att_value="476"/>
+		<nature att_type="22" att_value="18"/>
+		<nature att_type="23" att_value="45"/>
+		<nature att_type="33" att_value="17"/>
+  	</title>
+	<title title_id="18" title_name="白银之王" para="50000">
+    	<nature att_type="14" att_value="50400"/> 	
+		<nature att_type="38" att_value="576"/>
+		<nature att_type="5" att_value="864"/>
+    	<nature att_type="6" att_value="504"/>
+    	<nature att_type="7" att_value="504"/>
+		<nature att_type="22" att_value="19"/>
+		<nature att_type="23" att_value="48"/>
+		<nature att_type="33" att_value="18"/>
+  	</title>
+	<title title_id="19" title_name="黄金之王" para="65000">
+    	<nature att_type="14" att_value="53200"/> 	
+		<nature att_type="38" att_value="608"/>
+		<nature att_type="5" att_value="912"/>
+    	<nature att_type="6" att_value="532"/>
+    	<nature att_type="7" att_value="532"/>
+		<nature att_type="22" att_value="20"/>
+		<nature att_type="23" att_value="50"/>
+		<nature att_type="33" att_value="19"/>
+  	</title>
+	<title title_id="20" title_name="白金之王" para="84000">
+    	<nature att_type="14" att_value="56000"/> 	
+		<nature att_type="38" att_value="640"/>
+		<nature att_type="5" att_value="960"/>
+    	<nature att_type="6" att_value="560"/>
+    	<nature att_type="7" att_value="560"/>
+		<nature att_type="22" att_value="21"/>
+		<nature att_type="23" att_value="53"/>
+		<nature att_type="33" att_value="20"/>
+  	</title>
+	<title title_id="21" title_name="统御之王" para="110000">
+    	<nature att_type="14" att_value="58800"/> 	
+		<nature att_type="38" att_value="672"/>
+		<nature att_type="5" att_value="1008"/>
+    	<nature att_type="6" att_value="588"/>
+    	<nature att_type="7" att_value="588"/>
+		<nature att_type="22" att_value="22"/>
+		<nature att_type="23" att_value="56"/>
+		<nature att_type="33" att_value="21"/>
+  	</title>
+	<title title_id="22" title_name="征服之王" para="150000">
+    	<nature att_type="14" att_value="61600"/> 	
+		<nature att_type="38" att_value="704"/>
+		<nature att_type="5" att_value="1056"/>
+    	<nature att_type="6" att_value="616"/>
+    	<nature att_type="7" att_value="616"/>
+		<nature att_type="22" att_value="23"/>
+		<nature att_type="23" att_value="58"/>
+		<nature att_type="33" att_value="22"/>
+  	</title>
+	<title title_id="23" title_name="不灭之王" para="190000">
+    	<nature att_type="14" att_value="64400"/> 	
+		<nature att_type="38" att_value="736"/>
+		<nature att_type="5" att_value="1104"/>
+    	<nature att_type="6" att_value="644"/>
+    	<nature att_type="7" att_value="644"/>
+		<nature att_type="22" att_value="24"/>
+		<nature att_type="23" att_value="61"/>
+		<nature att_type="33" att_value="23"/>
+  	</title>
+	<title title_id="24" title_name="大暗黑天" para="250000">
+    	<nature att_type="14" att_value="67200"/> 	
+		<nature att_type="38" att_value="768"/>
+		<nature att_type="5" att_value="1152"/>
+    	<nature att_type="6" att_value="672"/>
+    	<nature att_type="7" att_value="672"/>
+		<nature att_type="22" att_value="25"/>
+		<nature att_type="23" att_value="64"/>
+		<nature att_type="33" att_value="24"/>
+  	</title>
+	<title title_id="25" title_name="天空之神" para="330000">
+    	<nature att_type="14" att_value="70000"/> 	
+		<nature att_type="38" att_value="800"/>
+		<nature att_type="5" att_value="1200"/>
+    	<nature att_type="6" att_value="700"/>
+    	<nature att_type="7" att_value="700"/>
+		<nature att_type="22" att_value="27"/>
+		<nature att_type="23" att_value="67"/>
+		<nature att_type="33" att_value="25"/>
+  	</title>
+	<title title_id="26" title_name="无限之神" para="440000">
+    	<nature att_type="14" att_value="72800"/> 	
+		<nature att_type="38" att_value="832"/>
+		<nature att_type="5" att_value="1248"/>
+    	<nature att_type="6" att_value="728"/>
+    	<nature att_type="7" att_value="728"/>
+		<nature att_type="22" att_value="28"/>
+		<nature att_type="23" att_value="69"/>
+		<nature att_type="33" att_value="26"/>
+  	</title>
+	<title title_id="27" title_name="众神之神" para="580000">
+    	<nature att_type="14" att_value="75600"/> 	
+		<nature att_type="38" att_value="864"/>
+		<nature att_type="5" att_value="1296"/>
+    	<nature att_type="6" att_value="756"/>
+    	<nature att_type="7" att_value="756"/>
+		<nature att_type="22" att_value="29"/>
+		<nature att_type="23" att_value="72"/>
+		<nature att_type="33" att_value="27"/>
+  	</title>
+	<title title_id="28" title_name="铸星之神" para="770000">
+    	<nature att_type="14" att_value="78400"/> 	
+		<nature att_type="38" att_value="896"/>
+		<nature att_type="5" att_value="1344"/>
+    	<nature att_type="6" att_value="784"/>
+    	<nature att_type="7" att_value="784"/>
+		<nature att_type="22" att_value="30"/>
+		<nature att_type="23" att_value="75"/>
+		<nature att_type="33" att_value="28"/>
+  	</title>
+	<title title_id="29" title_name="创世之神" para="1100000">
+    	<nature att_type="14" att_value="81200"/> 	
+		<nature att_type="38" att_value="928"/>
+		<nature att_type="5" att_value="1392"/>
+    	<nature att_type="6" att_value="812"/>
+    	<nature att_type="7" att_value="812"/>
+		<nature att_type="22" att_value="31"/>
+		<nature att_type="23" att_value="77"/>
+		<nature att_type="33" att_value="29"/>
+  	</title>
+
+</achievementlist>

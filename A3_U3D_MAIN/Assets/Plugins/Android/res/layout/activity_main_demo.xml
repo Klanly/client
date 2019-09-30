@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_cpp_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="登录(login)" />
+            <Button
+                android:id="@+id/btn_cpp_logout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="登出(logout)" />
+            <Button
+                android:id="@+id/btn_cpp_switchaccount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="切换账号(switchAccount)" />
+            <Button
+                android:id="@+id/btn_cpp_pay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="支付(pay)" />
+            <Button
+                android:id="@+id/btn_cpp_usercenter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="用户中心(usercenter)" />
+            
+            <Button
+                android:id="@+id/btn_cpp_BBS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BBS" />
+            <Button
+                android:id="@+id/btn_cpp_feedback"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="用户反馈(feedback)" />
+            <Button
+                android:id="@+id/btn_cpp_showbalance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="showbalance" />
+            <Button
+                android:id="@+id/btn_cpp_anit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="防沉迷查询(anit)" />
+            <Button
+                android:id="@+id/btn_cpp_realname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="实名认证结束(realname)" />
+			<Button
+                android:id="@+id/btn_cpp_selectserver"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="选服数据上报(selectserver)" />
+            <Button
+                android:id="@+id/btn_cpp_createrole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="创建角色数据上报(createrole)" />
+            <Button
+                android:id="@+id/btn_cpp_entergame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="进入游戏数据上报(entergame)" />
+            <Button
+                android:id="@+id/btn_cpp_roleupgrade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="角色升级数据上报(roleupgrade)" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

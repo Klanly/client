@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: zshh_yanjiang
+  m_Shader: {fileID: 4800000, guid: 350b8f81bc38eff4d9026fa64bd41db8, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 4ba9c260b393bff4397ca765c0332512, type: 3}
+        m_Scale: {x: 1, y: 0.8}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AlphaCtl
+      second: 1
+    - first:
+        name: _AlphaScale
+      second: 1
+    - first:
+        name: _AnimU
+      second: -0.028571432
+    - first:
+        name: _AnimV
+      second: 0.014285723
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.8161765, g: 0.7381596, b: 0.7381596, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0.8235294, g: 0.4299308, b: 0.4299308, a: 1}

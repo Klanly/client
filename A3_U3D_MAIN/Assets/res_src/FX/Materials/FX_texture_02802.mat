@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FX_texture_02802
+  m_Shader: {fileID: 4800000, guid: cf013b71db57c6941bd151877ca443b3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: e5d1f7ded69b75c419bbb51d1f014d7d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.5}
+    - first:
+        name: _MaskTex
+      second:
+        m_Texture: {fileID: 2800000, guid: d449d76aa83c9c1418a68c78ac68a303, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 2}
+    - first:
+        name: _NoiseTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 63ac8816fedf6f94da462897c91c53cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node6
+      second:
+        m_Texture: {fileID: 2800000, guid: 4276b63a9ff45304f855a38482c1c43d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _DistortionScaleX
+      second: 2.7785714
+    - first:
+        name: _DistortionScaleY
+      second: 4.6535716
+    - first:
+        name: _ForceX
+      second: 0.2321429
+    - first:
+        name: _ForceY
+      second: 0.33928573
+    - first:
+        name: _HeatTime
+      second: 0.25
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _MainScale
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Fresnelcolor
+      second: {r: 0.29411763, g: 0.50344825, b: 1, a: 0.03137255}
+    - first:
+        name: _MainColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.44852942, g: 0.56643, b: 1, a: 0.3019608}
+    - first:
+        name: _texcolor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}

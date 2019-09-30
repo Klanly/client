@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{142EC2C0-EDC1-B036-B585-7677A4DBAD10}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_5_6_0;UNITY_5_6;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_PVR_GI;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_RUNTIME_NAVMESH_BUILDING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_NATIVE_ARRAY;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;ENABLE_VIDEO;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_2_0_SUBSET;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_NATIVE_ARRAY_CHECKS;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;UNITY_HAS_GOOGLEVR</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>d:/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>d:/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Demo\scene\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\Demo\scene\script\demo_main.cs" />
+     <Compile Include="Assets\Demo\test_ResourceOut.cs" />
+     <Compile Include="Assets\Resources\uifx\BlurUI.cs" />
+     <Compile Include="Assets\Resources\uifx\ColorCorrect_UI.cs" />
+     <Compile Include="Assets\Scripts\Check_Bone.cs" />
+     <Compile Include="Assets\Scripts\Common\GlobalGenerator.cs" />
+     <Compile Include="Assets\Scripts\Common\LuaBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Common\LuaUI.cs" />
+     <Compile Include="Assets\Scripts\ConstDefine\AppConst.cs" />
+     <Compile Include="Assets\Scripts\ConstDefine\ManagerName.cs" />
+     <Compile Include="Assets\Scripts\ConstDefine\NotiConst.cs" />
+     <Compile Include="Assets\Scripts\Controller\Command\StartUpCommand.cs" />
+     <Compile Include="Assets\Scripts\Delay.cs" />
+     <Compile Include="Assets\Scripts\Framework\AppFacade.cs" />
+     <Compile Include="Assets\Scripts\Framework\Core\Controller.cs" />
+     <Compile Include="Assets\Scripts\Framework\Core\Facade.cs" />
+     <Compile Include="Assets\Scripts\Framework\Core\Message.cs" />
+     <Compile Include="Assets\Scripts\Framework\Core\View.cs" />
+     <Compile Include="Assets\Scripts\Framework\Interfaces\EventTriggerListenerLua .cs" />
+     <Compile Include="Assets\Scripts\Framework\Interfaces\ICommand.cs" />
+     <Compile Include="Assets\Scripts\Framework\Interfaces\IController.cs" />
+     <Compile Include="Assets\Scripts\Framework\Interfaces\IMessage.cs" />
+     <Compile Include="Assets\Scripts\Framework\Interfaces\IView.cs" />
+     <Compile Include="Assets\Scripts\Gradient.cs" />
+     <Compile Include="Assets\Scripts\InEditorDo.cs" />
+     <Compile Include="Assets\Scripts\Main.cs" />
+     <Compile Include="Assets\Scripts\Manager\AssetBundleOperation.cs" />
+     <Compile Include="Assets\Scripts\Manager\GameModelMgr.cs" />
+     <Compile Include="Assets\Scripts\Manager\Interface\ITimerBehaviour.cs" />
+     <Compile Include="Assets\Scripts\Manager\InterfaceMgr.cs" />
+     <Compile Include="Assets\Scripts\Manager\MusicManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\NetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\PanelManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\ResourceManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\ThreadManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\TimerManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\gamemanager\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Manager\gamemanager\OutGameContMgr.cs" />
+     <Compile Include="Assets\Scripts\Manager\gamemanager\UpdateScrollbar.cs" />
+     <Compile Include="Assets\Scripts\QS_EventHandle.cs" />
+     <Compile Include="Assets\Scripts\Test_Mem.cs" />
+     <Compile Include="Assets\Scripts\TextLanguage.cs" />
+     <Compile Include="Assets\Scripts\Utility\LuaHelper.cs" />
+     <Compile Include="Assets\Scripts\Utility\Util.cs" />
+     <Compile Include="Assets\Scripts\Utils.cs" />
+     <Compile Include="Assets\Scripts\VFX\DestructAfterTime.cs" />
+     <Compile Include="Assets\Scripts\View\AppView.cs" />
+     <Compile Include="Assets\Scripts\drawline.cs" />
+     <Compile Include="Assets\Scripts\fx.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\CR_EventHandle.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\DY_EventHandle.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\JX_EventHandle.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\LY_EventHandle.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\ML_EventHandle.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\YMI_EventHandle.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\YM_EventHandle.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\YV_EvenHandle.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\ZX_EventHandle.cs" />
+     <Compile Include="Assets\Scripts\ios_sdk\ios_sdk.cs" />
+     <Compile Include="Assets\Scripts\login_loacal.cs" />
+     <Compile Include="Assets\Scripts\network.cs" />
+     <Compile Include="Assets\Scripts\tempSC\BreakBridge.cs" />
+     <Compile Include="Assets\Scripts\tempSC\EnableUi.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Enable_Eff.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Enable_Item.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Enable_act.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Enable_closeload.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Enable_dialog.cs" />
+     <Compile Include="Assets\Scripts\tempSC\GameAniCam.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Monster_born.cs" />
+     <Compile Include="Assets\Scripts\tempSC\NewbieCode.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Plot.cs" />
+     <Compile Include="Assets\Scripts\tempSC\TempSc_HiddenItem.cs" />
+     <Compile Include="Assets\Scripts\tempSC\TempSc_ShakeCamera.cs" />
+     <Compile Include="Assets\Scripts\tempSC\TempSc_ShowAndHide.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Trigger.cs" />
+     <Compile Include="Assets\Scripts\tempSC\TriggerFB.cs" />
+     <Compile Include="Assets\Scripts\tempSC\TriggerHandle.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Trigger_MonsterDead.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Trigger_UserBorn.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Trigger_delay.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Trigger_jdzc.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Unenable_item.cs" />
+     <Compile Include="Assets\Scripts\tempSC\Walk_Layer.cs" />
+     <Compile Include="Assets\Scripts\tempSC\npc\NpcSC.cs" />
+     <Compile Include="Assets\Scripts\tempSC\svr\MapInfo.cs" />
+     <Compile Include="Assets\Scripts\tempSC\svr\MapPoint.cs" />
+     <Compile Include="Assets\Scripts\tempSC\svr\SvrMapChangePoint.cs" />
+     <Compile Include="Assets\Scripts\tempSC\svr\Zone.cs" />
+     <Compile Include="Assets\Scripts\trail_test.cs" />
+     <Compile Include="Assets\Shaders\UVTextureAnimator.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MBillBObjSC.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MLodObjSC.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MObjSC.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MPartSC.cs" />
+     <Compile Include="Assets\T4M\Scripts\T4MPlantObjSC.cs" />
+     <Compile Include="Assets\T4M\Tutorial\Scripts\FlyCam.cs" />
+     <Compile Include="Assets\T4M\Tutorial\Scripts\WaypointCam.cs" />
+     <Compile Include="Assets\static_script\static_plot_camera.cs" />
+     <Compile Include="Assets\static_script\static_z_roatate.cs" />
+     <Compile Include="Assets\static_script\weapon_trail_test.cs" />
+     <Compile Include="Assets\uLua\Core\CheckType.cs" />
+     <Compile Include="Assets\uLua\Core\GenerateEventAssembly.cs" />
+     <Compile Include="Assets\uLua\Core\Lua.cs" />
+     <Compile Include="Assets\uLua\Core\LuaAttributes.cs" />
+     <Compile Include="Assets\uLua\Core\LuaBase.cs" />
+     <Compile Include="Assets\uLua\Core\LuaDLL.cs" />
+     <Compile Include="Assets\uLua\Core\LuaException.cs" />
+     <Compile Include="Assets\uLua\Core\LuaFunction.cs" />
+     <Compile Include="Assets\uLua\Core\LuaGlobalAttribute.cs" />
+     <Compile Include="Assets\uLua\Core\LuaHideAttribute.cs" />
+     <Compile Include="Assets\uLua\Core\LuaObjectMap.cs" />
+     <Compile Include="Assets\uLua\Core\LuaRegistrationHelper.cs" />
+     <Compile Include="Assets\uLua\Core\LuaScriptException.cs" />
+     <Compile Include="Assets\uLua\Core\LuaStatic.cs" />
+     <Compile Include="Assets\uLua\Core\LuaTable.cs" />
+     <Compile Include="Assets\uLua\Core\Metatables.cs" />
+     <Compile Include="Assets\uLua\Core\MethodWrapper.cs" />
+     <Compile Include="Assets\uLua\Core\ObjectTranslator.cs" />
+     <Compile Include="Assets\uLua\Core\ProxyType.cs" />
+     <Compile Include="Assets\uLua\Source\Base\Client.cs" />
+     <Compile Include="Assets\uLua\Source\Base\Debugger.cs" />
+     <Compile Include="Assets\uLua\Source\Base\DelegateFactory.cs" />
+     <Compile Include="Assets\uLua\Source\Base\LockFreeQueue.cs" />
+     <Compile Include="Assets\uLua\Source\Base\LuaBinder.cs" />
+     <Compile Include="Assets\uLua\Source\Base\LuaScriptMgr.cs" />
+     <Compile Include="Assets\uLua\Source\Base\LuaWrap.cs" />
+     <Compile Include="Assets\uLua\Source\Base\ToLuaExport.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\ComponentWrap.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\GameObjectWrap.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\ObjectWrap.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\RectTransformWrap.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\SimpleFramework_LuaHelperWrap.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\SimpleFramework_Manager_PanelManagerWrap.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\SimpleFramework_UtilWrap.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\System_ObjectWrap.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\TimeWrap.cs" />
+     <Compile Include="Assets\uLua\Source\LuaWrap\TransformWrap.cs" />
+     <None Include="Assets\Standard Assets\Projectors\Guidelines.txt" />
+     <None Include="Assets\Shaders\Diffuse2Sides.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\DirectionLM\T4M 3 TexturesBumped DLM.shader" />
+     <None Include="Assets\Shaders\StaticMesh.shader" />
+     <None Include="Assets\Shaders\GodRayShader.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Specular\T4M 3 TexturesSpec.shader" />
+     <None Include="Assets\Standard Assets\Projectors\Sources\Shaders\Projector Multiply.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Shaders\A3\A3_Monster.shader" />
+     <None Include="Assets\Shaders\Particle Add Lv2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unified\T4M 3 TexturesUnified.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\Shaders\Additive_Order_2Sides.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\healfont\healfont.fnt" />
+     <None Include="Assets\Shaders\Distortadd_OneSide.shader" />
+     <None Include="Assets\Shaders\PJ Additive_oneside.shader" />
+     <None Include="Assets\Shaders\Distortadd.shader" />
+     <None Include="Assets\Shaders\Alpha_Order.shader" />
+     <None Include="Assets\Shaders\A3\A3_Char_Streamer_back.shader" />
+     <None Include="Assets\Shaders\Cloud.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 4 Textures.shader" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\T4M\Shaders\ShaderModel1\T4M 2 Textures ManualAdd BeastLM_1DC.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\green1\green.fnt" />
+     <None Include="Assets\Shaders\feser_test.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 3 Textures.shader" />
+     <None Include="Assets\Shaders\Qsmy\QS_Dead.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\BumpSpec\T4M 2 TexturesBumpSpec.shader" />
+     <None Include="Assets\Shaders\Qsmy\QS_Tran.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\4TexturesUnlit.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+     <None Include="Assets\Resources\uifx\UIGrayShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\Shaders\effect_distortadd noztest.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlurDX11.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Shaders\PJ Alpha Blended_oneside.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 2 TexturesBumped Mobile.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\White1\white.fnt" />
+     <None Include="Assets\Shaders\DistortaddMask.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 3 TexturesBumped.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\Shaders\Heat_Distort_test.shader" />
+     <None Include="Assets\Shaders\Lava.shader" />
+     <None Include="Assets\Shaders\RimLight.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\BumpSpec\T4M 2 TexturesBumpSpec Mobile.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\6TexturesUnlitNoLM.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 3 Textures.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ScreenSpaceAmbientObscurance.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\BumpSpec\T4M 4 TexturesBumpSpec.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Specular\T4M 2 TexturesSpec.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Shaders\TerrainTexture.shader" />
+     <None Include="Assets\T4M\Shaders\BrushPreview.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+     <None Include="Assets\Shaders\FlagAnimShader.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Bump\T4M 4 TexturesBump.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\DirectionLM\T4M 2 TexturesBumped DLM.shader" />
+     <None Include="Assets\Shaders\Terrain2Layer.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+     <None Include="Assets\Shaders\Particle Alpha Blend noztest.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 6 Textures.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+     <None Include="Assets\Shaders\pjAlphaTest-BumpSpec.shader" />
+     <None Include="Assets\Plugins\Android\res\drawable\qk_game_loading.xml" />
+     <None Include="Assets\StreamingAssets\files.txt" />
+     <None Include="Assets\Shaders\Distortion_ADD.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 4 Textures.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\Purple1\Purple.fnt" />
+     <None Include="Assets\Resources\ieshader\Bokeh34.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Specular\T4M 4 Textures Spec.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 4 TexturesBumped.shader" />
+     <None Include="Assets\Shaders\Scene\MuWater_Blend.shader" />
+     <None Include="Assets\Shaders\Particle Add_Back.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 2 Textures.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Specular\T4M 4 TexturesSpec.shader" />
+     <None Include="Assets\Shaders\Particle Add Lv3.shader" />
+     <None Include="Assets\Shaders\WaterFall.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrainDX11.shader" />
+     <None Include="Assets\T4M\READMEFIRST.txt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Shaders\Water_2UV.shader" />
+     <None Include="Assets\Shaders\A3\A3_SceneLight.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\enemy\emeny.fnt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 2 Textures.shader" />
+     <None Include="Assets\Shaders\MUMonster.shader" />
+     <None Include="Assets\Shaders\cgwell_dissolution_blend.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Toon\T4M 3 Textures Toon.shader" />
+     <None Include="Assets\Resources\ieshader\DepthOfField34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\Shaders\Add_Fade.shader" />
+     <None Include="Assets\Shaders\Plants.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 5 Textures.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Toon\T4M 2 Textures Toon.shader" />
+     <None Include="Assets\Shaders\DistortAB_OneSide.shader" />
+     <None Include="Assets\Shaders\A3\A3_Char_Streamer_H.shader" />
+     <None Include="Assets\uLua\README.txt" />
+     <None Include="Assets\StreamingAssets\OutAssets\svrconfig\level.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+     <None Include="Assets\StreamingAssets\OutAssets\main.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Shaders\Additive_Order.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\3TexturesUnlit.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlurClear.shader" />
+     <None Include="Assets\Resources\ieshader\MobileBloom.shader" />
+     <None Include="Assets\Shaders\DistortAB.shader" />
+     <None Include="Assets\StreamingAssets\verMd5.txt" />
+     <None Include="Assets\Shaders\MUWings_Blend.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Specular\T4M 3 Textures Spec.shader" />
+     <None Include="Assets\Plugins\Android\res\values\qk_game_style.xml" />
+     <None Include="Assets\Plugins\Android\res\layout\qk_game_view_loading.xml" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\T4M World Projection Shader Unlit+LM.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Specular\T4M 2 Textures Spec.shader" />
+     <None Include="Assets\Resources\CameraShaders\DeathShader.shader" />
+     <None Include="Assets\Shaders\Terrain3Layer.shader" />
+     <None Include="Assets\Shaders\Emission.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBlur.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Bump\T4M 3 TexturesBump.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\Shaders\MaskAlphaBlend.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\golden1\golden.fnt" />
+     <None Include="Assets\Shaders\DynamicLight.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Plugins\Android\res\layout\activity_splash.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\Shaders\Qsmy\QS_Tex.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\herotext\herotext.fnt" />
+     <None Include="Assets\Shaders\Rain.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+     <None Include="Assets\Shaders\Blend_Fade_4Tex.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unified\T4M 4 TexturesUnified.shader" />
+     <None Include="Assets\Shaders\GlowAdditive.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+     <None Include="Assets\Shaders\Qsmy\QS_Cutout.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\hptext\hptext.fnt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel1\T4M 2 Textures ManualAdd CustoLM 1DC.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 2 TexturesBumped.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unified\T4M 2 TexturesUnified.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\6TexturesUnlit.shader" />
+     <None Include="Assets\Shaders\A3\A3_V2_Boss.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\Shaders\A3\A3_Char_Streamer.shader" />
+     <None Include="Assets\Shaders\MUWings_Test.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\BumpSpec\T4M 3 TexturesBumpSpec.shader" />
+     <None Include="Assets\Shaders\MaskedAddTexture.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Diffuse\T4M 6 Textures.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+     <None Include="Assets\Shaders\Sprites_Gray.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+     <None Include="Assets\StreamingAssets\OutAssets\outGameTxt.txt" />
+     <None Include="Assets\Plugins\Android\res\layout\activity_main_demo.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MobileBloom.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\Resources\uifx\ui_renderblend.shader" />
+     <None Include="Assets\Shaders\Particle Add noztest.shader" />
+     <None Include="Assets\Resources\uifx\ui_blur.shader" />
+     <None Include="Assets\Shaders\MUPCShader.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\Shaders\Scene\WaterFall.shader" />
+     <None Include="Assets\Shaders\A3\A3_Char_Strength.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\orange1\orange.fnt" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CameraMotionBlur.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\Shaders\DynamicShadow.shader" />
+     <None Include="Assets\Shaders\Scene\Terrain4Layer.shader" />
+     <None Include="Assets\StreamingAssets\OutAssets\svrconfig\map.xml" />
+     <None Include="Assets\Shaders\Scene\Plants.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+     <None Include="Assets\Resources\ieshader\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\Shaders\Particle Alpha Blend Lv3.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Bump\T4M 3 TexturesBumped Mobile.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\5TexturesUnlit.shader" />
+     <None Include="Assets\Shaders\A3\A3_Char_Strength_H.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\Shaders\Jewel.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\golden1\fight.fnt" />
+     <None Include="Assets\Shaders\Particle Alpha Blend.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrection3DLut.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+     <None Include="Assets\Shaders\Add_Fade_4Tex.shader" />
+     <None Include="Assets\Shaders\A3_Char.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Shaders\Ice.shader" />
+     <None Include="Assets\Shaders\Distortion_Blend.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel1\T4M 2 Textures Auto BeastLM 2DrawCall.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\Bump\T4M 2 TexturesBump.shader" />
+     <None Include="Assets\T4M\Shaders\PlantPreview.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\Shaders\MuCreateChar.shader" />
+     <None Include="Assets\Shaders\Show_VCAlpha.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\Shaders\Hide.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\critfont\critfont.fnt" />
+     <None Include="Assets\Shaders\Scene\MyMobile UV Sine_Add.shader" />
+     <None Include="Assets\Shaders\T4M 4 Textures.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\Shaders\Particle Add.shader" />
+     <None Include="Assets\Shaders\DistorAB.shader" />
+     <None Include="Assets\AB_RELEASE\mother_package\ab_font\fonts\Red1\red.fnt" />
+     <None Include="Assets\Shaders\A3\A3_Boss.shader" />
+     <None Include="Assets\Shaders\cgwell_dissolution_add.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Toon\T4M 4 Textures Toon.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Unlit\2TexturesUnlit.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\Resources\uifx\ui_color_correct.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M World Projection Shader.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel3\BumpSpec\T4M 3 TexturesBumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\Shaders\Water.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\DirectionLM\T4M 2 TexturesBumped DLM mobile.shader" />
+     <None Include="Assets\Shaders\StaticMesh_2Side_UvAnim.shader" />
+     <None Include="Assets\Shaders\MUWings.shader" />
+     <None Include="Assets\Shaders\A3\A3_Char_Normal.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\Diffuse\T4M 5 Textures.shader" />
+     <None Include="Assets\Shaders\Particle Alpha Blend Lv2.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\Shaders\Scene\MyMobile UV Sine_Blend.shader" />
+     <None Include="Assets\T4M\Shaders\ShaderModel2\BumpSpec\T4M 2 TexturesBumpSpec.shader" />
+     <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>E:/荣耀军团-svn/client_mobile/A3Main/ver_1.0.0_20180523/A3_U3D_MAIN/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TestRunner">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="nunit.framework">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/nunit.framework.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>D:/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="CrossMono">
+ <HintPath>E:/荣耀军团-svn/client_mobile/A3Main/ver_1.0.0_20180523/A3_U3D_MAIN/Assets/Libs/CrossMono.dll</HintPath>
+ </Reference>
+ <Reference Include="CrossMonoUnityImpl">
+ <HintPath>E:/荣耀军团-svn/client_mobile/A3Main/ver_1.0.0_20180523/A3_U3D_MAIN/Assets/Libs/CrossMonoUnityImpl.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/荣耀军团-svn/client_mobile/A3Main/ver_1.0.0_20180523/A3_U3D_MAIN/Assets/Libs/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="GameFramework">
+ <HintPath>E:/荣耀军团-svn/client_mobile/A3Main/ver_1.0.0_20180523/A3_U3D_MAIN/Assets/Libs/GameFramework.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZLib">
+ <HintPath>E:/荣耀军团-svn/client_mobile/A3Main/ver_1.0.0_20180523/A3_U3D_MAIN/Assets/Libs/ICSharpCode.SharpZLib.dll</HintPath>
+ </Reference>
+ <Reference Include="MuGame">
+ <HintPath>E:/荣耀军团-svn/client_mobile/A3Main/ver_1.0.0_20180523/A3_U3D_MAIN/Assets/Libs/MuGame.dll</HintPath>
+ </Reference>
+ <Reference Include="Debuger">
+ <HintPath>E:/荣耀军团-svn/client_mobile/A3Main/ver_1.0.0_20180523/A3_U3D_MAIN/Assets/Plugins/Debuger.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{FD67A93A-EE84-B08D-ED82-C326BF358667}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

@@ -1,0 +1,24 @@
+<dialog>
+  
+  <dialog id= "1">
+  <log  value="1:我定位到邪恶力量的源头就在这里……"/>
+  <log  value="newbie:go::playcameraani,1"/>
+  </dialog>
+  <dialog id= "2">
+  <log  value="1:终于，我再次回到了这个世界！死吧虫子！"/>
+  <log  value="newbie:go::dialog,222,快离开这里，以我们现在的力量还不足以与他抗衡;onwinclose,dialog::continue"/>
+  <log  value="newbie:go::cleargo|endstory,-1|endnewbie"/>
+  </dialog>
+  <dialog id= "3">
+  <log  value="1:你也是被这股邪恶力量吸引而来吗？"/>
+  <log  value="0:我能感觉到强大的邪恶像是要从心底开始将我撕碎一样的震颤着我的内心。你清楚这里发生了什么吗？"/>
+  <log  value="1:我也正在调查之中。也许有了你的帮助，我们就可以更快的查明真相。"/>
+  <log  value="newbie:go::playact,items/111,skill|playeff,#usr,FX_npcFX_FX_npc111_jiesuo_buff|playeff,items/111,FX_npcFX_FX_npc11_skill_shifa;delay,0.1::continue"/>
+  <log  value="newbie:go::openskill,4;delay,0.1::continue"/>
+  <log  value="1:好了，我们各自展开调查吧。"/>
+  <log  value="newbie:go::playact,items/111,leave"/>
+  </dialog>
+  <dialog id= "4">
+  <log  value="0: 我在这里感受到了一股不寻常的邪恶能量，不知道这里面藏着什么样的黑暗秘密"/>
+  </dialog>
+</dialog>

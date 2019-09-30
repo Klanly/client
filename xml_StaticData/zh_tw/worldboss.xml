@@ -1,0 +1,872 @@
+<worldboss>
+<!--
+trance 傳送的目標地圖
+time 刷新的時間
+name boss名稱
+mapname 刷新地點名稱
+icon BOSS圖標
+levellimit 等級限制
+tracemap傳送的地圖id
+trancelocal 傳送的具體坐標
+announce1  滾動公告1 在開放前15分鐘發送 每分鐘發1次 在BOSS刷新時停止發送
+announce2  滾動公告2  在BOSS刷新時發送1次
+close_tm 世界BOSS關閉時間 回收刷新的所有怪物
+
+monsterID 刷新的怪物ID  
+MAPID 刷新的地圖ID
+local  刷新的具體位置  不填在隨機位置刷新
+
+dropset
+name 掉落的套裝預覽名稱
+icon 掉落的套裝預覽圖表
+droplist
+intro 介紹內容
+equipid  掉落的具體裝備
+-->
+
+  <boss id="1" time="12,18"  name="赤血軍團" map_name="地下城" icon="1" level_limit="1,1" point_id="20001" announce1="空間通道即將開啟，X分種後異界魔王將率軍入侵，請各位勇士做好準備！" announce2="異界魔王已經率軍入侵，世界的命運就掌握在各位勇士手中了！" boss_id="2012" target_map_id="14" target_x="59" target_y="64">
+    <monster mid="2012" map_id="14" release_time="3600">
+      <!--<mappoint id="1" x="58" y="56" />.-->
+      <mappoint id="1" x="98" y="96" />
+    </monster>
+
+    <monster mid="2001" map_id="13" release_time="3600" >
+      <mappoint id="1" x="54" y="24" />
+      <!--<mappoint id="2" x="34" y="47" />
+      <mappoint id="1" x="55" y="71" />
+      <mappoint id="2" x="75" y="48" />-->
+    </monster>
+
+    <monster mid="2001" map_id="13" release_time="3600" >
+      <!--<mappoint id="1" x="54" y="24" />
+      <mappoint id="2" x="34" y="47" />
+      <mappoint id="1" x="55" y="71" />-->
+      <mappoint id="2" x="75" y="48" />
+    </monster>
+
+
+    <monster mid="2001" map_id="13" release_time="3600" >
+      <!--<mappoint id="1" x="54" y="24" />
+      <mappoint id="2" x="34" y="47" />-->
+      <mappoint id="1" x="55" y="71" />
+      <!--<mappoint id="2" x="75" y="48" />-->
+    </monster>
+
+
+    <monster mid="2001" map_id="12" release_time="3600" >
+
+      <!--<mappoint id="3" x="75" y="39" />-->
+      <mappoint id="4" x="125" y="36" />
+    </monster>
+
+    <monster mid="2001" map_id="12" release_time="3600" >
+
+      <mappoint id="3" x="75" y="39" />
+      <!--<mappoint id="4" x="125" y="36" />-->
+    </monster>
+
+    <monster mid="2001" map_id="11" release_time="3600" >
+      <!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />
+      <mappoint id="3" x="35" y="57" />-->
+      <mappoint id="4" x="80" y="49" />
+    </monster>
+
+
+    <monster mid="2001" map_id="11" release_time="3600" >
+      <mappoint id="1" x="55" y="126" />
+      <!--<mappoint id="2" x="55" y="71" />
+      <mappoint id="3" x="35" y="57" />
+      <mappoint id="4" x="80" y="49" />-->
+    </monster>
+
+
+    <monster mid="2001" map_id="11" release_time="3600" >
+      <!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />-->
+      <mappoint id="3" x="35" y="57" />
+      <!--<mappoint id="4" x="80" y="49" />-->
+    </monster>
+
+
+    <monster mid="2013" map_id="14" release_time="3600" >
+      <!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />-->
+      <mappoint id="3" x="84" y="97" />
+      <!--<mappoint id="4" x="80" y="49" />-->
+    </monster>
+
+    <monster mid="2013" map_id="14" release_time="3600" >
+      <!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />-->
+      <mappoint id="3" x="87" y="107" />
+      <!--<mappoint id="4" x="80" y="49" />-->
+    </monster>
+
+
+    <monster mid="2013" map_id="14" release_time="3600" >
+      <!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />-->
+      <mappoint id="3" x="114" y="101" />
+      <!--<mappoint id="4" x="80" y="49" />-->
+    </monster>
+
+
+    <monster mid="2013" map_id="14" release_time="3600" >
+      <!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />-->
+      <mappoint id="3" x="109" y="110" />
+      <!--<mappoint id="4" x="80" y="49" />-->
+    </monster>
+
+
+    <monster mid="2013" map_id="14" release_time="3600" >
+      <!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />-->
+      <mappoint id="3" x="121" y="113" />
+      <!--<mappoint id="4" x="80" y="49" />-->
+    </monster>
+
+
+    <!--<monster mid="2013" map_id="14" release_time="3600" >
+      --><!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />--><!--
+      <mappoint id="3" x="114" y="120" />
+      --><!--<mappoint id="4" x="80" y="49" />--><!--
+    </monster>-->
+
+
+    <!--<monster mid="2013" map_id="14" release_time="3600" >
+      --><!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />--><!--
+      <mappoint id="3" x="82" y="115" />
+      --><!--<mappoint id="4" x="80" y="49" />--><!--
+    </monster>-->
+
+
+    <monster mid="2013" map_id="14" release_time="3600" >
+      <!--<mappoint id="1" x="55" y="126" />
+      <mappoint id="2" x="55" y="71" />-->
+      <mappoint id="3" x="78" y="106" />
+      <!--<mappoint id="4" x="80" y="49" />-->
+    </monster>
+
+
+
+
+  </boss>
+  <boss id="2" time="12,18"  name="墮落軍團" map_name="暗黑神殿" icon="1" level_limit="3,1" point_id="20000" announce1="空間通道即將開啟，X分種後異界魔王將率軍入侵，請各位勇士做好準備！" announce2="異界魔王已經率軍入侵，世界的命運就掌握在各位勇士手中了！" boss_id="2005" target_map_id="7" target_x="67" target_y="40">
+    <!--wideth 和height 表示地圖的面積右上為起點，需要這個值確定地圖的面積，debug的括號內第二個值-->
+  
+    <monster mid="2005" map_id="7"  release_time="3600">
+      <mappoint id="1" x="113" y="56" />
+    </monster>
+    
+    <monster mid="2001" map_id="6" release_time="3600" >
+      <!--<mappoint id="1" x="125" y="31" />
+      <mappoint id="2" x="103" y="56" />
+      <mappoint id="1" x="125" y="80" />-->
+      <mappoint id="2" x="124" y="124" />
+    </monster>
+
+    <monster mid="2001" map_id="6" release_time="3600" >
+      <!--<mappoint id="1" x="125" y="31" />-->
+      <mappoint id="2" x="103" y="56" />
+      <!--<mappoint id="1" x="125" y="80" />
+      <mappoint id="2" x="124" y="124" />-->
+    </monster>
+
+    <monster mid="2001" map_id="6" release_time="3600" >
+      <mappoint id="1" x="125" y="31" />
+      <!--<mappoint id="2" x="103" y="56" />
+      <mappoint id="1" x="125" y="80" />
+      <mappoint id="2" x="124" y="124" />-->
+    </monster>
+    
+    
+    
+    <monster mid="2001" map_id="5" release_time="3600" >
+      <mappoint id="1" x="56" y="140" />
+      <!--<mappoint id="2" x="97" y="73" />
+      <mappoint id="3" x="49" y="76" />
+      <mappoint id="4" x="125" y="36" />-->
+    </monster>
+    
+    <monster mid="2001" map_id="5" release_time="3600" >
+      <!--<mappoint id="1" x="56" y="140" />-->
+      <mappoint id="2" x="97" y="73" />
+      <!--<mappoint id="3" x="49" y="76" />
+      <mappoint id="4" x="125" y="36" />-->
+    </monster>
+    
+    <monster mid="2001" map_id="5" release_time="3600" >
+      <!--<mappoint id="1" x="56" y="140" />
+      <mappoint id="2" x="97" y="73" />
+      <mappoint id="3" x="49" y="76" />-->
+      <mappoint id="4" x="125" y="36" />
+    </monster>
+    
+    
+    
+    
+    <monster mid="2001" map_id="4" release_time="3600" >
+      <mappoint id="1" x="124" y="124" />
+      <!--<mappoint id="2" x="77" y="86" />
+      <mappoint id="3" x="169" y="184" />
+      <mappoint id="4" x="124" y="87" />-->
+    </monster>
+
+    <monster mid="2001" map_id="4" release_time="3600" >
+      <!--<mappoint id="1" x="124" y="124" />-->
+      <mappoint id="2" x="77" y="86" />
+      <!--<mappoint id="3" x="169" y="184" />
+      <mappoint id="4" x="124" y="87" />-->
+    </monster>
+
+    <monster mid="2001" map_id="4" release_time="3600" >
+      <!--<mappoint id="1" x="124" y="124" />
+      <mappoint id="2" x="77" y="86" />
+      <mappoint id="3" x="169" y="184" />-->
+      <mappoint id="4" x="124" y="87" />
+    </monster>
+    
+  </boss>
+  <boss id="3" time="12,18"  name="暗天軍團" map_name="末日神殿" icon="1" level_limit="5,1" point_id="20002" announce1="空間通道即將開啟，X分種後異界魔王將率軍入侵，請各位勇士做好準備！" announce2="異界魔王已經率軍入侵，世界的命運就掌握在各位勇士手中了！" boss_id="2000">
+    <monster mid="2000" map_id="18" release_time="3600" >
+      <mappoint id="1" x="187" y="195" />
+    </monster>
+
+    <!--<monster mid="2014" map_id="23" release_time="3600" >
+      <mappoint id="1" x="140" y="75" />
+    </monster>-->
+
+    <!--<monster mid="2001" map_id="6" release_time="3600" >
+      <mappoint id="1" x="125" y="31" />
+      --><!--<mappoint id="2" x="103" y="56" />
+      <mappoint id="1" x="125" y="80" />
+      <mappoint id="2" x="124" y="124" />--><!--
+    </monster>
+    <monster mid="2001" map_id="6" release_time="3600" >
+      --><!--<mappoint id="1" x="125" y="31" />
+      <mappoint id="2" x="103" y="56" />
+      <mappoint id="1" x="125" y="80" />--><!--
+      <mappoint id="2" x="124" y="124" />
+    </monster>
+    <monster mid="2001" map_id="6" release_time="3600" >
+      --><!--<mappoint id="1" x="125" y="31" />
+      <mappoint id="2" x="103" y="56" />--><!--
+      <mappoint id="1" x="125" y="80" />
+      --><!--<mappoint id="2" x="124" y="124" />--><!--
+    </monster>
+    <monster mid="2001" map_id="5" release_time="3600" >
+      --><!--<mappoint id="1" x="56" y="140" />
+      <mappoint id="2" x="97" y="73" />
+      <mappoint id="3" x="49" y="76" />--><!--
+      <mappoint id="4" x="125" y="36" />
+    </monster>
+    <monster mid="2001" map_id="5" release_time="3600" >
+      <mappoint id="1" x="56" y="140" />
+      --><!--<mappoint id="2" x="97" y="73" />
+      <mappoint id="3" x="49" y="76" />
+      <mappoint id="4" x="125" y="36" />--><!--
+    </monster>
+    <monster mid="2001" map_id="5" release_time="3600" >
+      --><!--<mappoint id="1" x="56" y="140" />
+      <mappoint id="2" x="97" y="73" />--><!--
+      <mappoint id="3" x="49" y="76" />
+      --><!--<mappoint id="4" x="125" y="36" />--><!--
+    </monster>
+    <monster mid="2001" map_id="4" release_time="3600" >
+      <mappoint id="1" x="124" y="124" />
+      --><!--<mappoint id="2" x="77" y="86" />
+      <mappoint id="3" x="169" y="184" />
+      <mappoint id="4" x="124" y="87" />--><!--
+    </monster>
+    <monster mid="2001" map_id="4" release_time="3600" >
+      --><!--<mappoint id="1" x="124" y="124" />
+      <mappoint id="2" x="77" y="86" />
+      <mappoint id="3" x="169" y="184" />--><!--
+      <mappoint id="4" x="124" y="87" />
+    </monster>
+    <monster mid="2001" map_id="4" release_time="3600" >
+      --><!--<mappoint id="1" x="124" y="124" />--><!--
+      <mappoint id="2" x="77" y="86" />
+      --><!--<mappoint id="3" x="169" y="184" />
+      <mappoint id="4" x="124" y="87" />--><!--
+    </monster>-->
+  </boss>
+  
+  <dropset id="1">
+    <set name="強化雪狼淘" icon=""/>
+    <set name="強化雪狼淘" icon=""/>
+    <set name="強化雪狼淘" icon=""/>
+  </dropset>
+
+  <dropset id="2">
+    <set name="強化雪狼淘" icon=""/>
+    <set name="強化雪狼淘" icon=""/>
+    <set name="強化雪狼淘" icon=""/>
+  </dropset>
+
+
+  <dropset id="3">
+    <set name="強化雪狼淘" icon=""/>
+    <set name="強化雪狼淘" icon=""/>
+    <set name="強化雪狼淘" icon=""/>
+  </dropset>
+
+  <droplist id="1" intro1="墮落狂魔在暗黑神殿進行慘無人道的血腥研究，為了強化他的軍團力量，他折磨無數無辜的村民，用他們痛苦的靈魂建造了壹只勢不可擋的活屍軍隊。" intro2="每天12點和18點刷新，地點為暗黑殿堂">
+    <equip id="141"/>
+    <equip id="142"/>
+    <equip id="143"/>
+    <equip id="144"/>
+    <equip id="145"/>
+    <equip id="146"/>
+    <equip id="147"/>
+
+    <equip id="241"/>
+    <equip id="242"/>
+    <equip id="243"/>
+    <equip id="244"/>
+    <equip id="245"/>
+    <equip id="246"/>
+    <equip id="247"/>
+
+    <equip id="341"/>
+    <equip id="342"/>
+    <equip id="343"/>
+    <equip id="344"/>
+    <equip id="345"/>
+    <equip id="346"/>
+    <equip id="347"/>
+
+  </droplist>
+
+
+  <droplist id="2" intro1="赤血狂魔是吸食地下城中無數先王的王血而形成的強大惡魔，他暴戾而瘋狂，任何接近他的生物都將成為他赤色長戟下的可悲靈魂。" intro2="每天12點和18點刷新，地點為王族陵墓">
+    <equip id="171"/>
+    <equip id="172"/>
+    <equip id="173"/>
+    <equip id="174"/>
+    <equip id="175"/>
+    <equip id="176"/>
+    <equip id="177"/>
+
+    <equip id="271"/>
+    <equip id="272"/>
+    <equip id="273"/>
+    <equip id="274"/>
+    <equip id="275"/>
+    <equip id="276"/>
+    <equip id="277"/>
+
+    <equip id="371"/>
+    <equip id="372"/>
+    <equip id="373"/>
+    <equip id="374"/>
+    <equip id="375"/>
+    <equip id="376"/>
+    <equip id="377"/>
+    
+
+  </droplist>
+
+
+  <droplist id="3" intro1="暗天狂魔是遠古時期被神所封印的黑暗惡魔，如今那裏已經成為了無人之境，沒人知道如今的他到底有多強大，這是因為去過那裏的人們再也沒有回來。" intro2="每天12點和18點刷新，地點為寒冰宮殿">
+    <equip id="191"/>
+    <equip id="192"/>
+    <equip id="193"/>
+    <equip id="194"/>
+    <equip id="195"/>
+    <equip id="196"/>
+    <equip id="197"/>
+
+    <equip id="291"/>
+    <equip id="292"/>
+    <equip id="293"/>
+    <equip id="294"/>
+    <equip id="295"/>
+    <equip id="296"/>
+    <equip id="297"/>
+
+    <equip id="391"/>
+    <equip id="392"/>
+    <equip id="393"/>
+    <equip id="394"/>
+    <equip id="395"/>
+    <equip id="396"/>
+    <equip id="397"/>
+  </droplist>
+  
+  <droplist id="30000">
+    <equip id="191"/>
+    <equip id="192"/>
+    <equip id="193"/>
+    <equip id="194"/>
+    <equip id="195"/>
+    <equip id="196"/>
+    <equip id="197"/>
+	<item id="1501"/>
+  </droplist>
+  <droplist id="30001">
+    <equip id="291"/>
+    <equip id="292"/>
+    <equip id="293"/>
+    <equip id="294"/>
+    <equip id="295"/>
+    <equip id="296"/>
+    <equip id="297"/>
+	<item id="1501"/>
+  </droplist>
+  <droplist id="30002">
+    <equip id="391"/>
+    <equip id="392"/>
+    <equip id="393"/>
+    <equip id="394"/>
+    <equip id="395"/>
+    <equip id="396"/>
+    <equip id="397"/>
+	<item id="1501"/>
+  </droplist>
+  <droplist id="30003">
+    <equip id="191"/>
+    <equip id="192"/>
+    <equip id="193"/>
+    <equip id="194"/>
+    <equip id="195"/>
+    <equip id="196"/>
+    <equip id="197"/>
+	<item id="1501"/>
+  </droplist>
+  <droplist id="30004">
+    <equip id="191"/>
+    <equip id="192"/>
+    <equip id="193"/>
+    <equip id="194"/>
+    <equip id="195"/>
+    <equip id="196"/>
+    <equip id="197"/>
+	<item id="1501"/>
+  </droplist>
+  <droplist id="2002">
+    <equip id="191"/>
+    <equip id="192"/>
+    <equip id="193"/>
+    <equip id="194"/>
+    <equip id="195"/>
+    <equip id="196"/>
+    <equip id="197"/>
+	<item id="1501"/>
+  </droplist>
+  <droplist id="2003">
+    <equip id="191"/>
+    <equip id="192"/>
+    <equip id="193"/>
+    <equip id="194"/>
+    <equip id="195"/>
+    <equip id="196"/>
+    <equip id="197"/>
+	<item id="1501"/>
+  </droplist>
+  <droplist id="2004">
+    <equip id="191"/>
+    <equip id="192"/>
+    <equip id="193"/>
+    <equip id="194"/>
+    <equip id="195"/>
+    <equip id="196"/>
+    <equip id="197"/>
+	<item id="1501"/>
+  </droplist>
+  <droplist id="2005">
+    <equip id="191"/>
+    <equip id="192"/>
+    <equip id="193"/>
+    <equip id="194"/>
+    <equip id="195"/>
+    <equip id="196"/>
+    <equip id="197"/>
+	<item id="1501"/>
+  </droplist>
+  <!--首領界面怪物掉落展示TIP配置
+  type:1道具；2裝備；3特殊提示；-->
+  <mdrop mid="30000">
+	<item id="116" type="3">
+		<item_name tip="綠色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生2條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+  </mdrop>
+  <mdrop mid="30001">
+	<item id="116" type="3">
+		<item_name tip="綠色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生2條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+  </mdrop>
+  <mdrop mid="30002">
+	<item id="116" type="3">
+		<item_name tip="綠色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生2條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+  </mdrop>
+  <mdrop mid="30003">
+	<item id="116" type="3">
+		<item_name tip="綠色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生2條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="146" type="3">
+		<item_name tip="金色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生5條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip="隨機產生1條靈魂屬性"/>
+	</item>
+  </mdrop>
+  <mdrop mid="30004">
+    <item id="116" type="3">
+		<item_name tip="綠色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生2條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="146" type="3">
+		<item_name tip="金色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生5條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip="隨機產生1條靈魂屬性"/>
+	</item>
+  </mdrop>
+  <mdrop mid="30005">
+    <item id="116" type="3">
+		<item_name tip="綠色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生2條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="146" type="3">
+		<item_name tip="金色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生5條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip="隨機產生1條靈魂屬性"/>
+	</item>
+  </mdrop>
+  <mdrop mid="30006">
+    <item id="116" type="3">
+		<item_name tip="綠色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生2條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="146" type="3">
+		<item_name tip="金色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生5條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip="隨機產生1條靈魂屬性"/>
+	</item>
+  </mdrop>
+  
+  <mdrop mid="2012">
+	
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="146" type="3">
+		<item_name tip="金色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生5條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip="隨機產生1條靈魂屬性"/>
+	</item>
+	<item id="1141" type="3">
+		<item_name tip="紫色首飾"/>
+		<carr_limit tip="通用"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="1501" type="1"/>
+	<item id="1504" type="1"/>
+	<item id="1509" type="1"/>
+	<item id="1510" type="1"/>
+	<item id="1587" type="1"/>
+	<item id="1597" type="1"/>
+	<item id="1607" type="1"/>
+  </mdrop>
+  <mdrop mid="2005">
+	
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="146" type="3">
+		<item_name tip="金色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生5條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip="隨機產生1條靈魂屬性"/>
+	</item>
+	<item id="1141" type="3">
+		<item_name tip="紫色首飾"/>
+		<carr_limit tip="通用"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="1501" type="1"/>
+	<item id="1504" type="1"/>
+	<item id="1509" type="1"/>
+	<item id="1510" type="1"/>
+	<item id="1587" type="1"/>
+	<item id="1597" type="1"/>
+	<item id="1607" type="1"/>
+  </mdrop>
+  <mdrop mid="2000">
+    
+	<item id="126" type="3">
+		<item_name tip="藍色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生3條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="136" type="3">
+		<item_name tip="紫色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="146" type="3">
+		<item_name tip="金色裝備"/>
+		<carr_limit tip="未知"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生5條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip="隨機產生1條靈魂屬性"/>
+	</item>
+	<item id="1141" type="3">
+		<item_name tip="紫色首飾"/>
+		<carr_limit tip="通用"/>
+		<desc1 tip="未知"/>
+		<desc2 tip="未知"/>
+		<random_tip1 tip="隨機產生4條附加屬性"/>
+		<random_tip2 tip="隨機產生1~3個寶石孔"/>
+		<random_tip3 tip=" "/>
+	</item>
+	<item id="1501" type="1"/>
+	<item id="1504" type="1"/>
+	<item id="1509" type="1"/>
+	<item id="1510" type="1"/>
+	<item id="1587" type="1"/>
+	<item id="1597" type="1"/>
+	<item id="1607" type="1"/>
+  </mdrop>
+  
+</worldboss>

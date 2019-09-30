@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: rzjd_poqiang_01_a
+  m_Shader: {fileID: 4800000, guid: 8817021822ff8824ab7cbc40ac28dde3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _EmissionTex
+      second:
+        m_Texture: {fileID: 2800000, guid: f46889a9a1dfe9644851ed583a35866b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: eb0bc7d9e2af924438f02d4eddfe0583, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SplTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AlphaPow
+      second: 0.1
+    - first:
+        name: _Alphaoffset
+      second: 0.819
+    - first:
+        name: _Cutoff
+      second: 0.5
+    - first:
+        name: _Damping
+      second: 0.17
+    - first:
+        name: _ForceX
+      second: 0.1
+    - first:
+        name: _ForceY
+      second: 0.1
+    - first:
+        name: _HeatTime
+      second: 0
+    - first:
+        name: _Intensity
+      second: 0.51
+    - first:
+        name: _Posui
+      second: -0.01
+    - first:
+        name: _RflScale
+      second: 0.08
+    - first:
+        name: _RimPow
+      second: 10.9
+    - first:
+        name: _RimScale
+      second: 0
+    - first:
+        name: _RimWidth
+      second: 0
+    - first:
+        name: _SHLightingScale
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.24264705, g: 0.72961444, b: 0.9705882, a: 1}
+    - first:
+        name: _RimColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _SplScl
+      second: {r: 1, g: 0, b: 0, a: 0.15}
+    - first:
+        name: _TintColor
+      second: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}

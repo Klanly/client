@@ -1,0 +1,597 @@
+<giftlist>
+	<!--字段说明  
+	type 奖品类型
+	itemid 奖励的物品ID
+	item_type 1道具 2装备
+	num 奖励的数量
+	item describ 物品的名称
+	cost 抽中这个奖品扣除的幸运值
+	probility 概率
+	playertype  玩家中奖类型
+    need_lucky_min 根据这个值确认玩家的中奖类型
+	gift type 玩家抽中这个奖品区间的概率 一共6种区间 所有区间的概率值相加等于1000.
+	stage 阶数
+	intensify 强化等级
+	distance 间隔
+	-->
+
+	<!--奖品列表-->
+	<distance val="1"/>
+	<!--引导奖励配置-->
+	<newbie carry="2" item_id="133" stage="0" intensify="0"/>
+	<newbie carry="3" item_id="233" stage="0" intensify="0"/>
+	<newbie carry="5" item_id="333" stage="0" intensify="0"/>
+	
+	<bugitem id="1533" num="1"/>
+	
+	<item type="1">
+		<item id="1" item_type="2" item_id="146" num="1" item_name="神器武器" stage="0" intensify="0" cost="1500"/>
+		<item id="2" item_type="2" item_id="246" num="1" item_name="神器武器" stage="0" intensify="0" cost="1500"/>
+		<item id="3" item_type="2" item_id="346" num="1" item_name="神器武器" stage="0" intensify="0" cost="1500"/>
+		<item id="4" item_type="2" item_id="141" num="1" item_name="千刃头盔" stage="0" intensify="0" cost="1300"/>
+		<item id="5" item_type="2" item_id="142" num="1" item_name="千刃肩甲" stage="0" intensify="0" cost="1300"/>
+		<item id="6" item_type="2" item_id="143" num="1" item_name="千刃胸甲" stage="0" intensify="0" cost="1300"/>
+		<item id="7" item_type="2" item_id="144" num="1" item_name="千刃护腿" stage="0" intensify="0" cost="1300"/>
+		<item id="8" item_type="2" item_id="145" num="1" item_name="千刃靴子" stage="0" intensify="0" cost="1300"/>
+		<item id="9" item_type="2" item_id="147" num="1" item_name="千刃手套" stage="0" intensify="0" cost="1300"/>
+		<item id="10" item_type="2" item_id="241" num="1" item_name="神谕头盔" stage="0" intensify="0" cost="1300"/>
+		<item id="11" item_type="2" item_id="242" num="1" item_name="神谕肩甲" stage="0" intensify="0" cost="1300"/>
+		<item id="12" item_type="2" item_id="243" num="1" item_name="神谕胸甲" stage="0" intensify="0" cost="1300"/>
+		<item id="13" item_type="2" item_id="244" num="1" item_name="神谕护腿" stage="0" intensify="0" cost="1300"/>
+		<item id="14" item_type="2" item_id="245" num="1" item_name="神谕靴子" stage="0" intensify="0" cost="1300"/>
+		<item id="15" item_type="2" item_id="247" num="1" item_name="神谕手套" stage="0" intensify="0" cost="1300"/>
+		<item id="16" item_type="2" item_id="341" num="1" item_name="骨龙头盔" stage="0" intensify="0" cost="1300"/>
+		<item id="17" item_type="2" item_id="342" num="1" item_name="骨龙肩甲" stage="0" intensify="0" cost="1300"/>
+		<item id="18" item_type="2" item_id="343" num="1" item_name="骨龙胸甲" stage="0" intensify="0" cost="1300"/>
+		<item id="19" item_type="2" item_id="344" num="1" item_name="骨龙护腿" stage="0" intensify="0" cost="1300"/>
+		<item id="20" item_type="2" item_id="345" num="1" item_name="骨龙靴子" stage="0" intensify="0" cost="1300"/>
+		<item id="21" item_type="2" item_id="347" num="1" item_name="骨龙手套" stage="0" intensify="0" cost="1300"/>
+	</item>  
+    <item type="2">
+		<item id="22" item_type="2" item_id="136" num="1" item_name="雪狼头盔" stage="0" intensify="0" cost="650"/>
+		<item id="23" item_type="2" item_id="236" num="1" item_name="雪狼肩甲" stage="0" intensify="0" cost="650"/>
+		<item id="24" item_type="2" item_id="336" num="1" item_name="雪狼胸甲" stage="0" intensify="0" cost="650"/>
+		<item id="25" item_type="2" item_id="131" num="1" item_name="雪狼头盔" stage="0" intensify="0" cost="650"/>
+		<item id="26" item_type="2" item_id="132" num="1" item_name="雪狼肩甲" stage="0" intensify="0" cost="650"/>
+		<item id="27" item_type="2" item_id="133" num="1" item_name="雪狼胸甲" stage="0" intensify="0" cost="650"/>
+		<item id="28" item_type="2" item_id="134" num="1" item_name="雪狼护腿" stage="0" intensify="0" cost="650"/>
+		<item id="29" item_type="2" item_id="135" num="1" item_name="雪狼靴" stage="0" intensify="0" cost="650"/>
+		<item id="30" item_type="2" item_id="137" num="1" item_name="雪狼手套" stage="0" intensify="0" cost="650"/>
+		<item id="31" item_type="2" item_id="231" num="1" item_name="雪狼头盔" stage="0" intensify="0" cost="650"/>
+		<item id="32" item_type="2" item_id="232" num="1" item_name="雪狼肩甲" stage="0" intensify="0" cost="650"/>
+		<item id="33" item_type="2" item_id="233" num="1" item_name="雪狼胸甲" stage="0" intensify="0" cost="650"/>
+		<item id="34" item_type="2" item_id="234" num="1" item_name="雪狼护腿" stage="0" intensify="0" cost="650"/>
+		<item id="35" item_type="2" item_id="235" num="1" item_name="雪狼靴" stage="0" intensify="0" cost="650"/>
+		<item id="36" item_type="2" item_id="237" num="1" item_name="雪狼手套" stage="0" intensify="0" cost="650"/>
+		<item id="37" item_type="2" item_id="331" num="1" item_name="雪狼头盔" stage="0" intensify="0" cost="650"/>
+		<item id="38" item_type="2" item_id="332" num="1" item_name="雪狼肩甲" stage="0" intensify="0" cost="650"/>
+		<item id="39" item_type="2" item_id="333" num="1" item_name="雪狼胸甲" stage="0" intensify="0" cost="650"/>
+		<item id="40" item_type="2" item_id="334" num="1" item_name="雪狼护腿" stage="0" intensify="0" cost="650"/>
+		<item id="41" item_type="2" item_id="335" num="1" item_name="雪狼靴" stage="0" intensify="0" cost="650"/>
+		<item id="42" item_type="2" item_id="337" num="1" item_name="雪狼手套" stage="0" intensify="0" cost="650"/>
+    </item> 
+	<item type="3">
+		<item id="43" item_type="2" item_id="126" num="1" item_name="神器武器" stage="0" intensify="0" cost="450"/>
+		<item id="44" item_type="2" item_id="226" num="1" item_name="神器武器" stage="0" intensify="0" cost="450"/>
+		<item id="45" item_type="2" item_id="326" num="1" item_name="神器武器" stage="0" intensify="0" cost="450"/>
+		<item id="46" item_type="2" item_id="121" num="1" item_name="千刃头盔" stage="0" intensify="0" cost="450"/>
+		<item id="47" item_type="2" item_id="122" num="1" item_name="千刃肩甲" stage="0" intensify="0" cost="450"/>
+		<item id="48" item_type="2" item_id="123" num="1" item_name="千刃胸甲" stage="0" intensify="0" cost="450"/>
+		<item id="49" item_type="2" item_id="124" num="1" item_name="千刃护腿" stage="0" intensify="0" cost="450"/>
+		<item id="50" item_type="2" item_id="125" num="1" item_name="千刃靴子" stage="0" intensify="0" cost="450"/>
+		<item id="51" item_type="2" item_id="127" num="1" item_name="千刃手套" stage="0" intensify="0" cost="450"/>	
+		<item id="52" item_type="2" item_id="221" num="1" item_name="神谕头盔" stage="0" intensify="0" cost="450"/>
+		<item id="53" item_type="2" item_id="222" num="1" item_name="神谕肩甲" stage="0" intensify="0" cost="450"/>
+		<item id="54" item_type="2" item_id="223" num="1" item_name="神谕胸甲" stage="0" intensify="0" cost="450"/>
+		<item id="55" item_type="2" item_id="224" num="1" item_name="神谕护腿" stage="0" intensify="0" cost="450"/>
+		<item id="56" item_type="2" item_id="225" num="1" item_name="神谕靴子" stage="0" intensify="0" cost="450"/>
+		<item id="57" item_type="2" item_id="227" num="1" item_name="神谕手套" stage="0" intensify="0" cost="450"/>
+		<item id="58" item_type="2" item_id="321" num="1" item_name="骨龙头盔" stage="0" intensify="0" cost="450"/>
+		<item id="59" item_type="2" item_id="322" num="1" item_name="骨龙肩甲" stage="0" intensify="0" cost="450"/>
+		<item id="60" item_type="2" item_id="323" num="1" item_name="骨龙胸甲" stage="0" intensify="0" cost="450"/>
+		<item id="61" item_type="2" item_id="324" num="1" item_name="骨龙护腿" stage="0" intensify="0" cost="450"/>
+		<item id="62" item_type="2" item_id="325" num="1" item_name="骨龙靴子" stage="0" intensify="0" cost="450"/>
+		<item id="63" item_type="2" item_id="327" num="1" item_name="骨龙手套" stage="0" intensify="0" cost="450"/>
+	</item>
+	<item type="4">
+		<item id="64" item_type="1" item_id="1510" num="10" item_name="神圣之羽" cost="1000"/>
+	</item>
+	<item type="5">
+		<item id="65" item_type="1" item_id="1509" num="10" item_name="烈焰火种" cost="600"/>
+	</item>
+	<item type="6">	
+		<item id="66" item_type="1" item_id="1501" num="10" item_name="升级宝石" cost="600"/>
+	</item>
+	<item type="7">	
+		<item id="67" item_type="1" item_id="1504" num="10" item_name="天醒宝石" cost="600"/>
+	</item>
+	<item type="8">	
+		<item id="68" item_type="1" item_id="1560" num="1" item_name="大袋金币" cost="600"/>
+	</item>
+	<item type="9">	
+		<item id="69" item_type="1" item_id="1589" num="1" item_name="红宝石lv3" cost="1000"/>		
+	</item>
+	<item type="10">	
+		<item id="70" item_type="1" item_id="1590" num="1" item_name="红宝石lv4" cost="1000"/>
+	</item>
+	<item type="11">	
+		<item id="71" item_type="1" item_id="1599" num="1" item_name="蓝宝石lv3" cost="1000"/>
+	</item>
+	<item type="12">	
+		<item id="72" item_type="1" item_id="1600" num="1" item_name="蓝宝石lv4" cost="1000"/>
+	</item>
+	<item type="13">	
+		<item id="73" item_type="1" item_id="1609" num="1" item_name="黄宝石lv3" cost="1000"/>
+	</item>
+	<item type="14">	
+		<item id="74" item_type="1" item_id="1610" num="1" item_name="黄宝石lv4" cost="1000"/>
+	</item>
+	<item type="15">        
+		<item id="78" item_type="2" item_id="156" num="1" item_name="黑翼之眼" stage="0" intensify="0" cost="1500"/>
+		<item id="79" item_type="2" item_id="256" num="1" item_name="血色飞翼" stage="0" intensify="0" cost="1500"/>
+		<item id="80" item_type="2" item_id="356" num="1" item_name="血肉撕裂者" stage="0" intensify="0" cost="1500"/>        
+		<item id="84" item_type="2" item_id="151" num="1" item_name="毒灵头盔" stage="0" intensify="0" cost="1300"/>
+		<item id="85" item_type="2" item_id="152" num="1" item_name="毒灵肩甲" stage="0" intensify="0" cost="1300"/>
+		<item id="86" item_type="2" item_id="153" num="1" item_name="毒灵胸甲" stage="0" intensify="0" cost="1300"/>
+		<item id="87" item_type="2" item_id="154" num="1" item_name="毒灵护腿" stage="0" intensify="0" cost="1300"/>
+		<item id="88" item_type="2" item_id="155" num="1" item_name="毒灵靴子" stage="0" intensify="0" cost="1300"/>
+		<item id="89" item_type="2" item_id="157" num="1" item_name="毒灵手套" stage="0" intensify="0" cost="1300"/>
+		<item id="90" item_type="2" item_id="251" num="1" item_name="血翼头盔" stage="0" intensify="0" cost="1300"/>
+		<item id="91" item_type="2" item_id="252" num="1" item_name="血翼肩甲" stage="0" intensify="0" cost="1300"/>
+		<item id="92" item_type="2" item_id="253" num="1" item_name="血翼胸甲" stage="0" intensify="0" cost="1300"/>
+		<item id="93" item_type="2" item_id="254" num="1" item_name="血翼护腿" stage="0" intensify="0" cost="1300"/>
+		<item id="94" item_type="2" item_id="255" num="1" item_name="血翼靴子" stage="0" intensify="0" cost="1300"/>
+		<item id="95" item_type="2" item_id="257" num="1" item_name="血翼手套" stage="0" intensify="0" cost="1300"/>
+		<item id="96" item_type="2" item_id="351" num="1" item_name="收割者头盔" stage="0" intensify="0" cost="1300"/>
+		<item id="97" item_type="2" item_id="352" num="1" item_name="收割者肩甲" stage="0" intensify="0" cost="1300"/>
+		<item id="98" item_type="2" item_id="353" num="1" item_name="收割者胸甲" stage="0" intensify="0" cost="1300"/>
+		<item id="99" item_type="2" item_id="354" num="1" item_name="收割者护腿" stage="0" intensify="0" cost="1300"/>
+		<item id="100" item_type="2" item_id="355" num="1" item_name="收割者靴子" stage="0" intensify="0" cost="1300"/>
+		<item id="101" item_type="2" item_id="357" num="1" item_name="收割者手套" stage="0" intensify="0" cost="1300"/> 
+	</item>
+	<item type="16">		
+		<item id="81" item_type="2" item_id="166" num="1" item_name="神赐之心" stage="0" intensify="0" cost="1500"/>
+		<item id="82" item_type="2" item_id="266" num="1" item_name="银龙之魂" stage="0" intensify="0" cost="1500"/>
+		<item id="83" item_type="2" item_id="366" num="1" item_name="极光之舞" stage="0" intensify="0" cost="1500"/>
+		<item id="102" item_type="2" item_id="161" num="1" item_name="地灵头盔" stage="0" intensify="0" cost="1300"/>
+		<item id="103" item_type="2" item_id="162" num="1" item_name="地灵肩甲" stage="0" intensify="0" cost="1300"/>
+		<item id="104" item_type="2" item_id="163" num="1" item_name="地灵胸甲" stage="0" intensify="0" cost="1300"/>
+		<item id="105" item_type="2" item_id="164" num="1" item_name="地灵护腿" stage="0" intensify="0" cost="1300"/>
+		<item id="106" item_type="2" item_id="165" num="1" item_name="地灵靴子" stage="0" intensify="0" cost="1300"/>
+		<item id="107" item_type="2" item_id="167" num="1" item_name="地灵手套" stage="0" intensify="0" cost="1300"/>
+		<item id="108" item_type="2" item_id="261" num="1" item_name="幻石头盔" stage="0" intensify="0" cost="1300"/>
+		<item id="109" item_type="2" item_id="262" num="1" item_name="幻石肩甲" stage="0" intensify="0" cost="1300"/>
+		<item id="110" item_type="2" item_id="263" num="1" item_name="幻石胸甲" stage="0" intensify="0" cost="1300"/>
+		<item id="111" item_type="2" item_id="264" num="1" item_name="幻石护腿" stage="0" intensify="0" cost="1300"/>
+		<item id="112" item_type="2" item_id="265" num="1" item_name="幻石靴子" stage="0" intensify="0" cost="1300"/>
+		<item id="113" item_type="2" item_id="267" num="1" item_name="幻石手套" stage="0" intensify="0" cost="1300"/>
+		<item id="114" item_type="2" item_id="361" num="1" item_name="剑斗头盔" stage="0" intensify="0" cost="1300"/>
+		<item id="115" item_type="2" item_id="362" num="1" item_name="剑斗肩甲" stage="0" intensify="0" cost="1300"/>
+		<item id="116" item_type="2" item_id="363" num="1" item_name="剑斗胸甲" stage="0" intensify="0" cost="1300"/>
+		<item id="117" item_type="2" item_id="364" num="1" item_name="剑斗护腿" stage="0" intensify="0" cost="1300"/>
+		<item id="118" item_type="2" item_id="365" num="1" item_name="剑斗靴子" stage="0" intensify="0" cost="1300"/>
+		<item id="119" item_type="2" item_id="367" num="1" item_name="剑斗手套" stage="0" intensify="0" cost="1300"/> 
+	</item>	
+	<item type="17">	
+		<item id="300" item_type="1" item_id="1560" num="6" item_name="大袋金币" cost="1000"/>
+	</item>
+	<item type="18">	
+		<item id="301" item_type="1" item_id="1601" num="1" item_name="蓝宝石Lv5" cost="1000"/>
+	</item>
+	<item type="19">	
+		<item id="302" item_type="1" item_id="1611" num="1" item_name="黄宝石Lv5" cost="1000"/>
+	</item>
+	<item type="20">	
+		<item id="303" item_type="1" item_id="1591" num="1" item_name="红宝石Lv5" cost="1000"/>
+	</item>	
+	<item type="21">	
+		<item id="304" item_type="1" item_id="1602" num="1" item_name="蓝宝石Lv6" cost="1000"/>
+	</item>
+	<item type="22">	
+		<item id="305" item_type="1" item_id="1612" num="1" item_name="黄宝石Lv6" cost="1000"/>
+	</item>	
+	<item type="23">	
+		<item id="306" item_type="1" item_id="1592" num="1" item_name="红宝石Lv6" cost="1000"/>
+	</item>
+	<item type="24">	
+		<item id="307" item_type="1" item_id="1504" num="40" item_name="天醒宝石" cost="1000"/>
+	</item>	
+	<item type="25">	
+		<item id="308" item_type="1" item_id="1509" num="40" item_name="烈焰火种" cost="1000"/>
+	</item>
+	<item type="26">	
+		<item id="309" item_type="1" item_id="1510" num="20" item_name="神圣之羽" cost="1000"/>
+	</item>	
+	<item type="27">	
+		<item id="310" item_type="1" item_id="1518" num="40" item_name="圣魂果实" cost="1000"/>
+	</item>
+	<item type="28">	
+		<item id="311" item_type="1" item_id="1516" num="10" item_name="幻象气息" cost="1000"/>
+	</item>	
+	<item type="29">	
+		<item id="312" item_type="1" item_id="4553" num="1" item_name="灵魂石·海妖塞壬·3星" cost="1000"/>
+	</item>
+	<item type="30">	
+		<item id="313" item_type="1" item_id="4548" num="1" item_name="灵魂石·恶魔侍卫·3星" cost="1000"/>
+	</item>	
+	<item type="31">	
+		<item id="314" item_type="1" item_id="4538" num="1" item_name="灵魂石·水元素·3星" cost="1000"/>
+	</item>
+	<item type="32">	
+		<item id="315" item_type="1" item_id="4558" num="1" item_name="灵魂石·太极熊猫·3星" cost="1000"/>
+	</item>	
+	<item type="33">	
+		<item id="200" item_type="2" item_id="156" num="1" item_name="黑翼之眼" stage="0" intensify="0"  cost="5000"/>
+		<item id="201" item_type="2" item_id="151" num="1" item_name="毒灵头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="202" item_type="2" item_id="152" num="1" item_name="毒灵肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="203" item_type="2" item_id="153" num="1" item_name="毒灵胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="204" item_type="2" item_id="154" num="1" item_name="毒灵护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="205" item_type="2" item_id="155" num="1" item_name="毒灵靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="206" item_type="2" item_id="157" num="1" item_name="毒灵手套"  stage="0" intensify="0" cost="2500"/>
+		<item id="207" item_type="2" item_id="256" num="1" item_name="血色飞翼"  stage="0" intensify="0" cost="5000"/>
+		<item id="208" item_type="2" item_id="251" num="1" item_name="血翼头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="209" item_type="2" item_id="252" num="1" item_name="血翼肩甲"  stage="0" intensify="0" cost="2500"/>		
+		<item id="210" item_type="2" item_id="253" num="1" item_name="血翼胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="211" item_type="2" item_id="254" num="1" item_name="血翼护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="212" item_type="2" item_id="255" num="1" item_name="血翼靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="213" item_type="2" item_id="257" num="1" item_name="血翼法典"  stage="0" intensify="0" cost="2500"/>
+		<item id="214" item_type="2" item_id="356" num="1" item_name="血肉撕裂者" stage="0" intensify="0"  cost="5000"/>
+		<item id="215" item_type="2" item_id="351" num="1" item_name="收割者头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="216" item_type="2" item_id="352" num="1" item_name="收割者肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="217" item_type="2" item_id="353" num="1" item_name="收割者胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="218" item_type="2" item_id="354" num="1" item_name="收割者护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="219" item_type="2" item_id="355" num="1" item_name="收割者靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="220" item_type="2" item_id="357" num="1" item_name="收割者手套"  stage="0" intensify="0" cost="2500"/> 
+		<item id="221" item_type="2" item_id="166" num="1" item_name="神赐之心" stage="0" intensify="0"  cost="5000"/>
+		<item id="222" item_type="2" item_id="161" num="1" item_name="地灵头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="223" item_type="2" item_id="162" num="1" item_name="地灵肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="224" item_type="2" item_id="163" num="1" item_name="地灵胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="225" item_type="2" item_id="164" num="1" item_name="地灵护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="226" item_type="2" item_id="165" num="1" item_name="地灵靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="227" item_type="2" item_id="167" num="1" item_name="地灵手套"  stage="0" intensify="0" cost="2500"/>
+		<item id="228" item_type="2" item_id="266" num="1" item_name="银龙之魂"  stage="0" intensify="0"  cost="5000"/>
+		<item id="229" item_type="2" item_id="261" num="1" item_name="幻石头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="230" item_type="2" item_id="262" num="1" item_name="幻石肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="231" item_type="2" item_id="263" num="1" item_name="幻石胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="232" item_type="2" item_id="264" num="1" item_name="幻石护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="233" item_type="2" item_id="265" num="1" item_name="幻石靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="234" item_type="2" item_id="267" num="1" item_name="幻石法典"  stage="0" intensify="0" cost="2500"/>
+		<item id="235" item_type="2" item_id="366" num="1" item_name="极光之舞" stage="0" intensify="0"  cost="5000"/>
+		<item id="236" item_type="2" item_id="361" num="1" item_name="剑斗头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="237" item_type="2" item_id="362" num="1" item_name="剑斗肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="238" item_type="2" item_id="363" num="1" item_name="剑斗胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="239" item_type="2" item_id="364" num="1" item_name="剑斗护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="240" item_type="2" item_id="365" num="1" item_name="剑斗靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="241" item_type="2" item_id="367" num="1" item_name="剑斗手套"  stage="0" intensify="0" cost="2500"/> 
+		<item id="242" item_type="2" item_id="176" num="1" item_name="巨灵之力" stage="0" intensify="0"  cost="5000"/>
+		<item id="243" item_type="2" item_id="171" num="1" item_name="巨灵头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="244" item_type="2" item_id="172" num="1" item_name="巨灵肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="245" item_type="2" item_id="173" num="1" item_name="巨灵胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="246" item_type="2" item_id="174" num="1" item_name="巨灵护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="247" item_type="2" item_id="175" num="1" item_name="巨灵靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="248" item_type="2" item_id="177" num="1" item_name="巨灵手套"  stage="0" intensify="0" cost="2500"/>
+		<item id="249" item_type="2" item_id="276" num="1" item_name="龙爪法杖"  stage="0" intensify="0"  cost="5000"/>
+		<item id="250" item_type="2" item_id="271" num="1" item_name="幻魔头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="251" item_type="2" item_id="272" num="1" item_name="幻魔肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="252" item_type="2" item_id="273" num="1" item_name="幻魔胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="253" item_type="2" item_id="274" num="1" item_name="幻魔护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="254" item_type="2" item_id="275" num="1" item_name="幻魔靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="255" item_type="2" item_id="277" num="1" item_name="幻魔法典"  stage="0" intensify="0" cost="2500"/>
+		<item id="256" item_type="2" item_id="376" num="1" item_name="毒骨灼心" stage="0" intensify="0"  cost="5000"/>
+		<item id="257" item_type="2" item_id="371" num="1" item_name="黑金头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="258" item_type="2" item_id="372" num="1" item_name="黑金肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="259" item_type="2" item_id="373" num="1" item_name="黑金胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="260" item_type="2" item_id="374" num="1" item_name="黑金护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="261" item_type="2" item_id="375" num="1" item_name="黑金靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="262" item_type="2" item_id="377" num="1" item_name="黑金手套"  stage="0" intensify="0" cost="2500"/> 	
+	</item>
+	<item type="34">
+		<item id="263" item_type="2" item_id="156" num="1" item_name="黑翼之眼" stage="0" intensify="0"  cost="5000"/>
+		<item id="264" item_type="2" item_id="151" num="1" item_name="毒灵头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="265" item_type="2" item_id="152" num="1" item_name="毒灵肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="266" item_type="2" item_id="153" num="1" item_name="毒灵胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="267" item_type="2" item_id="154" num="1" item_name="毒灵护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="268" item_type="2" item_id="155" num="1" item_name="毒灵靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="269" item_type="2" item_id="157" num="1" item_name="毒灵手套"  stage="0" intensify="0" cost="2500"/>
+		<item id="270" item_type="2" item_id="256" num="1" item_name="血色飞翼"  stage="0" intensify="0" cost="5000"/>
+		<item id="271" item_type="2" item_id="251" num="1" item_name="血翼头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="272" item_type="2" item_id="252" num="1" item_name="血翼肩甲"  stage="0" intensify="0" cost="2500"/>		
+		<item id="273" item_type="2" item_id="253" num="1" item_name="血翼胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="274" item_type="2" item_id="254" num="1" item_name="血翼护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="275" item_type="2" item_id="255" num="1" item_name="血翼靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="276" item_type="2" item_id="257" num="1" item_name="血翼法典"  stage="0" intensify="0" cost="2500"/>
+		<item id="277" item_type="2" item_id="356" num="1" item_name="血肉撕裂者" stage="0" intensify="0"  cost="5000"/>
+		<item id="278" item_type="2" item_id="351" num="1" item_name="收割者头盔"  stage="0" intensify="0" cost="2500"/>
+		<item id="279" item_type="2" item_id="352" num="1" item_name="收割者肩甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="280" item_type="2" item_id="353" num="1" item_name="收割者胸甲"  stage="0" intensify="0" cost="2500"/>
+		<item id="281" item_type="2" item_id="354" num="1" item_name="收割者护腿"  stage="0" intensify="0" cost="2500"/>
+		<item id="282" item_type="2" item_id="355" num="1" item_name="收割者靴子"  stage="0" intensify="0" cost="2500"/>
+		<item id="283" item_type="2" item_id="357" num="1" item_name="收割者手套"  stage="0" intensify="0" cost="2500"/> 
+	</item>
+	<bottomreward id="1">
+		<occupation carr="2">
+			<item id="1" item_type="2" item_id="146" num="1" item_name="神器武器" stage="0" intensify="0"  cost="5000"/>
+			<item id="4" item_type="2" item_id="141" num="1" item_name="千刃头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="5" item_type="2" item_id="142" num="1" item_name="千刃肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="6" item_type="2" item_id="143" num="1" item_name="千刃胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="7" item_type="2" item_id="144" num="1" item_name="千刃护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="8" item_type="2" item_id="145" num="1" item_name="千刃靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="9" item_type="2" item_id="147" num="1" item_name="千刃手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="3">
+			<item id="2" item_type="2" item_id="246" num="1" item_name="神器武器"  stage="0" intensify="0"  cost="5000"/>
+			<item id="10" item_type="2" item_id="241" num="1" item_name="神谕头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="11" item_type="2" item_id="242" num="1" item_name="神谕肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="12" item_type="2" item_id="243" num="1" item_name="神谕胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="13" item_type="2" item_id="244" num="1" item_name="神谕护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="14" item_type="2" item_id="245" num="1" item_name="神谕靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="15" item_type="2" item_id="247" num="1" item_name="神谕手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="5">
+			<item id="3" item_type="2" item_id="346" num="1" item_name="神器武器" stage="0" intensify="0"  cost="5000"/>
+			<item id="16" item_type="2" item_id="341" num="1" item_name="骨龙头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="17" item_type="2" item_id="342" num="1" item_name="骨龙肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="18" item_type="2" item_id="343" num="1" item_name="骨龙胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="19" item_type="2" item_id="344" num="1" item_name="骨龙护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="20" item_type="2" item_id="345" num="1" item_name="骨龙靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="21" item_type="2" item_id="347" num="1" item_name="骨龙手套"  stage="0" intensify="0" cost="2500"/> 
+		</occupation>
+	</bottomreward>
+	<bottomreward id="2">
+		<occupation carr="2">
+			<item id="78" item_type="2" item_id="156" num="1" item_name="黑翼之眼" stage="0" intensify="0"  cost="5000"/>
+			<item id="84" item_type="2" item_id="151" num="1" item_name="毒灵头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="85" item_type="2" item_id="152" num="1" item_name="毒灵肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="86" item_type="2" item_id="153" num="1" item_name="毒灵胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="87" item_type="2" item_id="154" num="1" item_name="毒灵护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="88" item_type="2" item_id="155" num="1" item_name="毒灵靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="89" item_type="2" item_id="157" num="1" item_name="毒灵手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="3">
+			<item id="79" item_type="2" item_id="256" num="1" item_name="血色飞翼"  stage="0" intensify="0"  cost="5000"/>
+			<item id="90" item_type="2" item_id="251" num="1" item_name="血翼头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="91" item_type="2" item_id="252" num="1" item_name="血翼肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="92" item_type="2" item_id="253" num="1" item_name="血翼胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="93" item_type="2" item_id="254" num="1" item_name="血翼护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="94" item_type="2" item_id="255" num="1" item_name="血翼靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="95" item_type="2" item_id="257" num="1" item_name="血翼手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="5">
+			<item id="80" item_type="2" item_id="356" num="1" item_name="血肉撕裂者" stage="0" intensify="0"  cost="5000"/>
+			<item id="96" item_type="2" item_id="351" num="1" item_name="收割者头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="97" item_type="2" item_id="352" num="1" item_name="收割者肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="98" item_type="2" item_id="353" num="1" item_name="收割者胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="99" item_type="2" item_id="354" num="1" item_name="收割者护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="100" item_type="2" item_id="355" num="1" item_name="收割者靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="101" item_type="2" item_id="357" num="1" item_name="收割者手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+	</bottomreward>
+	<bottomreward id="3">
+		<occupation carr="2">
+			<item id="81" item_type="2" item_id="166" num="1" item_name="神赐之心" stage="0" intensify="0"  cost="5000"/>
+			<item id="102" item_type="2" item_id="161" num="1" item_name="地灵头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="103" item_type="2" item_id="162" num="1" item_name="地灵肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="104" item_type="2" item_id="163" num="1" item_name="地灵胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="105" item_type="2" item_id="164" num="1" item_name="地灵护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="106" item_type="2" item_id="165" num="1" item_name="地灵靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="107" item_type="2" item_id="167" num="1" item_name="地灵手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="3">
+			<item id="82" item_type="2" item_id="266" num="1" item_name="银龙之魂"  stage="0" intensify="0"  cost="5000"/>
+			<item id="108" item_type="2" item_id="261" num="1" item_name="幻石头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="109" item_type="2" item_id="262" num="1" item_name="幻石肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="110" item_type="2" item_id="263" num="1" item_name="幻石胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="111" item_type="2" item_id="264" num="1" item_name="幻石护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="112" item_type="2" item_id="265" num="1" item_name="幻石靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="113" item_type="2" item_id="267" num="1" item_name="幻石手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="5">
+			<item id="83" item_type="2" item_id="366" num="1" item_name="极光之舞" stage="0" intensify="0"  cost="5000"/>
+			<item id="114" item_type="2" item_id="361" num="1" item_name="剑斗头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="115" item_type="2" item_id="362" num="1" item_name="剑斗肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="116" item_type="2" item_id="363" num="1" item_name="剑斗胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="117" item_type="2" item_id="364" num="1" item_name="剑斗护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="118" item_type="2" item_id="365" num="1" item_name="剑斗靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="119" item_type="2" item_id="367" num="1" item_name="剑斗手套"  stage="0" intensify="0" cost="2500"/> 
+		</occupation>
+	</bottomreward>
+	<bottomreward id="4">
+		<occupation carr="2">
+			<item id="200" item_type="2" item_id="156" num="1" item_name="黑翼之眼" stage="0" intensify="0"  cost="5000"/>
+			<item id="201" item_type="2" item_id="151" num="1" item_name="毒灵头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="202" item_type="2" item_id="152" num="1" item_name="毒灵肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="203" item_type="2" item_id="153" num="1" item_name="毒灵胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="204" item_type="2" item_id="154" num="1" item_name="毒灵护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="205" item_type="2" item_id="155" num="1" item_name="毒灵靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="206" item_type="2" item_id="157" num="1" item_name="毒灵手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="3">
+			<item id="207" item_type="2" item_id="256" num="1" item_name="血色飞翼"  stage="0" intensify="0"  cost="5000"/>
+			<item id="208" item_type="2" item_id="251" num="1" item_name="血翼头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="209" item_type="2" item_id="252" num="1" item_name="血翼肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="210" item_type="2" item_id="253" num="1" item_name="血翼胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="211" item_type="2" item_id="254" num="1" item_name="血翼护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="212" item_type="2" item_id="255" num="1" item_name="血翼靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="213" item_type="2" item_id="257" num="1" item_name="血翼法典"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="5">
+			<item id="214" item_type="2" item_id="356" num="1" item_name="血肉撕裂者" stage="0" intensify="0"  cost="5000"/>
+			<item id="215" item_type="2" item_id="351" num="1" item_name="收割者头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="216" item_type="2" item_id="352" num="1" item_name="收割者肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="217" item_type="2" item_id="353" num="1" item_name="收割者胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="218" item_type="2" item_id="354" num="1" item_name="收割者护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="219" item_type="2" item_id="355" num="1" item_name="收割者靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="220" item_type="2" item_id="357" num="1" item_name="收割者手套"  stage="0" intensify="0" cost="2500"/> 
+		</occupation>
+	</bottomreward>
+	<bottomreward id="5">
+		<occupation carr="2">
+			<item id="221" item_type="2" item_id="166" num="1" item_name="神赐之心" stage="0" intensify="0"  cost="5000"/>
+			<item id="222" item_type="2" item_id="161" num="1" item_name="地灵头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="223" item_type="2" item_id="162" num="1" item_name="地灵肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="224" item_type="2" item_id="163" num="1" item_name="地灵胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="225" item_type="2" item_id="164" num="1" item_name="地灵护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="226" item_type="2" item_id="165" num="1" item_name="地灵靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="227" item_type="2" item_id="167" num="1" item_name="地灵手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="3">
+			<item id="228" item_type="2" item_id="266" num="1" item_name="银龙之魂"  stage="0" intensify="0"  cost="5000"/>
+			<item id="229" item_type="2" item_id="261" num="1" item_name="幻石头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="230" item_type="2" item_id="262" num="1" item_name="幻石肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="231" item_type="2" item_id="263" num="1" item_name="幻石胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="232" item_type="2" item_id="264" num="1" item_name="幻石护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="233" item_type="2" item_id="265" num="1" item_name="幻石靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="234" item_type="2" item_id="267" num="1" item_name="幻石法典"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="5">
+			<item id="235" item_type="2" item_id="366" num="1" item_name="极光之舞" stage="0" intensify="0"  cost="5000"/>
+			<item id="236" item_type="2" item_id="361" num="1" item_name="剑斗头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="237" item_type="2" item_id="362" num="1" item_name="剑斗肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="238" item_type="2" item_id="363" num="1" item_name="剑斗胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="239" item_type="2" item_id="364" num="1" item_name="剑斗护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="240" item_type="2" item_id="365" num="1" item_name="剑斗靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="241" item_type="2" item_id="367" num="1" item_name="剑斗手套"  stage="0" intensify="0" cost="2500"/> 
+		</occupation>
+	</bottomreward>
+	<bottomreward id="6">
+		<occupation carr="2">
+			<item id="242" item_type="2" item_id="176" num="1" item_name="巨灵之力" stage="0" intensify="0"  cost="5000"/>
+			<item id="243" item_type="2" item_id="171" num="1" item_name="巨灵头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="244" item_type="2" item_id="172" num="1" item_name="巨灵肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="245" item_type="2" item_id="173" num="1" item_name="巨灵胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="246" item_type="2" item_id="174" num="1" item_name="巨灵护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="247" item_type="2" item_id="175" num="1" item_name="巨灵靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="248" item_type="2" item_id="177" num="1" item_name="巨灵手套"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="3">
+			<item id="249" item_type="2" item_id="276" num="1" item_name="龙爪法杖"  stage="0" intensify="0"  cost="5000"/>
+			<item id="250" item_type="2" item_id="271" num="1" item_name="幻魔头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="251" item_type="2" item_id="272" num="1" item_name="幻魔肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="252" item_type="2" item_id="273" num="1" item_name="幻魔胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="253" item_type="2" item_id="274" num="1" item_name="幻魔护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="254" item_type="2" item_id="275" num="1" item_name="幻魔靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="255" item_type="2" item_id="277" num="1" item_name="幻魔法典"  stage="0" intensify="0" cost="2500"/>
+		</occupation>
+		<occupation carr="5">
+			<item id="256" item_type="2" item_id="376" num="1" item_name="毒骨灼心" stage="0" intensify="0"  cost="5000"/>
+			<item id="257" item_type="2" item_id="371" num="1" item_name="黑金头盔"  stage="0" intensify="0" cost="2500"/>
+			<item id="258" item_type="2" item_id="372" num="1" item_name="黑金肩甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="259" item_type="2" item_id="373" num="1" item_name="黑金胸甲"  stage="0" intensify="0" cost="2500"/>
+			<item id="260" item_type="2" item_id="374" num="1" item_name="黑金护腿"  stage="0" intensify="0" cost="2500"/>
+			<item id="261" item_type="2" item_id="375" num="1" item_name="黑金靴子"  stage="0" intensify="0" cost="2500"/>
+			<item id="262" item_type="2" item_id="377" num="1" item_name="黑金手套"  stage="0" intensify="0" cost="2500"/> 
+		</occupation>
+	</bottomreward>
+	
+    <player player_type="1" need_luck_min="2000">
+		<gift_type type="17" ratio="200"/>
+		<gift_type type="9" ratio="30"/>
+		<gift_type type="11" ratio="30"/>
+		<gift_type type="13" ratio="30"/>
+		<gift_type type="10" ratio="10"/>
+		<gift_type type="12" ratio="10"/>
+		<gift_type type="14" ratio="10"/>
+		<gift_type type="24" ratio="150"/>
+		<gift_type type="25" ratio="150"/>
+		<gift_type type="26" ratio="60"/>
+		<gift_type type="27" ratio="150"/>
+		<gift_type type="28" ratio="60"/>
+		<gift_type type="29" ratio="5"/>
+		<gift_type type="30" ratio="5"/>
+		<gift_type type="31" ratio="5"/>
+		<gift_type type="32" ratio="5"/>
+		<gift_type type="34" ratio="90"/>	
+    </player>
+	<player player_type="2" need_luck_min="1500">
+		<gift_type type="1" ratio="50"/>
+		<gift_type type="2" ratio="100"/>
+		<gift_type type="3" ratio="250"/>
+		<gift_type type="4" ratio="250"/>
+		<gift_type type="5" ratio="150"/>
+		<gift_type type="6" ratio="50"/>
+		<gift_type type="9" ratio="150"/>
+	</player>
+	<player player_type="3" need_luck_min="1000">
+		<gift_type type="1" ratio="25"/>
+		<gift_type type="2" ratio="50"/>
+		<gift_type type="3" ratio="200"/>
+		<gift_type type="4" ratio="200"/>
+		<gift_type type="5" ratio="250"/>
+		<gift_type type="6" ratio="175"/>
+		<gift_type type="9" ratio="100"/>
+	</player>
+	<player player_type="4" need_luck_min="500">	
+		<gift_type type="1" ratio="5"/>
+		<gift_type type="2" ratio="10"/>
+		<gift_type type="3" ratio="100"/>
+		<gift_type type="4" ratio="100"/>
+		<gift_type type="5" ratio="400"/>
+		<gift_type type="6" ratio="335"/>
+		<gift_type type="9" ratio="50"/>
+	</player>
+	<player player_type="5" need_luck_min="250">
+		<gift_type type="1" ratio="1"/>
+		<gift_type type="2" ratio="1"/>
+		<gift_type type="3" ratio="99"/>
+		<gift_type type="4" ratio="99"/>
+		<gift_type type="5" ratio="125"/>
+		<gift_type type="6" ratio="125"/>
+		<gift_type type="7" ratio="150"/>
+		<gift_type type="8" ratio="200"/>
+		<gift_type type="10" ratio="200"/>
+    </player> 
+	<player player_type="6" need_luck_min="100">
+		<gift_type type="7" ratio="100"/>
+		<gift_type type="8" ratio="400"/>
+		<gift_type type="10" ratio="500"/>
+	</player>
+	<player player_type="7" need_luck_min="0">
+		<gift_type type="1" ratio="15"/>
+		<gift_type type="2" ratio="165"/>
+		<gift_type type="3" ratio="120"/>
+		<gift_type type="4" ratio="80"/>
+		<gift_type type="5" ratio="80"/>
+		<gift_type type="6" ratio="150"/>
+		<gift_type type="7" ratio="80"/>
+		<gift_type type="8" ratio="100"/>
+		<gift_type type="9" ratio="60"/>
+		<gift_type type="10" ratio="10"/>
+		<gift_type type="11" ratio="60"/>
+		<gift_type type="12" ratio="10"/>
+		<gift_type type="13" ratio="60"/>
+		<gift_type type="14" ratio="10"/>
+    </player>
+	
+	<bottom_type bottom_id="1" ratio="100"/>
+
+	<vipbottom_type bottom_id="4" ratio="90"/>
+	<vipbottom_type bottom_id="5" ratio="10"/>
+	
+	<!--滚动播放间隔-->
+	<gift_cd time="3"/> 
+	<!--免费单抽次数及时间 按秒-->
+	<lottery_num_one nums="1" time="300"/>
+	<lottery_num_one nums="2" time="900"/>
+	<lottery_num_one nums="3" time="1800"/>
+	<lottery_num_one nums="4" time="3600"/>
+	<lottery_num_one nums="5" time="0"/>  
+	<!--免费十连次数及时间 按秒-->
+	<lottery_num_ten time="259200"/>  
+	<!--单抽价格-->
+	<lottery_money_one cost="250"/> 
+	<!--十连价格-->
+	<lottery_money_ten cost="2250"/>
+	<vip_lottery cost="1880" vip_lvl="5" cnt="4"/>
+	
+	<gift_zhuan id="3" zhuan="0" lvl="0" bottomreward_id="1" vipbottom_id="4">
+		<input type="1" output="1"/>
+	</gift_zhuan> 
+	<!--宝箱坐标-->
+	<location x="-154.5" y="1.1" z="2" x1="-151.5" y1="1.1" z1="2"/>
+	<angle x="-90" y="0" z="-169.3" x1="-90" y1="0" z1="-142.7"/>
+	<scale x="1" y="1" z="1" x1="1" y1="1" z1="1"/>
+	<!--动画延迟-->
+	<delay_time val="10"/>  
+	<!--按钮间隔-->
+	<anniu_cd val="2"/>  
+</giftlist>

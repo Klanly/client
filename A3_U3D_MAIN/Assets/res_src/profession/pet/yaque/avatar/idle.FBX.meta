@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: fb6970a106b84804ca3db8f861fe3156
+timeCreated: 1493363195
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01 Head
+    100004: Bip01 L Calf
+    100006: Bip01 L Foot
+    100008: Bip01 L HorseLink
+    100010: Bip01 L Thigh
+    100012: Bip01 Neck
+    100014: Bip01 Neck1
+    100016: Bip01 Pelvis
+    100018: Bip01 R Calf
+    100020: Bip01 R Foot
+    100022: Bip01 R HorseLink
+    100024: Bip01 R Thigh
+    100026: Bip01 Spine
+    100028: Bone001
+    100030: Bone002
+    100032: Bone003
+    100034: Bone003(mirrored)
+    100036: Bone004
+    100038: Bone004(mirrored)
+    100040: Bone005
+    100042: Bone005(mirrored)
+    100044: Bone006
+    100046: Bone006(mirrored)
+    100048: Bone007
+    100050: //RootNode
+    100052: L_Toe0
+    100054: R_Toe0
+    100056: root_bone
+    400000: Bip01
+    400002: Bip01 Head
+    400004: Bip01 L Calf
+    400006: Bip01 L Foot
+    400008: Bip01 L HorseLink
+    400010: Bip01 L Thigh
+    400012: Bip01 Neck
+    400014: Bip01 Neck1
+    400016: Bip01 Pelvis
+    400018: Bip01 R Calf
+    400020: Bip01 R Foot
+    400022: Bip01 R HorseLink
+    400024: Bip01 R Thigh
+    400026: Bip01 Spine
+    400028: Bone001
+    400030: Bone002
+    400032: Bone003
+    400034: Bone003(mirrored)
+    400036: Bone004
+    400038: Bone004(mirrored)
+    400040: Bone005
+    400042: Bone005(mirrored)
+    400044: Bone006
+    400046: Bone006(mirrored)
+    400048: Bone007
+    400050: //RootNode
+    400052: L_Toe0
+    400054: R_Toe0
+    400056: root_bone
+    7400000: idle
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 8
+    animationPositionError: 8
+    animationScaleError: 4
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 28
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root_bone
+        weight: 1
+      - path: root_bone/Bip01
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 L Thigh
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01 L HorseLink
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01 L HorseLink/Bip01
+          L Foot
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 L Thigh/Bip01 L Calf/Bip01 L HorseLink/Bip01
+          L Foot/L_Toe0
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 R Thigh
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01 R HorseLink
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01 R HorseLink/Bip01
+          R Foot
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 R Thigh/Bip01 R Calf/Bip01 R HorseLink/Bip01
+          R Foot/R_Toe0
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Neck
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Neck/Bip01 Neck1
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bip01 Neck/Bip01 Neck1/Bip01
+          Head
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bone003
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bone003/Bone004
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bone003/Bone004/Bone005
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bone003/Bone004/Bone005/Bone006
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bone003(mirrored)
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bone003(mirrored)/Bone004(mirrored)
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bone003(mirrored)/Bone004(mirrored)/Bone005(mirrored)
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bip01 Spine/Bone003(mirrored)/Bone004(mirrored)/Bone005(mirrored)/Bone006(mirrored)
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bone001
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bone001/Bone002
+        weight: 1
+      - path: root_bone/Bip01/Bip01 Pelvis/Bone001/Bone002/Bone007
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.8
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root_bone
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 170add41a203dc148b6565c9b09b8003,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

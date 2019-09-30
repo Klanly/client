@@ -1,0 +1,172 @@
+<func_open>
+	<!--
+	type:类型，1主线任务，后跟主线任务id；2等级，后跟转生数和级数; 3军团等级
+	hint:提示信息,对应提示在zh.xml表中索取
+	id：功能编号：
+		1、PK模式切换
+		2、日常任务
+		3、拍卖行
+		4、成就
+		5、召唤兽
+		6、技能界面
+		7、翼灵
+		8、灵宠
+		////9、飞翼
+		10、活动
+		11、风神王座
+		12、磨炼之地
+		13、金币副本
+		14、经验副本
+		15、召唤兽乐园
+		16、世界BOSS
+		17、魔物猎人
+		18、装备
+		19、装备强化
+		20、装备重铸
+		21、装备传承
+		22、装备进阶
+		23、培养（旧宝石系统）
+		24、追加
+		25、魔盒
+		26、技能
+		27、符文
+		28、宝图收集
+		29、遗物
+		30、护盾
+		31、pvp
+    32、抢宝箱
+		33、副本入口
+		34、组队副本
+		（未编号的功能为直接开启的功能）
+		35、宝石合成
+		36、宝石镶嵌
+		37、委托任务（日常跑环）
+		38、神赐之光
+		39、军团商店
+        40、铁匠铺功能
+		41、挂机（控制升级途径中是否显示挂机一项）
+		42、星图
+		43、符文
+		44、精灵试炼
+		45、七天签到
+		46、战场
+		47、竞技场入口
+		48、坐骑
+		show:0不显示；1显示；
+		state_x：消失点坐标x  state_y：消失点坐标y
+		
+		
+		
+		
+	-->
+	
+	<jew_guide  limit="16"    />
+	
+	<func id="1" type="1" param1="506" hint="func_limit_1" show="1" state_x="-384" state_y="214"/>
+	<func id="2" type="2" param1="11,1" hint="func_limit_2" show="1" state_x="-513" state_y="158"/>
+	<func id="3" type="2" param1="1,70" hint="func_limit_3" show="1" state_x="0" state_y="226"/>
+	<func id="4" type="1" param1="511" hint="func_limit_4" show="1" state_x="-260" state_y="-267"/>
+	<func id="5" type="1" param1="703" hint="func_limit_5" show="1" state_x="-260" state_y="-267"/>
+	<func id="6" type="2" param1="0,8" hint="func_limit_6" show="0" state_x="-260" state_y="-267"/>
+	<func id="7" type="1" param1="418" hint="func_limit_7" show="1" state_x="-260" state_y="-267"/>
+	<func id="8" type="1" param1="109" hint="func_limit_8" show="1" state_x="-260" state_y="-267"/>
+	<!--
+	<func id="9" type="2" param1="0,100" hint="func_limit_9" show="1" state_x="-276" state_y="-257"/>
+	-->
+	<func id="10" type="2" param1="1,10" hint="func_limit_10" show="0" state_x="276" state_y="275"/>
+	<func id="11" type="1" param1="620" hint="func_limit_11" show="1" state_x="196" state_y="275"/>
+	<func id="12" type="1" param1="712" hint="func_limit_12" show="1" state_x="-260" state_y="-267"/>
+	<func id="13" type="1" param1="603" hint="func_limit_13" show="1" state_x="196" state_y="275"/>
+	<func id="14" type="1" param1="518" hint="func_limit_14" show="1" state_x="196" state_y="275"/>
+	<func id="15" type="1" param1="705" hint="func_limit_15" show="1" state_x="276" state_y="275"/>
+	<func id="16" type="2" param1="1,3" hint="func_limit_16" show="1" state_x="356" state_y="275"/>
+	<func id="17" type="1" param1="715" hint="func_limit_17" show="1" state_x="276" state_y="275"/>
+	<func id="18" type="1" param1="305" hint="func_limit_18" show="0" state_x="-260" state_y="-267"/>
+	<func id="19" type="1" param1="305" hint="func_limit_19" show="1" state_x="-260" state_y="-267"/>
+	<func id="20" type="1" param1="402" hint="func_limit_20" show="1" state_x="-260" state_y="-267"/>
+	<func id="21" type="1" param1="311" hint="func_limit_21" show="1" state_x="-260" state_y="-267"/>
+	<func id="22" type="1" param1="305" hint="func_limit_22" show="0" state_x="-260" state_y="-267"/>
+	<func id="23" type="2" param1="11,1" hint="func_limit_23" show="1" state_x="-260" state_y="-267"/>
+	<func id="24" type="1" param1="1303" hint="func_limit_24" show="1" state_x="-260" state_y="-267"/>
+	<func id="25" type="2" param1="0,1" hint="func_limit_25" show="0" state_x="530" state_y="200"/>
+	<func id="26" type="2" param1="0,8" hint="func_limit_26" show="0" state_x="-260" state_y="-267"/>
+	<func id="27" type="1" param1="1103" hint="func_limit_27" show="1" state_x="-260" state_y="-267"/>
+	<func id="30" type="2" param1="11,1" hint="func_limit_30" show="1" state_x="-260" state_y="-267"/>
+	<func id="31" type="1" param1="605" hint="func_limit_31" show="1" state_x="530" state_y="200"/>
+	<func id="32" type="2" param1="1,15" hint="func_limit_32" show="0" state_x="276" state_y="275"/>
+	<func id="33" type="1" param1="518" hint="func_limit_33" show="0" state_x="196" state_y="275"/>
+	<func id="34" type="1" param1="709" hint="func_limit_34" show="0" state_x="196" state_y="275"/>
+	<func id="35" type="1" param1="907" hint="func_limit_35" show="0" state_x="-260" state_y="-267"/>
+	<func id="36" type="1" param1="907" hint="func_limit_36" show="1" state_x="-260" state_y="-267"/>
+	<func id="37" type="2" param1="1,2" hint="func_limit_37" show="1" state_x="-513" state_y="158"/>
+	<func id="28" type="2" param1="0,1" hint="func_limit_28" show="0" state_x="-276" state_y="-257"/>
+  <!--<func id="29" type="2" param1="0,1" hint="func_limit_29" show="0" state_x="-276" state_y="-257"/>-->
+	<func id="39" type="3" param1="3" hint="func_limit_39" show="0" state_x="-260" state_y="-267"/>
+    <func id="40" type="2" param1="0,1" hint="func_limit_40" show="0" state_x="0" state_y="226"/>
+	<func id="41" type="2" param1="1,30" hint="func_limit_41" show="0" state_x="0" state_y="226"/>
+	<func id="42" type="2" param1="10,1" hint="func_limit_42" show="0" state_x="-260" state_y="-267"/>
+	<func id="43" type="1" param1="1103" hint="func_limit_43" show="0" state_x="-260" state_y="-267"/>
+	<func id="44" type="1" param1="1103" hint="func_limit_44" show="0" state_x="-260" state_y="-267"/>
+	<func id="45" type="2" param1="0,40" hint="func_limit_45" show="0" state_x="-260" state_y="-267"/>
+	<func id="46" type="1" param1="903" hint="func_limit_46" show="1" state_x="530" state_y="200"/>
+	<func id="47" type="1" param1="605" hint="func_limit_33" show="0" state_x="530" state_y="200"/>
+	<func id="48" type="1" param1="930" hint="func_limit_48" show="1" state_x="-260" state_y="-267"/>
+	<func id="49" type="1" param1="114" hint="func_limit_48" show="0" state_x="-260" state_y="-267"/>
+
+   <!--功能开启预告
+   id 主键
+   type="1" 开启类型  1任务 2等级
+   func_id 功能的ID
+   name 功能名称 填0时不显示
+   des 功能描述
+   
+   -->
+  <func_pre>
+    <!--<order id="1" func_id="8" icon="8" name="宠物"   des="23级主线任务开启" />
+    <order id="2" func_id="7" icon="9"  name="翅膀"   des="76级主线任务开启" />
+    <order id="3" func_id="1" icon="1" name="pvp"   des="1转1级开启" />
+    <order id="4" func_id="5"  icon="5" name="召唤兽"   des="1转65主线任务开启" />
+    <order id="5" func_id="14"  icon="14" name="经验副本"   des="主线任务开启" />
+    <order id="6" func_id="13" icon="13" name="金币副本"   des="主线任务开启" />
+    <order id="7" func_id="11" icon="11" name="材料副本"   des="主线任务开启" />
+    <order id="8" func_id="17" icon="17" name="魔物猎人"   des="主线任务开启" />
+    <order id="5" func_id="0" icon="27" grade="3" leve="1" name="符文技能"   des="3转1级开启" />-->
+	
+
+	<order id="1" func_id="26" icon="26" name="技能" des="0转8级开启"/>
+	<order id="2" func_id="8" icon="8" name="灵宠" des="完成偷猎者任务后开启"/>
+	<order id="3" func_id="19" icon="19" name="装备强化" des="完成前往幽暗森林任务后开启"/>
+	<order id="4" func_id="21" icon="21" name="装备传承" des="完成奇怪的东西任务后开启"/>
+	<order id="5" func_id="20" icon="20" name="装备重铸" des="完成亚瑟任务后开启"/>
+	<order id="6" func_id="7" icon="7" name="翼灵" des="完成询问任务后开启"/>
+	<order id="7" func_id="37" icon="37" name="委托任务" des="1转2级开启"/>
+	<order id="8" func_id="16" icon="16" name="首领" des="1转3级开启"/>
+	<order id="9" func_id="1" icon="1" name="战斗模式切换" des="1转7级开启"/>
+	<order id="10" func_id="4" icon="4" name="成就" des="完成打通道路任务后开启"/>
+	<order id="11" func_id="14" icon="14" name="破碎深渊" des="完成告一段落任务后开启"/>
+	<order id="12" func_id="13" icon="13" name="黄金宝库" des="完成解救任务后开启"/>
+	<order id="13" func_id="31" icon="31" name="竞技场" des="完成顺手而为任务后开启"/>
+	<order id="14" func_id="11" icon="11" name="黑暗王座" des="完成寻找线索任务后开启"/>
+	<order id="15" func_id="5" icon="5" name="召唤兽" des="完成了解情况任务后开启"/>
+	<order id="16" func_id="15" icon="15" name="兽灵秘境" des="完成了解情况任务后开启"/>
+	<order id="17" func_id="34" icon="34" name="组队副本" des="完成商量对策任务后开启"/>
+	<order id="18" func_id="12" icon="12" name="魔炼之地" des="完成尝试任务后开启"/>
+	<order id="19" func_id="17" icon="17" name="魔物猎人" des="完成沙兹尔任务后开启"/>
+	<order id="20" func_id="3" icon="3" name="拍卖行" des="1转70级开启"/>
+	<order id="21" func_id="36" icon="36" name="宝石镶嵌" des="完成清除隐患任务后开启"/>
+	<order id="22" func_id="48" icon="48" name="坐骑" des="完成新的卷轴任务后开启"/>
+	<order id="23" func_id="27" icon="27" name="符文" des="完成心理安慰任务后开启"/>
+	<order id="24" func_id="24" icon="24" name="追加" des="完成突变任务后开启"/>
+
+
+
+
+  </func_pre>
+  <team_lv_limit id="1" zhuan="1" lv="50" desc="托维尔墓穴"/>
+  <team_lv_limit id="2" zhuan="1" lv="60" desc="兽灵秘境"/>
+  <team_lv_limit id="3" zhuan="1" lv="55" desc="魔物猎人"/>
+  <team_lv_limit id="4" zhuan="0" lv="0" desc="挂机"/>
+  <team_lv_limit id="5" zhuan="0" lv="0" desc="自定义"/>
+  <team_lv_limit id="6" zhuan="5" lv="1" desc="驯龙者的末日"/>
+  <team_lv_limit id="7" zhuan="3" lv="1" desc="血之盛宴"/>
+</func_open>

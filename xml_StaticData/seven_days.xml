@@ -1,0 +1,398 @@
+<seven_day_list>
+	<!--  
+	award   完成条件奖励
+    type    1:强化装备次数
+            2:等级奖励
+            3:当日消费奖励 
+    param1  参数
+    point   奖励积分
+	-->
+	<seven_day day="1" item="送紫装衣服">
+		<!--登录-->
+		<login_awd awd_item="2127" awd_num="1" point="1" tab="1" des="今日登陆奖励"/>
+		<!--半价-->
+		<half_buy shop_item="2132" shop_num="1" cost="500" point="5" tab="2" des="今日半价"/>
+		<!--等级-->
+		<award award_id="101" type="8" param1="1,40" point="1" tab="1" des="到达1转40级">
+			<RewardItem item_id="2139" value="1"/>
+		</award>
+		<!--消费-->
+		<award award_id="102" type="1" param1="500" point="5" tab="1" des="今日消费500钻石">
+			<RewardItem item_id="2146" value="1"/>
+		</award>
+		<!--强化-->
+		<award award_id="103" type="7" param1="5" point="1" tab="3" des="进行5次寻宝">
+			<RewardItem item_id="1540" value="50"/>
+		</award>
+		<award award_id="104" type="2" param1="5" point="1" tab="3" des="强化5次装备">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="105" type="4" param1="10" point="1" tab="3" des="升级10次技能">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="106" type="3" param1="5" point="1" tab="3" des="召唤兽达到5级">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<!-- <award award_id="107" type="5" param1="2" point="1" tab="3" des="翅膀达到2阶"> -->
+			<!-- <RewardItem item_id="1540" value="1000"/> -->
+		<!-- </award> -->
+		<award award_id="108" type="9" param1="2" point="1" tab="3" des="完成2次单人副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="109" type="10" param1="1" point="1" tab="3" des="完成1次组队副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="110" type="14" param1="5" point="1" tab="3" des="参加5次竞技场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+	</seven_day>
+	<seven_day day="2" item="送金装衣服">
+		<!--登录-->
+		<login_awd awd_item="2128" awd_num="1" point="1" tab="1" des="今日登录奖励"/>
+		<!--半价-->
+		<half_buy shop_item="2133" shop_num="1" cost="1000" point="5" tab="2" des="今日半价"/>
+		<!--等级-->
+		<award award_id="201" type="8" param1="2,1" point="1" tab="1" des="等级到达2转1级">
+			<RewardItem item_id="2140" value="1"/>
+		</award>
+		<!--消费-->
+		<award award_id="202" type="1" param1="500" point="5" tab="1" des="今日消费500钻石">
+			<RewardItem item_id="2146" value="1"/>
+		</award>
+		<!--强化-->
+		<award award_id="203" type="7" param1="10" point="1" tab="3" des="进行10次寻宝">
+			<RewardItem item_id="1540" value="50"/>
+		</award>
+		<award award_id="204" type="2" param1="10" point="1" tab="3" des="强化10次装备">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="205" type="4" param1="20" point="1" tab="3" des="升级20次技能">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="206" type="3" param1="10" point="1" tab="3" des="召唤兽达到10级">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<!-- <award award_id="207" type="5" param1="2" point="1" tab="3" des="翅膀达到2阶"> -->
+			<!-- <RewardItem item_id="1540" value="1000"/> -->
+		<!-- </award> -->
+		<award award_id="208" type="9" param1="4" point="1" tab="3" des="完成4次单人副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="209" type="10" param1="2" point="1" tab="3" des="完成2次组队副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="210" type="14" param1="10" point="1" tab="3" des="参加10次竞技场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="211" type="13" param1="1" point="1" tab="3" des="击杀任意首领1次">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="212" type="11" param1="1" point="1" tab="3" des="拍卖行上架1个物品">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="213" type="6" param1="1" point="1" tab="3" des="镶嵌1颗宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+	</seven_day>
+	<seven_day day="3" item="送金装武器">
+		<!--登录-->
+		<login_awd awd_item="2129" awd_num="1" point="1" tab="1" des="今日登录奖励"/>
+		<!--半价-->
+		<half_buy shop_item="2134" shop_num="1" cost="250" point="5" tab="2" des="今日半价"/>
+		<!--等级-->
+		<award award_id="301" type="8" param1="2,15" point="1" tab="1" des="等级到达2转15级">
+			<RewardItem item_id="2141" value="1"/>
+		</award>
+		<!--消费-->
+		<award award_id="302" type="1" param1="500" point="5" tab="1" des="今日消费500钻石">
+			<RewardItem item_id="2146" value="1"/>
+		</award>
+		<!--强化-->
+		<award award_id="303" type="7" param1="15" point="1" tab="3" des="进行15次寻宝">
+			<RewardItem item_id="1540" value="50"/>
+		</award>		
+		<award award_id="304" type="2" param1="15" point="1" tab="3" des="强化15次装备">
+			<RewardItem item_id="1540" value="100"/>
+		</award>	
+		<award award_id="305" type="4" param1="30" point="1" tab="3" des="升级30次技能">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="306" type="3" param1="15" point="1" tab="3" des="召唤兽达到15级">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<!-- <award award_id="307" type="5" param1="2" point="1" tab="3" des="翅膀达到2阶"> -->
+			<!-- <RewardItem item_id="1540" value="1000"/> -->
+		<!-- </award> -->
+		<award award_id="308" type="9" param1="6" point="1" tab="3" des="完成6次单人副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>	
+		<award award_id="309" type="10" param1="4" point="1" tab="3" des="完成4次组队副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="310" type="14" param1="20" point="1" tab="3" des="参加20次竞技场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>		
+		<award award_id="311" type="13" param1="2" point="1" tab="3" des="击杀任意首领2次">
+			<RewardItem item_id="1540" value="200"/>
+		</award>		
+		<award award_id="312" type="11" param1="2" point="1" tab="3" des="拍卖行上架2个物品">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="313" type="6" param1="2" point="1" tab="3" des="镶嵌2颗宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="314" type="12" param1="1" point="1" tab="3" des="合成1次宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="315" type="16" param1="2" point="1" tab="3" des="圣器等级达到2">
+			<RewardItem item_id="1540" value="200"/>
+		</award>		
+		<award award_id="316" type="15" param1="1" point="1" tab="3" des="参加1次据点战场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+	</seven_day>
+	<seven_day day="4" item="送鹦鹉宠物">
+		<!--登录-->
+		<login_awd awd_item="1618" awd_num="1" point="1" tab="1" des="今日登录奖励"/>
+		<!--半价-->
+		<half_buy shop_item="2135" shop_num="1" point="5" cost="250" tab="2" des="今日半价"/>
+		<!--等级-->
+		<award award_id="401" type="8" param1="2,30" point="1" tab="1" des="等级到达2转30级">
+			<RewardItem item_id="2142" value="1"/>
+		</award>
+		<!--消费-->
+		<award award_id="402" type="1" param1="500" point="5" tab="1" des="今日消费500钻石">
+			<RewardItem item_id="2146" value="1"/>
+		</award>
+		<!--强化-->
+		<award award_id="403" type="7" param1="20" point="1" tab="3" des="进行20次寻宝">
+			<RewardItem item_id="1540" value="50"/>
+		</award>
+		<award award_id="404" type="2" param1="20" point="1" tab="3" des="强化20次装备">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="405" type="4" param1="40" point="1" tab="3" des="升级40次技能">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="406" type="3" param1="20" point="1" tab="3" des="召唤兽达到20级">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<!-- <award award_id="407" type="5" param1="2" point="1" tab="3" des="翅膀达到2阶"> -->
+			<!-- <RewardItem item_id="1540" value="1000"/> -->
+		<!-- </award> -->
+		<award award_id="408" type="9" param1="8" point="1" tab="3" des="完成8次单人副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="409" type="10" param1="6" point="1" tab="3" des="完成6次组队副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="410" type="14" param1="30" point="1" tab="3" des="参加30次竞技场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="411" type="13" param1="3" point="1" tab="3" des="击杀任意首领3次">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="412" type="11" param1="3" point="1" tab="3" des="拍卖行上架3个物品">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="413" type="6" param1="3" point="1" tab="3" des="镶嵌3颗宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="414" type="12" param1="2" point="1" tab="3" des="合成2次宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="415" type="16" param1="3" point="1" tab="3" des="圣器等级达到3">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="416" type="15" param1="2" point="1" tab="3" des="参加2次据点战场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+	</seven_day>
+	<seven_day day="5" item="送噬人花召唤兽">
+		<!--登录-->
+		<login_awd awd_item="4501" awd_num="1" point="1" tab="1" des="今日登录奖励"/>
+		<!--半价-->
+		<half_buy shop_item="2136" shop_num="1" point="5" cost="250" tab="2" des="今日半价"/>
+		<!--等级-->
+		<award award_id="501" type="8" param1="2,40" point="1" tab="1" des="等级到达2转40级">
+			<RewardItem item_id="2143" value="1"/>
+		</award>
+		<!--消费-->
+		<award award_id="502" type="1" param1="500" point="5" tab="1" des="今日消费500钻石">
+			<RewardItem item_id="2146" value="1"/>
+		</award>
+		<!--强化-->
+		<award award_id="503" type="7" param1="25" point="1" tab="3" des="进行25次寻宝">
+			<RewardItem item_id="1540" value="50"/>
+		</award>
+		<award award_id="504" type="2" param1="30" point="1" tab="3" des="强化30次装备">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="505" type="4" param1="50" point="1" tab="3" des="升级50次技能">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="506" type="3" param1="30" point="1" tab="3" des="召唤兽达到30级">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<!-- <award award_id="507" type="5" param1="2" point="1" tab="3" des="翅膀达到2阶"> -->
+			<!-- <RewardItem item_id="1540" value="1000"/> -->
+		<!-- </award> -->
+		<award award_id="508" type="9" param1="10" point="1" tab="3" des="完成10次单人副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="509" type="10" param1="8" point="1" tab="3" des="完成8次组队副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="510" type="14" param1="45" point="1" tab="3" des="参加45次竞技场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="511" type="13" param1="4" point="1" tab="3" des="击杀任意首领4次">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="512" type="11" param1="4" point="1" tab="3" des="拍卖行上架4个物品">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="513" type="6" param1="5" point="1" tab="3" des="镶嵌5颗宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="514" type="12" param1="3" point="1" tab="3" des="合成3次宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<award award_id="515" type="16" param1="4" point="1" tab="3" des="圣器等级达到4">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="516" type="15" param1="3" point="1" tab="3" des="参加3次据点战场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+	</seven_day>
+	<seven_day day="6" item="送紫色项链">
+		<!--登录-->
+		<login_awd awd_item="2130" awd_num="1" point="1" tab="1" des="今日登录奖励"/>
+		<!--半价-->
+		<half_buy shop_item="2137" shop_num="1" point="5" cost="1500" tab="2" des="今日半价"/>
+		<!--等级-->
+		<award award_id="601" type="8" param1="2,50" point="1" tab="1" des="等级到达2转50级">
+			<RewardItem item_id="2144" value="1"/>
+		</award>
+		<!--消费-->
+		<award award_id="602" type="1" param1="500" point="5" tab="1" des="今日消费500钻石">
+			<RewardItem item_id="2146" value="1"/>
+		</award>
+		<!--强化-->
+		<award award_id="603" type="7" param1="35" point="1" tab="3" des="进行35次寻宝">
+			<RewardItem item_id="1540" value="50"/>
+		</award>		
+		<award award_id="604" type="2" param1="40" point="1" tab="3" des="强化40次装备">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="605" type="4" param1="60" point="1" tab="3" des="升级60次技能">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="606" type="3" param1="40" point="1" tab="3" des="召唤兽达到40级">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<!-- <award award_id="607" type="5" param1="2" point="1" tab="3" des="翅膀达到2阶"> -->
+			<!-- <RewardItem item_id="1540" value="1000"/> -->
+		<!-- </award> -->		
+		<award award_id="608" type="9" param1="12" point="1" tab="3" des="完成12次单人副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="609" type="10" param1="10" point="1" tab="3" des="完成10次组队副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="610" type="14" param1="60" point="1" tab="3" des="参加60次竞技场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>		
+		<award award_id="611" type="13" param1="5" point="1" tab="3" des="击杀任意首领5次">
+			<RewardItem item_id="1540" value="200"/>
+		</award>		
+		<award award_id="612" type="11" param1="5" point="1" tab="3" des="拍卖行上架5个物品">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="613" type="6" param1="8" point="1" tab="3" des="镶嵌8颗宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="614" type="12" param1="4" point="1" tab="3" des="合成4次宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="615" type="16" param1="5" point="1" tab="3" des="圣器等级达到5">
+			<RewardItem item_id="1540" value="200"/>
+		</award>		
+		<award award_id="616" type="15" param1="5" point="1" tab="3" des="参加5次据点战场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+	</seven_day>
+	<seven_day day="7" item="送紫色戒指*2">
+		<!--登录-->
+		<login_awd awd_item="2131" awd_num="1" point="1" tab="1" des="今日登录奖励"/>
+		<!--半价-->
+		<half_buy shop_item="2138" shop_num="1" point="5" cost="5000" tab="2" des="今日半价"/>
+		<!--等级-->
+		<award award_id="701" type="8" param1="3,1" point="1" tab="1" des="等级到达3转1级">
+			<RewardItem item_id="2145" value="1"/>
+		</award>
+		<!--消费-->
+		<award award_id="702" type="1" param1="500" point="5" tab="1" des="今日消费500钻石">
+			<RewardItem item_id="2146" value="1"/>
+		</award>
+		<!--强化-->
+		<award award_id="703" type="7" param1="50" point="1" tab="3" des="进行50次寻宝">
+			<RewardItem item_id="1540" value="50"/>
+		</award>
+		<award award_id="704" type="2" param1="50" point="1" tab="3" des="强化50次装备">
+			<RewardItem item_id="1540" value="100"/>
+		</award>	
+		<award award_id="705" type="4" param1="70" point="1" tab="3" des="升级70次技能">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+		<award award_id="706" type="3" param1="50" point="1" tab="3" des="召唤兽达到50级">
+			<RewardItem item_id="1540" value="100"/>
+		</award>
+		<!-- <award award_id="707" type="5" param1="2" point="1" tab="3" des="翅膀达到2阶"> -->
+			<!-- <RewardItem item_id="1540" value="1000"/> -->
+		<!-- </award> -->		
+		<award award_id="708" type="9" param1="15" point="1" tab="3" des="完成15次单人副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>	
+		<award award_id="709" type="10" param1="15" point="1" tab="3" des="完成15次组队副本">
+			<RewardItem item_id="1540" value="100"/>
+		</award>	
+		<award award_id="710" type="14" param1="75" point="1" tab="3" des="参加75次竞技场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>	
+		<award award_id="711" type="13" param1="6" point="1" tab="3" des="击杀任意首领6次">
+			<RewardItem item_id="1540" value="200"/>
+		</award>	
+		<award award_id="712" type="11" param1="6" point="1" tab="3" des="拍卖行上架6个物品">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="713" type="6" param1="10" point="1" tab="3" des="镶嵌10颗宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>	
+		<award award_id="714" type="12" param1="5" point="1" tab="3" des="合成5次宝石">
+			<RewardItem item_id="1540" value="100"/>
+		</award>		
+		<award award_id="715" type="16" param1="6" point="1" tab="3" des="圣器等级达到6">
+			<RewardItem item_id="1540" value="200"/>
+		</award>	
+		<award award_id="716" type="15" param1="10" point="1" tab="3" des="参加10次据点战场">
+			<RewardItem item_id="1540" value="200"/>
+		</award>
+	</seven_day>
+	<!--25积分奖励 烈焰火种100-->
+	<point_awd award_id="1" param1="25" >
+		<RewardItem item_id="1509" value="100"/>
+	</point_awd> 
+	<!--50积分奖励 猫头鹰宠物蛋-->
+	<point_awd award_id="2" param1="50" >
+		<RewardItem item_id="1619" value="1"/>
+	</point_awd>
+	<!--75积分 5阶紫色首饰一套-->
+	<point_awd award_id="3" param1="75" >
+		<RewardItem item_id="2125" value="1"/>
+	</point_awd>
+	<!--100积分 5阶金装一套-->
+	<point_awd award_id="4" param1="100" >
+		<RewardItem item_id="2126" value="1"/>
+	</point_awd>
+</seven_day_list>

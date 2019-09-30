@@ -1,0 +1,46 @@
+<newbie_fb>
+  <newbie id= "1">
+  <waitcode value="go::playact,items/222,show|playeff,items/222,FX_npcFX_FX_npc111_show"/>
+  </newbie>
+  <newbie id= "2">
+  <waitcode value="go::st,skillbar/combat/bt0,使用普通攻击杀死怪物,skillbar/combat/bt0"/>
+  </newbie>
+  
+  <newbie id= "3">
+  <waitcode value="go::playact,items/111,show|playeff,items/111,FX_npcFX_FX_npc111_show"/>
+  </newbie>
+  
+  <newbie id= "4">
+  <waitcode value="go::st,skillbar/combat/bt1,使用技能杀死怪物,skillbar/combat/bt1"/>
+  </newbie>
+  
+  <newbie id= "5">
+  <waitcode value="go::stl,击败所有怪物才能继续前进,3"/>
+  </newbie>
+  
+  <newbie id= "6">
+  <waitcode value="go::stl,移动到掉落物品的周围会自动拾取物品,3"/>
+  </newbie>
+  
+  <newbie id= "7">
+  <code value="onwinclose,dialog::std,joystick/stick,点击摇杆，开始移动，向指示的方向移动,joystick/stick;"/>
+  <code value="onJoystick::hideteach"/>
+  </newbie>
+  
+  <newbie id= "8">
+  <waitcode value="go::stl,击败BOSS,5"/>
+  </newbie>
+  
+  <newbie id= "9">
+  <waitcode value="go::playact,333,run"/>
+  </newbie>
+  
+  <newbie id= "10">
+  <waitcode value="go::playact,333,idle"/>
+  </newbie>
+  
+  <newbie id= "11">
+  <waitcode value="go::playact,333,hou"/>
+  </newbie>
+  
+</newbie_fb>

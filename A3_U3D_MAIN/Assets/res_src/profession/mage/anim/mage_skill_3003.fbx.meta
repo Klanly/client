@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: b8b68cbd96999664881c4866a55dec54
+timeCreated: 1493362985
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01 Footsteps
+    100004: Bone001
+    100006: Bone002
+    100008: Bone003
+    100010: Bone004
+    100012: Bone011
+    100014: Bone013
+    100016: Bone015
+    100018: Bone016
+    100020: Bone017
+    100022: Bone018
+    100024: Dummy004
+    100026: Dummy005
+    100028: Head
+    100030: i_000064
+    100032: L_Calf
+    100034: L_Clavicle
+    100036: L_Finger0
+    100038: L_Finger01
+    100040: L_Finger1
+    100042: L_Finger11
+    100044: L_Foot
+    100046: L_Forearm
+    100048: L_Hand
+    100050: L_Thigh
+    100052: L_Toe0
+    100054: L_UpperArm
+    100056: //RootNode
+    100058: Neck
+    100060: Object001
+    100062: Pelvis
+    100064: pfwtest
+    100066: Plus_B
+    100068: Plus_L_S
+    100070: Plus_R_S
+    100072: R_Calf
+    100074: R_Clavicle
+    100076: R_Finger0
+    100078: R_Finger01
+    100080: R_Finger1
+    100082: R_Finger11
+    100084: R_Foot
+    100086: R_Forearm
+    100088: R_Hand
+    100090: R_Thigh
+    100092: R_Toe0
+    100094: R_UpperArm
+    100096: root_bone
+    100098: Spine
+    100100: Spine1
+    100102: W_R
+    100104: Weapon_L
+    100106: Weapon_R
+    400000: Bip01
+    400002: Bip01 Footsteps
+    400004: Bone001
+    400006: Bone002
+    400008: Bone003
+    400010: Bone004
+    400012: Bone011
+    400014: Bone013
+    400016: Bone015
+    400018: Bone016
+    400020: Bone017
+    400022: Bone018
+    400024: Dummy004
+    400026: Dummy005
+    400028: Head
+    400030: i_000064
+    400032: L_Calf
+    400034: L_Clavicle
+    400036: L_Finger0
+    400038: L_Finger01
+    400040: L_Finger1
+    400042: L_Finger11
+    400044: L_Foot
+    400046: L_Forearm
+    400048: L_Hand
+    400050: L_Thigh
+    400052: L_Toe0
+    400054: L_UpperArm
+    400056: //RootNode
+    400058: Neck
+    400060: Object001
+    400062: Pelvis
+    400064: pfwtest
+    400066: Plus_B
+    400068: Plus_L_S
+    400070: Plus_R_S
+    400072: R_Calf
+    400074: R_Clavicle
+    400076: R_Finger0
+    400078: R_Finger01
+    400080: R_Finger1
+    400082: R_Finger11
+    400084: R_Foot
+    400086: R_Forearm
+    400088: R_Hand
+    400090: R_Thigh
+    400092: R_Toe0
+    400094: R_UpperArm
+    400096: root_bone
+    400098: Spine
+    400100: Spine1
+    400102: W_R
+    400104: Weapon_L
+    400106: Weapon_R
+    4300000: i_000064
+    4300002: pfwtest
+    4300004: Object001
+    7400000: mage_skill_3003
+    9500000: //RootNode
+    13700000: i_000064
+    13700002: Object001
+    13700004: pfwtest
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 8
+    animationPositionError: 8
+    animationScaleError: 4
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mage_skill_3003
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: onSFX
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 30031
+        messageOptions: 0
+      - time: 0.012499997
+        functionName: onNT
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.024875622
+        functionName: onSound
+        data: 3003
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.025
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root_bone
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: fa9e6d5f8aef3f7489c4a63b0849153b,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,312 @@
+fileFormatVersion: 2
+guid: 8740e547a529f1f4e96b9b806c8d62c2
+timeCreated: 1493362981
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bone001
+    100004: Bone002
+    100006: Bone003
+    100008: Bone004
+    100010: Bone011
+    100012: Bone013
+    100014: Bone015
+    100016: Bone016
+    100018: Bone017
+    100020: Bone018
+    100022: Dummy004
+    100024: Dummy005
+    100026: Head
+    100028: L_Calf
+    100030: L_Clavicle
+    100032: L_Finger0
+    100034: L_Finger01
+    100036: L_Finger1
+    100038: L_Finger11
+    100040: L_Foot
+    100042: L_Forearm
+    100044: L_Hand
+    100046: L_Thigh
+    100048: L_Toe0
+    100050: L_UpperArm
+    100052: //RootNode
+    100054: Neck
+    100056: Pelvis
+    100058: Plus_B
+    100060: Plus_L_S
+    100062: Plus_R_S
+    100064: R_Calf
+    100066: R_Clavicle
+    100068: R_Finger0
+    100070: R_Finger01
+    100072: R_Finger1
+    100074: R_Finger11
+    100076: R_Foot
+    100078: R_Forearm
+    100080: R_Hand
+    100082: R_Thigh
+    100084: R_Toe0
+    100086: R_UpperArm
+    100088: root_bone
+    100090: Spine
+    100092: Spine1
+    100094: Weapon_L
+    100096: Weapon_R
+    400000: Bip01
+    400002: Bone001
+    400004: Bone002
+    400006: Bone003
+    400008: Bone004
+    400010: Bone011
+    400012: Bone013
+    400014: Bone015
+    400016: Bone016
+    400018: Bone017
+    400020: Bone018
+    400022: Dummy004
+    400024: Dummy005
+    400026: Head
+    400028: L_Calf
+    400030: L_Clavicle
+    400032: L_Finger0
+    400034: L_Finger01
+    400036: L_Finger1
+    400038: L_Finger11
+    400040: L_Foot
+    400042: L_Forearm
+    400044: L_Hand
+    400046: L_Thigh
+    400048: L_Toe0
+    400050: L_UpperArm
+    400052: //RootNode
+    400054: Neck
+    400056: Pelvis
+    400058: Plus_B
+    400060: Plus_L_S
+    400062: Plus_R_S
+    400064: R_Calf
+    400066: R_Clavicle
+    400068: R_Finger0
+    400070: R_Finger01
+    400072: R_Finger1
+    400074: R_Finger11
+    400076: R_Foot
+    400078: R_Forearm
+    400080: R_Hand
+    400082: R_Thigh
+    400084: R_Toe0
+    400086: R_UpperArm
+    400088: root_bone
+    400090: Spine
+    400092: Spine1
+    400094: Weapon_L
+    400096: Weapon_R
+    7400000: mage_skill_3008
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 8
+    animationPositionError: 8
+    animationScaleError: 4
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mage_skill_3008
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 35
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 8.896216e-10
+        functionName: onSFX
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 3008
+        messageOptions: 0
+      - time: 0.02238806
+        functionName: onSound
+        data: 3008
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: root_bone
+        weight: 1
+      - path: root_bone/Bip01
+        weight: 1
+      - path: root_bone/Bip01/Dummy004
+        weight: 1
+      - path: root_bone/Bip01/Dummy004/Bone015
+        weight: 1
+      - path: root_bone/Bip01/Dummy004/Bone015/Bone016
+        weight: 1
+      - path: root_bone/Bip01/Dummy004/Bone015/Bone016/Bone017
+        weight: 1
+      - path: root_bone/Bip01/Dummy004/Bone015/Bone016/Bone017/Bone018
+        weight: 1
+      - path: root_bone/Bip01/Dummy005
+        weight: 1
+      - path: root_bone/Bip01/Dummy005/Bone001
+        weight: 1
+      - path: root_bone/Bip01/Dummy005/Bone001/Bone002
+        weight: 1
+      - path: root_bone/Bip01/Dummy005/Bone001/Bone002/Bone003
+        weight: 1
+      - path: root_bone/Bip01/Dummy005/Bone001/Bone002/Bone003/Bone004
+        weight: 1
+      - path: root_bone/Bip01/Pelvis
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/L_Thigh
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/L_Thigh/L_Calf
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/L_Thigh/L_Calf/L_Foot
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/L_Thigh/L_Calf/L_Foot/L_Toe0
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/R_Thigh
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/R_Thigh/R_Calf
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/R_Thigh/R_Calf/R_Foot
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/R_Thigh/R_Calf/R_Foot/R_Toe0
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/Bone011
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/Bone013
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/L_Clavicle
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/L_Clavicle/L_UpperArm
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/L_Clavicle/L_UpperArm/L_Forearm
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/L_Clavicle/L_UpperArm/L_Forearm/L_Hand
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Finger0
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Finger0/L_Finger01
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Finger1
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/L_Clavicle/L_UpperArm/L_Forearm/L_Hand/L_Finger1/L_Finger11
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/L_Clavicle/Plus_L_S
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/Neck
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/Neck/Head
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/Plus_B
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/R_Clavicle
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/R_Clavicle/Plus_R_S
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/R_Clavicle/R_UpperArm
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/R_Clavicle/R_UpperArm/R_Forearm
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/R_Clavicle/R_UpperArm/R_Forearm/R_Hand
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Finger0
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Finger0/R_Finger01
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Finger1
+        weight: 1
+      - path: root_bone/Bip01/Pelvis/Spine/Spine1/R_Clavicle/R_UpperArm/R_Forearm/R_Hand/R_Finger1/R_Finger11
+        weight: 1
+      - path: root_bone/Bip01/Weapon_L
+        weight: 1
+      - path: root_bone/Bip01/Weapon_R
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.025
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root_bone
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: fa9e6d5f8aef3f7489c4a63b0849153b,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

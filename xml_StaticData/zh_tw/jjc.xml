@@ -1,0 +1,137 @@
+<jjc>	
+  <!-- 匹配池 -->	
+  <interval id="1" min="0" max="30000"/>	
+	<interval id="2" min="30000" max="80000"/>
+	<interval id="3" min="80000" max="120000"/>
+  <interval id="4" min="120000" max="200000"/>	
+  <interval id="5" min="200000" max="9999999"/>	
+  <!-- 匹配時間 -->	
+  <!-- <interval_tm tm="5"/> -->	
+ <!--開啟時間和每日可免費玩的次數-->	
+  <t id="1" opnetime="0,24"/>	
+	
+  <!-- 開啟時間 -->	
+  <date year="2016" mon="10" day="12" wd="3"/>	
+	
+  <!--每次單場獲得勝利獎勵的基礎經驗和聲望-->	
+  <win basic_exp="10000" basic_rep="1000"/>	
+  	
+  <!-- jjc相關資料 -->	
+  <!-- 挑戰次數 購買次數 購買消耗  匹配時間 最大匹配時間 副本id -->	
+ <info callenge_cnt="10" buy_cnt="0" buy_cost="20" interval_tm="5" max_interval_tm="11" llid="107"/>	
+  	
+ <!--每個段位元可以獲得獎勵 以及需要的點數-->	
+  <!--<reward grade="0" name="0" star="3" win="1" lose="0" s_win="2">	
+     <needpoint p="0"/>	
+  </reward>-->	
+	
+  <reward grade="1" star="3" name="論外" win="1" lose="0" s_win="2">	
+   <needpoint p="0"/>	
+ 	
+  </reward>	
+	
+  <reward grade="2" star="3" name="入門" win="1" lose="0" s_win="2">	
+    <needpoint p="3"/>	
+    <box id="3012" num="1"/>	
+    <reward id="3058" num="1"/>	
+    <gem num="50"/>	
+    <rep num="50"/>	
+  </reward>	
+	
+  <reward grade="3" star="3" name="新銳" win="1" lose="0" s_win="2">	
+    <needpoint p="6"/>	
+    <box id="3011" num="1"/>	
+    <reward id="3059" num="1"/>	
+    <gem num="100"/>	
+    <rep num="100"/>	
+  </reward>	
+	
+  <reward grade="4" star="3" name="鬥士" win="1" lose="0" s_win="2">	
+    <needpoint p="9"/>	
+    <box id="3010" num="1"/>	
+    <reward id="3060" num="1"/>	
+    <gem num="200"/>	
+    <rep num="200"/>	
+  </reward>	
+	
+  <reward grade="5" star="3" name="強者" win="1" lose="0" s_win="2">	
+    <needpoint p="12"/>	
+    <box id="3009" num="1"/>	
+    <reward id="3061" num="1"/>	
+    <gem num="300"/>	
+    <rep num="300"/>	
+  </reward>	
+	
+  <reward grade="6" star="3" name="狂人" win="1" lose="0" s_win="2">	
+    <needpoint p="15"/>	
+    <box id="3008" num="1"/>	
+    <reward id="3062" num="1"/>	
+    <gem num="400"/>	
+    <rep num="400"/>	
+  </reward>	
+	
+  <reward grade="7" star="3" name="達人" win="1" lose="0" s_win="2">	
+    <needpoint p="18"/>	
+    <box id="3007" num="1"/>	
+    <reward id="3063" num="1"/>	
+    <gem num="500"/>	
+    <rep num="500"/>	
+  </reward>	
+	
+	
+  <reward grade="8" star="3" name="名人" win="1" lose="0" s_win="2">	
+    <needpoint p="21"/>	
+    <box id="3006" num="1"/>	
+    <reward id="3064" num="1"/>	
+    <gem num="600"/>	
+    <rep num="600"/>	
+  </reward>	
+	
+	
+  <reward grade="9" star="3" name="霸者" win="1" lose="-1" s_win="1">	
+    <needpoint p="23"/>	
+    <box id="3005" num="1"/>	
+    <reward id="3065" num="1"/>	
+    <gem num="700"/>	
+    <rep num="700"/>	
+  </reward>	
+	
+  <reward grade="10" star="3" name="大師" win="1" lose="-1" s_win="1">	
+    <needpoint p="27"/>	
+    <box id="3004" num="1"/>	
+    <reward id="3066" num="1"/>	
+    <gem num="800"/>	
+    <rep num="800"/>	
+  </reward>	
+	
+	
+  <reward grade="11" star="5" name="至尊" win="1" lose="-1" s_win="1">	
+    <needpoint p="30"/>	
+    <box id="3003" num="1"/>	
+    <reward id="3067" num="1"/>	
+    <gem num="900"/>	
+    <rep num="900"/>	
+  </reward>	
+	
+  <reward grade="12" star="5" name="鬥神" win="1" lose="0" s_win="1">	
+    <needpoint p="35"/>	
+    <box id="3002" num="1"/>	
+    <reward id="3068" num="1"/>	
+    <gem num="1000"/>	
+    <rep num="1000"/>	
+    <buff state_id="20000"/>	
+  </reward>	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </jjc>

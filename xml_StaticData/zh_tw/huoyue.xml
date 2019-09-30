@@ -1,0 +1,174 @@
+<huoyue>
+  
+  <!--id：功能編號：
+  1、PK模式切換
+  2、日常任務
+  3、拍賣行
+  4、成就
+  5、召喚獸
+  6、技能介面
+  7、翼靈
+  8、靈寵
+  ////9、飛翼
+  10、活動
+  11、風神王座
+  12、魔煉之地
+  13、金幣副本
+  14、經驗副本
+  15、召喚獸樂園
+  16、世界BOSS
+  17、魔物獵人
+  18、裝備
+  19、裝備強化
+  20、裝備重鑄
+  21、裝備傳承
+  22、裝備進階
+  23、培養（舊寶石系統）
+  24、追加
+  25、魔盒
+  26、技能
+  27、符文
+  28、寶圖收集
+  29、遺物
+  30、護盾
+  31、pvp
+  32、搶寶箱
+  33、副本入口
+  34、組隊副本
+  （未編號的功能為直接開啟的功能）
+  35、寶石合成
+  36、寶石鑲嵌
+  37、委託任務（日常跑環）-->
+  
+<!--獎勵-->
+
+  <reward id="1" ac="20"  item="1533" num="10" />
+  <reward id="2" ac="40"  item="1501" num="20" />
+  <reward id="3" ac="60"  item="1509" num="20" />
+  <reward id="4" ac="80"  item="2019" num="1" />
+  <reward id="5" ac="100" item="2065" num="1" />
+
+  <active id="1" icon_file="icon_func_open_3" type="1" pram="0,1" times="3" ac_num="10" des="拍賣上架商品"/>
+  <active id="9" icon_file="icon_func_open_25" type="1" pram="0,1" times="3" ac_num="10" des="尋寶"/>
+  <active id="7" icon_file="icon_func_open_19" type="2" pram="305" times="3" ac_num="10" des="強化裝備"/>
+  <active id="5" icon_file="icon_func_open_14" type="2" pram="518" times="3" ac_num="10" des="經驗副本"/>
+  <active id="6" icon_file="icon_func_open_16" type="1" pram="1,2" times="3" ac_num="10" des="擊殺野外boss"/>
+  <active id="4" icon_file="icon_func_open_13" type="1" pram="1,50" times="3" ac_num="10" des="金幣副本"/>
+  <active id="2" icon_file="icon_func_open_11" type="1" pram="1,55" times="3" ac_num="10" des="材料副本"/>
+  <active id="3" icon_file="icon_func_open_12" type="1" pram="1,60" times="3" ac_num="10" des="魔煉之地"/>
+  <active id="12" icon_file="icon_func_open_15" type="1" pram="1,70" times="1" ac_num="10" des="獸靈秘境"/>
+  
+  <active id="8" icon_file="icon_func_open_34" type="1" pram="1,70" times="1" ac_num="10" des="托維爾墓穴"/>
+  <active id="10" icon_file="icon_func_open_34" type="1" pram="1,70" times="1" ac_num="10" des="馴龍者的末日"/>
+  <active id="11" icon_file="icon_func_open_34" type="1" pram="1,70" times="1" ac_num="10" des="血之盛宴"/>
+
+  <!--線上抽獎次數和cd時間-->
+  <online_lottery id="1" time="50"/>
+  <online_lottery id="2" time="50"/>
+  <online_lottery id="3" time="50"/>
+  <online_lottery id="4" time="50"/>
+  <online_lottery id="5" time="50"/>
+  <online_lottery id="6" time="50"/>
+  <!--線上抽獎獎勵，6個獎池對應6次抽獎，每次抽獎的8個獎勵是固定的，概率是相同的-->
+  <item type="1">
+    <item id="1" item_id="1501" num="1"/>
+    <item id="2" item_id="1508" num="1"/>
+    <item id="3" item_id="1528" num="1"/>
+    <item id="4" item_id="1558" num="1"/>
+    <item id="5" item_id="1582" num="1"/>
+    <item id="6" item_id="1628" num="1"/>
+    <item id="7" item_id="1629" num="1"/>
+    <item id="8" item_id="1559" num="1"/>
+  </item>
+  <item type="2">
+    <item id="1" item_id="1559" num="1"/>
+    <item id="2" item_id="1583" num="1"/>
+    <item id="3" item_id="1630" num="1"/>
+    <item id="4" item_id="1501" num="1"/>
+    <item id="5" item_id="1558" num="1"/>
+    <item id="6" item_id="1508" num="1"/>
+    <item id="7" item_id="1540" num="1"/>
+    <item id="8" item_id="1509" num="1"/>
+  </item>
+  <item type="3">
+    <item id="1" item_id="1501" num="1"/>
+    <item id="2" item_id="1504" num="1"/>
+    <item id="3" item_id="1509" num="1"/>
+    <item id="4" item_id="1533" num="1"/>
+    <item id="5" item_id="1559" num="1"/>
+    <item id="6" item_id="1558" num="1"/>
+    <item id="7" item_id="1582" num="1"/>
+    <item id="8" item_id="1583" num="1"/>
+  </item>
+  <item type="4">
+    <item id="1" item_id="1508" num="1"/>
+    <item id="2" item_id="1528" num="1"/>
+    <item id="3" item_id="1540" num="1"/>
+    <item id="4" item_id="1509" num="1"/>
+    <item id="5" item_id="1528" num="1"/>
+    <item id="6" item_id="1630" num="1"/>
+    <item id="7" item_id="1585" num="1"/>
+    <item id="8" item_id="1582" num="1"/>
+  </item>
+  <item type="5">
+    <item id="1" item_id="1504" num="1"/>
+    <item id="2" item_id="1509" num="1"/>
+    <item id="3" item_id="1533" num="1"/>
+    <item id="4" item_id="1540" num="1"/>
+    <item id="5" item_id="1542" num="1"/>
+    <item id="6" item_id="1560" num="1"/>
+    <item id="7" item_id="1585" num="1"/>
+    <item id="8" item_id="1631" num="1"/>
+  </item>
+  <item type="6">
+    <item id="1" item_id="1510" num="1"/>
+    <item id="2" item_id="1541" num="1"/>
+    <item id="3" item_id="1632" num="1"/>
+    <item id="4" item_id="1542" num="1"/>
+    <item id="5" item_id="1560" num="1"/>
+    <item id="6" item_id="1585" num="1"/>
+    <item id="7" item_id="1504" num="1"/>
+    <item id="8" item_id="1509" num="1"/>
+  </item>
+  
+  <!--type類型1：購買後累積登陸param1天可領取 2：轉生達到param1轉可領取 3：戰鬥力達到param1可領取-->
+  
+  <fund type="1" zhuan_limit="1" yb="300"/><!--累積登陸基金的限制條件和消耗鑽石數量-->
+  <fund type="2" zhuan_limit="1" yb="1500"/><!--轉生基金的限制條件和消耗鑽石數量-->
+  <fund type="3" zhuan_limit="1" vip_limit="5" yb="3000"/><!--戰鬥力基金的限制條件和消耗鑽石數量-->
+  
+  <foundation id="1" icon_file="icon_item_2004" desc="購買後累積登陸1天可領取" type="1" param1="1" yb="5" bndyb="50"/>
+  <foundation id="2" icon_file="icon_item_2004" desc="購買後累積登陸3天可領取" type="1" param1="3" yb="10" bndyb="100"/>
+  <foundation id="3" icon_file="icon_item_2004" desc="購買後累積登陸5天可領取" type="1" param1="5" yb="15" bndyb="150"/>
+  <foundation id="4" icon_file="icon_item_2004" desc="購買後累積登陸7天可領取" type="1" param1="7" yb="20" bndyb="200"/>
+  <foundation id="5" icon_file="icon_item_2004" desc="購買後累積登陸10天可領取" type="1" param1="10" yb="30" bndyb="300"/>
+  <foundation id="6" icon_file="icon_item_2004" desc="購買後累積登陸15天可領取" type="1" param1="15" yb="40" bndyb="400"/>
+  <foundation id="7" icon_file="icon_item_2004" desc="購買後累積登陸20天可領取" type="1" param1="20" yb="50" bndyb="500"/>
+  <foundation id="8" icon_file="icon_item_2004" desc="購買後累積登陸25天可領取" type="1" param1="25" yb="60" bndyb="600"/>
+  <foundation id="9" icon_file="icon_item_2004" desc="購買後累積登陸30天可領取" type="1" param1="30" yb="70" bndyb="700"/>
+
+  <foundation id="10" icon_file="icon_item_2004" desc="轉生達到1轉可領取" type="2" param1="1" yb="15" bndyb="900"/>
+  <foundation id="11" icon_file="icon_item_2004" desc="轉生達到2轉可領取" type="2" param1="2" yb="45" bndyb="1700"/>
+  <foundation id="12" icon_file="icon_item_2004" desc="轉生達到3轉可領取" type="2" param1="3" yb="75" bndyb="2500"/>
+  <foundation id="13" icon_file="icon_item_2004" desc="轉生達到4轉可領取" type="2" param1="4" yb="105" bndyb="3300"/>
+  <foundation id="14" icon_file="icon_item_2004" desc="轉生達到5轉可領取" type="2" param1="5" yb="135" bndyb="4100"/>
+  <foundation id="15" icon_file="icon_item_2004" desc="轉生達到6轉可領取" type="2" param1="6" yb="165" bndyb="4900"/>
+  <foundation id="16" icon_file="icon_item_2004" desc="轉生達到7轉可領取" type="2" param1="7" yb="195" bndyb="5700"/>
+  <foundation id="17" icon_file="icon_item_2004" desc="轉生達到8轉可領取" type="2" param1="8" yb="225" bndyb="6500"/>
+  <foundation id="18" icon_file="icon_item_2004" desc="轉生達到9轉可領取" type="2" param1="9" yb="255" bndyb="7300"/>
+  <foundation id="19" icon_file="icon_item_2004" desc="轉生達到10轉可領取" type="2" param1="10" yb="285" bndyb="8100"/>
+
+  <foundation id="20" icon_file="icon_item_2004" desc="戰鬥力達到10000可領取" type="3" param1="10000" yb="70" bndyb="900"/>
+  <foundation id="21" icon_file="icon_item_2004" desc="戰鬥力達到50000可領取" type="3" param1="50000" yb="110" bndyb="1800"/>
+  <foundation id="22" icon_file="icon_item_2004" desc="戰鬥力達到100000可領取" type="3" param1="100000" yb="150" bndyb="2700"/>
+  <foundation id="23" icon_file="icon_item_2004" desc="戰鬥力達到150000可領取" type="3" param1="150000" yb="190" bndyb="3600"/>
+  <foundation id="24" icon_file="icon_item_2004" desc="戰鬥力達到200000可領取" type="3" param1="200000" yb="230" bndyb="4500"/>
+  <foundation id="25" icon_file="icon_item_2004" desc="戰鬥力達到250000可領取" type="3" param1="250000" yb="270" bndyb="5500"/>
+  <foundation id="26" icon_file="icon_item_2004" desc="戰鬥力達到300000可領取" type="3" param1="300000" yb="310" bndyb="6400"/>
+  <foundation id="27" icon_file="icon_item_2004" desc="戰鬥力達到350000可領取" type="3" param1="350000" yb="350" bndyb="7300"/>
+  <foundation id="28" icon_file="icon_item_2004" desc="戰鬥力達到400000可領取" type="3" param1="400000" yb="400" bndyb="8200"/>
+  <foundation id="29" icon_file="icon_item_2004" desc="戰鬥力達到450000可領取" type="3" param1="450000" yb="440" bndyb="9100"/>
+  <foundation id="30" icon_file="icon_item_2004" desc="戰鬥力達到500000可領取" type="3" param1="500000" yb="480" bndyb="10000"/>
+  
+
+</huoyue>

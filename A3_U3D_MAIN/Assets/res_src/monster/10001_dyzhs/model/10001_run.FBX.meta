@@ -1,0 +1,226 @@
+fileFormatVersion: 2
+guid: 94b24845a83c2e64e884cf86eb3f2ad0
+timeCreated: 1493361759
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone001_b
+    100004: Bone002_b
+    100006: Bone004
+    100008: Bone006
+    100010: Bone008
+    100012: Bone010
+    100014: Bone012
+    100016: Bone014_b
+    100018: Bone015_b
+    100020: Bone017
+    100022: Bone019
+    100024: Bone021
+    100026: Bone023
+    100028: Bone025
+    100030: Bone027
+    100032: Bone029
+    100034: Bone030_b
+    100036: Bone031_b
+    100038: Bone032
+    100040: Bone033
+    100042: Bone035
+    100044: Dummy001
+    100046: Dummy002
+    100048: Dummy003
+    100050: IK Chain001
+    100052: IK Chain002
+    100054: Point001
+    100056: Point002
+    100058: root
+    100060: root_bone
+    400000: //RootNode
+    400002: Bone001_b
+    400004: Bone002_b
+    400006: Bone004
+    400008: Bone006
+    400010: Bone008
+    400012: Bone010
+    400014: Bone012
+    400016: Bone014_b
+    400018: Bone015_b
+    400020: Bone017
+    400022: Bone019
+    400024: Bone021
+    400026: Bone023
+    400028: Bone025
+    400030: Bone027
+    400032: Bone029
+    400034: Bone030_b
+    400036: Bone031_b
+    400038: Bone032
+    400040: Bone033
+    400042: Bone035
+    400044: Dummy001
+    400046: Dummy002
+    400048: Dummy003
+    400050: IK Chain001
+    400052: IK Chain002
+    400054: Point001
+    400056: Point002
+    400058: root
+    400060: root_bone
+    7400000: 10001_run
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 16
+    animationPositionError: 16
+    animationScaleError: 8
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: 10001_run
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Dummy002
+        weight: 1
+      - path: Dummy002/IK Chain001
+        weight: 1
+      - path: Dummy002/Point002
+        weight: 1
+      - path: Dummy003
+        weight: 1
+      - path: Dummy003/IK Chain002
+        weight: 1
+      - path: Dummy003/Point001
+        weight: 1
+      - path: root_bone
+        weight: 1
+      - path: root_bone/root
+        weight: 1
+      - path: root_bone/root/Dummy001
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone001_b
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone001_b/Bone002_b
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone001_b/Bone002_b/Bone004
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone001_b/Bone002_b/Bone006
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone001_b/Bone002_b/Bone008
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone001_b/Bone002_b/Bone023
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone001_b/Bone002_b/Bone031_b
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone001_b/Bone025
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone014_b
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone014_b/Bone015_b
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone014_b/Bone015_b/Bone010
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone014_b/Bone015_b/Bone012
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone014_b/Bone015_b/Bone029
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone014_b/Bone015_b/Bone030_b
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone014_b/Bone015_b/Bone032
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone014_b/Bone027
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone017
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone019
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone021
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone033
+        weight: 1
+      - path: root_bone/root/Dummy001/Bone033/Bone035
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1.8
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root_bone
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 322e2f6915cce584c8f77f96f7f29b00,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

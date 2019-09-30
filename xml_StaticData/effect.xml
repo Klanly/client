@@ -1,0 +1,308 @@
+<!--romote 1：远程子弹类型  0：普通特效-->
+<!-- y:表示高度  f:表示正前方距离-->
+<!-- speed 远程子弹的速度 speed越大，轨迹越快。越小，轨迹越慢-->
+
+<!--onSFX_EFF   onSK调用字段 2,0.1,3,1004711,1-->
+
+<!--rotation 特效播放的角度 0-360-->
+<first_rechargelist>
+	<eff id="BT0" file="bullet_mage_bt1_b4" y="2.5" f="0.5" speed="0.3" romote="1"/>
+	<eff id="BT1" file="bullet_mage_bt1_b5" y="1" f="1" speed="0.3" romote="1"/>
+	<eff id="BT2" file="bullet_mage_bt1_b7" y="2.5" f="0.5" speed="0.3" romote="1"/>
+	<eff id="BT3" file="bullet_mage_bt1_b8" y="1.7" f="0.6" speed="0.3" romote="1"/>
+	<eff id="BT4" file="bullet_mage_bt1_b9" y="2.5" f="0.5" speed="0.3" romote="1"/>	
+	<eff id="m_10043_attack" file="bullet_mage_bt1_b7" y="0.5" f="1.2" speed="0.3" romote="1"/>
+	<eff id="m_10060_attack" file="bullet_mage_bt1_b5" y="0.5" f="1.5" speed="0.3" romote="1"/>
+	<eff id="m_10004_attack" file="bullet_mage_bt1_b9" y="1.5" f="1" speed="0.3" romote="1"/>
+	<eff id="m_10017_attack" file="bullet_mage_bt1_b9" y="2.5" f="0.5" speed="0.3" romote="1"/>
+	<eff id="m_10025_attack" file="bullet_mage_bt1_b9" y="1.5" f="1.5" speed="0.3" romote="1"/>
+	<eff id="m_10033_attack" file="bullet_mage_bt1_b7" y="1.5" f="1.5" speed="0.3" romote="1"/>
+	<eff id="m_10042_attack" file="bullet_mage_bt1_b4" y="1.5" f="1" speed="0.3" romote="1"/>
+	<eff id="m_10021_attack" file="bullet_mage_bt1_b5" y="1" f="1" speed="0.3" romote="1"/>
+	
+  <eff id="m_10009_dead" file="FX_HFX_HFX_7" y="0" f="0" rotation="0"  romote="0"/>
+  <eff id="m_10043_dead" file="FX_HFX_HFX_7" y="0" f="0" rotation="0" romote="0"/>
+  <eff id="m_10015_attack" file="bullet_bt_b1" y="0" f="0.1" speed="0.3" romote="1"/>
+<!--鲜血女王技能-->
+  <eff id="m_10040_attack" file="FX_monsterSFX_10040_FX_monster_10040_attack" y="0" f="0" rotation="0" romote="0"/>
+
+  <eff id="m_10040_skill1" file="FX_monsterSFX_10040_FX_monster_10040_skill01" y="0" f="0"  rotation="0" romote="0"/>
+
+  <eff id="m_10040_skill2" file="FX_monsterSFX_10040_FX_monster_10040_skill02" y="0" f="0" rotation="0" romote="0"/>
+  
+  <!--暗天狂魔技能-->
+
+
+  <eff id="m_10007_0" file="FX_monsterSFX_10007_SFX_1" y="0" f="0" rotation="0" romote="0"/>
+
+  <eff id="m_10007_1_1" file="FX_mage_SFX_300132" y="0" f="0" rotation="0" romote="0"/>
+
+  <eff id="m_10007_1_2" file="FX_mage_SFX_300132" y="0" f="5" rotation="0" romote="0"/>
+
+  <eff id="m_10007_1_3" file="FX_mage_SFX_300132" y="0" f="10" rotation="0" romote="0"/>
+
+  <eff id="m_10007_1_4" file="FX_mage_SFX_300132" y="0" f="15" rotation="0" romote="0"/>
+  
+  <eff id="m_10007_1_5" file="FX_mage_SFX_300132" y="0" f="20" rotation="0" romote="0"/>
+
+  <eff id="m_10007_1_6" file="FX_mage_SFX_300132" y="0" f="25" rotation="0" romote="0"/>
+
+
+  <eff id="m_10007_2" file="FX_monsterSFX_10007_SFX_3" y="0" f="0" rotation="0" romote="0"/>
+
+  <eff id="m_10007_3_1" file="FX_assa_SFX_3" y="0" f="0" rotation="0" romote="0"/>
+  <eff id="m_10007_3_2" file="FX_assa_SFX_3" y="0" f="3" rotation="0" romote="0"/>
+  <eff id="m_10007_3_3" file="FX_assa_SFX_3" y="0" f="6" rotation="0" romote="0"/>
+  <eff id="m_10007_3_4" file="FX_assa_SFX_3" y="0" f="9" rotation="0" romote="0"/>
+  <eff id="m_10007_3_5" file="FX_assa_SFX_3" y="0" f="12" rotation="0" romote="0"/>
+
+
+  <eff id="m_10007_4_1" file="bullet_bt_b2" y="0" f="0" rotation="0" romote="1"  sound="1"/>
+
+  <eff id="m_10007_5_1" file="FX_warrior_SFX_5" y="0" f="0" rotation="0" romote="0"/>
+
+  <eff id="m_10007_5_2" file="FX_warrior_SFX_5" y="0" f="3" rotation="0" romote="0"/>
+
+
+  <eff id="m_10007_5_3" file="FX_warrior_SFX_5" y="0" f="4" rotation="0" romote="0"/>
+
+
+  <eff id="m_10007_5_4" file="FX_warrior_SFX_5" y="0" f="5" rotation="0" romote="0"/>
+
+
+  <eff id="m_10007_5_5" file="FX_warrior_SFX_5" y="0" f="6" rotation="0" romote="0"/>
+
+
+
+  <eff id="m_10007_5_6" file="FX_warrior_SFX_5" y="0" f="7" rotation="0" romote="0"/>
+
+
+  <eff id="m_10007_5_7" file="FX_warrior_SFX_5" y="0" f="8" rotation="0" romote="0"/>
+
+
+
+  <eff id="m_10027_1_1" file="FX_comFX_FX_common_penxue1" y="0" f="3" rotation="0" romote="0"/>
+
+
+  <eff id="m_10027_1_2" file="FX_comFX_FX_common_penxue1" y="0" f="6" rotation="30" romote="0"/>
+
+
+  <eff id="m_10027_1_3" file="FX_comFX_FX_common_penxue1" y="0" f="9" rotation="170" romote="0"/>
+
+
+  <eff id="m_10027_1_4" file="FX_comFX_FX_common_penxue1" y="0" f="12" rotation="280" romote="0"/>
+
+  <eff id="m_10027_1_5" file="FX_comFX_FX_common_penxue1" y="0" f="15" rotation="60" romote="0"/>
+
+  <eff id="m_10037_attack" file="bullet_10027_bt1_b1" y="1" f="1" speed="0.5" romote="1"/>
+
+  <eff id="m_10037_skill_1" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="2" rotation="0" romote="0"/>
+
+  <eff id="m_10037_skill_2" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="4" rotation="15" romote="0"/>
+  <eff id="m_10037_skill_3" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="4" rotation="-15" romote="0"/>
+
+  <eff id="m_10037_skill_4" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="6" rotation="25" romote="0"/>
+
+  <eff id="m_10037_skill_5" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="6" rotation="-25" romote="0"/>
+
+  <eff id="m_10037_skill_6" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="6" rotation="0" romote="0"/>
+
+  <eff id="m_10037_skill_7" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="8" rotation="-30" romote="0"/>
+
+  <eff id="m_10037_skill_8" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="8" rotation="15" romote="0"/>
+
+  <eff id="m_10037_skill_9" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="8" rotation="-15" romote="0"/>
+
+  <eff id="m_10037_skill_10" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="8" rotation="30" romote="0"/>
+
+  <eff id="m_10037_skill_10" file="FX_monsterSFX_10071_FX_monster_10071_skill04_huqiu_bao" y="0" f="8" rotation="30" romote="0"/>
+
+
+  <eff id="m_10013_skill_1" file="FX_warrior_SFX_7" y="0" f="2" rotation="0" romote="0"/>
+
+  <eff id="m_10034_skill_1" file="FX_mage_SFX_32" y="0" f="2" rotation="0" romote="0"/>
+
+  <eff id="m_10034_skill_2" file="FX_mage_SFX_32" y="0" f="5" rotation="10" romote="0"/>
+
+  <eff id="m_10034_skill_3" file="FX_mage_SFX_32" y="0" f="5" rotation="-10" romote="0"/>
+
+
+
+  <eff id="m_10034_skill_4" file="FX_mage_SFX_32" y="0" f="8" rotation="-6" romote="0"/>
+
+
+  <eff id="m_10034_skill_5" file="FX_mage_SFX_32" y="0" f="8" rotation="6" romote="0"/>
+
+
+
+  <eff id="m_10057_skill_1" file="FX_mage_SFX_3002" y="0" f="0" rotation="0" romote="0"/>
+  <eff id="m_10057_skill_2" file="FX_mage_SFX_3002" y="0" f="0" rotation="5" romote="0"/>
+
+  <eff id="m_10057_skill_3" file="FX_mage_SFX_3002" y="0" f="0" rotation="-5" romote="0"/>
+
+  <eff id="m_10057_skill_4" file="FX_mage_SFX_3002" y="0" f="0" rotation="10" romote="0"/>
+
+  <eff id="m_10057_skill_5" file="FX_mage_SFX_3002" y="0" f="0" rotation="-10" romote="0"/>
+
+  <eff id="m_10057_skill_6" file="FX_mage_SFX_3002" y="0" f="0" rotation="15" romote="0"/>
+
+  <eff id="m_10057_skill_7" file="FX_mage_SFX_3002" y="0" f="0" rotation="-15" romote="0"/>
+  <eff id="m_10057_skill_8" file="FX_mage_SFX_3002" y="0" f="0" rotation="20" romote="0"/>
+  <eff id="m_10057_skill_9" file="FX_mage_SFX_3002" y="0" f="0" rotation="-20" romote="0"/>
+  <eff id="m_10057_skill_10" file="FX_mage_SFX_3002" y="0" f="0" rotation="25" romote="0"/>
+  <eff id="m_10057_skill_11" file="FX_mage_SFX_3002" y="0" f="0" rotation="-25" romote="0"/>
+
+
+  <eff id="behit_1" file="FX_HFX_HFX_1" y="0" f="0" rotation="0" romote="0"  sound="lighting"/>
+
+  <eff id="behit_2" file="FX_HFX_HFX_2" y="0" f="0" rotation="0" romote="0"  sound="blood"/>
+  <eff id="behit_3" file="FX_HFX_HFX_3" y="0" f="0" rotation="0" romote="0"  sound="big"/>
+  <eff id="behit_4" file="FX_HFX_HFX_1" y="0" f="0" rotation="0" romote="0"  sound="small"/>
+  <eff id="behit_5" file="FX_HFX_HFX_1" y="0" f="0" rotation="0" romote="0"  sound="blade"/>
+  <eff id="behit_6" file="FX_HFX_HFX_1" y="0" f="0" rotation="0" romote="0"  sound="middle"/>
+  <eff id="behit_7" file="FX_HFX_HFX_1" y="0" f="0" rotation="0" romote="0"  sound="bigblood"/>
+  <eff id="behit_8" file="FX_HFX_HFX_1" y="0" f="0" rotation="0" romote="0"  sound="ice"/>
+
+
+  <eff id="m_10027_skill_1" file="FX_monsterSFX_10027_SFX_2" y="0" f="3" rotation="0" romote="0"/>
+  <eff id="m_10027_skill_2" file="FX_monsterSFX_10027_SFX_2" y="0" f="7" rotation="0" romote="0"/>
+  <eff id="m_10027_skill_3" file="FX_monsterSFX_10027_SFX_2" y="0" f="11" rotation="0" romote="0"/>
+  
+  <eff id="m_10027_skill_4" file="FX_monsterSFX_10027_SFX_2" y="0" f="15" rotation="0" romote="0"/>
+
+
+  <eff id="m_10027_attack1" file="bullet_10027_bt1_b1" y="1" f="3" rotation="90" speed="0.3" romote="1"/>
+
+  <eff id="m_10027_attack2" file="bullet_10027_bt1_b1" y="1" f="3" rotation="-90" speed="0.3" romote="1"/>
+
+  <eff id="m_10027_attack3" file="bullet_10027_bt1_b1" y="1" f="5"  rotation="45" speed="0.3" romote="1"/>
+
+  <eff id="m_10027_attack4" file="bullet_10027_bt1_b1" y="1" f="5"  rotation="-45" speed="0.3" romote="1"/>
+
+  <eff id="m_10048_atk" file="FX_monsterSFX_10048_FX_monster_10048_attack" y="0.5" f="0" rotation="0" romote="0"/>
+  <eff id="m_10048_skill_1" file="FX_monsterSFX_10048_FX_monster_10048_skill01" y="0.5" f="1.2" rotation="0" romote="0"/>
+  <eff id="m_10048_skill_2" file="FX_monsterSFX_10048_FX_monster_10048_skill02" y="0.5" f="0" rotation="0" romote="0"/>
+<!--元素之王电疗-->
+  <eff id="m_10062_skill_2" file="FX_monsterSFX_10062_FX_monster_10062_skill01" y="0" f="0" rotation="0" romote="0"/>
+
+  <eff id="m_10062_skill_3" file="FX_monsterSFX_10062_FX_monster_10062_skill01_xuli" y="0" f="0" rotation="0"  speed="0.3"  romote="1"/>
+  <!--元素之王神准冲击-->
+  <eff id="m_10062_skill_4" file="FX_monsterSFX_10062_FX_monster_10062_skill04" y="0" f="0" rotation="0" romote="0"/>
+<!--元素之王奥术冲击-->
+  <eff id="m_10062_skill_5_1" file="FX_monsterSFX_10062_FX_monster_10062_skill02" y="2.5" f="0" rotation="0" romote="0"/>
+
+  <eff id="m_10062_skill_5_2" file="FX_monsterSFX_10062_FX_monster_10062_skill02" y="2.5" f="0" rotation="25" romote="0" />
+  <eff id="m_10062_skill_5_3" file="FX_monsterSFX_10062_FX_monster_10062_skill02" y="2.5" f="0" rotation="-25" romote="0" />
+  <!--召唤兽技能特效配置-->
+  <!--召唤兽近战普攻特效-->
+  <eff id="6001" file="FX_zhsFX_zsh_comFx_skill_zsh_18" y="0" f="0" rotation="-45" romote="2" />
+  <!--召唤兽远程普攻特效-->
+  <eff id="6002" file="bullet_mage_bt1_b7" y="1.5" f="0" speed="0.3" romote="1"/>
+  
+  <eff id="6051" file="FX_zhsFX_zsh_comFx_skill_zsh_08" y="0" f="0" rotation="-45" romote="0" />
+  <!-- <eff id="6053" file="FX_zhsFX_zsh_comFx_skill_zsh_14" y="0" f="0" rotation="-45" romote="0"/> -->
+  <eff id="6201" file="FX_zhsFX_zsh_comFx_skill_zsh_18" y="0" f="0" rotation="-45" romote="2" />
+  <eff id="6202" file="FX_zhsFX_zsh_comFx_skill_zsh_09" y="0" f="0" rotation="-45" romote="0" />
+  <eff id="6203" file="FX_zhsFX_zsh_comFx_skill_zsh_16" y="2.5" f="0.5"  speed="0.3" rotation="-45" romote="1" />
+  <eff id="6208" file="FX_zhsFX_zsh_comFx_skill_zsh_18" y="0" f="0" rotation="-45" romote="2" />
+  
+  
+  <eff id="5001_skill_1" file="FX_zhsFX_5001_FX_zhs_5001_attack" y="0" f="0" rotation="-45" romote="0" />
+<!--   <eff id="5001_skill_2" file="FX_zhsFX_5001_FX_zhs_5001_skill01" y="0" f="0" rotation="-45" romote="0" /> -->
+  <eff id="5002_skill_1" file="bullet_mage_bt1_b4" y="1" f="0" speed="0.3" romote="1"/>
+
+<!--水元素涅扎斯技能1-->
+  <!--技能1-->
+  <eff id="10054_skill1" file="FX_monsterSFX_10064_FX_monster_10064_skill01" y="0" f="0" rotation="0" romote="0" />
+  <eff id="10054_skill3" file="FX_monsterSFX_10064_FX_monster_10064_skill01" y="0" f="0" rotation="-20" romote="0" />
+  <eff id="10054_skill4" file="FX_monsterSFX_10064_FX_monster_10064_skill01" y="0" f="0" rotation="20" romote="0" />
+  
+  
+  <!--技能2-->
+  <eff id="10054_skill2" file="FX_monsterSFX_10064_FX_monster_10064_skill03" y="0" f="0" rotation="0" romote="0" />
+<!--转生-->
+  <eff id="zhuansheng" file="FX_comFX_fx_player_common_FX_com_fuhuo" y="0" f="0" rotation="0" romote="0" />
+
+<!--尤格萨隆精神污染-->
+  <eff id="10067_wuran" file="FX_monsterSFX_10067_FX_monster_10067_skill01" y="-2" f="0" rotation="0" romote="0" />
+
+  <eff id="10067_chushou" file="FX_monsterSFX_10067_FX_monster_10067_skill02" y="0" f="0" rotation="0" romote="2" />
+  <eff id="10067_nianya" file="FX_monsterSFX_10067_FX_monster_10067_skill03" y="0" f="9" rotation="0" romote="0" />
+
+  <!--漩涡-->
+  <eff id="xuanwo" file="FX_comFX_fx_xuanwo" y="0" f="2" rotation="0" romote="0" />
+<!--触手攻击-->
+  <eff id="xiapi" file="FX_monsterSFX_10068_FX_monster_10068_attack" y="0" f="0" rotation="0" romote="0" />
+<!--精灵法球攻击-->
+  <eff id="m_10070_attack1" file="bullet_bt_b2" y="5" f="1" speed="0.3" romote="1"/>
+  <eff id="m_10070_attack2" file="bullet_bt_b3" y="5" f="1" speed="0.3" romote="1"/>
+  <eff id="m_10070_attack3" file="bullet_bt_b4" y="5" f="1" speed="0.3" romote="1"/>
+
+  <!--精灵出场-->
+  <eff id="10070chuchang" file="FX_monsterSFX_10070_FX_monster_10070_born" y="0" f="0" rotation="0" romote="0" />
+   <!--精灵穿刺-->
+  <eff id="10070chuanchi" file="FX_monsterSFX_10070_FX_monster_10070_skill01" y="0" f="0" rotation="0" romote="0" />
+
+  <!--精灵光辉-->
+  <eff id="10070guanghui" file="FX_monsterSFX_10070_FX_monster_10070_skill02" y="0" f="0" rotation="0" romote="0" />
+
+  <eff id="10070baozha" file="FX_monsterSFX_10070_FX_monster_10070_skill03" y="0" f="0" rotation="0" romote="0" />
+<!--堕落狂魔-->
+  <eff id="10027_skill_bazha1" file="FX_monsterSFX_10067_FX_monster_10067_skill04" y="0" f="0" rotation="0" romote="0" />
+  <!--烈焰红龙熔岩球-->
+  <eff id="1007104_skill_rybd" file="FX_monsterSFX_10071_FX_monster_10071_skill01" y="0" f="0" rotation="0" romote="0" />
+  <!--烈焰红龙烈焰扫射-->
+  <eff id="1007104_skill_lyss" file="FX_monsterSFX_10071_FX_monster_10071_skill02" y="0" f="0" rotation="0" romote="0" />
+  <!--烈焰红龙普攻-->
+  <eff id="1007104_skill_pg" file="FX_monsterSFX_10071_FX_monster_10071_attack" y="0" f="0" rotation="0" romote="0" />
+  <!--烈焰红龙激怒-->
+  <eff id="1007104_skill_jn" file="FX_monsterSFX_10071_FX_monster_10071_skill03" y="0" f="0" rotation="0" romote="0" />
+  <!--冰霜巨龙冰球-->
+  <eff id="1007101_skill_bq" file="FX_monsterSFX_1007101_FX_monster_1007101_skill01" y="0" f="0" rotation="0" romote="0" />
+  <!--冰霜巨龙喷射-->
+  <eff id="1007101_skill_ps" file="FX_monsterSFX_1007101_FX_monster_1007101_skill02" y="0" f="0" rotation="0" romote="0" />
+  <!--冰霜巨龙普攻-->
+  <eff id="1007101_skill_pg" file="FX_monsterSFX_1007101_FX_monster_1007101_attack" y="0" f="0" rotation="0" romote="0" />  
+  <!--冰霜巨龙激怒-->
+  <eff id="1007101_skill_jn" file="FX_monsterSFX_1007101_FX_monster_1007101_skill03" y="0" f="0" rotation="0" romote="0" />
+  
+<!--驯龙者-->
+  <eff id="10046_skill_zdbzd" file="FX_monsterSFX_10067_FX_monster_10067_skill04" y="0" f="0" rotation="0" romote="0" />
+  <!--金币副本宝箱死亡掉落金币特效-->
+  <eff id="m_10060_dead" file="FX_monsterSFX_10061_FX_monster_10061_dead" y="0" f="0" rotation="0"  romote="0"/>
+
+
+  <eff id="10070guanghui" file="FX_monsterSFX_10070_FX_monster_10070_skill02" y="0" f="0" rotation="0" romote="0" />
+
+  <eff id="10046_zadi" file="FX_monsterSFX_10046_FX_monster_10046_skill" y="0" f="0" rotation="0" romote="0" />
+  <eff id="10046_atk" file="FX_monsterSFX_10046_FX_monster_10046_attack" y="0" f="0" rotation="0" romote="0" />
+
+  <eff id="10003_atk" file="bullet_10003_sbt1_bullet_10003_sbt1_s2" y="0" f="0" rotation="0" romote="0" />
+<!--科斯的电击-->
+  <eff id="kesidianji" file="FX_monsterSFX_10062_FX_monster_10062_skill01" y="-3" f="0" rotation="0" romote="0"/>
+<!--冰霜巨龙技能-->
+  <eff id="1007101_tuxi" file="FX_monsterSFX_1007101_FX_monster_1007101_skill02" y="0" f="0" rotation="0" romote="0"/>
+
+  <eff id="1007101_bingbao" file="FX_monsterSFX_1007101_FX_monster_1007101_skill02" y="0" f="0" rotation="0" romote="0"/>
+  <eff id="1007101_bingbao1" file="FX_monsterSFX_1007101_FX_monster_1007101_skill04_ice_bao" y="0" f="4" rotation="0" romote="0"/>
+  <eff id="1007101_bingbao2" file="FX_monsterSFX_1007101_FX_monster_1007101_skill04_ice_bao" y="0" f="8" rotation="0" romote="0"/>
+  <eff id="1007101_bingbao3" file="FX_monsterSFX_1007101_FX_monster_1007101_skill04_ice_bao" y="0" f="12" rotation="0" romote="0"/>
+
+
+  <eff id="1007101_hanbingzhadan" file="FX_monsterSFX_1007101_FX_monster_1007101_skill04" y="0" f="0" rotation="0" romote="0"/>
+  
+<!--驯龙者末日双头龙普攻-->
+  <eff id="10003_atk" file="bullet_10003_sbt1_s2" y="0" f="5" rotation="0" romote="0"/>
+
+
+<!--深渊燃烧恶魔-->
+  <eff id="10072_atk" file="FX_monsterSFX_10072_FX_monster_10072_attack" y="0" f="5" rotation="0" romote="0"/>
+  <eff id="10072_skill1" file="FX_monsterSFX_10072_FX_monster_10072_skill01" y="0" f="0" rotation="0" romote="0"/>
+  <eff id="10072_skill2" file="FX_monsterSFX_10072_FX_monster_10072_skill02" y="0" f="0" rotation="0" romote="0"/>
+  <eff id="10072_skill3" file="FX_monsterSFX_10072_FX_monster_10072_skill03" y="0" f="0" rotation="0" romote="0"/>
+  <eff id="10072_skill4" file="FX_monsterSFX_10072_FX_monster_10072_skill04" y="0" f="0" rotation="0" romote="0"/>
+
+
+
+
+</first_rechargelist>

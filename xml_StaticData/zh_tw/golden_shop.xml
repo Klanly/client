@@ -1,0 +1,90 @@
+<golden_shoplist>	
+<!--	
+ID  商品ID	
+type 商城中的標籤頁  1商品  2禮包 3綁定寶石  4限時活動 5金幣 6軍團	
+itemid 賣出物品的ID	
+ITEMNAME  商品的名稱 僅作為標識用 程式不會讀這個資料	
+descrip   商品的描述	
+money type  購買消耗的貨幣類型 2金幣 3鑽石 4綁鑽 5貢獻	
+value  消耗的貨幣的量	
+limiteD  每日限購次數 僅綁定寶石購買物品限制	
+group  商品組 用於前端道具索引使用	
+-->	
+	
+  <!--寶石購買道具 -->	
+  <golden_shop id="1001" type="1" itemid="1501" itemname="升級寶石" money_type="3" value="20" onsale="1" group="1"/>	
+  <golden_shop id="1004" type="1" itemid="1504" itemname="天醒寶石" money_type="3" value="50" group="1"/>	
+  <golden_shop id="1011" type="1" itemid="1508" itemname="復活石"  money_type="3" value="20" group="1"/>	
+  <golden_shop id="1012" type="1" itemid="1509" itemname="烈焰火種"   money_type="3" value="20" group="1"/>	
+  <golden_shop id="1013" type="1" itemid="1510" itemname="神聖之羽"  money_type="3" value="100" group="1"/>	
+  <golden_shop id="1014" type="1" itemid="1511" itemname="力量之書"  money_type="3" value="10" group="1"/>	
+  <golden_shop id="1015" type="1" itemid="1512" itemname="敏捷之書"  money_type="3" value="10" group="1"/>	
+  <golden_shop id="1016" type="1" itemid="1513" itemname="體力之書"  money_type="3" value="10" group="1"/>	
+  <golden_shop id="1017" type="1" itemid="1514" itemname="魔力之書"  money_type="3" value="10" group="2"/>	
+  <golden_shop id="1021" type="1" itemid="1515" itemname="智慧之書"  money_type="3" value="10" group="2"/>	
+  <golden_shop id="1037" type="1" itemid="1528" itemname="2倍經驗卷" money_type="3" value="50" group="2"/>	
+  <golden_shop id="1038" type="1" itemid="1533" itemname="大瓶光輝藥水" money_type="3" value="15" group="2"/>	
+  <golden_shop id="1046" type="1" itemid="1587" itemname="紅寶石LV1"  money_type="3" value="50" group="2"/>	
+  <golden_shop id="1047" type="1" itemid="1588" itemname="紅寶石LV2" money_type="3" value="250" group="2"/>	
+  <golden_shop id="1048" type="1" itemid="1597" itemname="藍寶石LV1" money_type="3" value="50" group="2"/>	
+  <golden_shop id="1049" type="1" itemid="1598" itemname="藍寶石LV2"  money_type="3" value="250" group="2"/>	
+  <golden_shop id="1050" type="1" itemid="1607" itemname="黃寶石LV1" money_type="3" value="50" group="3"/>	
+  <golden_shop id="1051" type="1" itemid="1608" itemname="黃寶石LV2" money_type="3" value="250" group="3"/>	
+  <golden_shop id="1058" type="1" itemid="1585" itemname="靈獸回生露" money_type="3" value="50" group="3"/>	
+  <!--禮包-->	
+  <golden_shop id="2001" type="2" itemid="2001" itemname="精英裝備禮包" money_type="3" value="688"/>	
+  <golden_shop id="2002" type="2" itemid="2002" itemname="新手沖級禮包" money_type="3" value="288"/>	
+  <golden_shop id="2003" type="2" itemid="2003" itemname="無限強化禮包" money_type="3" value="388"/>	
+  <!--綁定寶石購買道具 -->	
+  <golden_shop id="3001" type="3" itemid="1504" itemname="天醒寶石"  limit="10" money_type="4"   value="55" group="1"/>	
+  <golden_shop id="3002" type="3" itemid="1511" itemname="力量之書"  limit="10"  money_type="4"  value="15" group="1"/>	
+  <golden_shop id="3004" type="3" itemid="1512" itemname="敏捷之書"  limit="10"  money_type="4"  value="15" group="1"/>	
+  <golden_shop id="3005" type="3" itemid="1513" itemname="體力之書"  limit="10" money_type="4"  value="15" group="1"/>	
+  <golden_shop id="3006" type="3" itemid="1514" itemname="魔力之書"  limit="10" money_type="4"   value="15" group="1"/>	
+  <golden_shop id="3007" type="3" itemid="1515" itemname="智慧之書"  limit="10" money_type="4"   value="15" group="1"/>	
+  <golden_shop id="3010" type="3" itemid="1509" itemname="烈焰火種" limit="10" money_type="4" value="25" group="1"/>	
+  <golden_shop id="3012" type="3" itemid="1533" itemname="小瓶光輝藥水" limit="10" money_type="4" value="25" group="1"/>	
+   <!--限時搶購 -->	
+  <golden_shop id="4001" type="4" itemid="1504" itemname="天醒寶石" limit="10" money_type="3" value="50" left_num="100" discount="70"/>	
+  <golden_shop id="4008" type="4" itemid="1528" itemname="2倍經驗卷"  limit="10" money_type="3" value="50" left_num="100" discount="70"/>	
+   <!--金幣商店-->	
+  <golden_shop id="5001" type="5" itemid="1529" itemname="1級生命藥水" money_type="2" value="500" group="1"/>	
+  <golden_shop id="5002" type="5" itemid="1530" itemname="1級魔力藥水" money_type="2" value="500" group="1"/>	
+  <golden_shop id="5003" type="5" itemid="1531" itemname="2級生命藥水" money_type="2" value="1000" group="1"/>	
+  <golden_shop id="5004" type="5" itemid="1532" itemname="2級魔力藥水" money_type="2" value="600" group="1"/>	
+  <golden_shop id="5005" type="5" itemid="1564" itemname="3級生命藥水" money_type="2" value="1500" group="1"/>	
+  <golden_shop id="5006" type="5" itemid="1573" itemname="3級魔力藥水" money_type="2" value="700" group="1"/>	
+  <golden_shop id="5007" type="5" itemid="1565" itemname="4級生命藥水" money_type="2" value="2000" group="1"/>	
+  <golden_shop id="5008" type="5" itemid="1574" itemname="4級魔力藥水" money_type="2" value="800" group="1"/>	
+  <golden_shop id="5009" type="5" itemid="1566" itemname="5級生命藥水" money_type="2" value="2500" group="1"/>	
+  <golden_shop id="5010" type="5" itemid="1575" itemname="5級魔力藥水" money_type="2" value="900" group="1"/>	
+  <golden_shop id="5011" type="5" itemid="1567" itemname="6級生命藥水" money_type="2" value="600" group="1"/>	
+  <golden_shop id="5012" type="5" itemid="1576" itemname="6級魔力藥水" money_type="2" value="200" group="1"/>	
+  <golden_shop id="5013" type="5" itemid="1568" itemname="7級生命藥水" money_type="2" value="700" group="1"/>	
+  <golden_shop id="5014" type="5" itemid="1577" itemname="7級魔力藥水" money_type="2" value="400" group="1"/>	
+  <golden_shop id="5015" type="5" itemid="1569" itemname="8級生命藥水" money_type="2" value="800" group="1"/>	
+  <golden_shop id="5016" type="5" itemid="1578" itemname="8級魔力藥水" money_type="2" value="600" group="1"/>	
+  <golden_shop id="5017" type="5" itemid="1570" itemname="9級生命藥水" money_type="2" value="900" group="1"/>	
+  <golden_shop id="5018" type="5" itemid="1579" itemname="9級魔力藥水" money_type="2" value="800" group="1"/>	
+  <golden_shop id="5019" type="5" itemid="1571" itemname="10級生命藥水" money_type="2" value="900" group="1"/>	
+  <golden_shop id="5020" type="5" itemid="1580" itemname="10級魔力藥水" money_type="2" value="900" group="1"/>	
+  <golden_shop id="5021" type="5" itemid="1572" itemname="11級生命藥水" money_type="2" value="900" group="1"/>	
+  <golden_shop id="5022" type="5" itemid="1581" itemname="11級魔力藥水" money_type="2" value="900" group="1"/>	
+  <!--	
+  NPC商店	
+  -->	
+  <golden_shop id="5501" type="6" itemid="101" itemname="硬皮頭盔" money_type="2" value="900" group="1" npc_id="216"/>	
+  <golden_shop id="5501" type="6" itemid="101" itemname="硬皮肩甲" money_type="2" value="900" group="1" npc_id="110"/>	
+  <golden_shop id="5501" type="6" itemid="101" itemname="硬皮護甲" money_type="2" value="900" group="1" npc_id="306"/>	
+  <golden_shop id="5501" type="6" itemid="101" itemname="硬皮護脛" money_type="2" value="900" group="1" npc_id="1502"/>	
+  <golden_shop id="5501" type="6" itemid="101" itemname="硬皮靴子" money_type="2" value="900" group="1" npc_id="903"/>	
+  	
+  <!--軍團-->	
+  <golden_shop id="6001" type="6" itemid="1533" itemname="大瓶光輝藥水" limit_w="5" money_type="5" value="30"/>	
+  <golden_shop id="6002" type="6" itemid="1501" itemname="升級寶石" limit_w="10" money_type="5" value="100"/>	
+  <golden_shop id="6003" type="6" itemid="1528" itemname="2倍經驗卷" limit_w="1" money_type="5" value="300"/>	
+  <golden_shop id="6004" type="6" itemid="1587" itemname="紅寶石LV1" limit_w="2" money_type="5" value="500"/>	
+  <golden_shop id="6005" type="6" itemid="1597" itemname="藍寶石LV1" limit_w="2" money_type="5" value="500"/>	
+  <golden_shop id="6006" type="6" itemid="1607" itemname="黃寶石LV1" limit_w="2" money_type="5" value="500"/>	
+	
+</golden_shoplist>

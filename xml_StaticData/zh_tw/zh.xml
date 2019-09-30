@@ -1,0 +1,1585 @@
+<local>
+<!--字符顏色定義
+	#FFFFFF	白色 RGB:255,255,255
+	#00FF00 綠色 RGB:0,255,0
+	#00BFFF 藍色 RGB:0,191,255
+	#FF00FF 紫色 RGB:255,0,255
+	#FFA500 橙色 RGB:255,165,0
+	#FF0000 紅色 RGB:255,0,0-->
+	
+    <!--公用 開始-->
+    <l i="comm_money" c= "{0}金幣"/>
+    <l i="comm_nolvmap" c= "需要{0}轉{1}級才能進入『{2}』"/>
+    <l i="comm_nolv" c= "等級要求{0}級，當前等級不足"/>
+    <l i="comm_date1" c= "{0}年{1}月{2}日{3}時{4}分"/>
+    <l i="comm_date2" c= "{0}月{1}日{2}時{3}分"/>
+	<l i="comm_date3" c= "{0}月{1}日{2}時"/>
+	<l i="comm_noitem" c= "道具數量不足"/>
+	<l i="comm_nomoney" c= "金幣不足1"/>
+	<l i="comm_lv" c= "等級不足"/> 
+	<l i="comm_delechar_info1" c= "確認刪除角色：{0}"/>
+	<l i="comm_delechar_info2" c= "職業：{0}{n}等級：{1}轉{2}級"/>
+	<l i="comm_job2" c= "戰士"/>
+	<l i="comm_job3" c= "法師"/>
+	<l i="comm_job5" c= "刺客"/>
+	<l i="comm_dele" c= "輸入 {color=#FF0000}delete{/color} 並確認"/>
+	<l i="comm_inputerror" c= "輸入錯誤"/>
+	<l i="comm_moneyadd" c= "金幣+"/>
+	<l i="comm_zuanshiadd" c= "鉆石+"/>
+	<l i="comm_bangzuanadd" c= "綁定鉆石+"/>
+	<l i="comm_get" c= "獲得"/>
+	<l i="comm_un_recharge" c= "充值功能暫不開啟"/>
+    <l i="comm_zhuan_up1" c = "完成轉生任務，等級達到"/>
+	<l i="comm_zhuan_up2" c = "轉，實力大幅提升。"/>
+    <!--公用 結束-->
+  
+	<!--聊天 開始-->
+	<l i="chat_voice" c= "【{0}秒語音】"/>
+	<!--聊天 結束-->
+
+	<!--本地化字符表，文本中的插入字符請遵循。{0}、{1}...的順序往下，換行符{n}。-->
+	<l i="mail_family_1" c="恭喜大人所在家族等級提升到{0}級，家族人數上限提升到{1}人。家族技能等級上限提升到{2}級。"/>
+  
+	<!--副本 開始-->
+	<l i="fb_useTILI" c="是否需要使用體力丹？ 增加{color=#00FF00}{0}{/color}點體力"/>
+	<l i="fb_tip" c= "推薦戰力：{0}{n}開啟等級：{1}{n}銅幣：{2}{n}經驗：{3}"/>
+	<l i="fb_lastresetCount" c= "可重置次數：{0}"/>
+	<l i="fb_onkey_isnotvip" c= "需要激活VIP3以上才可使用壹鍵掃蕩"/>
+	<l i="fb_goldenbuyenergy" c= "道具使用次數已到上限或者道具已用完，是否使用100鉆石購買100體力？"/>
+	<l i="fb_cantbuyenergy" c= "已達到可購買上限"/>
+	<l i="fb_timetip1" c=  "恢復1點體力需要:{0}{n}恢復全部體力需要：{1}"/>
+	<l i="fb_timetip2" c=  "體力已滿"/>
+	<l i="fb_wipeout_exp" c=  "獲得{0}經驗"/>
+	<l i="fb_wipeout_money" c=  "獲得{0}金幣"/>
+	<l i="fb_wipeout" c=  "掃蕩副本『{0}』{1}次"/>
+	<l i="fb_cantrest" c=  "今日重置次數已用完"/>
+	<l i="fb_havetenergy" c=  "體力不足"/>
+	<l i="fb_getenergy" c= "使用成功，目前體力為{0}"/>  
+	<l i="fb_confirmback" c= "確認離開副本嗎？"/>  
+	<l i="fb_energy_haveitem"  c="擁有：{0}"/> 
+	<l i="fb_energy_info"  c="功能：{0}"/> 
+	<l i="fb_energy_used"  c="今日使用數量：{0}/{1}"/> 
+	<l i="fb_energy_buy"  c="購買體力"/>   
+  
+	<l i="fb_info_1"  c="擊敗:{0}"/>
+	<l i="fb_info_2"  c="擊敗進度:{0}/{1}"/>
+	<l i="fb_info_3"  c="經驗:{0}"/>
+	<l i="fb_info_4"  c="波數:{0}/{1}"/>
+	<l i="fb_info_5"  c="金幣:{0}"/>
+	<l i="fb_info_6"  c="寶藏剩余:{0}"/>
+	<l i="fb_info_7"  c="BOSS:{0}/1"/>
+	<l i="fb_info_8"  c="擊殺進度:   {0}"/>
+	<l i="fb_info_9"  c="團隊任務:{0}"/>
+	<l i="fb_info_10"  c="今日獎勵已全部領完"/>
+	<!--副本 結束-->
+
+	<!--服務器排隊-->
+	<l i="sever_list1" c= "排隊人數為{0}人"/>
+	<l i="sever_list2" c= "{n}服務器爆滿，建議切換其他服。"/>
+	<l i="sever_list3" c= "{n}/n等待時間約為{0}分鐘"/>
+	<!--服務器排隊-->
+  
+	<!--充值 開始-->
+	<l i="rechange_noGolden" c= "鉆石余額不足，需要{0}鉆石"/>
+	<l i="rechange_card_month" c= "您已購買了月卡"/>
+	<l i="rechange_card_quarter" c= "您已購買了季卡"/>
+	<l i="rechange_card_year" c= "您已購買了年卡"/>
+	<l i="rechange_cannot_buy" c= "，季卡和年卡不能同時購買"/>
+	<!--充值 結束-->
+  
+	<!--功能開始 開始-->
+	<l i="functionopen_nolv" c= "需要{0}級才能使用"/>
+	<!--功能開始 結束-->
+  
+	<!--比武場 開始-->
+	<l i="arena_maxrank" c= "歷史最高排名：{0}"/>
+	<l i="arena_outoftime" c= "挑戰次數已用完"/>
+	<l i="arena_buy_time" c= "確認購買次數嗎？"/>
+	<l i="arena_log_challange_win" c= "{0}挑戰了妳,妳勝利了"/>
+	<l i="arena_log_challange_lose" c= "{0}挑戰了妳,妳失敗了"/>
+	<l i="arena_log_win" c= "妳挑戰了{0},妳勝利了"/>
+	<l i="arena_log_lose" c= "妳挑戰了{0},妳失敗了"/>
+	<!--比武場 結束-->
+
+	<!--家族 開始-->
+	<l i="family_notice" c= "大人，妳確定要解散妳的家族？"/>
+	<l i="family_expel" c= "大人，妳確定要開除{0}？"/>
+	<l i="family_leave" c= "大人，妳確定要離開家族？"/>
+	<l i="family_treasure" c= "我邀請各位共同開采{0}"/>
+	<l i="family_win_treasure" c= "大人，屬下不辱使命，完成了{0}的守護寶藏任務，在此奉上銅幣X{1}。請大人笑納"/>
+	<l i="family_lose_treasure" c= "大人，屬下有辱使命，未能護的{0}的寶藏周全，讓奸人得逞。在此奉上銅幣X{1}"/>
+	<!--家族 結束--> 
+
+	<!--抽獎 開始-->
+
+	<!--抽獎 結束--> 
+   
+	<!--郵件 開始-->
+	<l i="mail_massageBox_del_one" c= "是否刪除郵件?"/>
+	<l i="mail_massageBox_fail" c= "含有附件的郵件不能刪除！"/>
+	<l i="mail_massageBox_del_all" c= "是否刪除此會話?"/>
+	<l i="mail_massageBox_full" c= "郵件數量過多，不能接收更多郵件！"/>
+	<l i="mail_massageBox_clear" c= "郵件數量過多，是否刪除多余郵件！"/>
+
+	<l i="mail_system_firstRech" c= "恭喜大人獲得了首沖獎勵，獎勵的物品如下“天使翅膀-兌換券*1、銅幣*20W、大體力丹*4”，還請笑納！"/>
+	<l i="family_disband" c= "大人您所在的家族{0}已經解散"/>
+	<l i="family_lvUp" c= "恭喜大人所在家族等級提升到{0}級，家族人數上限提升到{1}人。家族技能等級上限提升到{2}級。"/>
+	<l i="family_rush" c= "恭喜大人所在家族完成今日家族BOSS擊殺"/>
+	<l i="mail_send" c= "發送郵件給："/>
+	<l i="mail_send_suc" c= "郵件發送成功"/>
+	<l i="mail_send_fam" c= "發送家族郵件"/>
+	<l i="mail_bag_full" c= "物品達到上限,請先清理"/>
+	<!--郵件 結束--> 
+   
+    <!--活動 開始-->
+	<l i="active_day1" c= "第壹天"/> 
+	<l i="active_day2" c= "第二天"/>   
+	<l i="active_day3" c= "第三天"/>   
+	<l i="active_day4" c= "第四天"/>   
+	<l i="active_day5" c= "第五天"/>   
+	<l i="active_day6" c= "第六天"/>    
+	<l i="active_day7" c= "第七天"/>  
+	<l i="active_getSucc" c= "領取成功！"/>  
+	<l i="active_minute" c= "{0}分鐘"/>  
+	<l i="active_canchoujiang" c= "可以抽獎"/>
+	<l i="active_waitchoujiang" c= "{0}後可抽獎"/>
+	<l i="active_getchoujiang" c= "恭喜抽獎獲得『{0}』"/>
+	<l i="active_recharge_c" c= "未達成"/>  
+	<l i="active_recharge_l" c= "領取"/> 
+
+	<l i="active_recharge1" c= "累計消費{0}鉆石"/>  
+	<l i="active_recharge2" c= "累計消費{0}鉆石"/> 
+	<l i="active_recharge3" c= "累計消費{0}鉆石"/>  
+	<l i="active_recharge4" c= "累計消費{0}鉆石"/>  
+	<l i="active_recharge5" c= "累計消費{0}鉆石"/> 
+	<l i="active_recharge6" c= "累計消費{0}鉆石"/>  
+
+	<l i="active_outtime" c= "活動已過期"/>  
+	<l i="lingqu" c= "領取"/>
+	<l i="yilingqu" c= "已領"/>
+	<!--活動 結束--> 
+
+	<!--廣播 開始-->
+	<l i="lottery_roll" c= "恭喜大人{color=#00FF00}{0}{/color}從尚同墨方中獲得了{1}。"/>   
+	<l i="equip_strengthen1" c= "玩家"/>  
+	<l i="equip_strengthen2" c= "成功將"/>  
+	<l i="equip_strengthen3" c= "精煉到了"/>  
+	<l i="equip_strengthen4" c= "級,戰力大增！"/>  
+	<l i="active_buying" c= "恭喜大人{color=#00FF00}{0}{/color}在限時搶購中，購買了25枚{1}"/> 
+	<l i="hero_get_0" c= "恭喜大人{color=#00FF00}{0}{/color}獲得了英雄{1}"/> 
+	<l i="hero_get_1" c= "恭喜大人{color=#00FF00}{0}{/color}獲得了英雄{1}"/> 
+	<l i="hero_get_2" c= "恭喜大人{color=#00FF00}{0}{/color}獲得了英雄{1}"/> 
+	<l i="hero_get_3" c= "恭喜大人{color=#00FF00}{0}{/color}獲得了英雄{1}"/> 
+	<!--廣播 結束--> 
+
+	<!--離線經驗 開始-->
+	<l i="off_line_exp" c= "獲得經驗{0}"/>   
+	<l i="off_line_exp_money" c= "金錢不足"/>
+	<l i="off_line_exp_gold" c= "鉆石不足"/> 
+	<l i="off_line_exp_vip" c= "vip等級不足"/> 
+	<l i="off_line_exp_time" c= "{color=#00FF00}{0}{/color}小時{color=#00FF00}{1}{/color}分"/> 
+	<l i="off_line_empty" c= "未滿1小時不可領取"/> 
+	<!--離線經驗 結束--> 
+
+	<!--時裝 開始-->
+	<l i="dress_try" c= "試穿"/>    
+	<l i="dress_get" c= "{color=#00FF00}獲取{/color}"/> 
+	<l i="dress_equip" c= "換裝"/>   
+	<l i="dress_active" c= "激活"/>
+	<!--時裝 結束--> 
+	
+	<!--家族分享禮包郵件內容-->
+	<l i="family_share_mail" c= "親愛的大人，您所在的家族有人購買了家族分享禮包，作為同家族的成員。我們為您送上分享好禮壹份，望大人笑納。"/>   
+	<!--墨家禁地 開始-->
+	<l i="mjjd_massageBox_buy_one" c= "您還有{0}次購買機會, 是否花費100鉆石購買挑戰壹次?"/>
+	<l i="mjjd_vip_buy_msg" c= "VIP5 可再挑戰壹次,VIP11 可以額外挑戰兩次"/>
+	<l i="mjjd_vip_buy1" c= "(VIP5 可購買挑戰次數)"/>
+	<l i="mjjd_vip_buy2" c= "(VIP11 可購買挑戰次數)"/>
+	<l i="mjjd_confirmback" c= "墨家禁地會掉落大量銅幣，提前退出損失不小。大人，您確定要退出？"/>
+	<l i="mjjd_monsterbo" c= "12"/>  
+	<!--墨家禁地 結束--> 
+	
+	<!--vip 開始-->
+	<l i="vip_noenoughlv" c= "vip等級不足"/>  
+	<l i="vip_nolv" c= "vip3才能使用全自動戰鬥"/>  
+	<!--vip 結束--> 
+
+	<!--連接系統 開始-->
+	<l i="disconect_0" c= "{n}您的網絡連接已經斷開"/>  
+	<l i="disconect_1" c= "{n}服務器無法連接，請檢查網絡設置"/>  
+	<l i="disconect_2" c= "{n}妳的賬號不可用或當前區服關閉"/>  
+	<l i="disconect_3" c= "{n}服務器無法連接，請檢查網絡設置！"/>  
+	<l i="disconect_4" c= "{n}服務器當前網絡可能無法使用，請檢查網絡設置"/>  
+	<!--連接系統 結束-->
+
+	<!--A3掛機秘籍 開始-->
+	<l i="autoplay_start" c="開始自動掛機！"/>
+	<l i="autoplay_stop" c="結束自動掛機！"/>
+	<l i="autoplay_restore_0" c="角色生命值低於 {color=#00FF00}{0} %{/color} 時自動使用普通藥物恢復"/>
+	<l i="autoplay_restore_1" c="角色魔法值低於 {color=#0000FF}{0} %{/color} 時自動使用普通藥物恢復"/>
+	<l i="autoplay_restore_2" c="角色生命值低於 {color=#00FF00}{0} %{/color} 時自動使用商城藥物恢復"/>
+	<!--A3掛機秘籍 結束-->
+
+    <!--A3寵物系統 開始-->
+    <l i="pet_hint" c="將寵物提升至{0}級可以讓寵物進階"/>
+    <l i="pet_succ" c="進階成功率 {0}%"/>
+    <l i="pet_no_feed" c="寵物使用期限已經到期!"/>
+    <l i="pet_invalid" c="寵物使用期限已經到期，屬性已經失效"/>
+    <l i="pet_hungry" c="寵物使用期限已經到期"/>
+	<l i="pet_forever" c="使用期限：永久"/>
+	<l i="pet_buy_feed" c="寵物使用期限已經到期!"/>
+
+	<!--A3地圖 開始-->
+	<l i="worldmap_transdesc" c="請選擇如何前往{color=#38e2ed}{0}{/color}?"/>
+	<l i="worldmap_bt1" c="{color=#00FF00}免費{/color}"/>
+	<l i="worldmap_bt2" c="直接傳送 {color=#00FF00}免費{/color}"/>
+	<l i="worldmap_bt2nonevip" c="直接傳送      {color=#fffea2}{0}{/color}"/>
+	<l i="worldmap_tooclose" c="距離很近，確定使用傳送功能嗎？"/>
+	<l i="worldmap_cangetitem" c="妳沒有拾取權限"/>
+	<l i="worldmap_cangetitem_tm" c="{0}秒後可以拾取"/>
+	<l i="worldmap_fullbag" c="妳的包裹滿了，無法拾取"/>
+	<l i="worldmap_lv" c="{0}轉{1}級"/>
+	<l i="worldmap_cd" c="傳送中{0}"/>
+	<l i="worldmap_cantopen" c="副本中不能打開地圖"/>
+	<!--A3地圖 結束-->
+
+	<!--A3技能 開始-->
+	<l i="skill_outofmana" c="魔法值不足"/>
+	<l i="skill_cd" c="技能冷卻中，無法使用。"/>
+	<l i="a3_insideui_fb_wait" c="等待中不可使用技能"/>
+	<!--A3技能 結束-->
+
+	<!--A3郵件 開始-->
+	<l i="mail_title_0" c="系統獎勵"/> <!--測試郵件-->
+	<l i="mail_title_1" c="在線獎勵"/>
+	<l i="mail_title_2" c="副本獎勵"/>
+	<l i="mail_title_3" c="競技場獎勵"/>
+	<l i="mail_title_4" c="維護補償"/>
+	<l i="mail_title_5" c="活動獎勵"/>
+	<l i="mail_title_6" c="尋寶獎勵"/>
+	<l i="mail_title_7" c="簽到獎勵"/>
+	<l i="mail_title_8" c="魔物獵殺獎勵"/>
+	<l i="mail_title_9" c="傳承寶石"/>
+	<l i="mail_title_10" c="離線裝備獎勵"/>
+	<l i="mail_title_11" c="競技場段位獎勵"/>
+	<l i="mail_title_12" c="軍團任務獎勵"/>
+	<l i="mail_title_13" c="專屬禮包"/>
+	<l i="mail_title_14" c="獸靈秘境"/>
+   
+	<l i="mail_content_0" c="系統發送獎勵給您"/>
+	<l i="mail_content_1" c="每日在線時間獎勵，請註意及時查收。"/>
+	<l i="mail_content_2" c="副本通關獎勵，請註意及時查收。"/>
+	<l i="mail_content_3" c="競技場每日排名獎勵，請註意及時查收。"/>
+	<l i="mail_content_4" c="感謝各位小夥伴們的支持，特此送上壹份大禮，請註意及時查收哦！"/>
+	<l i="mail_content_5" c="活動獎勵，請註意及時查收。"/>
+	<l i="mail_content_6" c="魔盒抽獎獎勵，請註意及時查收。"/>
+	<l i="mail_content_7" c="簽到獎勵，請註意及時查收。"/>
+	<l i="mail_content_8" c="魔物獵殺獎勵，請註意及時查收。"/>
+	<l i="mail_content_9" c="這是在傳承裝備時取下的寶石，請註意查收。"/>
+	<l i="mail_content_10" c="離線獲得的裝備獎勵，請註意及時查收。"/>
+	<l i="mail_content_11" c="競技場每周首次段位獎勵，請註意及時查收。"/>
+	<l i="mail_content_12" c="軍團任務獎勵，請註意及時查收。"/>
+	<l i="mail_content_13" c="專屬禮包獎勵，請註意及時查收。"/>
+	<l i="mail_content_14" c="獸靈秘境獎勵寶箱，請註意及時查收。"/>
+
+	<l i="mail_hint_0" c="附件已領取。"/>
+	<l i="mail_type_1" c="系統郵件"/>
+ 
+	<l i="mail_cnt" c="郵件列表({0}/100)"/>
+	<l i="mail_hint_0" c="附件已領取。"/>
+	<l i="mail_hint_1" c="沒有郵件"/>
+	<l i="mail_hint_2" c="請選擇郵件"/>
+	<l i="mail_hint_3" c="確定刪除所有無附件的郵件嗎?"/>
+	<l i="mail_hint_4" c="附件尚未領取,確定刪除嗎?"/>
+	<l i="mail_hint_5" c="已成功領取附件"/>
+	<l i="mail_hint_6" c="郵件已被刪除"/>
+	<l i="mail_hint_7" c="已全部領取成功"/>
+	<l i="mail_hint_8" c="沒有可以刪除的郵件"/>
+	<l i="mail_hint_9" c="成功刪除所有無附件的郵件"/>
+	<l i="mail_hint_10" c="背包已滿,請清理背包"/>
+	<!--A3郵件 結束-->
+   
+	<!--A3任務 開始-->
+	<l i="task_btn_name_1" c="主線任務"/>
+	<l i="task_btn_name_2" c="每日任務"/>
+	<l i="task_btn_name_3" c="支線任務"/>
+	<l i="task_btn_name_4" c="委托任務"/>
+	<l i="task_btn_name_5" c="軍團任務"/>
+	<l i="task_chapter_1" c="第壹章:"/>
+	<l i="task_chapter_2" c="第二章:"/>
+	<l i="task_chapter_3" c="第三章:"/>
+	<l i="task_complete" c="任務完成"/>
+	<l i="task_minimap_title_1" c="(主線)"/>
+	<l i="task_minimap_title_2" c="(每日)"/>
+	<l i="task_minimap_title_3" c="(支線)"/>
+	<l i="task_minimap_title_4" c="(委托)"/>
+	<l i="task_minimap_title_5" c="(軍團)"/>
+	<l i="daily_limit_tip_1" c="完成{0}次後獲得額外獎勵"/>
+	<l i="mianpgs" c="當前進度：{0}/{1}"/>
+	<l i="mianctt" c="{0}  ({1}/{2})"/>
+	<l i="mianctt_fin" c="{0}  (已完成)"/>
+	<l i="a3_taskopt_monsteralive" c="怪物已經出現，請前往擊殺"/>
+	
+	<!--A3任務 結束-->
+   
+	<!--A3魔物狩獵 開始-->
+	<l i="mwsl_bc_1" c="空間通道即將開啟，{0}分種後異界魔王將率軍入侵，請各位勇士做好準備！"/>
+	<l i="mwsl_bc_2" c="異世界的通道已經開啟,{0}分鐘後赤血軍團將在地城廢墟登陸。"/>
+	<l i="mwsl_bc_3" c="異世界的通道已經開啟,{0}分鐘後暗天軍團將在拜魯神殿登陸。"/>
+	<l i="mwsl_ltbc_1" c="異界魔王已經率軍入侵，世界的命運就掌握在各位勇士手中了！"/>
+	<l i="mwsl_ltbc_2" c="赤血狂魔帶領他的仆從出現在地城廢墟。"/>
+	<l i="mwsl_ltbc_3" c="暗天狂魔帶領他的仆從出現在拜魯神殿。"/>
+	<l i="mwsl_killed" c="已經被擊殺，給予致命壹擊的是玩家"/>
+	<!--A3魔物狩獵 結束-->
+   
+	<!-- A3收集寶圖任務 開始-->
+	<l i="sjbt_start1" c="壹大批盜寶妖出現在"/>
+	<l i="sjbt_start2" c=","/>
+	<l i="sjbt_start3" c="勇士們趕緊去阻擊他們奪回寶藏。"/>
+	<l i="sjbt_over" c="經過勇士們的全力阻擊，盜寶妖已經被全部擊退了，趕緊拿著藏寶圖找曙光城堡的雅麗兌換戰利品吧！"/>
+	<!-- A3收集寶圖任務 結束-->
+   
+	<!--A3功能限制提示 開始-->
+	<l i="func_limit_1" c="1轉5級開啟戰鬥模式切換"/>
+	<l i="func_limit_2" c="日常任務在完成1轉49級主線任務後開放！"/>
+	<l i="func_limit_3" c="1轉3級開啟拍賣行"/>
+	<l i="func_limit_4" c="完成1轉10級主線後開啟成就"/>
+	<l i="func_limit_5" c="完成1轉51級主線後開啟召喚獸"/>
+	<l i="func_limit_6" c="0轉8級開啟技能"/>
+	<l i="func_limit_7" c="完成0轉75級主線後開啟翼靈"/>
+	<l i="func_limit_8" c="0轉23級開啟靈寵"/>
+	<l i="func_limit_9" c="功能尚未開放，敬請期待！"/>
+	<l i="func_limit_10" c="1轉10開啟活動"/>
+	<l i="func_limit_11" c="完成1轉40級主線後開啟黑暗王座"/>
+	<l i="func_limit_12" c="完成1轉60級主線後開啟魔煉之地"/>
+	<l i="func_limit_13" c="完成1轉23級主線後開啟金幣副本"/>
+	<l i="func_limit_14" c="完成1轉18級主線後開啟經驗副本"/>
+	<l i="func_limit_15" c="完成1轉55級主線後開啟獸靈秘境"/>
+	<l i="func_limit_16" c="1轉2級開啟地宮首領"/>
+	<l i="func_limit_17" c="完成1轉62級主線後開啟魔物獵人"/>
+	<l i="func_limit_18" c="完成0轉43級主線後開啟裝備鍛造"/>
+	<l i="func_limit_19" c="完成0轉43級主線後開啟裝備強化"/>
+	<l i="func_limit_20" c="完成0轉64級主線後開啟裝備重鑄"/>
+	<l i="func_limit_21" c="完成0轉50級主線後開啟裝備傳承"/>
+	<l i="func_limit_22" c="完成0轉43級主線後開啟裝備進階"/>
+	<l i="func_limit_23" c="寶石鑲嵌在完成2轉5級主線任務後開放！"/>
+	<l i="func_limit_24" c="3轉1級後開啟裝備追加"/>
+	<l i="func_limit_25" c="0轉1級開啟魔盒"/>  
+	<l i="func_limit_26" c="0轉8級開啟技能"/>  
+	<l i="func_limit_27" c="完成2轉50級主線後開啟符文"/>  
+	<l i="func_limit_30" c="護盾系統尚未開放，敬請期待！"/>  
+	<l i="func_limit_31" c="完成1轉35級主線後開啟競技場"/>  
+	<l i="func_limit_32" c="完成1轉58級主線後開啟組隊副本"/>
+	<l i="func_limit_33" c="完成1轉18級主線後開啟副本"/>
+	<l i="func_limit_34" c="完成1轉58級主線後開啟托維爾墓穴"/>
+	<l i="func_limit_35" c="完成2轉5級主線後開啟寶石合成"/>
+	<l i="func_limit_36" c="完成2轉5級主線後開啟寶石鑲嵌"/>
+	<l i="func_limit_37" c="完成1轉45級主線後開啟委托任務"/>
+	<l i="func_limit_38" c="軍團等級達到LV3後開啟軍團商店"/>
+	<l i="func_limit_42" c="10轉1級後開啟星圖"/>
+	<l i="func_limit_43" c="完成2轉50級主線後開啟符文"/>
+	<l i="func_limit_44" c="完成2轉50級主線後開啟精靈試煉"/>
+	<l i="func_limit_45" c="完成1轉60級主線後開啟聖器"/>
+	<!--A3功能限制提示 結束-->   
+	<!--A3金幣副本內廣播 開始-->
+	<l i="gold_instance_start" c="擊殺那些怪物,別讓它們搶走寶藏!"/>
+	<l i="gold_instance_run1" c="{color=#FF0000}紅色有角三倍速{/color}帶著少量寶藏逃跑了,快去截殺它們!"/>
+	<l i="gold_instance_run2" c="{color=#FF0000}黃金哥布林{/color}帶著大量定藏逃跑了,快去截殺它們!"/>
+	<l i="gold_instance_run3" c="{color=#FF0000}黃金哥布林{/color}帶著大量寶藏跑的沒影兒了!"/>
+	<l i="gold_instance_hint" c="小心,{color=#FF0000}哥布林王{/color}出現了!"/>
+	<l i="gold_instance_monster1" c="{color=#FF0000}哥布林王{/color}:敢搶我的寶藏,我要妳們全部死在這裏!"/>
+	<l i="gold_instance_monster2" c="{color=#FF0000}哥布林王{/color}:不!我的寶藏……"/>
+	<l i="gold_instance_monster3" c="{color=#FF0000}哥布林王{/color}:蠢貨,妳這是自尋死路!"/>
+
+	<l i="sm_instance_hint" c="{color=#E63CFFFF}初次刷怪提示{/color}"/>
+	<l i="sm_instance_hint1" c="{color=#E63CFFFF}黑沼魔狼將在10秒後刷新{/color}"/>
+	<l i="sm_instance_hint2" c="{color=#E63CFFFF}食屍鬼將在20秒後刷新{/color}"/>
+	<l i="sm_instance_hint3" c="{color=#E63CFFFF}鐵甲獸將在10秒後刷新{/color}"/>
+	<l i="sm_instance_hint4" c="{color=#E63CFFFF}妖花將在20秒後刷新{/color}"/>
+	<l i="sm_instance_hint5" c="{color=#E63CFFFF}鐵血祭司將在10秒後刷新{/color}"/>
+	<l i="sm_instance_hint6" c="{color=#E63CFFFF}巨梟將在20秒後刷新{/color}"/>
+	<l i="sm_instance_hint7" c="{color=#E63CFFFF}巨石魔將在10秒後刷新{/color}"/>
+	<l i="sm_instance_hint8" c="{color=#E63CFFFF}墮落祭祀將在20秒後刷新{/color}"/>
+	<!--A3金幣副本內廣播 結束-->
+	<!--A3副本關閉提醒 開始-->
+	<l i="instance_close_hint" c="{color=#00F4FF}戰鬥已結束，5秒後自動離開！{/color}"/>
+	<!--A3副本關閉提醒 結束-->
+   
+	<!--A3副本關閉提醒 開始-->
+	<l i="fb_quit_hint_1" c="{color=#FFFFA0FF}是否確定退出副本？{/color}"/>
+	<l i="fb_quit_hint_2" c="{color=#FFFFA0FF}退出後將不能再進入當前的副本，需要重新開啟。是否確定退出？{/color}"/>
+	<l i="fb_quit_hint_5" c="{color=#FFFFA0FF}現在退出將視為認輸，是否確定退出？{/color}"/>
+	<l i="fb_quit_hint_8" c="{color=#FFFFA0FF}退出後將放棄該副本，是否確定退出？{/color}"/>
+	<l i="fb_quit_hint_10" c="{color=#FFFFA0FF}退出後將放棄本次挑戰，是否確定退出？{/color}"/>
+	<l i="fb_quit_hint_11" c="{color=#FFFFA0FF}每天可以在獸靈秘境中戰鬥壹個小時，現在是否立即退出？{/color}"/>
+	<l i="fb_quit_hint_12" c="{color=#FFFFA0FF}退出後將放棄該副本，是否確定退出？{/color}"/>
+	<l i="fb_quit_hint_13" c="{color=#FFFFA0FF}退出後將放棄該副本，是否確定退出？{/color}"/>
+	<l i="fb_quit_hint_14" c="{color=#FFFFA0FF}是否確定退出副本？{/color}"/>
+	<!--A3副本關閉提醒 結束-->
+
+	<!--A3騎士團日誌 1職務變動;2等級提升；3捐獻；4新成員加入；5離開；6踢出；7創建工會；8修改公告；9批準加入；10轉讓會長 開始-->
+	<l i="clan_log_1" c="{color=#00FF00}{0}{/color} 被{color=#00FF00}{1}{/color}{2}為{3}。"/>
+	<l i="clan_log_2" c="{color=#00FF00}{0}{/color} 將軍團等級提升到了{1}級。"/>
+	<l i="clan_log_3" c="{0} {color=#00FF00}{1}{/color}為軍團捐獻了{2}金幣。"/>
+	<l i="clan_log_4" c="歡迎新成員{color=#00FF00}{0}{/color}加入軍團。"/>
+	<l i="clan_log_5" c="很遺憾,{color=#00FF00}{0}{/color}離開了軍團。"/>
+	<l i="clan_log_6" c="{color=#00FF00}{0}{/color} 被{color=#00FF00}{1}{/color}請離了軍團。"/>
+	<l i="clan_log_7" c="{color=#00FF00}{0}{/color} 成功創建了軍團。"/>
+	<l i="clan_log_8" c="{color=#00FF00}{0}{/color} 修改了軍團公告。"/>
+	<l i="clan_log_9" c="{color=#00FF00}{0}{/color} 被{color=#00FF00}{1}{/color}批準加入了軍團。"/>
+	<l i="clan_log_10" c="{color=#00FF00}{0}{/color} 已將會長轉讓給了{color=#00FF00}{1}{/color}。"/>
+	<l i="clan_log_11" c="因軍團資金不足，軍團進入保護期，{color=#00FF00}{0}{/color}天後軍團將被解散。"/>
+	<l i="clan_log_12" c="因軍團資金不足，軍團進入保護期，{color=#00FF00}{0}{/color}天後軍團將被降至{color=#00FF00}{1}{/color}級。"/>
+	<l i="clan_log_13" c="軍團日常維護消耗資金{color=#00FF00}{0}{/color}。"/>
+	<l i="clan_log_14" c="很遺憾，您所在的軍團因長期缺乏軍團資金，導致軍團等級降低至{color=#00FF00}{0}{/color}級。"/>
+	<l i="clan_log_15" c="很遺憾，您所在的軍團因長期缺乏軍團資金被解散了。"/>
+	<l i="clan_tip_0" c="可獲得貢獻值:{0}"/>
+	<l i="clan_0" c="是否要解散軍團?"/>
+	<l i="clan_1" c="成員多於壹人無法解散！"/>
+	<l i="clan_2" c="是否要退出軍團?"/>
+	<l i="clan_3" c="請點擊下方內容修改軍團公告"/>
+	<l i="clan_4" c="軍團公告修改成功！"/>
+	<l i="clan_5" c="軍團已到達頂級！"/>
+	<l i="clan_6" c="不滿足升級條件！"/>
+	<l i="clan_7" c="不能對自己進行該操作！"/>
+
+	<l i="clan_8" c="玩家沒有權限進行該操作！"/>
+	<l i="clan_9" c="鏢車血量已低於20%，進入無敵狀態"/>
+	<l i="clan_10" c="只有軍團領袖和元老才能開啟活動"/>
+	<l i="clan_11" c="您獲得了{0}個"/>
+	<l i="clan_12" c="今天已完成押鏢"/>
+	<l i="clan_13" c="操作失敗"/>
+	<l i="clan_14" c="操作成功"/>
+	<l i="clan_15" c="僅能任命元老級別的玩家作為領袖"/>
+	<l i="clan_16" c="元老級別成員無法繼續升職，僅可以任命為領袖"/>
+	<l i="clan_17" c="點擊此處修改軍團信息"/>
+	<!--A3騎士團日誌 結束-->
+	
+	<!--道具獲得的提示信息-->
+	<l i="get_normal" c="{color=#FFDD21FF}獲得了{/color}{0}{color=#FFDD21FF}個{/color}{1}"/>
+	<l i="pick_item" c="{color=#FFDD21FF}拾取了{/color}{0}{color=#FFDD21FF}個{/color}{1}"/>
+	<l i="get_gift" c="{color=#FFDD21FF}任務獎勵了{/color}{0}{color=#FFDD21FF}個{/color}{1}"/>
+	<!--道具獲得的提示信息-->
+	
+    <!--A3七日登陸 開始-->
+	<l i="everDayLogin_flytxt0" c=" 獲得：{0}*"/>
+    <!--A3七日登陸 結束-->
+	
+	<!--NPCShop 開始-->
+	<l i="npc_shop_1" c="下壹次價格刷新時間： "/> 
+	<l i="npc_shop_2" c="已刷新"/> 
+	
+	<!--NPCShop 結束-->
+	<!--組隊副本 開始-->
+	<l i="counterpart_1" c="不是隊長不可以更換隊伍目標 "/> 
+	<l i="a3_currentTeamInfo_cant_invite_inFb" c="副本內不能邀請其它玩家"/> 
+	
+	<!--組隊副本 結束-->	
+	<!--星圖 開始-->
+	<l i="star_active" c= "行動力：{0}"/>
+	<l i="star_active_v" c= "行動力不足!{0}"/>
+	<l i="star_active_buy" c= "今日可購買次數：{0}/{1}"/>
+	<l i="star_active_y" c= "今日可購買次數已達上限 {0}"/>
+	<l i="star_buy" c= "購買  鉆* {0}"/>
+	<l i="star_nocoin" c= "鉆石不足！ {0}"/>
+	<l i="star_noscore" c= "積分不足！ {0}"/>
+	<!--星圖 結束-->
+	
+	<!--屠龍-->
+	<l i="clan_boss_op1" c="巨龍還有5秒鐘將會出現在巨龍深淵，請各位勇士做好準備！"/>
+	<l i="clan_boss_op2" c="巨龍還有4秒鐘將會出現在巨龍深淵，請各位勇士做好準備！"/>
+	<l i="clan_boss_op3" c="巨龍還有3秒鐘將會出現在巨龍深淵，請各位勇士做好準備！"/>
+	<l i="clan_boss_op4" c="巨龍還有2秒鐘將會出現在巨龍深淵，請各位勇士做好準備！"/>
+	<l i="clan_boss_op5" c="巨龍還有1秒鐘將會出現在巨龍深淵，請各位勇士做好準備！"/>
+	<l i="clan_boss_op6" c="巨龍已經出現在巨龍深淵，各位勇士拿起妳們手中的武器，守衛家園！"/>	
+	<l i="clan_boss_time1" c="巨龍將於10分鐘之後逃離巨龍深淵。"/>
+	<l i="clan_boss_time2" c="巨龍將於1分鐘後逃離巨龍深淵，請盡快擊殺！"/>
+	<l i="clan_boss_kill" c="巨龍已經被擊殺。"/>
+	<l i="clan_boss_fail" c="巨龍已經成功逃離巨龍深淵，30秒後全體成員將被傳出地圖。"/>
+	
+	<!--創角-->
+	<l i="role_delete" c= "成功刪除角色"/>
+	<l i="role_link" c= "正在連接服務器"/>
+	
+	<!--Globle-->
+	<l i="globle_money" c= "萬"/>
+	
+	<l i="globle_equip1" c= "頭部"/>
+	<l i="globle_equip2" c= "肩甲"/>
+	<l i="globle_equip3" c= "鎧甲"/>
+	<l i="globle_equip4" c= "腿部"/>
+	<l i="globle_equip5" c= "靴子"/>
+	<l i="globle_equip6" c= "武器"/>
+	<l i="globle_equip7" c= "副手"/>
+	<l i="globle_equip8" c= "項鏈"/>
+	<l i="globle_equip9" c= "戒指"/>
+	<l i="globle_equip10" c= "指環"/>
+	
+	<l i="globle_value1" c= "經驗"/>
+	<l i="globle_value2" c= "鉆石"/>
+	<l i="globle_value3" c= "綁鉆"/>
+	<l i="globle_value4" c= "禮金"/>
+	<l i="globle_value5" c= "聲望"/>
+	<l i="globle_value6" c= "時裝"/>
+	<l i="globle_value7" c= "道具"/>
+	
+	<l i="globle_attr1" c= "力量"/>
+	<l i="globle_attr2" c= "敏捷"/>
+	<l i="globle_attr3" c= "體力"/>
+	<l i="globle_attr4" c= "魔力"/>
+	<l i="globle_attr5" c= "攻擊上限"/>
+	<l i="globle_attr6" c= "物理防禦"/>
+	<l i="globle_attr7" c= "魔法防禦"/>
+	<l i="globle_attr8" c= "火攻"/>
+	<l i="globle_attr9" c= "冰攻"/>
+	<l i="globle_attr10" c= "光攻"/>
+	<l i="globle_attr11" c= "火防"/>
+	<l i="globle_attr12" c= "冰防"/>
+	<l i="globle_attr13" c= "光防"/>
+	<l i="globle_attr14" c= "生命"/>
+	<l i="globle_attr15" c= "法力"/>
+	<l i="globle_attr16" c= "罪惡值"/>
+	<l i="globle_attr17" c= "法力消耗"/>
+	<l i="globle_attr18" c= "生命擊回"/>
+	<l i="globle_attr19" c= "物理傷害減免"/>
+	<l i="globle_attr20" c= "魔法傷害減免"/>
+	<l i="globle_attr21" c= "技能傷害"/>
+	<l i="globle_attr22" c= "致命攻擊"/>
+	<l i="globle_attr23" c= "致命閃避"/>
+	<l i="globle_attr24" c= "生命上限"/>
+	<l i="globle_attr25" c= "法力上限"/>
+	<l i="globle_attr26" c= "生命秒回"/>
+	<l i="globle_attr27" c= "法力秒回"/>
+	<l i="globle_attr28" c= "法力擊回"/>
+	<l i="globle_attr29" c= "魔法護盾"/>
+	<l i="globle_attr30" c= "經驗值"/>
+	<l i="globle_attr31" c= "祝福"/>
+	<l i="globle_attr32" c= "知識值"/>
+	<l i="globle_attr33" c= "致命傷害"/>
+	<l i="globle_attr34" c= "智慧"/>
+	<l i="globle_attr35" c= "火防增加"/>
+	<l i="globle_attr36" c= "冰防增加"/>
+	<l i="globle_attr37" c= "光防增加"/>
+	<l i="globle_attr38" c= "攻擊下限"/>
+	<l i="globle_attr39" c= "雙倍傷害概率"/>
+	<l i="globle_attr40" c= "反射受到的致命傷害概率"/>
+	<l i="globle_attr41" c= "忽略壹次受到的致命傷害概率"/>
+	<l i="globle_attr42" c= "每次暴擊恢復多少點生命"/>
+	<l i="globle_attr43" c= "命中"/>
+	<l i="globle_attr44" c= "閃避"/>
+	<l i="globle_attr45" c= "無視防禦傷害"/>
+	<l i="globle_attr46" c= "硬直"/>
+
+	<!--rank-->
+	<l i="rank_attr14" c= "生    命"/>
+	<l i="rank_attr5" c= "攻擊上限"/>
+	<l i="rank_attr8" c= "火    攻"/>
+	<l i="rank_attr9" c= "冰    攻"/>
+	<l i="rank_attr10" c= "光    攻"/>
+	<l i="rank_attr22" c= "致命攻擊"/>
+	<l i="rank_attr33" c= "致命傷害"/>
+	<l i="rank_attr38" c= "攻擊下限"/>
+	<l i="rank_attr6" c= "物理防禦"/>
+	<l i="rank_attr7" c= "魔法防禦"/>
+	<l i="rank_attr23" c= "致命閃避"/>
+	
+	<!--GameRoom-->
+	<l i="gameroom_pick" c= "拾取物品"/>
+	<l i="gameroom_unopen" c= "功能暫未開放"/>
+    <l i="gameroom_wudi" c= "(無敵狀態)"/>
+	
+	<!--成就-->
+	<l i="achieve_get" c= "獲得{0}榮譽值"/>
+	<l i="achieve_tag0" c= "全部"/>
+	<l i="achieve_tag1" c= "成長"/>
+	<l i="achieve_tag2" c= "挑戰"/>
+	<l i="achieve_tag3" c= "VIP"/>
+	<l i="achieve_tag4" c= "競技場"/>
+	<!--拍賣行-->
+	<l i="auction_tag0" c="不能購買自己上架的商品"/>
+	<l i="auction_item_invalid" c="該道具已下架，不能查看詳細信息"/>
+	<!--幫派-->
+	<l i="legin_tag0" c= "新人"/>
+	<l i="legin_tag1" c= "會員"/>
+	<l i="legin_tag2" c= "精英"/>
+	<l i="legin_tag3" c= "元老"/>
+	<l i="legin_tag4" c= "領袖"/>
+	
+	<!--寵物（A3_PetModel）-->
+	<l i="petmodel_addfood" c= "成功補充了{0}個{1}"/>
+	<l i="petmodel_nofood" c= "金幣不足，補充寵物飼料失敗"/>
+	
+	<!--A3_PetProxy-->
+	<l i="petmodel_upok" c= "恭喜,升階成功!"/>
+	
+	<!--A3_SlayDragonModel-->
+	<l i="slaydragon_over" c= "已解除封印"/>
+	
+	<!--A3_TeamModel-->
+	<l i="profession1" c= "全職業"/>
+	<l i="profession2" c= "戰士"/>
+	<l i="profession3" c= "法師"/>
+	<l i="profession5" c= "刺客"/>
+	
+	<!--FindBestoModel-->
+	<l i="delivery" c= "當前狀態不可傳送"/>
+	
+	<!--LotteryModel-->
+	<l i="employer0" c= "件"/>
+	<l i="employer1" c= "個"/>
+	
+	<!--a3_dartproxy-->
+	<l i="starthuodong" c= "活動已開啟"/>
+	
+	<!--A3_LegionProxy-->
+	<l i="Legion_ok" c= "申請成功!"/>
+	<l i="Legionup_ok" c= "升級騎士團成功!"/>
+	<l i="Legion_out" c= "妳已退出軍團無法繼續進行任務"/>
+	<l i="Legionout_ok" c= "您已成功退出騎士團!"/>
+	<l i="Legion_ok" c= "您已成功加入騎士團!"/>
+	<l i="Legionbuff_up" c= "軍團buff提升成功"/>
+	<l i="Legiondonate_add" c= "獲得了{0}點貢獻度"/>
+	<l i="Legion_bye" c= "您已成功解散騎士團!"/>
+	<l i="Legion_money" c= "軍團資金+{0}"/>
+	<l i="Legion_exp" c= "軍團經驗+{0}"/>
+	<l i="Legion_gongxian" c= "軍團貢獻+{0}"/>
+	<l i="Legion_request" c= "您已接受軍團邀請!"/>
+	<l i="add_request" c= "邀請妳加入"/>
+	<l i="lvLegion" c= "級騎士團"/>
+	<l i="u" c= "您"/>
+	<l i="up" c= "的軍團職位被降為:"/>
+	<l i="down" c= "的軍團職位被升為:"/>
+	
+	<!--a3_teamMemberList-->
+	<l i="a3_team_nolv" c= "未到可加入等級！"/>
+	
+	<!--BagProxy-->
+	<l i="BagProxy_money" c= "金幣+"/>
+	<l i="BagProxy_getequip" c= "獲得裝備:"/>
+	<l i="BagProxy_geteitem" c= "獲得道具:"/>
+	<l i="BagProxy_noplace" c= "沒有足夠的背包空間了"/>
+	<l i="BagProxy_notodo" c= "現在還不能使用"/>
+	<l i="BagProxy_hanepet" c= "您已經有該寵物了"/>
+	<l i="BagProxy_nonum" c= "道具使用次數不足"/>
+	<l i="BagProxy_nolv" c= "等級不足"/>
+	<l i="BagProxy_expmax" c= "使用失敗，經驗值已達上限"/>
+	<l i="BagProxy_lifemax" c= "使用失敗，生命值已滿"/>
+	<l i="BagProxy_nopoint" c= "使用失敗，沒有可以重置的屬性點"/>
+	<l i="BagProxy_addontime" c= "使用成功，已增加1小時的雙倍經驗時間"/>
+	<l i="BagProxy_liliang" c= "力量屬性點"/>
+	<l i="BagProxy_mingjie" c= "敏捷屬性點"/>
+	<l i="BagProxy_tili" c= "體力屬性點"/>
+	<l i="BagProxy_moli" c= "魔力屬性點"/>
+	<l i="BagProxy_zhihui" c= "智慧屬性點"/>
+	<l i="BagProxy_newpoint" c= "使用成功,已經重置{0}點{1}"/>
+	<l i="BagProxy_ranse" c= "使用成功,裝備已染成漂亮的{0}!"/>
+	<l i="BagProxy_light" c= "使用成功,裝備已呈現出原有的光澤了!"/>
+	
+	<!--EquipProxy-->
+	<l i="EquipProxy_noitem" c= "道具不足,無法進行強化"/>
+	
+	<!--ExchangeProxy-->
+	<l i="ExchangeProxy_shibai" c= "兌換失敗"/>
+	
+	<!--FindBestoProxy-->
+	<l i="FindBestoProxy_add" c= "搶奪了{0}張藏寶圖"/>
+	<l i="FindBestoProxy_reduce" c= "丟失了{0}張藏寶圖"/>
+	<l i="FindBestoProxy_nook" c= "兌換失敗！"/>
+	<l i="FindBestoProxy_ok" c= "兌換成功！"/>
+	<l i="FindBestoProxy_nothing" c= "真倒黴，居然什麽都沒搶到"/>
+	
+	<!--FriendProxy-->
+	<l i="FriendProxy_wait" c= "好友申請已發送，等待對方同意。"/>
+	<l i="FriendProxy_wu" c= "無"/>
+	<l i="FriendProxy_addblicklist" c= "已加入黑名單"/>
+	<l i="FriendProxy_agreeed" c= "已同意了您的好友申請."/>
+	<l i="FriendProxy_friended" c= "與您已成為好友."/>
+	<l i="FriendProxy_agree" c= "同意了您的好友申請."/>
+	<l i="FriendProxy_noagree" c= "拒絕了您的好友申請!"/>
+	<l i="FriendProxy_youarefriend" c= "已是您的好友."/>
+	<l i="FriendProxy_max" c= "好友列表已經滿了,請刪除壹些好友再添加."/>
+	<l i="FriendProxy_listhave" c= "已存在好友列表中."/>
+	
+	<!--MapProxy-->
+	<l i="MapProxy_openbad" c= "打開寶箱失敗!"/>
+	<l i="MapProxy_openok" c= "開啟寶箱成功!"/>
+	<l i="MapProxy_null" c= "此寶箱為空寶箱!"/>
+	
+	<!--TeamProxy-->
+	<l i="TeamProxy_txt" c= "對同壹只隊伍的加入申請,每10秒只能發送壹次"/>
+	<l i="TeamProxy_maxpeople" c= "隊伍人數已滿."/>
+	<l i="TeamProxy_sendok" c= "發送成功."/>
+	<l i="TeamProxy_creatrve" c= "請先創建隊伍"/>
+	<l i="TeamProxy_text" c= "10秒對同壹個人的組隊邀請只能發出壹次"/>
+	<l i="TeamProxy_havesend" c= "申請已發送!"/>
+	<l i="TeamProxy_hanveout" c= "您已離開隊伍!"/>
+	<l i="TeamProxy_add" c= "加入隊伍!"/>
+	
+	<!--FightTextTempSC-->
+	<l i="FightTextTempSC_txt" c= "暴"/>
+	
+	<!--a3_active-->
+	<l i="a3_active_mlzd" c= "完成前壹層的挑戰"/>
+	<l i="a3_active_fblock" c= "副本限制： {color=#00ff00}0/1{/color} （每天0點重置）"/>
+	<l i="a3_active_fblock1" c= "副本限制： {color=#00ff00}"/>
+	<l i="a3_active_fblock2" c= "{/color} （每天0點重置）"/>
+	<l i="di" c= "第"/>
+	<l i="tao" c= "套"/>
+	<l i="ceng" c= "層"/>
+	<l i="zhuan" c= "轉"/>
+	<l i="saiji" c= "賽季"/>
+	<l i="duanwei" c= "段位:"/>
+	<l i="a3_active_wuxianzhi" c= "無"/>
+	<l i="a3_active_time" c= "剩余時間：{0}時{1}分{2}秒"/>
+	<l i="a3_active_fbjiangli" c= "副本獎勵： {color=#ff9900}召喚獸{/color}"/>
+	<l i="a3_active_gooutranks" c= "妳已離開隊伍,魔物獵人結束"/>
+    <l i="a3_active_creatrveranks" c= "創建隊伍成功!"/>
+	<l i="a3_active_addranks" c= "加入隊伍成功!"/>
+	<l i="a3_active_nohavetime" c= "未到活動開啟時間!"/>
+	<l i="a3_active_samemap" c= "已在活動地圖"/>
+	<l i="a3_active_nolv" c= "等級不夠，無法前往目的地"/>
+	<l i="a3_active_open_time" c= "{0}點開放"/>
+	<l i="a3_active_opentmmo_time" c= "明日{0}點開放"/>
+	<l i="a3_active_bangzuan" c= "綁鉆"/>
+	<l i="a3_active_mingwang" c= "名望"/>
+	
+	<!--a3_active_godlight-->
+	<l i="a3_active_godlight" c= "推薦前往{0}掛機"/>
+	<l i="a3_active_godlight_nexttime1" c= "下次將在12:00開啟"/>
+	<l i="a3_active_godlight_nexttime2" c= "下次將在19:00開啟"/>
+	
+	<!--a3_activeDegree-->
+	<l i="a3_activeDegree_huoyuedu" c= "活躍度："/>
+	<l i="a3_activeDegree_please" c= "請先回到曙光城堡"/>
+	<l i="a3_activeDegree" c= "成功領取活躍獎品!"/>
+	<l i="a3_activeDegree_over" c= "已經領取過了。明天再來吧！"/>
+
+	
+	<!--a3_auction-->
+	<l i="a3_auction_jiazhi" c= "價值："/>
+	<l i="a3_auction_kejiaoyi" c= "可交易"/>
+	<l i="a3_auction_cailiao" c= "材料"/>
+	<l i="a3_auction_jie" c= "階"/>
+	<l i="a3_auction_nokejiaoyi" c= "不可交易"/>
+	<l i="a3_auction0" c= "職業：全職業"/>
+	<l i="a3_auction1" c= "職業：狂戰士"/>
+	<l i="a3_auction2" c= "職業：法師"/>
+	<l i="a3_auction3" c= "職業：暗影"/>
+	<l i="a3_auction_zhufu" c= "祝福"/>
+	<l i="a3_auction_need" c= "（需求-"/>
+	<l i="a3_auction_zhufu0" c= "祝福0"/>
+	<l i="a3_auction_liliang0" c= "力量0"/>
+	<l i="a3_auction_mingjie0" c= "敏捷0"/>
+	<l i="a3_auction_cailiao1" c= "0階材料"/>
+	<l i="a3_auction_jichu" c= "[基礎屬性]"/>
+	<l i="a3_auction_fujia" c= "[附加屬性]"/>
+	<l i="a3_auction_linghun" c= "[靈魂屬性]"/>
+	<l i="a3_auction_Z" c= "（穿戴"/>
+	<l i="a3_auction_S" c= "屬性"/>
+	<l i="a3_auction_J" c= "激活）"/>	
+	<l i="FriendProxy_wu" c= "無"/>
+	<l i="a3_auction_baoshi" c= "[寶石鑲嵌]"/>
+	<l i="a3_auction_can" c= "可鑲嵌"/>
+	<l i="a3_auction_zhuijia" c= "[追加屬性]"/>
+	<l i="a3_auction_zhui" c= "追"/>
+	<l i="a3_auction_zuan" c= "鉆"/>
+	<l i="a3_auction_zuannum" c= "鉆/個"/>
+	<l i="a3_auction_buyaonr" c= "成功購買了1件"/>
+	<l i="a3_auction_buya" c= "成功購買了"/>
+	<l i="ge" c= "個"/>
+	<l i="a3_auction_paimaia" c= "成功拍賣了"/>
+	<l i="a3_auction_timeover" c= "已經過期"/>
+	<l i="a3_auction_baocunfei" c= "保存費："/>
+	<l i="a3_auction_havedays" c= "剩余{0}天"/>
+	<l i="a3_auction_havetime" c= "剩余{0}時{1}分"/>
+	<l i="a3_auction_times" c= "剩余{0}時{1}分{2}秒"/>
+	<l i="a3_auction_lostone" c= "成功下架了壹件"/>
+	<l i="a3_auction_lostnum" c= "成功下架了"/>
+	<l i="a3_auction_txtxt" c= "售價不合理，設置價格小於最低價格！"/>
+	<l i="a3_auction_nojiaoyi" c= "該物品不可交易！"/>
+	<l i="a3_auction_gegong" c= "/個"/>	
+	<l i="a3_auction_gegong" c= "/個"/>	
+	<l i="a3_auction_oksell" c= "成功出售了"/>
+
+	<!--A3_AuctionModel-->
+	<l i="A3_AuctionModel1" c= "物品下架"/>
+	<l i="A3_AuctionModel2" c= "物品購買"/>
+	<l i="A3_AuctionModel3" c= "物品賣出"/>
+	<l i="A3_AuctionModel4" c= "特殊物品"/>
+	
+	<!--A3_AuctionProxy-->
+	<l i="A3_AuctionProxy" c= "領取了{0}個{1}"/>
+	<l i="A3_AuctionProxy1" c= "領取了{0}鉆石"/>
+	
+	<!--a3_autoplay_skill-->
+	<l i="a3_autoplay_skill" c= "沒有可以使用的技能，請學習技能"/>
+	
+	<!--a3_autoplay2-->
+	<l i="a3_autoplay2_vip" c= "VIP等級不足!"/>
+	<l i="a3_autoplay2" c= "無法在主城掛機！"/>
+
+	<!--a3_autoplay2-->
+	<l i="a3_awardCenter0" c= "角色等級到達{0}轉,贈送海量鉆石+裝備禮包"/>
+	<l i="a3_awardCenter1" c= "累積充值{0}鉆石,送價值{1}元升級寶石禮包"/>
+	<l i="a3_awardCenter2" c= "累積消費{0}鉆石,送{1}壹個"/>
+	<l i="a3_awardCenter3" c= "今日累積充值{0}鉆石,送{1}壹個"/>
+	<l i="a3_awardCenter4" c= "未達成"/>
+	<l i="a3_awardCenter5" c= "領取"/>
+
+	<!--a3_bag-->
+	<l i="a3_bag_nopet" c= "寵物未開啟,請提升角色等級"/>
+	<l i="a3_bag_gezi0" c= "消耗{0}個鉆石開啟{1}個格子"/>
+	<l i="a3_bag_gezi1" c= "消耗{0}個綁定鉆石開啟{1}個格子"/>
+	<l i="a3_bag_get" c= "獲得"/>
+	<l i="a3_bag_mojing" c= "個魔晶"/>
+	<l i="a3_bag_shenguang" c= "個神光徽記"/>
+	<l i="a3_bag_mifa" c= "個秘法顆粒"/>
+	<l i="a3_bag_lvlock" c= "等級不夠，首飾獲得需要1轉2級開啟"/>
+
+	<!--a3_bagModel-->
+	<l i="a3_BagModel__notodo" c= "該物品不能使用！"/>
+	<l i="a3_BagModel__nonum" c= "物品數量不足！"/>
+	
+	<!--a3_buff-->
+	<l i="a3_buff" c= "榮耀與共"/>
+	<l i="a3_buff_pet" c= "寵物"/>
+	<l i="a3_buff_ewai" c= "額外buff"/>
+	<l i="a3_buff_ewai1" c= "額外的buff屬性，提供攻擊防禦屬性"/>
+
+	<!--a3_chatroom-->
+	<l i="a3_chatroom_nonull" c= "不能發送空消息"/>
+	<l i="a3_chatroom_maxtell" c= "發言過於頻繁"/>
+	<l i="a3_chatroom_openword" c= "人物等級到達 1轉1級 後可以使用世界頻道"/>
+	<l i="a3_chatroom_openmiyu" c= "人物等級到達 1轉1級 後可以使用密語頻道"/>
+	<l i="a3_chatroom_miyupeople" c= "請選擇密語對象"/>
+	<l i="a3_chatroom_notall0" c= "不在隊伍中,不能發送消息"/>
+	<l i="a3_chatroom_notall1" c= "未加入軍團,不能發送消息"/>
+	<l i="wo" c= "我"/>
+	<l i="ming" c= "名"/>
+	<l i="mi" c= "【密】"/>
+	<l i="shen" c= "神·"/>
+	<l i="a3_chatroom_str0" c= "附近"/>
+	<l i="a3_chatroom_str1" c= "世界"/>
+	<l i="a3_chatroom_str2" c= "軍團"/>
+	<l i="a3_chatroom_str3" c= "隊伍"/>
+	<l i="a3_chatroom_str4" c= "密語"/>
+	<l i="a3_chatroom_str5" c= "[世界]"/>
+	<l i="a3_chatroom_str6" c= "[附近]"/>
+	<l i="a3_chatroom_str7" c= "[軍團]"/>
+	<l i="a3_chatroom_str8" c= "[隊伍]"/>
+	<l i="a3_chatroom_str9" c= "[密語]"/>
+	<l i="a3_chatroom_str10" c= "[系統]"/>
+	<l i="a3_chatroom_str11" c= "戰鬥力:{0}"/>
+	<l i="a3_chatroom_str12" c= "使用等級:{0}"/>
+	<l i="a3_chatroom_str13" c= "最多只能展示三件物品"/>
+	<l i="a3_chatroom_item_invalid" c="物品信息已過時"/>
+
+    <!--a3_counterpart-->
+	<l i="a3_counterpart_quxiao" c= "取消"/>
+	<l i="a3_counterpart_pleaseout" c= "已被請離隊伍"/>
+	<l i="a3_counterpart_quanxuan" c= "全選"/>
+	<l i="a3_counterpart_mine" c= "自己"/>
+	<l i="a3_counterpart_nopeoplego" c= "10秒內有人沒有確認前往"/>
+	<l i="a3_counterpart_type0" c= "簡單"/>
+	<l i="a3_counterpart_type1" c= "普通"/>
+	<l i="a3_counterpart_type2" c= "困難"/>
+	<l i="a3_counterpart_type3" c= "地獄"/>
+	<l i="ji" c= "級"/>
+	<l i="a3_counterpart_start" c= "開始"/>
+	<l i="a3_counterpart_zhunbei" c= "準備"/>
+	<l i="a3_couterpart_go" c="立即前往" />
+	<l i="a3_counterpart_myrank" c= "我的隊伍"/>
+	<l i="a3_counterpart_zudui" c= "立即組隊"/>
+	<l i="a3_counterpart_shengyu" c= "剩余次數：{color=#00ff00}{0}/{1}{/color}"/>
+	<l i="a3_counterpart_openforlock" c= "{0}轉{1}級開放"/>
+	<l i="a3_counterpart_xtype0" c= "馴龍者的末日--簡單"/>
+	<l i="a3_counterpart_xtype1" c= "馴龍者的末日--普通"/>
+	<l i="a3_counterpart_xtype2" c= "馴龍者的末日--困難"/>
+	<l i="a3_counterpart_xtype3" c= "馴龍者的末日--地獄"/>
+	<l i="a3_counterpart_xtype4" c= "托維爾墓穴--簡單"/>
+	<l i="a3_counterpart_xtype5" c= "托維爾墓穴--普通"/>
+	<l i="a3_counterpart_xtype6" c= "托維爾墓穴--困難"/>
+	<l i="a3_counterpart_xtype7" c= "托維爾墓穴--地獄"/>
+	<l i="a3_counterpart_xtype8" c= "血之盛宴--簡單"/>
+	<l i="a3_counterpart_xtype9" c= "血之盛宴--普通"/>
+	<l i="a3_counterpart_xtype10" c= "血之盛宴--困難"/>
+	<l i="a3_counterpart_xtype11" c= "血之盛宴--地獄"/>
+	<l i="a3_counterpart_xtype12" c= "幽靈祭奠--簡單"/>
+	<l i="a3_counterpart_xtype13" c= "幽靈祭奠--普通"/>
+	<l i="a3_counterpart_xtype14" c= "幽靈祭奠--困難"/>
+	<l i="a3_counterpart_xtype15" c= "幽靈祭奠--地獄"/>
+	<l i="a3_counterpart_depeople" c= "隊伍中有{0}個玩家等級不足,是否移除他們。"/>
+	<l i="a3_counterpart_lvl" c= "等級不足"/>
+
+	<!--a3_createcha-->
+	<l i="a3_createcha_tongming" c= "已存在同名角色"/>
+	
+	<!--a3_currentTeamPanel-->
+	<l i="a3_currentTeamPanel_nofunction" c= "您還沒有開啟該功能"/>
+	<l i="a3_currentTeamPanel_type0" c= "隊伍目標為：自定義"/>
+	<l i="a3_currentTeamPanel_type1" c= "隊伍目標為：掛機"/>
+	<l i="a3_currentTeamPanel_type2" c= "隊伍目標為：托維爾墓穴"/>
+	<l i="a3_currentTeamPanel_type3" c= "隊伍目標為：獸靈秘境"/>
+	<l i="a3_currentTeamPanel_type4" c= "隊伍目標為：魔物獵人"/>
+	<l i="a3_currentTeamPanel_add" c= "同仇敵愾:攻擊+{0}%"/>
+	<l i="a3_currentTeamPanel_add1" c= "同仇敵愾:攻擊+0%"/>
+	
+	<!--a3_dyetip-->
+	<l i="a3_dyetip" c= "鉆石不足，請先充值！"/>
+	
+	<!--A3_EliteMonster-->
+	<l i="A3_EliteMonster_lvlock" c= "等級不足,無法挑戰"/>
+	<l i="A3_EliteMonster_openlock" c= "{0}轉{1}級解鎖"/>
+	<l i="A3_EliteMonster_refre" c= "點刷新"/>
+	
+	<!--a3_eqpInherit-->
+    <l i="a3_eqpInherit" c= "傳承成功！！！"/>
+	
+	<!--a3_equip-->
+	<l i="a3_equip_add" c= "追加 + "/>
+    <l i="a3_equip_yx" c= "已選"/>
+	<l i="a3_equip_type0" c= "只能傳承相同部位的裝備"/>
+	<l i="a3_equip_type1" c= "傳承裝備的精煉等級不能低於繼承裝備"/>
+	<l i="a3_equip_type2" c= "傳承裝備的強化等級不能低於繼承裝備"/>
+	<l i="a3_equip_type3" c= "傳承裝備的追加等級不能低於繼承裝備"/>
+	<l i="a3_equip_0" c= "普通的"/>
+	<l i="a3_equip_1" c= "強化的"/>
+	<l i="a3_equip_2" c= "打磨的"/>
+	<l i="a3_equip_3" c= "優良的"/>
+	<l i="a3_equip_4" c= "珍惜的"/>
+	<l i="a3_equip_5" c= "祝福的"/>
+	<l i="a3_equip_6" c= "完美的"/>
+	<l i="a3_equip_7" c= "卓越的"/>
+	<l i="a3_equip_8" c= "傳說的"/>
+	<l i="a3_equip_9" c= "神話的"/>
+	<l i="a3_equip_10" c= "創世的"/>
+	<l i="a3_equip_11" c= "[風]"/>
+	<l i="a3_equip_12" c= "[火]"/>
+	<l i="a3_equip_13" c= "[光]"/>
+	<l i="a3_equip_14" c= "[雷]"/>
+	<l i="a3_equip_15" c= "[冰]"/>
+    <l i="a3_equip_jing" c= "精"/>
+    <l i="a3_equip_qiang" c= "強"/>
+    <l i="a3_equip_zhui" c= "追"/>
+	<l i="a3_equip_jie" c= "階"/>
+	<l i="a3_equip_lv" c= "角色等級:"/>
+	<l i="a3_equip_notype" c= "沒有選中的重鑄類型!"/>
+	<l i="a3_equip_addlv" c= "強化等級+"/>
+	<l i="a3_equip_add1" c= "追加"/>
+	<l i="a3_equip_wjl" c= "未精煉裝備不能追加"/>
+	<l i="a3_equip_zjs" c= "追加屬性等級已達到最大"/>
+	<l i="a3_equip_jlh" c= "精練後可繼續追加"/>
+	<l i="a3_equip_xiangqian" c= "鑲嵌"/>
+	<l i="a3_equip_fangru" c= "放入"/>
+	<l i="a3_equip_gzb" c= "該裝備不符合條件!"/>
+	<l i="a3_equip_maxlv" c= "已達到最高等級!"/>
+	<l i="a3_equip_nobaoshi" c= "寶石數量不足!"/>
+	<l i="a3_equip_qjr" c= "請加入正確寶石!"/>
+	<l i="a3_equip_get" c= "獲得"/>
+	<l i="a3_equip_kxq" c= "可鑲嵌"/>
+	<l i="a3_equip_pleasezhaiqu" c= "請選擇摘取寶石!"/>
+	
+	<!--a3_equipsell-->
+	<l i="a3_equipsell_maxgrid" c= "格子已滿!"/>
+	<l i="a3_equipsell_pleaseadd" c= "請添加裝備!"/>
+	<l i="a3_equipsell_changeone" c= "單個選擇裝備!"/>
+	<l i="a3_equipsell_qualick" c= "快速選擇裝備!"/>
+	
+	<!--a3_equiptip-->
+	<l i="a3_equiptip_cs" c= "出售"/>
+	<l i="a3_equiptip_sy" c= "使用"/>
+	<l i="a3_equiptip_qc" c= "取出"/>
+	<l i="a3_equiptip_fr" c= "放入"/>
+	<l i="a3_equiptip_xx" c= "卸下"/>
+	<l i="a3_equiptip_dz" c= "鍛造"/>
+	<l i="a3_equiptip_zb" c= "裝備"/>
+	<l i="a3_equiptip_fj" c= "分解"/>
+	<l i="a3_equiptip_sj" c= "售價"/>
+	<l i="a3_equiptip_jie" c= "階·"/>
+	<l i="a3_equiptip_can" c= "可交易"/>
+	<l i="a3_equiptip_nocan" c= "不可交易"/>
+	<l i="a3_equiptip_zf" c= "祝福"/>
+	<l i="a3_equiptip_honor" c= "榮耀之力"/>
+	<l i="a3_equiptip_xq" c= "（穿戴需求-"/>
+	<l i="a3_equiptip_jcsx" c= "[基礎屬性]"/>
+	<l i="a3_equiptip_gjl" c= "攻擊力"/>
+	<l i="a3_equiptip_qhjc" c= "強化加成 "/>
+	<l i="a3_equiptip_jljc" c= "精煉加成 "/>
+	<l i="a3_equiptip_fjsx" c= "[附加屬性]"/>
+	<l i="a3_equiptip_lhsx" c= "[靈魂屬性]"/>
+	<l i="a3_equiptip_dress" c= "（穿戴"/>
+	<l i="a3_equiptip_shuxing" c= "屬性"/>
+	<l i="a3_equiptip_jihuo" c= "激活）"/>
+	<l i="a3_equiptip_yiyou" c= "（已由"/>
+	<l i="a3_equiptip_bsxq" c= "[寶石鑲嵌]"/>
+	<l i="a3_equiptip_need" c= "需求"/>
+	<l i="a3_equiptip_dangqian" c= "當前"/>
+	<l i="kong" c= "孔"/>
+	<l i="a3_equiptip_kxq" c= "可鑲嵌"/>
+	<l i="a3_equiptip_zjsx" c= "[追加屬性]"/>
+	<l i="a3_equiptip_nojiaoyi" c= "該物品不可交易!"/>
+	<l i="a3_equiptip_f" c= "風"/>
+	<l i="a3_equiptip_h" c= "火"/>
+	<l i="a3_equiptip_g" c= "光"/>
+	<l i="a3_equiptip_l" c= "雷"/>
+	<l i="a3_equiptip_b" c= "冰"/>
+	<l i="a3_equiptip_lock" c= "裝備已被鎖定!"/>
+	<l i="a3_equiptip_sffj" c= "是否分解"/>
+	<l i="a3_equiptip_fjkhd" c= "分解可獲得"/>
+	<l i="a3_equiptip_sfcs" c= "是否出售"/>
+	<l i="a3_equiptip_cskhd" c= "出售可獲得"/>
+	<l i="a3_equiptip_gold" c= "金幣"/>
+	<l i="a3_equiptip_bsddzb" c= "被鎖定的裝備不會被分解"/>
+	<l i="a3_equiptip_dh" c= "前往兌換"/>
+	<l i="a3_eqpInherit_baoshitop" c= "是否將已鑲嵌的寶石轉移到新裝備上？"/>
+	
+	<!--a3_everydayLogin-->
+	<l i="a3_everydayLogin_nolq" c= "日期未到無法領取."/>
+	<l i="a3_everydayLogin_oldlq" c= "獎勵已領取."/>
+	<l i="one" c= "壹"/>
+	<l i="two" c= "二"/>
+	<l i="three" c= "三"/>
+	<l i="four" c= "四"/>
+	<l i="five" c= "五"/>
+	<l i="six" c= "六"/>
+	<l i="seven" c= "七"/>
+	
+	<!--a3_exchange-->
+	<l i="a3_exchange_nozs" c= "鉆石不足."/>
+	<l i="a3_exchange_yj" c= "兌換次數已用盡"/>
+	
+	<!--a3_expbar-->
+	<l i="a3_expbar_att" c= "妳正受到{0}的攻擊"/>
+	<l i="a3_expbar_needone" c= "至少攜帶壹件裝備哦!!!"/>
+	<l i="a3_expbar_nopeople" c= "目標過遠或離線"/>
+	<l i="a3_expbar_nogn" c= "該功能暫未開放!"/>
+	
+	<!--a3_fb_team-->
+	<l i="a3_fb_team_no_chance" c= "隊員次數已用完"/>
+	<l i="a3_fb_team_noteam" c= "未找到可直接加入的隊伍"/>
+	
+	<!--A3_FindBesto-->
+	<l i="A3_FindBesto_cochange" c= "未選擇兌換物品!"/>
+	
+	<!--a3_firstRechargeAward-->
+	<l i="a3_firstRechargeAward_1" c= "立即充值"/>
+	<l i="a3_firstRechargeAward_2" c= "未領取"/>
+	<l i="a3_firstRechargeAward_3" c= "已領取"/>
+	<l i="a3_firstRechargeAward_4" c= "使用職業:"/>
+	<l i="a3_firstRechargeAward_p1" c= "狂戰士"/>
+	<l i="a3_firstRechargeAward_p2" c= "法師"/>
+	<l i="a3_firstRechargeAward_p3" c= "暗影"/>
+	<l i="a3_firstRechargeAward_5" c= "使用等級:"/>
+	
+	<l i="chongzhi" c= "今日充值{0}鉆石"/>
+	<l i="fanli" c= "返{0}%"/>
+	
+	<!--a3_friend-->
+	<l i="a3_friend_lx" c= "離線"/>
+	<l i="a3_friend_wz" c= "未知"/>
+	<l i="a3_friend_txt" c= "此操作將清除{0}對妳的擊殺記錄,是否確定刪除?"/>
+	<l i="a3_friend_oldhave" c= "已存在黑名單中."/>
+	<l i="a3_friend_peoplename" c= "請輸入玩家名稱."/>
+	<l i="a3_friend_justone" c= "每次只能選擇壹個敵人進行查詢!"/>
+	<l i="a3_friend_whoone" c= "請選擇壹個敵人進行查詢!"/>
+	<l i="weizhi" c= "未知"/>
+	<l i="a3_friend_havelblack" c= "已存在黑名單中."/>
+	
+	<!--a3_honor-->
+	<l i="a3_honor_getbz" c= "獲得綁定鉆石 :"/>
+	
+	<!--a3_hudun-->
+	<l i="a3_hudun_maxhudun" c= "神聖護盾等級已達上限!!"/>
+    <l i="a3_hudun_nomj" c= "魔晶數量不足!!"/>
+	<l i="a3_hudun_nocn" c= "戰鬥中不能充能!!"/>
+	<l i="a3_hudun_minhd" c= "神聖護盾等級為零!!"/>
+	<l i="a3_hudun_maxnl" c= "神聖護盾的能量已滿!!"/>
+	<l i="a3_hudun_cncg" c= "護盾自動充能成功!!"/>
+	
+	<!--a3_insideui_fb-->
+	<l i="a3_insideui_fb_gw" c= "已經獲得鼓舞狀態!!"/>
+	<l i="a3_insideui_fb_sbgofb" c= "進入副本失敗!"/>
+	<l i="a3_insideui_fb_txt" c= "副本界面沒有指明類型!"/>
+	<l i="a3_insideui_nostart" c= "未開始"/>
+	<l i="a3_insideui_refre0" c= "{0}將於{color=#00ff00}{1}{/color}秒後出現，請各位勇士做好準備"/>
+	<l i="a3_insideui_refre1" c= "{0}已經刷新，請各位勇士前往擊殺，{0}將於{color=#00ff00}{1}{/color}後逃離巨龍深淵！"/>
+		
+	<!--a3_itemtip-->
+	<l i="a3_itemtip_lock" c= "完成1轉51級主線後開啟召喚獸!!"/>
+	
+	<!--a3_legion-->
+	<l i="a3_legion_txt" c= "1轉1級後可加入軍團!"/>
+	<l i="a3_legion_txt1" c= "不符合創建條件!"/>
+	<l i="a3_legion_txt2" c= "未滿足創建條件!"/>
+	<l i="a3_legion_txt3" c= "軍團名不符合要求!"/>
+	<l i="a3_legion_txt4" c= "(待檢測)"/>
+	<l i="a3_legion_txt5" c= "({color=#cd5c5c}不可用{/color})"/>
+	<l i="a3_legion_txt6" c= "({color=#ff9900}已存在{/color})"/>
+	<l i="a3_legion_txt7" c= "({color=#7fff00}可用{/color>}"/>
+	<l i="a3_legion_txt8" c= "確定"/>
+	<l i="a3_legion_txt9" c= "編輯"/>
+	<l i="a3_legion_txt10" c= "解散"/>
+	<l i="a3_legion_txt11" c= "退團"/>
+	<l i="a3_legion_txt12" c= "提升條件沒有達到"/>
+	<l i="a3_legion_zx" c= "在線"/>
+	<l i="a3_legion_xx" c= "離線"/>
+	<l i="a3_legion_xr" c= "新人"/>
+	<l i="a3_legion_hy" c= "會員"/>
+	<l i="a3_legion_jy" c= "精英"/>
+	<l i="a3_legion_yl" c= "元老"/>
+	<l i="a3_legion_lx" c= "領袖"/>
+	<l i="a3_legion_nc" c= "      昵稱："/>
+	<l i="a3_legion_zy" c= "      職業："/>
+	<l i="a3_legion_dj" c= "      等級："/>
+	<l i="a3_legion_havejt" c= "玩家已有軍團"/>
+	<l i="a3_legion_jj" c= "降級"/>
+	<l i="a3_legion_sj" c= "升級"/>
+	<l i="Legionadd_ok" c= "加入軍團成功"/>
+	<!--a3_legion_dart-->
+	<l i="a3_legion_dart_ys" c= "押 送"/>
+	<l i="a3_legion_dart_jtstart" c= "級軍團開啟"/>
+	
+	<!--a3_liteMinimap-->
+	<l i="a3_liteMinimap_txt" c= "已繼續押鏢"/>
+	<l i="a3_liteMinimap_xl" c= "血量："/>
+	<l i="a3_liteMinimap_tzsw" c= "點擊挑戰神王"/>
+	
+	<!--a3_lottery-->
+	<l i="a3_lottery_txt" c= "現在還不能使用"/>
+	<l i="a3_lottery_free" c= "後免費"/>
+	<l i="a3_lottery_cg" c= "恭喜"/>
+	<l i="a3_lottery_get" c= "獲得了"/>
+	<l i="a3_lottery_bye" c= "今日免費占蔔次數已用完"/>
+	<l i="a3_lottery_gocz" c= "鉆石不足,是否前往充值?"/>	
+	
+	<!--a3_mapChangeLine-->
+	<l i="a3_mapChangeLine0" c= "{color=#ff0000ff}[當前]{/color}"/>
+	<l i="a3_mapChangeLine1" c= "{color=#0000a0ff}[推薦]{/color}"/>
+	<l i="a3_mapChangeLine2" c= "{color=#ff0000ff}(爆滿){/color}"/>
+	<l i="a3_mapChangeLine3" c= "{color=#ffa500ff}(擁擠){/color}"/>
+	<l i="a3_mapChangeLine4" c= "{color=#008000ff}(流暢){/color}"/>
+	<l i="a3_mapChangeLine5" c= "壹線"/>
+	<l i="a3_mapChangeLine6" c= "二線"/>
+	<l i="a3_mapChangeLine7" c= "三線"/>
+	<l i="a3_mapChangeLine8" c= "四線"/>
+	<l i="a3_mapChangeLine9" c= "五線"/>
+	<l i="a3_mapChangeLine10" c= "攻擊:{0}-{1}"/>
+	<l i="a3_mapChangeLine11" c= "線路"/>
+	<!--a3_new_pet-->
+	<l i="a3_new_pet_long" c= "您的寵物飼料已是永久"/>
+	<l i="a3_new_pet_1" c= "經驗上升"/>
+	<l i="a3_new_pet_2" c= "金幣上升"/>
+	<l i="a3_new_pet_3" c= "裝備掉率"/>
+	<l i="a3_new_pet_4" c= "材料掉率"/>
+	<l i="a3_new_pet_nolock" c= "這個寵物還沒有解鎖"/>
+	<l i="a3_new_pet_time" c= "剩余時間:{0}年{1}月{2}天{3}時{4}分{5}秒"/>
+	
+	<!--a3_npc_shop-->
+	<l i="a3_npc_shop_changeitem" c= "請先選擇要購買的道具"/>
+	<l i="a3_npc_shop_no" c= "無限量"/>
+	<l i="a3_npc_shop_buy" c= "您成功購買了"/>
+	
+	<!--a3_rank-->
+	<l i="a3_rank_maxlv" c= "滿級"/>
+	<l i="a3_rank_nomw" c= "名望值不夠!"/>
+	<l i="a3_rank_showch" c= "顯示稱號"/>
+	<l i="a3_rank_noshowch" c= "隱藏稱號"/>
+	<l i="a3_rank_nohave" c= "稱號未激活!"/>
+	
+	<!--a3_ranking-->
+	<l i="a3_ranking_my" c= "我的排名:"/>
+	<l i="a3_ranking_no" c= "未上榜"/>
+	<l i="xing" c= "星"/>
+	<l i="hour" c= "小時"/>
+	<l i="mine" c= "分鐘"/>
+	<l i="miao" c= "秒"/>
+	
+	<!--a3_relive-->
+	<l i="a3_relive_nolive" c= "鉆石不足無法復活"/>
+	<l i="a3_relive_live" c= "立即復活"/>
+	<l i="a3_relive_live2" c= "({0}秒後免費)"/>
+	<l i="a3_relive_live1" c= "回城復活"/>
+	<l i="a3_relive_livefree" c= "免費復活"/>
+	<l i="a3_relive_die" c= "妳被{0}殺死了"/>
+	<l i="a3_relive_live1" c= "回城復活"/>
+	
+	<!--a3_resetlvl-->
+	<l i="a3_resetlvl_lv" c= "{0}轉{1}級"/>	
+	
+	<!--a3_role-->
+	<l i="a3_role_sure" c= "確認"/>	
+	<l i="a3_role_addpoint" c= "推薦加點"/>	
+	<l i="a3_role_attack" c= "攻擊力："/>	
+	<l i="a3_role_openlock" c= "1轉後開啟此功能！"/>
+	<l i="a3_role_needcost" c= "需要花費"/>
+	<l i="a3_role_zsnum" c= "個鉆石，是否繼續？"/>
+	<l i="a3_role_cr" c= "使用失敗，顏色相同，無須重復使用哦！"/>
+	<l i="a3_role_mr" c= "使用失敗，裝備沒有被過染色哦！"/>
+	
+	<!--a3_runestone-->
+	<l i="a3_runestone_nostone" c= "沒有可分解的符石！"/>	
+	<l i="quan" c= "全"/>	
+	<l i="a3_runestone_lv" c= "等級到達"/>	
+	<l i="a3_runestone_oplock" c= "可開啟"/>	
+	<l i="a3_runestone_nolive" c= "體力不足!"/>	
+	<l i="a3_runestone_live" c= "體力值："/>	
+	<l i="gongshou" c= "弓手"/>	
+	
+	<!--a3_sign-->
+	<l i="a3_sign_txt" c= "請先購買月卡"/>	
+	<l i="a3_sign_txt1" c= "永久有效"/>	
+	<l i="a3_sign_txt2" c= "{color=#B3EE3A}{0}{/color}"/>	
+	<l i="a3_sign_txt3" c= "獲得了"/>	
+	<l i="a3_sign_txt4" c= "獲得了累積簽到獎勵"/>	
+	<l i="a3_sign_txt5" c= "累計"/>	
+	<l i="a3_sign_txt6" c= "天"/>	
+	<l i="a3_sign_txt_top" c= "累簽{color=#B3EE3A} {0}{/color} 天獎勵"/>
+	<l i="nolingqu" c= "已領取"/>
+	<l i="yiqiandao" c= "已簽到"/>
+	<l i="qiandao" c= "簽到"/>
+	<l i="huodeitem" c= "獲得{0}*{1}"/>
+	<l i="toget_yueka" c= "請先購買月卡"/>
+	<l i="nullrew_toget" c= "獎勵已領完"/>
+	<l i="null_repairsign" c= "沒有可補簽的獎勵"/>
+	
+	<!--A3_SlayDragon-->
+	<l i="A3_SlayDragon_noopen" c= "副本還未開啟,領袖或元老開啟副本後才可進入"/>	
+	<l i="A3_SlayDragon_jf" c= "領袖和元老沒有開啟此副本"/>	
+	<l i="A3_SlayDragon_nomany" c= "不能同時開啟多條巨龍副本"/>	
+	<l i="A3_SlayDragon_kustllx" c= "只有軍團領袖或元老可以召喚巨龍"/>	
+	<l i="A3_SlayDragon_can" c= "已滿足召喚條件"/>	
+	<l i="A3_SlayDragon_please" c= "請先解除封印"/>	
+	
+	<!--A3_Smithy-->
+	<l i="A3_Smithy0" c= "戰士"/>	
+	<l i="A3_Smithy1" c= "法師"/>	
+	<l i="A3_Smithy2" c= "刺客"/>	
+	<l i="A3_Smithy3" c= "卷軸"/>	
+	<l i="A3_Smithy4" c= "全部"/>	
+	<l i="A3_Smithy5" c= "防具"/>	
+	<l i="A3_Smithy6" c= "首飾"/>	
+	<l i="A3_Smithy_txt" c= "請選擇要打造的裝備"/>	
+	<l i="A3_Smithy_txt1" c= "背包空間不足"/>	
+	<l i="A3_Smithy_txt2" c= "金錢不足"/>	
+	<l i="A3_Smithy_txt3" c= "材料不足"/>	
+	<l i="A3_Smithy_txt4" c= "消耗{0}個鉆石開啟{1}個格子"/>	
+	<l i="A3_Smithy_txt5" c= "消耗{0}個綁定鉆石開啟{1}個格子"/>	
+	
+	<!--a3_SpeedTeam-->
+	<l i="a3_SpeedTeamtxt" c= "請先退出當前隊伍"/>	
+	<l i="a3_SpeedTeamtxt1" c= "無等級限制"/>
+	
+	<!--a3_summon-->
+	<l i="a3_summon1" c= "主召喚獸等級不滿足要求"/>	
+	<l i="a3_summon2" c= "輔召喚獸已出戰"/>	
+	<l i="a3_summon3" c= "該召喚獸已出戰"/>	
+	<l i="a3_summon4" c= "道具不足"/>	
+	<l i="a3_summon5" c= "可以增加"/>	
+	<l i="a3_summon6" c= "經驗值"/>	
+	<l i="a3_summon7" c= "壽命"/>	
+	<l i="a3_summon8" c= "增加經驗"/>	
+	<l i="a3_summon9" c= "增加壽命"/>	
+	<l i="a3_summon10" c= "召喚獸出戰cd中"/>	
+	<l i="a3_summon11" c= "名稱："/>	
+	<l i="a3_summon12" c= "等級："/>	
+	<l i="a3_summon13" c= "血脈："/>	
+	<l i="a3_summon14" c= "光"/>	
+	<l i="a3_summon15" c= "暗"/>	
+	<l i="a3_summon16" c= "變異"/>	
+	<l i="a3_summon17" c= "類型:"/>	
+	<l i="a3_summon18" c= "專精:"/>	
+	<l i="a3_summon19" c= "請選擇技能書"/>
+    <l i="a3_summon20" c= "請選擇技能"/>
+    <l i="a3_summon21" c= "休息"/>
+    <l i="a3_summon22" c= "出戰"/>	
+	<l i="a3_summon23" c= "普通"/>	
+	<l i="a3_summon24" c= "特長："/>	
+	<l i="a3_summon25" c= "品質："/>	
+	<l i="a3_summon26" c= "召喚失敗，沒有足夠的靈魂碎片"/>	
+	<l i="a3_summon27" c= "幸運："/>	
+	<l i="a3_summon28" c= "該召喚獸等級不滿足50級"/>	
+	<l i="jinengmanji" c= "技能滿級"/>	
+	<l i="a3_summon_sjcg" c= "技能升級成功"/>	
+	<l i="RongheChengGong" c= "融合成功"/>	
+	<l i="RongheShiBai" c= "融合失敗"/>	
+	<l i="a3_summon_duihuandaojubuzu" c= "兌換道具不足"/>	
+	<l i="chenggonglv" c= "融合成功率："/>	
+	<l i="a3_summon_liebiaoyiman" c= "召喚獸列表已滿，已放入背包"/>	
+	<l i="a3_summon_putbag" c= "已放入背包"/>	
+	<l i="a3_summon_chenggongzh" c= "已成功召喚"/>	
+	<l i="a3_summon_unllSummon" c= "您需要先獲得壹只召喚獸"/>
+	<l i="selsctfusummon" c= "選擇輔召喚獸"/>
+	<l i="selsctTunshisummon" c= "選擇吞噬召喚獸"/>
+	<l i="summon_selete_sum" c= "請選擇被吞噬召喚獸"/>
+	<l i="summon_selete_ronghe" c= "請選擇被融合召喚獸"/>
+	<l i="a3_summon_shouhun_manji" c= "獸魂已達到最高等級"/>
+	<l i="a3_summon_shouhun_noitem" c= "道具不足"/>
+	<l i="summon_sure_top_1" c= "召喚獸融合"/>
+	<l i="summon_sure_text_1" c= "融合後輔召喚獸消失，主召喚獸有機率獲得輔召喚獸的技能，最多不超過12個，融合無法獲得輔召喚獸的等級和獸魂，是否確定進行融合？"/>
+	<l i="summon_sure_top_2" c= "召喚獸吞噬"/>
+	<l i="summon_sure_text_2" c= "吞噬後主召喚獸將會獲得輔召喚獸的等級經驗、獸魂經驗和所有技能，主召喚獸原本的技能將會消失，是否確定進行吞噬？"/>
+	<l i="TunshiChengGong" c= "吞噬成功"/>
+	<l i="a3_summon_xl_top1" c= "召喚獸洗煉"/>
+	<l i="a3_summon_xl_mian1" c= "當前洗煉出的資質完美度較高，再次洗煉後該資質將會消失，是否確定進行洗煉？"/>
+	<l i="a3_summon_xl_top2" c= "召喚獸洗煉"/>
+	<l i="a3_summon_xl_mian2" c= "要保存的資質完美度低於原來的資質完美度，是否確定保存？"/>
+	
+	
+	<!--a3_summonModel-->
+	<l i="a3_summonModel_type0" c= "未知"/>	
+	<l i="a3_summonModel_type1" c= "普通"/>	
+	<l i="a3_summonModel_type2" c= "精英"/>	
+	<l i="a3_summonModel_type3" c= "領主"/>	
+	<l i="a3_summonModel_type4" c= "初級"/>	
+	<l i="a3_summonModel_type5" c= "中級"/>	
+	<l i="a3_summonModel_type6" c= "高級"/>	  
+	<l i="a3_summonModel_type7" c= "攻擊型"/>	
+	<l i="a3_summonModel_type8" c= "防禦型"/>	
+	<l i="a3_summonModel_type9" c= "敏捷型"/>	
+	<l i="a3_summonModel_type10" c= "體力型"/>	
+	
+	<!--A3_SummonProxy-->
+	<l i="A3_SummonProxy_bagmax" c= "列表已滿，召喚獸已自動收入背包"/>	
+	<l i="A3_SummonProxy_studybad" c= "學習失敗!"/>	
+	<l i="A3_SummonProxy_togo" c= "召喚獸已出戰"/>	
+	<l i="A3_SummonProxy_torest" c= "召喚獸已休息"/>	
+	
+	<!--a3_systemSetting-->
+	<l i="a3_systemSetting0" c= "確定要返回角色列表嗎?"/>
+	<l i="a3_systemSetting1" c= "確定要返回登錄界面嗎?"/>
+	
+	<!--a3_targetinfo-->
+	<l i="a3_targetinfo_nodw" c= "暫無段位"/>
+	<l i="canover" c= " (已完成)"/>
+	
+	<!--a3_task_auto-->
+	<l i="a3_task_auto_nocy" c= "妳現在還不是軍團成員,無法進行該任務"/>
+	
+	<!--A3_TaskModel-->
+	<l i="A3_TaskModel_thidayok" c= "您已完成今日所有日常任務。"/>
+	<l i="A3_TaskModel_csz" c= "傳送中"/>
+	<l i="A3_TaskModel_get" c= "獲得了{0}×{1}"/>
+	
+	<!--a3_teamPanel-->
+	<l i="a3_teamPanel_noopen" c= "您還沒有開啟該功能"/>
+	<l i="a3_teamPanel_goout" c= "請先退出當前隊伍"/>
+	<l i="a3_teamPanel_lvlock" c= "未達到隊伍等級要求!"/>
+	
+	<!--a3_warehouse-->
+	<l i="a3_warehouse0" c= "消耗{0}個鉆石開啟{1}個格子"/>
+	<l i="a3_warehouse1" c= "消耗{0}個綁定鉆石開啟{1}個格子"/>
+	
+	<!--a3_washredname-->
+	<l i="a3_washredname0" c= "消耗："/>
+	<l i="a3_washredname1" c= "個鉆石"/>
+	<l i="a3_washredname2" c= "死亡後不掉落裝備"/>
+	<l i="a3_washredname3" c= "死亡後小幾率掉落裝備"/>	
+	<l i="a3_washredname4" c= "死亡後中幾率掉落裝備"/>
+	<l i="a3_washredname5" c= "死亡後大幾率掉落裝備"/>
+	
+	<!--a3_wing_skin-->
+	<l i="a3_wing_skin_close" c= "隱藏飛翼"/>
+	<l i="a3_wing_skin_show" c= "顯示飛翼"/>
+	<l i="a3_wing_skin_" c= "攻擊力"/>
+	<!--a3_Winginfo-->
+	<l i="a3_Winginfo_bad" c= "查詢失敗"/>
+	
+	
+	<!--a3_ygyiwu-->
+	<l i="a3_ygyiwu" c= "級開啟"/>
+	<l i="a3_ygyiwu_canont" c= "不滿足挑戰條件!"/>
+	<l i="no_get_pet" c= "寵物未獲得"/>
+	
+	<!--a3tips_summon-->
+	<l i="a3tips_summon0" c= "攻："/>
+	<l i="a3tips_summon1" c= "防："/>
+	<l i="a3tips_summon2" c= "敏："/>
+	<l i="a3tips_summon3" c= "體："/>
+	<l i="a3tips_summon4" c= "生命："/>
+	<l i="a3tips_summon5" c= "攻擊："/>
+	<l i="a3tips_summon6" c= "物理防禦："/>
+	<l i="a3tips_summon7" c= "魔法防禦："/>
+	<l i="a3tips_summon8" c= "物傷減免："/>
+	<l i="a3tips_summon9" c= "魔傷減免："/>
+	<l i="a3tips_summon10" c= "暴擊率："/>
+	<l i="a3tips_summon11" c= "回避率："/>
+	
+	<!--npctasktalk-->
+	<l i="npctasktalk0" c= "轉生"/>
+	<l i="npctasktalk1" c= "上交物品"/>
+	<l i="npctasktalk2" c= "領取任務"/>
+	<l i="npctasktalk3" c= "提交任務"/>
+	<l i="npctasktalk4" c= "繼續"/>
+	<l i="npctasktalk5" c= "倉庫"/>
+	<l i="npctasktalk6" c= "藏寶圖兌換"/>
+	<l i="npctasktalk7" c= "鐵匠鋪"/>
+	<l i="npctasktalk8" c= "NPC商店"/>
+	<l i="npctasktalk9" c= "軍團運鏢"/>
+	<l i="npctasktalk10" c= "您當前沒有軍團"/>
+	
+	<!--shop_a3-->
+	<l i="shop_a3_dhnum" c= "兌換次數("/>
+	<l i="shop_a3_txt" c= "已經達到今日購買上限，明天再來吧！"/>
+	<l i="shop_a3_todaynum" c= "今日限購("/>
+	<l i="shop_a3_jiezhi" c= "截止"/>
+	<l i="shop_a3_old" c= "原價："/>
+	<l i="shop_a3_now" c= "現價："/>
+	<l i="shop_a3_shengyu" c= "剩余："/>
+	<l i="shop_a3_zhekou" c= "折扣"/>
+	<l i="shop_a3_txt1" c= "限時搶購剩余次數不足"/>
+	<l i="shop_a3_enough0" c= "寶石不足！！"/>
+	<l i="shop_a3_enough1" c= "綁定寶石不足！！"/>
+	<l i="shop_a3_enough2" c= "金幣不足2"/>
+	<l i="shop_a3_enough3" c= "貢獻值不足！！"/>
+	<l i="shop_a3_buy" c= "妳購買了"/>
+	<l i="shop_a3_buyself" c= "自動購買"/>
+
+	<!--skill_a3-->
+	<l i="skill_a3_maxlv" c= "已是最大等級"/>
+	<l i="skill_a3_enoughmj" c= "魔晶不足"/>
+	<l i="skill_a3_tisheng" c= ": 提升"/>
+	<l i="skill_a3_jbsj" c= "升級花費金幣:"/>
+	<l i="skill_a3_mjsj" c= "升級花費魔晶:"/>
+	<l i="skill_a3_noskill" c= "未獲得該技能"/>
+	<l i="skill_a3_txt1" c= "攻擊符文總等級大於"/>
+	<l i="skill_a3_txt2" c= "防禦符文總等級大於"/>
+	<l i="skill_a3_txt3" c= "生存符文總等級大於"/>
+	<l i="skill_a3_noskill" c= "未獲得該技能"/>
+	<l i="skill_a3_enoughbs" c= "寶石不足"/>
+	<l i="skill_a3_txt4" c= "前置符文等級不足"/>
+	<l i="skill_a3_txt5" c= "其他符文總等級不足"/>
+	<l i="skill_a3_txt6" c= "角色等級不足"/>
+	
+    <!--tragethead-->
+	<l i="tragethead" c= "副本中不支持此操作!"/>
+	
+	 <!--pk_notify-->
+	<l i="pk_notify_out" c= "離開pk區域!"/>
+	<l i="pk_notify_in" c= "進入pk區域!"/>
+	
+    <!--broadcasting-->
+	<l i="broadcasting0" c= " 擊殺了 "/>
+	<l i="broadcasting1" c= "連殺)"/>
+	<l i="broadcasting2" c= "使用魔盒時被幸運女神擊中,抽中了"/>
+	<l i="broadcasting3" c= "在"/>
+	<l i="broadcasting4" c= "拾取了"/>
+	<l i="broadcasting5" c= "上古之神將於"/>
+	<l i="broadcasting6" c= "分鐘後在"/>
+	<l i="broadcasting7" c= "撒下寶箱，開啟寶箱可獲得大量獎勵！"/>
+	<l i="broadcasting8" c= "第"/>
+	<l i="broadcasting9" c= "波寶箱已經刷新在"/>
+	<l i="broadcasting10" c= "最後壹波寶箱已經刷新在"/>
+	<l i="broadcasting11" c= "在寶箱中"/>
+	<l i="broadcasting12" c= "得到了"/>
+	<l i="broadcasting13" c= "玩家"/>
+	<l i="broadcasting14" c= "創建了前往"/>
+	<l i="broadcasting15" c= "的隊伍"/>
+	<!--debug-->
+	<l i="debugx" c= " 當前每幀渲染間隔：{0:0.0} ms ({1:0.} 幀每秒)"/>
+	
+	<!--IconImageMgr-->
+	<l i="IconImageMgr0" c= "壹階"/>
+	<l i="IconImageMgr1" c= "二階"/>
+	<l i="IconImageMgr2" c= "三階"/>
+	<l i="IconImageMgr3" c= "四階"/>
+	<l i="IconImageMgr4" c= "五階"/>
+	<l i="IconImageMgr5" c= "六階"/>
+	<l i="IconImageMgr6" c= "七階"/>
+	<l i="IconImageMgr7" c= "八階"/>
+	<l i="IconImageMgr8" c= "九階"/>
+	<l i="IconImageMgr9" c= "十階"/>
+	
+	<!--off_line_exp-->
+	<l i="off_line_open" c= "開啟"/>
+	<l i="off_line_lq" c= "領取"/>
+	<l i="off_line_exp" c= "經驗+"/>
+	
+	<!--skillbar-->
+	<l i="skillbar" c= "自動戰鬥中..."/>
+	<l i="skillbar1" c= "將在學會第五個技能後開放"/>
+	
+	<!--StatePick-->
+	<l i="StatePick0" c= "自動出售 "/>
+	<l i="StatePick1" c= "自動分解  "/>
+	
+	<!--NpcRole-->
+	<l i="NpcRole" c= "-1:妳不要來點什麽嘛? "/>
+	
+	<!--MonsterMgr-->
+	<l i="MonsterMgr" c= "的小夥伴"/>
+	<l i="MonsterMgr1" c= "軍團的鏢車"/>
+	
+	<!--屬性點對應屬性提示配置-->
+	<!--戰士-->
+	<l i="src_attr_hint_2_1" c="力量增加物理攻擊"/>
+	<l i="src_attr_hint_2_2" c="敏捷增加物理防禦和魔法防禦"/>
+	<l i="src_attr_hint_2_3" c="體力增加生命上限"/>
+	<l i="src_attr_hint_2_34" c="智慧增加魔法上限"/>
+	<!--法師-->
+	<l i="src_attr_hint_3_1" c="力量增加物理防禦和魔法防禦"/>
+	<l i="src_attr_hint_3_4" c="魔力增加魔法攻擊"/>
+	<l i="src_attr_hint_3_3" c="體力增加生命上限"/>
+	<l i="src_attr_hint_3_34" c="智慧增加魔法上限"/>
+	<!--刺客-->
+	<l i="src_attr_hint_5_1" c="力量增加物理攻擊"/>
+	<l i="src_attr_hint_5_2" c="敏捷增加物理防禦和魔法防禦"/>
+	<l i="src_attr_hint_5_3" c="體力增加生命上限"/>
+	<l i="src_attr_hint_5_34" c="智慧增加魔法上限"/>
+
+	<l i="a3_equiptip_honor" c="榮耀之力"/>	
+	<l i="a3_eqpInherit_eqptop" c="傳承預覽"/>
+	<l i="yue" c="月"/>	
+	
+	<!--ChangeLineProxy-->
+	<l i="ChangeLineProxy0" c="換線時間為2分鐘,請在"/>
+	<l i="ChangeLineProxy1" c="秒後操作"/>
+	<l i="ChangeLineProxy2" c="成功切換到"/>
+	<l i="ChangeLineProxy3" c="分線"/>
+	
+	<!--組隊喊話-->
+	<l i="fb_msg_start1" c="玩家"/>
+	<l i="fb_msg_start2" c="開啟了"/>
+	<l i="fb_msg_start3" c="正在尋找隊友"/>
+	<l i="fb_msg_start4" c=" 【立即加入】"/>
+	
+	<!--喊話內容-->
+	<l i="a3_teamtarget_3" c= "馴龍者的末日"/>
+	<l i="a3_teamtarget_2" c= "托維爾墓穴"/>
+	<l i="a3_teamtarget_4" c= "血之盛宴"/>
+	<l i="a3_counterpartname_111" c= "幽靈祭奠"/>
+	<l i="a3_teamtarget_5" c= "獸靈秘境"/>
+	<l i="a3_counterpartname_3348" c= "獸靈秘境2層"/>
+	<l i="a3_counterpartname_3349" c= "獸靈秘境3層"/>
+	<l i="a3_counterpartname_3350" c= "獸靈秘境4層"/>
+	<l i="a3_counterpartname_3351" c= "獸靈秘境5層"/>
+	<l i="a3_counterpartname_3352" c= "獸靈秘境6層"/>
+	<l i="a3_counterpartname_3353" c= "獸靈秘境7層"/>
+	<l i="a3_counterpartname_3354" c= "獸靈秘境8層"/>
+	<l i="a3_counterpartname_3355" c= "獸靈秘境9層"/>
+	<l i="a3_counterpartname_3356" c= "獸靈秘境10層"/>
+	<l i="a3_teamtarget_0" c= "自定義"/>
+	<l i="a3_teamtarget_1" c= "掛機"/>
+	<l i="a3_teamtarget_6" c= "魔物獵人"/>
+	<l i="a3_counterpartdiffname_1" c = "簡單"/>
+	<l i="a3_counterpartdiffname_2" c = "普通"/>
+	<l i="a3_counterpartdiffname_3" c = "困難"/>
+	<l i="a3_counterpartdiffname_4" c = "地獄"/>
+	<l i="a3_currentTeamPanel_not_captain" c = "您不是隊長，無法使用"/>
+	<l i="a3_currentTeamPanel_in_fb" c = "副本進行中，無法使用"/>
+	<l i="a3_currentTeamPanel_in_fb2" c = "喊話成功，組隊信息已發布"/>
+	
+   <!--七日目標-->
+	<l i="a3_sevenday_buy" c = "購買"/>
+	<l i="a3_sevenday_get" c = "領取"/>
+	<l i="a3_sevenday_old" c = "已過期"/>
+	<l i="a3_sevenday_today" c = "今天"/>
+	<l i="a3_sevenday_toww" c = "明天"/>
+	
+	
+	 <!--npc商店-->
+	<l i="a3_npcshop1" c = "購買成功"/>
+	<l i="a3_npcshop2" c = "NPC商店"/>
+	
+	<l i="a3_pkmodel" c = "正被團隊內玩家攻擊，請切全體模式反擊"/>
+	
+</local>

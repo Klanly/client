@@ -1,0 +1,54 @@
+<acution>
+	<!--道具基础手续费 item_pou
+	  	装备手续费 eqp_pou
+	  	首饰系数加成 jew_ratio
+	  	上架时间系数加成 time_ratio
+	  	手续费 procedure
+	  	过期天数 expired_days
+	  	过期费用系数 ext_ratio
+	  	道具手续费 = item_pou * quality * num (num表示上架道具数量)
+	  	装备手续费 = eqp_pou * equip_level *上架时间系数
+	  	首饰手续费 = eqp_pou * jew_ratio * equip_level *上架时间系数
+	  	过期手续费 = 当初上架这件物品的手续费 * ext_ratio 
+		兑换功能：消耗钻石基础值 initial
+		          每次兑换得到金币值 exc_gold
+				  第n次兑换公式  initial*n钻石兑换exc_gold金币
+		装备上架拍卖行钻石数量最小值 min_yb	
+		装备上架拍卖行钻石数量默认值 default_yb
+		装备上架拍卖行钻石数量最大值 max_yb
+		-->
+	<parm item_pou="100" eqp_pou="1000" jew_ratio="10" procedure="10" expired_days="30" ext_ratio="10"/>
+	<time_ratio put_tm="12" ratio="1"/>
+	<time_ratio put_tm="24" ratio="2"/>
+	<time_ratio put_tm="48" ratio="4"/>
+	<min_shelf_yb quality="1" min_yb="1" default_yb="10" max_yb="999"/>
+	<min_shelf_yb quality="2" min_yb="1" default_yb="50" max_yb="999"/>
+	<min_shelf_yb quality="3" min_yb="1" default_yb="100" max_yb="999"/>
+	<min_shelf_yb quality="4" min_yb="1" default_yb="300" max_yb="999"/>
+	<min_shelf_yb quality="5" min_yb="1" default_yb="500" max_yb="999"/>
+	<min_shelf_yb quality="6" min_yb="1" default_yb="500" max_yb="999"/>
+	<exchange initial="10" exc_gold="100000"/>
+	
+	<buy_state yb_cost="10" bndyb_cost="10" yb_cnt="5" bndyb_cnt="5">
+      <state_lvl lvl="1" tar_state="10000" state_tm="18000"/>
+      <state_lvl lvl="2" tar_state="10002" state_tm="18000"/>
+      <state_lvl lvl="3" tar_state="10003" state_tm="18000"/>
+      <state_lvl lvl="4" tar_state="10004" state_tm="18000"/>
+      <state_lvl lvl="5" tar_state="10005" state_tm="18000"/>
+      <state_lvl lvl="6" tar_state="10006" state_tm="18000"/>
+      <state_lvl lvl="7" tar_state="10007" state_tm="18000"/>
+      <state_lvl lvl="8" tar_state="10008" state_tm="18000"/>
+      <state_lvl lvl="9" tar_state="10009" state_tm="18000"/>
+      <state_lvl lvl="10" tar_state="10010" state_tm="18000"/>
+      <state_lvl lvl="11" tar_state="10011" state_tm="18000"/>
+      <state_lvl lvl="12" tar_state="10012" state_tm="18000"/>
+      <state_lvl lvl="13" tar_state="10013" state_tm="18000"/>
+      <state_lvl lvl="14" tar_state="10014" state_tm="18000"/>
+      <state_lvl lvl="15" tar_state="10015" state_tm="18000"/>
+      <state_lvl lvl="16" tar_state="10016" state_tm="18000"/>
+      <state_lvl lvl="17" tar_state="10017" state_tm="18000"/>
+      <state_lvl lvl="18" tar_state="10018" state_tm="18000"/>
+      <state_lvl lvl="19" tar_state="10019" state_tm="18000"/>
+      <state_lvl lvl="20" tar_state="10020" state_tm="18000"/>
+    </buy_state>
+</acution>

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FX_texture_04102
+  m_Shader: {fileID: 4800000, guid: 0f7a77bc05f65654b923dfc51d9cc5e4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 1735bda21d2106b44b75d5d9f79ac5b0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MaskTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 100689a94eca0884b9712b8a3ccc4e67, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 4276b63a9ff45304f855a38482c1c43d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AlphaCtl
+      second: 1
+    - first:
+        name: _AlphaScale
+      second: 1
+    - first:
+        name: _DistortionScaleX
+      second: 5
+    - first:
+        name: _DistortionScaleY
+      second: 5
+    - first:
+        name: _ForceX
+      second: 0.071428575
+    - first:
+        name: _ForceY
+      second: 0.1
+    - first:
+        name: _HeatTime
+      second: -0.2857143
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _MainScale
+      second: 1
+    - first:
+        name: _SpeedU
+      second: 0.25
+    - first:
+        name: _SpeedV
+      second: 0.25
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.11779911, g: 0, b: 0.16911763, a: 1}

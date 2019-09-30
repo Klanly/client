@@ -1,0 +1,45 @@
+<newbielist>
+
+<n id="1" p="onwinclose,a3_everydayLogin:zhuan,0|lv,1:st,newbie_teach_task,親愛的勇士，這個世界需要您的力量，讓我們開始這段冒險吧,page_main" />
+
+<n id="2" p="onwinclose,a3_skillopen:task,10,1:st,newbie_teach_skill,可以學習技能了，快打開技能介面試試吧,btn_9;stop:skilldraw;onskillon::st,close_newbie,恭喜你獲得了強力的技能，點擊這裡可以返回主介面,close;stop:openexpbar|st,newbie_teach_task,讓我們繼續開始冒險吧,page_main" />
+
+
+<n id="3" p="ontask:task,111,0:stopmove1|closeexpbar|st,newbie_teach_friend,讓我們和其他的勇士們一起進行這段冒險吧,btn_4;onwin:win,a3_shejiao:st,newbie_friend,點擊這裡可以打開好友介面,tab/friend;stop:st,newbie_add_friend,快來試試一鍵征友吧,btnClickOnceAddFriend;stop:st,newbie_add_all,點擊這裡，可以發送好友申請,btnAdd;stop:st,close_newbie,好了，讓我們返回遊戲主介面吧,close;stop:st,newbie_teach_task,點擊這裡，繼續進行任務吧,page_main" />
+
+<n id="4" p="onwinclose,a3_funcopen:task,110,0:st,newbie_teach_do,恭喜您獲得了一個寵物蛋，趕快使用吧,bg/do;stop:st,newbie_teach_exp,點擊這裡，打開寵物介面,btn_up;stop:st,newbie_teach_pet,啟動寵物後可以獲得強力的狀態加成,btn_13;onwin:win,a3_new_pet:sts,showSth/help;stop:sta,help/btn,help/btn;stop:st,newbie_teach_2,啟動寵物需要購買時間，快來試試吧,buyIt;stop:st,newbie_teach_3,點擊這裡，可以獲得一天免費的寵物時間哦,buy0/image;stop:st,btn_close_newbie,恭喜您獲得了寵物的狀態加成，讓我們返回主介面吧,btn_close;stop:st,newbie_teach_task,點擊這裡，繼續進行任務吧,page_main" />
+
+<n id="5" p="onwinclose,a3_funcopen:task,306,0:st,newbie_teach_exp,可以強化裝備了，快來試試吧,btn_up;stop:st,newbie_teach_equip,點擊這裡，打開裝備鍛造介面,btn_5;onwin:win,a3_equip:sts,help_btn;stop:sta,help/close,help/close;stop:st,newbie_equip_strength,強化裝備可以大幅提升裝備屬性，快來試試吧,panel_tab1/btn_do;stop:st,btn_close_newbie,好了，讓我們返回主介面吧,btn_close;stop:st,newbie_teach_task,點擊這裡，繼續進行任務吧,page_main" />
+
+<n id="6" p="onwinclose,a3_funcopen:task,419,0:st,newbie_teach_exp,可以選擇酷炫的翅膀了，快來看看吧,btn_up;stop:st,newbie_teach_wing,點擊這裡，打開飛翼介面,btn_10;onwin:win,a3_wing_skin:st,newbie_wing_choose,點擊選中要激穿戴的翅膀,panel_icon/mask/scroll_rect/con_icon/1;stop:st,newbie_wing_strength,升級翅膀可以獲得強力的屬性加成，快來試試吧,con_level/onekey;stop:st,btn_close_newbie,好了，讓我們返回主介面吧,btn_close;stop:st,newbie_teach_task,點擊這裡，繼續進行任務吧,page_main" />
+
+<n id="7" p="ontask:task,101,0:st,newbie_teach_map,任務目標在另一個場景，讓我們打開地圖進行傳送吧,btn_map;onwin:win,worldmap:st,newbie_map_world,點擊這裡，打開世界地圖,tab/world;stop:st,newbie_map_selete,點擊目的地就可以傳送了，快試試吧,bts/2/p201;" />
+
+<n id="8" p="onaddpoint:task,502,1:closeallwin|st,newbie_teach_role,恭喜勇士轉生成功，現在可以進入自由加點了，快試試吧,info/role;onwin:win,a3_role:st,btn_addpoint_nb,點擊這裡，可以打開角色加點介面,btn_add;stop:st,btn_add_NewBie,要我們試試推薦加點吧,btn_add_do;stop:st,btn_add_NewBie,點擊確認，就可以完成加點了,btn_add_do;stop:st,btn_close_newbie,好了，讓我們返回主介面吧,btn_close;" />
+
+<n id="9" p="onwinclose,a3_funcopen:task,507,0:st,newbie_teach_pk,切換戰鬥模式可以攻擊不同的目標，快打開介面試試吧,pk" />
+
+<n id="10" p="onwinclose,a3_funcopen:task,601,0:st,newbie_teach_fb,破碎深淵開啟了，通關副本可以獲得大量經驗，快試試吧,btnFB;onwin:win,a3_counterpart:st,newbie_part_enter,點擊選擇破碎深淵,exp/enter;stop:st,newbie_part_easy,點擊這裡可以選擇難度，讓我們從最簡單的開始吧,choiceDef/easy" />
+
+<n id="11" p="ontask:task,325,0:stopmove1|openexpbar|st,newbie_teach_toggle,尋寶可以獲得大量裝備，更有概率獲得極品裝備，快試試手氣吧,togglePlus;stop:st,newbie_teach_Lottery,點擊這裡打開尋寶介面,btn_enterLottery;onwin:win,a3_lottery:st,btn_freeOnce_newbie,快來試試單次尋寶吧,btn_NewBieOnce;stop:st,BtnOne_newbie,太棒了，居然是紫色衣服，快點擊任意位置確認吧,BtnOne;stop:st,btn_close_newbie,好了，讓我們返回主介面吧,btn_close;" />
+
+<n id="12" p="onwinclose,a3_funcopen:task,621,0:st,newbie_teach_fb,黑暗王座開啟了，通關副本可以獲得大量材料，快試試吧,btnFB;onwin:win,a3_counterpart:st,newbie_material_enter,點擊選擇黑暗王座,material/enter;stop:st,newbie_part_easy,點擊這裡可以選擇難度，讓我們從最簡單的開始吧,choiceDef/easy" />
+<n id="13" p="onwinclose,a3_funcopen:task,604,0:st,newbie_teach_fb,黃金寶庫開啟了，通關副本可以獲得大量金幣，快試試吧,btnFB;onwin:win,a3_counterpart:st,newbie_gold_enter,點擊選擇黃金寶庫,gold/enter;stop:st,newbie_part_easy,點擊這裡可以選擇難度，讓我們從最簡單的開始吧,choiceDef/easy" />
+
+<n id="14" p="onwinclose,a3_funcopen:task,512,1:st,newbie_teach_exp,您的實力已經得到了認可，可以提升軍銜了，快試試吧,btn_up;stop:st,newbie_teach_Ach,打擊這裡打開成就介面,btn_7;onwin:win,a3_achievement:st,newbie_teach_Get,您已經達成了不少的成就，快來領取榮譽點吧,con_page/view/con/901/btn_get;stop:st,newbie_teach_Get,還有可以領取的榮譽點呢,con_page/view/con/911/btn_get;stop:st,newbie_teach_Get,還有可以領取的榮譽點呢,con_page/view/con/921/btn_get;stop:st,newbie_teach_rank,好了，讓我們切換到軍銜介面吧,tabs/achi_name;stop:st,newbie_teach_up,提升軍銜等級可以獲得更多的屬性加成，快來試試吧,a3_rank/con/upgrade_btn2;stop:st,btn_close_newbie,好了，讓我們返回主介面吧,a3_rank/close;stop:st,newbie_teach_task,點擊這裡，繼續進行任務吧,page_main" />
+
+<n id="15" p="ontask:task,105,0:stopmove1|openexpbar|st,newbie_teach_bag,用不上的裝備可以分解成材料，快來試試吧,btn_1;onwin:win,a3_bag:st,newbie_teach_fenjie,點擊這裡，打開裝備分解介面,item_scroll/equip;onwin:win,piliang_fenjie:st,newbie_teach_blue,這裡可以選中要要分解的裝備品質，讓我們選中藍色吧,Toggle_blue;stop:st,newbie_teach_do,讓我們馬上進行分解吧,info_bg/go;stop:st,newbie_teach_close,好了，讓我們返回主介面吧,btn_close;stop:st,newbie_teach_exp,通過分解，您已經獲得了不少魔晶，讓我們進行技能升級吧,btn_up;stop:st,newbie_teach_skill,點擊這裡，打開技能介面,btn_9;onwin:win,skill_a3:st,newbie_btn_onekey,快來試試一鍵升級功能吧,skill/panel_left/onekey;stop:st,newbie_btn_ok,升級成功了,showOneKey/yes;stop:st,close_newbie,好了，讓我們返回主介面吧,close;stop:openexpbar|st,newbie_teach_task,點擊這裡，繼續進行任務吧,page_main" />
+
+
+<n id="16" p="onwinclose,a3_funcopen:task,704,0:st,newbie_teach_do,恭喜您獲得了一隻召喚獸，趕快使用吧,bg/do;stop:st,newbie_teach_exp,使用成功了，讓我們打開介面看看吧,btn_up;stop:st,newbie_teach_sum,點擊這裡打開召喚獸介面,btn_8;onwin:win,a3_summon_new:st,newbie_teach_food,召喚獸的等級太低了，快餵食經驗丹提升等級吧,exp/add;stop:st,newbie_teach_food_one,點擊選中要餵養的經驗丹,feeditems/scroll/content/1584;stop:st,newbie_teach_max,點擊選擇餵養數量,info/bodyNum/max;stop:st,newbie_teach_use,點擊這裡就可以餵養了，快試試吧,info/use;stop:st,newbie_teach_att,召喚獸已經升級了，快設置出戰吧,btns/chuzhan;stop:st,btn_close_newbie,好了，讓我們返回主介面吧,btn_close;stop:openexpbar|st,newbie_teach_task,點擊這裡，繼續進行任務吧,page_main" />
+
+
+<n id="17" p="onwinclose,a3_funcopen:task,1103,0:st,newbie_teach_exp,精靈試煉開啟了，通關副本可以解鎖新的符文，快試試吧,btn_up;stop:st,newbie_teach_skill,點擊這裡，打開技能介面,btn_9;onwin:win,skill_a3:st,newbie_teach_shilianBt,點擊這裡打開試煉介面,shilian;onwin:win,a3_ygyiwu:st,newbie_shilian_jl,讓我們切換到精靈試煉介面,btn/per_btn;stop:st,newbie_shilian_go,準備好了嗎？讓我們挑戰第一個精靈吧,tab_01/per/view/con/1/t2/go" />
+
+
+<n id="18" p="onwinclose,a3_runeopen:task,1103,1:st,newbie_teach_skill,恭喜勇士解鎖了新的符文，快來試試符文研究吧,btn_9;onwin:win,skill_a3:st,newbie_btn_rune,讓我們切換到符文介面,panel/rune;stop:st,newbie_btn_runexz,點擊選中要研究的符文,bg00/panel/100;stop:st,newbie_btn_runego,讓我們趕快進行符文研究吧,rune/runeinfo/studybtn;stop:st,close_newbie,好了，讓我們返回主介面吧,close;stop:openexpbar|st,newbie_teach_task,點擊這裡，繼續進行任務吧,page_main" />
+
+<n id="19" p="onwinclose,newbie:task,3,0:st,newbie_teach_wait,快向團長報到吧,waitBG/btnDoWait" />
+
+<n id="20" p="ontask:task,13,0:st,newbie_teach_line,如果玩家過多影響體驗，可以在這裡切換到其它分線，快找開看看吧,btn_line" />
+</newbielist>

@@ -1,0 +1,176 @@
+<huoyue>
+  
+  <!--id：功能编号：
+  1、PK模式切换
+  2、日常任务
+  3、拍卖行
+  4、成就
+  5、召唤兽
+  6、技能界面
+  7、翼灵
+  8、灵宠
+  ////9、飞翼
+  10、活动
+  11、风神王座
+  12、魔炼之地
+  13、金币副本
+  14、经验副本
+  15、召唤兽乐园
+  16、世界BOSS
+  17、魔物猎人
+  18、装备
+  19、装备强化
+  20、装备重铸
+  21、装备传承
+  22、装备进阶
+  23、培养（旧宝石系统）
+  24、追加
+  25、魔盒
+  26、技能
+  27、符文
+  28、宝图收集
+  29、遗物
+  30、护盾
+  31、pvp
+  32、抢宝箱
+  33、副本入口
+  34、组队副本
+  （未编号的功能为直接开启的功能）
+  35、宝石合成
+  36、宝石镶嵌
+  37、委托任务（日常跑环）-->
+  
+   <!--在线抽奖次数和cd时间-->
+  <lotterytime id="1" time="0"/>
+  <lotterytime id="2" time="900"/>
+  <lotterytime id="3" time="1500"/>
+  <lotterytime id="4" time="1800"/>
+  <lotterytime id="5" time="1800"/>
+  <lotterytime id="6" time="1800"/>
+  
+<!--奖励--> 
+  <reward id="1" ac="20"  item="1533" num="40" />
+  <reward id="2" ac="40"  item="1501" num="60" />
+  <reward id="3" ac="60"  item="1509" num="60" />
+  <reward id="4" ac="80"  item="2019" num="1" />
+  <reward id="5" ac="100" item="2065" num="1" />
+
+  <active id="1" icon_file="icon_func_open_3" type="1" pram="1,70" times="3" ac_num="10" des="拍卖上架商品"/>
+  <active id="9" icon_file="icon_func_open_25" type="1" pram="0,1" times="3" ac_num="10" des="寻宝"/>
+  <active id="7" icon_file="icon_func_open_19" type="2" pram="305" times="3" ac_num="10" des="强化装备"/>
+  <active id="5" icon_file="icon_func_open_14" type="2" pram="518" times="1" ac_num="10" des="经验副本"/>
+  <active id="6" icon_file="icon_func_open_16" type="1" pram="1,3" times="3" ac_num="10" des="击杀野外boss"/>
+  <active id="4" icon_file="icon_func_open_13" type="2" pram="603" times="1" ac_num="10" des="金币副本"/>
+  <active id="2" icon_file="icon_func_open_11" type="2" pram="620" times="1" ac_num="10" des="材料副本"/>
+  <active id="3" icon_file="icon_func_open_12" type="2" pram="712" times="3" ac_num="10" des="魔炼之地"/>
+  <active id="12" icon_file="icon_func_open_15" type="2" pram="705" times="1" ac_num="10" des="兽灵秘境"/> 
+  <active id="8" icon_file="icon_func_open_34" type="2" pram="709" times="1" ac_num="10" des="托维尔墓穴"/>
+  <active id="10" icon_file="icon_func_open_34" type="1" pram="3,1" times="1" ac_num="10" des="驯龙者的末日"/>
+  <active id="11" icon_file="icon_func_open_34" type="1" pram="5,1" times="1" ac_num="10" des="血之盛宴"/>
+  <active id="13" icon_file="icon_func_open_17" type="2" pram="715" times="5" ac_num="10" des="完成魔物猎人"/>
+  <active id="14" icon_file="icon_func_open_31" type="2" pram="605" times="3" ac_num="10" des="参与竞技场"/>
+  <active id="15" icon_file="icon_func_open_31" type="2" pram="903" times="1" ac_num="10" des="参与战场"/>
+
+  <!--在线抽奖奖励，6个奖池对应6次抽奖，每次抽奖的8个奖励是固定的，概率是相同的-->
+  <item type="1">  
+    <item id="1" item_id="1501" num="5"/>
+    <item id="2" item_id="1508" num="2"/>
+    <item id="3" item_id="1528" num="1"/>
+    <item id="4" item_id="1558" num="3"/>
+    <item id="5" item_id="1582" num="5"/>
+    <item id="6" item_id="1501" num="10"/>
+    <item id="7" item_id="1508" num="5"/>
+    <item id="8" item_id="1559" num="2"/>
+  </item>
+  <item type="2">  
+    <item id="1" item_id="1559" num="3"/>
+    <item id="2" item_id="1583" num="2"/>
+    <item id="3" item_id="1509" num="10"/>
+    <item id="4" item_id="1501" num="10"/>
+    <item id="5" item_id="1558" num="5"/>
+    <item id="6" item_id="1508" num="3"/>
+    <item id="7" item_id="1540" num="5"/>
+    <item id="8" item_id="1509" num="5"/>
+  </item>
+  <item type="3">  
+    <item id="1" item_id="1501" num="15"/>
+    <item id="2" item_id="1504" num="5"/>
+    <item id="3" item_id="1509" num="10"/>
+    <item id="4" item_id="1533" num="5"/>
+    <item id="5" item_id="1559" num="4"/>
+    <item id="6" item_id="1558" num="7"/>
+    <item id="7" item_id="1582" num="10"/>
+    <item id="8" item_id="1583" num="3"/>
+  </item>
+  <item type="4">  
+    <item id="1" item_id="1508" num="4"/>
+    <item id="2" item_id="1528" num="2"/>
+    <item id="3" item_id="1540" num="10"/>
+    <item id="4" item_id="1509" num="15"/>
+    <item id="5" item_id="1540" num="15"/>
+    <item id="6" item_id="1509" num="20"/>
+    <item id="7" item_id="1585" num="2"/>
+    <item id="8" item_id="1582" num="15"/>
+  </item>
+  <item type="5">  
+    <item id="1" item_id="1504" num="10"/>
+    <item id="2" item_id="1509" num="20"/>
+    <item id="3" item_id="1533" num="10"/>
+    <item id="4" item_id="1540" num="15"/>
+    <item id="5" item_id="1542" num="1"/>
+    <item id="6" item_id="1560" num="1"/>
+    <item id="7" item_id="1585" num="3"/>
+    <item id="8" item_id="1504" num="5"/>
+  </item>
+  <item type="6">  
+    <item id="1" item_id="1510" num="1"/>
+    <item id="2" item_id="1541" num="1"/>
+    <item id="3" item_id="1504" num="20"/>
+    <item id="4" item_id="1542" num="2"/>
+    <item id="5" item_id="1560" num="2"/>
+    <item id="6" item_id="1585" num="4"/>
+    <item id="7" item_id="1504" num="15"/>
+    <item id="8" item_id="1509" num="25"/>
+  </item>
+  
+  <!--type类型1：购买后累积登陆param1天可领取 2：转生达到param1转可领取 3：战斗力达到param1可领取-->
+  
+  <fund type="1" zhuan_limit="1" yb="300"/><!--累积登陆基金的限制条件和消耗钻石数量-->
+  <fund type="2" zhuan_limit="1" yb="1500"/><!--转生基金的限制条件和消耗钻石数量-->
+  <fund type="3" zhuan_limit="1" vip_limit="5" yb="3000"/><!--战斗力基金的限制条件和消耗钻石数量-->
+  
+  <foundation id="1" icon_file="icon_item_2004" desc="购买后累积登陆1天可领取" type="1" param1="1" yb="55" bndyb="0"/>
+  <foundation id="2" icon_file="icon_item_2004" desc="购买后累积登陆3天可领取" type="1" param1="3" yb="110" bndyb="0"/>
+  <foundation id="3" icon_file="icon_item_2004" desc="购买后累积登陆5天可领取" type="1" param1="5" yb="165" bndyb="0"/>
+  <foundation id="4" icon_file="icon_item_2004" desc="购买后累积登陆7天可领取" type="1" param1="7" yb="220" bndyb="0"/>
+  <foundation id="5" icon_file="icon_item_2004" desc="购买后累积登陆10天可领取" type="1" param1="10" yb="330" bndyb="0"/>
+  <foundation id="6" icon_file="icon_item_2004" desc="购买后累积登陆15天可领取" type="1" param1="15" yb="440" bndyb="0"/>
+  <foundation id="7" icon_file="icon_item_2004" desc="购买后累积登陆20天可领取" type="1" param1="20" yb="550" bndyb="0"/>
+  <foundation id="8" icon_file="icon_item_2004" desc="购买后累积登陆25天可领取" type="1" param1="25" yb="660" bndyb="0"/>
+  <foundation id="9" icon_file="icon_item_2004" desc="购买后累积登陆30天可领取" type="1" param1="30" yb="770" bndyb="0"/>
+
+  <foundation id="10" icon_file="icon_item_2004" desc="转生达到1转可领取" type="2" param1="1" yb="300" bndyb="0"/>
+  <foundation id="11" icon_file="icon_item_2004" desc="转生达到2转可领取" type="2" param1="2" yb="600" bndyb="0"/>
+  <foundation id="12" icon_file="icon_item_2004" desc="转生达到3转可领取" type="2" param1="3" yb="900" bndyb="0"/>
+  <foundation id="13" icon_file="icon_item_2004" desc="转生达到4转可领取" type="2" param1="4" yb="1200" bndyb="0"/>
+  <foundation id="14" icon_file="icon_item_2004" desc="转生达到5转可领取" type="2" param1="5" yb="1500" bndyb="0"/>
+  <foundation id="15" icon_file="icon_item_2004" desc="转生达到6转可领取" type="2" param1="6" yb="1800" bndyb="0"/>
+  <foundation id="16" icon_file="icon_item_2004" desc="转生达到7转可领取" type="2" param1="7" yb="2100" bndyb="0"/>
+  <foundation id="17" icon_file="icon_item_2004" desc="转生达到8转可领取" type="2" param1="8" yb="2400" bndyb="0"/>
+  <foundation id="18" icon_file="icon_item_2004" desc="转生达到9转可领取" type="2" param1="9" yb="2700" bndyb="0"/>
+  <foundation id="19" icon_file="icon_item_2004" desc="转生达到10转可领取" type="2" param1="10" yb="3000" bndyb="0"/>
+
+  <foundation id="20" icon_file="icon_item_2004" desc="战斗力达到10000可领取" type="3" param1="10000" yb="500" bndyb="0"/>
+  <foundation id="21" icon_file="icon_item_2004" desc="战斗力达到50000可领取" type="3" param1="50000" yb="1000" bndyb="0"/>
+  <foundation id="22" icon_file="icon_item_2004" desc="战斗力达到100000可领取" type="3" param1="100000" yb="1500" bndyb="0"/>
+  <foundation id="23" icon_file="icon_item_2004" desc="战斗力达到150000可领取" type="3" param1="150000" yb="2000" bndyb="0"/>
+  <foundation id="24" icon_file="icon_item_2004" desc="战斗力达到200000可领取" type="3" param1="200000" yb="2500" bndyb="0"/>
+  <foundation id="25" icon_file="icon_item_2004" desc="战斗力达到250000可领取" type="3" param1="250000" yb="3000" bndyb="0"/>
+  <foundation id="26" icon_file="icon_item_2004" desc="战斗力达到300000可领取" type="3" param1="300000" yb="3500" bndyb="0"/>
+  <foundation id="27" icon_file="icon_item_2004" desc="战斗力达到350000可领取" type="3" param1="350000" yb="4000" bndyb="0"/>
+  <foundation id="28" icon_file="icon_item_2004" desc="战斗力达到400000可领取" type="3" param1="400000" yb="4500" bndyb="0"/>
+  <foundation id="29" icon_file="icon_item_2004" desc="战斗力达到450000可领取" type="3" param1="450000" yb="5000" bndyb="0"/>
+  <foundation id="30" icon_file="icon_item_2004" desc="战斗力达到500000可领取" type="3" param1="500000" yb="5500" bndyb="0"/>
+  
+
+</huoyue>

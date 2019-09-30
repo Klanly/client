@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FX_texture_00095
+  m_Shader: {fileID: 4800000, guid: d5d74b3115df7fe4c876326dba48611d, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: f5dbb4bb8d683344eb86370ec73782c4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 71486c3793056c14084dc7070c7370ad, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _ForceX
+      second: 0
+    - first:
+        name: _ForceY
+      second: 0.49999997
+    - first:
+        name: _HeatTime
+      second: 0.17857143
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _Shininess
+      second: 0.7
+    - first:
+        name: _UNumber
+      second: 2
+    - first:
+        name: _UVOrder
+      second: 0
+    - first:
+        name: _VNumber
+      second: 2
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _Emission
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _SpecColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 1, g: 0.54780257, b: 0.254902, a: 1}

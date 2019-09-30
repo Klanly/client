@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: jb_tex_01
+  m_Shader: {fileID: 4800000, guid: 8817021822ff8824ab7cbc40ac28dde3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _DecalTex
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _EmissionTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 3fe9c851c8eb1e443a74de1495225903, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 3fe9c851c8eb1e443a74de1495225903, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SplTex
+      second:
+        m_Texture: {fileID: 2800000, guid: b5a9b28923360be49b65401b7ad7723a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _AlphaCtl
+      second: 1
+    - first:
+        name: _AlphaPow
+      second: 2.22
+    - first:
+        name: _AlphaScale
+      second: 1
+    - first:
+        name: _Alphaoffset
+      second: 0.875
+    - first:
+        name: _AnimU
+      second: 0
+    - first:
+        name: _AnimV
+      second: 0
+    - first:
+        name: _Cmlpow
+      second: 2
+    - first:
+        name: _Damping
+      second: 0.82
+    - first:
+        name: _DistortionScaleX
+      second: 0.1
+    - first:
+        name: _DistortionScaleY
+      second: 0.1
+    - first:
+        name: _Intensity
+      second: 0.77
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _MainScale
+      second: 4.732143
+    - first:
+        name: _Posui
+      second: 0
+    - first:
+        name: _RflScale
+      second: 0.68
+    - first:
+        name: _RimPow
+      second: 11.3175
+    - first:
+        name: _RimScale
+      second: 20
+    - first:
+        name: _RimWidth
+      second: 0
+    - first:
+        name: _SHLightingScale
+      second: 1
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 0.8990534, b: 0, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _RimColor
+      second: {r: 0, g: 0, b: 0, a: 0}
+    - first:
+        name: _SplScl
+      second: {r: 1, g: 0, b: 0, a: 0.15}
+    - first:
+        name: _TintColor
+      second: {r: 0, g: 0, b: 0, a: 0.5019608}

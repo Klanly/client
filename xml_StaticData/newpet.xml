@@ -1,0 +1,42 @@
+<newpet>
+	<buy>
+		<b id="1" time="7" zuan_type="1" zuan="0"/>
+		<b id="2" time="7" zuan_type="1" zuan="200"/>
+		<b id="3" time="30" zuan_type="1" zuan="500"/>
+		<b id="4" time="90" zuan_type="1" zuan="1000"/>
+	</buy>
+	<!--
+	att_type对应类型
+	47：额外的金币掉落，千分制
+	48：额外的道具掉落，千分制
+	49：额外的装备掉落，千分制
+	-->    
+	<!--猎鹰-->
+	<pet id="2" pet_id="2" item="1617" mod="eagle" name="猎鹰" exp="10" gold="10" arm="10" mat="10" buff_name="宠物" buff_dc="经验获得+10%;材料掉落+10%;金币获得+10%;装备掉落+10%">
+		<add buff="1" att_type="30" att_value="100"  />
+		<add buff="2"  att_type="48" att_value="100" />
+		<add buff="3"  att_type="47" att_value="100" />
+		<add buff="4"  att_type="49"  att_value="100" />
+	</pet>
+	<!--绿鹦鹉-->
+	<pet id="5" pet_id="5" item="1618" mod="yingwu" name="绿鹦鹉" exp="10" gold="10" arm="20" mat="10" buff_name="宠物" buff_dc="经验获得+10%;材料获得+10%;金币掉落+20%;装备掉落+10%">
+		<add buff="1"  att_type="30" att_value="100" />
+		<add buff="2" att_type="48" att_value="100" />
+		<add buff="3" att_type="47" att_value="200"  />
+		<add buff="4" att_type="49"   att_value="100"/>
+	</pet>
+	<!--火烈鸟-->
+	<pet id="3" pet_id="3" item="1619" mod="yaque" name="火烈鸟" exp="20" gold="10" arm="10" mat="10" buff_name="宠物" buff_dc="经验获得+20%;材料获得+10%;金币掉落+10%;装备掉落+10%">
+		<add buff="1" att_type="30" att_value="200" />
+		<add buff="2"  att_type="48" att_value="100" />
+		<add buff="3"  att_type="47" att_value="100" />
+		<add buff="4"  att_type="49" att_value="100"/>
+	</pet>
+	<!--zzz-->
+	<pet id="6" pet_id="6" item="1764" mod="jiexi" name="杰西" exp="20" gold="10" arm="20" mat="10" buff_name="宠物" buff_dc="经验获得+20%;材料获得+10%;金币掉落+20%;装备掉落+10%">
+		<add buff="1" att_type="30" att_value="200" />
+		<add buff="2"  att_type="48" att_value="100" />
+		<add buff="3"  att_type="47" att_value="200" />
+		<add buff="4"  att_type="49" att_value="100"/>
+	</pet>
+</newpet>

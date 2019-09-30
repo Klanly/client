@@ -1,0 +1,109 @@
+<fashionshow>
+	<!-- 时装
+		dress_type 时装种类 0:武器  1:胸甲
+		unlock 解锁条件
+		limit_day 增加天数
+		forever 永久  （没要求暂时不用管）
+		carr 职业  2：战士   3：法师  5：刺客 
+	-->
+    <!-- <dress job_limit="2">
+			  <dress id="401" dress_name="战士武器时装" icon_file="396" dress_type="0" desc="战士武器时装">
+	          <att att_type="38" att_value="50"/>
+		      <att att_type="45" att_value="300"/>
+		      <unlock type="1" need_item="1782" need_num="100" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="200" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="700" limit_day="30"/>
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress> -->
+	     <dress id="404" dress_name="黄金魂" carr="2" icon_file="404" dress_type="1" desc="女王赏赐的黄金战甲，象征骑士的荣耀。通过魔法龙鳞激活">
+	          <att att_type="14" att_value="1100"/>
+		      <att att_type="7" att_value="200"/>
+		      <unlock type="1" need_item="1782" need_num="3" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="5" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="15" limit_day="30"/>  
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress>
+	<!-- <dress id="407" dress_name="金属风暴" carr="2" icon_file="407" dress_type="1" desc="上有风暴之力加持，是大师培提尔的杰作。通过魔法龙鳞激活">
+	          <att att_type="45" att_value="500"/>
+		      <att att_type="6" att_value="200"/>
+		      <unlock type="1" need_item="1782" need_num="3" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="5" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="15" limit_day="30"/>  
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress> -->
+	<!-- <dress job_limit="3">
+	          <dress id="402" dress_name="法师武器时装" icon_file="396" dress_type="0" desc="法师武器时装">
+	          <att att_type="38" att_value="50"/>
+		      <att att_type="45" att_value="300"/>
+		      <unlock type="1" need_item="1782" need_num="100" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="200" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="700" limit_day="30"/>
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress> -->
+	<!-- <dress id="405" dress_name="精灵意志" carr="3" icon_file="405" dress_type="1" desc="强大而美丽的魔法师，很受精灵们的欢迎。通过魔法龙鳞激活">
+	          <att att_type="14" att_value="1000"/>
+		      <att att_type="7" att_value="200"/>
+		      <unlock type="1" need_item="1782" need_num="3" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="5" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="15" limit_day="30"/>  
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress> -->
+		 <dress id="408" dress_name="火焰女王" carr="3" icon_file="408" dress_type="1" desc="火焰女王用魔法打造而成，流光四溢。通过魔法龙鳞激活">
+	          <att att_type="8" att_value="200"/>
+		      <att att_type="5" att_value="200"/>
+		      <unlock type="1" need_item="1782" need_num="3" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="5" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="15" limit_day="30"/>  
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+		 </dress>
+	<!-- <dress id="410" dress_name="恶魔之吻" carr="3" icon_file="410" dress_type="1" desc="恶魔之吻，天使之心。通过魔法龙鳞激活">
+	          <att att_type="6" att_value="200"/>
+		      <att att_type="11" att_value="100"/>
+		      <unlock type="1" need_item="1782" need_num="3" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="5" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="15" limit_day="30"/>  
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress> -->
+	<!-- <dress job_limit="5">
+	          <dress id="403" dress_name="刺客武器时装" icon_file="403" dress_type="0" desc="刺客武器时装">
+	          <att att_type="38" att_value="50"/>
+		      <att att_type="45" att_value="300"/>
+		      <unlock type="1" need_item="1782" need_num="100" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="200" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="700" limit_day="30"/>
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress> -->
+	<!-- <dress id="406" dress_name="如影随形" carr="5" icon_file="406" dress_type="1" desc="刺杀之道，如影随形。通过魔法龙鳞激活">
+	          <att att_type="44" att_value="20"/>
+		      <att att_type="43" att_value="10"/>
+		      <unlock type="1" need_item="1782" need_num="3" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="5" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="15" limit_day="30"/>  
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress> -->
+		 <dress id="409" dress_name="刺客信条" carr="5" icon_file="409" dress_type="1" desc="在黑暗中源起，也在黑暗中尘封。通过魔法龙鳞激活">
+	          <att att_type="5" att_value="200"/>
+		      <att att_type="14" att_value="1000"/>
+		      <unlock type="1" need_item="1782" need_num="3" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="5" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="15" limit_day="30"/>  
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress>
+	<!-- <dress id="411" dress_name="幽灵猎手" carr="5" icon_file="411" dress_type="1" desc="强大的幽灵猎手最爱的装备，能压制邪恶气息。通过魔法龙鳞激活">
+	          <att att_type="45" att_value="500"/>
+		      <att att_type="6" att_value="200"/>
+		      <unlock type="1" need_item="1782" need_num="3" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="5" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="15" limit_day="30"/>  
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress> -->
+    <!-- <dress id="412" dress_name="禁卫军长" carr="5" icon_file="412" dress_type="1" desc="身为皇家禁卫军长时穿戴的装备。通过魔法龙鳞激活">
+	          <att att_type="38" att_value="200"/>
+		      <att att_type="7" att_value="200"/>
+		      <unlock type="1" need_item="1782" need_num="3" limit_day="3"/>
+		      <unlock type="2" need_item="1782" need_num="5" limit_day="7"/>
+		      <unlock type="3" need_item="1782" need_num="15" limit_day="30"/>  
+		      <unlock type="4" need_item="1540" need_num="100" forever="1"/>
+	     </dress> -->
+	
+</fashionshow>

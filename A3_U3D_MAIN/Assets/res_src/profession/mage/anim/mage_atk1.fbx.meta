@@ -1,0 +1,389 @@
+fileFormatVersion: 2
+guid: 955d7faf451928941aad3a9c1d6e6d2f
+timeCreated: 1493362984
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01 Footsteps
+    100004: Bone001
+    100006: Bone002
+    100008: Bone003
+    100010: Bone004
+    100012: Bone011
+    100014: Bone013
+    100016: Bone015
+    100018: Bone016
+    100020: Bone017
+    100022: Bone018
+    100024: Dummy004
+    100026: Dummy005
+    100028: Head
+    100030: L_Calf
+    100032: L_Clavicle
+    100034: L_Finger0
+    100036: L_Finger01
+    100038: L_Finger1
+    100040: L_Finger11
+    100042: L_Foot
+    100044: L_Forearm
+    100046: L_Hand
+    100048: L_Thigh
+    100050: L_Toe0
+    100052: L_UpperArm
+    100054: //RootNode
+    100056: Neck
+    100058: Object001
+    100060: Pelvis
+    100062: pfwtest
+    100064: Plus_B
+    100066: Plus_L_S
+    100068: Plus_R_S
+    100070: R_Calf
+    100072: R_Clavicle
+    100074: R_Finger0
+    100076: R_Finger01
+    100078: R_Finger1
+    100080: R_Finger11
+    100082: R_Foot
+    100084: R_Forearm
+    100086: R_Hand
+    100088: R_Thigh
+    100090: R_Toe0
+    100092: R_UpperArm
+    100094: root_bone
+    100096: Spine
+    100098: Spine1
+    100100: Weapon_L
+    100102: Weapon_R
+    100104: HeadNub
+    100106: L_Finger0Nub
+    100108: L_Finger1Nub
+    100110: L_Toe0Nub
+    100112: R_Finger0Nub
+    100114: R_Finger1Nub
+    100116: R_Toe0Nub
+    100118: W_R
+    400000: Bip01
+    400002: Bip01 Footsteps
+    400004: Bone001
+    400006: Bone002
+    400008: Bone003
+    400010: Bone004
+    400012: Bone011
+    400014: Bone013
+    400016: Bone015
+    400018: Bone016
+    400020: Bone017
+    400022: Bone018
+    400024: Dummy004
+    400026: Dummy005
+    400028: Head
+    400030: L_Calf
+    400032: L_Clavicle
+    400034: L_Finger0
+    400036: L_Finger01
+    400038: L_Finger1
+    400040: L_Finger11
+    400042: L_Foot
+    400044: L_Forearm
+    400046: L_Hand
+    400048: L_Thigh
+    400050: L_Toe0
+    400052: L_UpperArm
+    400054: //RootNode
+    400056: Neck
+    400058: Object001
+    400060: Pelvis
+    400062: pfwtest
+    400064: Plus_B
+    400066: Plus_L_S
+    400068: Plus_R_S
+    400070: R_Calf
+    400072: R_Clavicle
+    400074: R_Finger0
+    400076: R_Finger01
+    400078: R_Finger1
+    400080: R_Finger11
+    400082: R_Foot
+    400084: R_Forearm
+    400086: R_Hand
+    400088: R_Thigh
+    400090: R_Toe0
+    400092: R_UpperArm
+    400094: root_bone
+    400096: Spine
+    400098: Spine1
+    400100: Weapon_L
+    400102: Weapon_R
+    400104: HeadNub
+    400106: L_Finger0Nub
+    400108: L_Finger1Nub
+    400110: L_Toe0Nub
+    400112: R_Finger0Nub
+    400114: R_Finger1Nub
+    400116: R_Toe0Nub
+    400118: W_R
+    4300000: pfwtest
+    4300002: Object001
+    7400000: mage_atk1
+    7400002: mage_atk2
+    7400004: mage_atk3
+    9500000: //RootNode
+    13700000: Object001
+    13700002: pfwtest
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 8
+    animationPositionError: 8
+    animationScaleError: 4
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mage_atk1
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: onSFX
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 30011
+        messageOptions: 0
+      - time: 0.015625
+        functionName: onNT
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 1.4
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.028846154
+        functionName: onSound
+        data: 3001_1
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.2895598
+        functionName: onBullet
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 300111
+        messageOptions: 0
+      - time: 0.90744925
+        functionName: onBullet
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 300112
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mage_atk2
+      takeName: Take 001
+      firstFrame: 20
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.08803612
+        functionName: onSFX
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 30012
+        messageOptions: 0
+      - time: 0.2595937
+        functionName: onBullet
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 300121
+        messageOptions: 0
+      - time: 0.32682925
+        functionName: onSound
+        data: 3001_2
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.3902439
+        functionName: onSound
+        data: 3001_4
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.8510158
+        functionName: onBullet
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 300122
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: mage_atk3
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 95
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0
+        functionName: onSFX
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 300131
+        messageOptions: 0
+      - time: 0.088994116
+        functionName: onSFX
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 300132
+        messageOptions: 0
+      - time: 0.2195122
+        functionName: onSound
+        data: 3001_3
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.4522059
+        functionName: onShake
+        data: 0.3,15,0.5
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 11
+        messageOptions: 0
+      - time: 0.4697465
+        functionName: onBullet
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 30013
+        messageOptions: 0
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.025
+    meshCompression: 2
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root_bone
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: fa9e6d5f8aef3f7489c4a63b0849153b,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

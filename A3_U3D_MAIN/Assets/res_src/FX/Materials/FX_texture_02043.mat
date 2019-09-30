@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FX_texture_02043
+  m_Shader: {fileID: 4800000, guid: cf013b71db57c6941bd151877ca443b3, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: cdbf8c22cdb3b5d42994353134e8b6f1, type: 3}
+        m_Scale: {x: 1.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MaskTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 85bf881ec089e7c4ebe8f6012d60c27b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 979eef5905e1748489b7b4eaf2c01dbf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _ForceX
+      second: 0
+    - first:
+        name: _ForceY
+      second: 0.017857144
+    - first:
+        name: _HeatTime
+      second: -0.17857142
+    - first:
+        name: _InvFade
+      second: 1
+    m_Colors:
+    - first:
+        name: _TintColor
+      second: {r: 0.97794116, g: 0.6305276, b: 0.20853159, a: 0.105882354}

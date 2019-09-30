@@ -1,0 +1,67 @@
+<npc_shoplist>
+	<!--
+	shop_id:商店ID；
+	shop_name:商店名称；
+	id:商品id；
+	item_id:道具id；
+	type:1正常商品；2浮动商品；
+	money_type:交易货币，2金币，3钻石；
+	value:默认价格；
+	min_value:最低价格；
+	max_value:最高价格；
+	sum_limit:每日限购数量；
+	-->
+	<!--普通商品 1-5000-->
+	<goods_list id="1" item_id="1621" money_type="3" value="100"/>
+	<goods_list id="2" item_id="1622" money_type="3" value="100"/>
+	<goods_list id="3" item_id="1623" money_type="3" value="100"/>
+	<goods_list id="4" item_id="1624" money_type="3" value="100"/>
+	<goods_list id="5" item_id="1625" money_type="3" value="100"/>
+	<goods_list id="6" item_id="101" money_type="2" value="100"/>
+	<goods_list id="7" item_id="102" money_type="2" value="100"/>
+	<goods_list id="8" item_id="103" money_type="2" value="100"/>
+	<goods_list id="9" item_id="104" money_type="2" value="100"/>
+	<goods_list id="10" item_id="105" money_type="2" value="100"/>
+	<goods_list id="11" item_id="106" money_type="2" value="100"/>
+	<goods_list id="12" item_id="107" money_type="2" value="100"/>
+	<goods_list id="13" item_id="201" money_type="2" value="100"/>
+	<goods_list id="14" item_id="202" money_type="2" value="100"/>
+	<goods_list id="15" item_id="203" money_type="2" value="100"/>
+	<goods_list id="16" item_id="204" money_type="2" value="100"/>
+	<goods_list id="17" item_id="205" money_type="2" value="100"/>
+	<goods_list id="18" item_id="206" money_type="2" value="100"/>
+	<goods_list id="19" item_id="207" money_type="2" value="100"/>
+	<goods_list id="20" item_id="301" money_type="2" value="100"/>
+	<goods_list id="21" item_id="302" money_type="2" value="100"/>
+	<goods_list id="22" item_id="303" money_type="2" value="100"/>
+	<goods_list id="23" item_id="304" money_type="2" value="100"/>
+	<goods_list id="24" item_id="305" money_type="2" value="100"/>
+	<goods_list id="25" item_id="306" money_type="2" value="100"/>
+	<goods_list id="26" item_id="307" money_type="2" value="100"/>
+	
+	
+	<!--浮动商品 5001-10000-->
+
+	<float_list id="5001" item_id="1621" money_type="2" value="50000" min_value="1000" max_value="200000" sum_limit="20" sum_default="200"/>
+	<float_list id="5002" item_id="1622" money_type="2" value="50000" min_value="1000" max_value="200000" sum_limit="20" sum_default="200"/>
+	<float_list id="5003" item_id="1623" money_type="2" value="50000" min_value="1000" max_value="200000" sum_limit="20" sum_default="200"/>
+	<float_list id="5004" item_id="1624" money_type="2" value="50000" min_value="1000" max_value="200000" sum_limit="20" sum_default="200"/>
+	<float_list id="5005" item_id="1625" money_type="2" value="50000" min_value="1000" max_value="200000" sum_limit="20" sum_default="200"/>
+	<!--
+	shop_id:商店ID；
+	shop_name:商店名称；
+	npc_id:绑定NPCid；
+	goods_list:商品列表；
+	-->
+	<npc_shop shop_id="1" npc_id="216" shop_name="尼格朗的小店" float_list="5001," goods_list="6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,"/>
+	<npc_shop shop_id="2" npc_id="110" shop_name="米娅的珍藏" float_list="5002," goods_list="6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,"/>
+	<npc_shop shop_id="3" npc_id="306" shop_name="菲伊德的战利品" float_list="5003," goods_list="6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,"/>
+	<npc_shop shop_id="4" npc_id="1502" shop_name="弗里卡的秘密收藏" float_list="5004," goods_list="6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,"/>
+	<npc_shop shop_id="5" npc_id="903" shop_name="凯米尔的私人藏品" float_list="5005," goods_list="6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,"/>
+	<!--动态商品价格相关
+	stock_min(max):动态商品价格不变的库存量范围；
+	price_change：动态商品单次价格变动幅度；
+	recycle_price：回收价格百分比（相对于该道具的商品价格）
+	-->
+	<float_change stock_min="100" stock_max="1000" price_change="1" recycle_price="80"/>
+</npc_shoplist>

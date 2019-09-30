@@ -1,0 +1,346 @@
+<seven_day_list>
+<!--  
+
+
+award   完成條件獎勵
+      type    1:強化裝備次數
+              2:等級獎勵
+              3:當日消費獎勵
+      param1  參數
+      point       獎勵積分
+-->
+  <seven_day day="1" item="送紫裝衣服">
+   <!--登錄-->
+    <login_awd awd_item="2127" awd_num="1" point="1" tab="1" des="今日登陸獎勵" />
+    <!--半價-->
+    <half_buy shop_item="2132" shop_num="1" cost="1000"  point="5" tab="2" des="今日半價"/>
+
+    <!--等級-->
+    <award award_id="1" type="2" param1="1,40" point="1" tab="1" des="到達1轉40級">
+
+      <RewardItem item_id="2139" value="1"/>
+    </award>
+    <!--消費-->
+    <award award_id="2" type="3" param1="500" point="5" tab="1" des="消費500鑽石">
+
+      <RewardItem item_id="2146" value="1"/>
+    </award>
+
+    <!--強化-->
+    <award award_id="3" type="1" param1="5" point="1" tab="3" des="強化5次裝備">
+
+      <RewardItem item_id="1540" value="50"/>
+    </award>
+    
+    <award award_id="4" type="1" param1="10" point="1" tab="3" des="強化10次裝備">
+
+      <RewardItem item_id="1540" value="100"/>
+    </award>
+    
+    <award award_id="5" type="1" param1="15" point="1" tab="3" des="強化15次裝備">
+
+      <RewardItem item_id="1540" value="200"/>
+    </award>
+
+    <award award_id="6" type="1" param1="20" point="1" tab="3" des="強化20次裝備">
+
+      <RewardItem item_id="1540" value="500"/>
+    </award>
+    
+    <award award_id="7" type="1" param1="25" point="1" tab="3" des="強化25次裝備">
+
+      <RewardItem item_id="1540" value="1000"/>
+    </award>
+ 
+  </seven_day>
+
+  <seven_day day="2" item="送金裝衣服">
+    <!--登錄-->
+    <login_awd awd_item="2128" awd_num="1" point="1" tab="1" des="今日登錄獎勵"/>
+    <!--半價-->
+    <half_buy shop_item="2133" shop_num="1" cost="1000" point="5" tab="2" des="今日半價"/>
+
+    <!--等級-->
+    <award award_id="1" type="2" param1="2,1" point="1" tab="1" des="等級到達2轉1級">
+
+      <RewardItem item_id="2140" value="1"/>
+    </award>
+    <!--消費-->
+    <award award_id="2" type="3" param1="500" point="5" tab="1" des="消費500鑽石">
+
+      <RewardItem item_id="2146" value="1"/>
+    </award>
+    <!--強化-->
+    <award award_id="3" type="1" param1="5" point="1" tab="3" des="強化5次裝備">
+
+      <RewardItem item_id="1540" value="50"/>
+    </award>
+
+    <award award_id="4" type="1" param1="10" point="1" tab="3" des="強化10次裝備">
+
+      <RewardItem item_id="1540" value="100"/>
+    </award>
+
+    <award award_id="5" type="1" param1="15" point="1" tab="3" des="強化15次裝備">
+
+      <RewardItem item_id="1540" value="200"/>
+    </award>
+
+    <award award_id="6" type="1" param1="20" point="1" tab="3" des="強化20次裝備">
+
+      <RewardItem item_id="1540" value="500"/>
+    </award>
+
+    <award award_id="7" type="1" param1="25" point="1" tab="3" des="強化25次裝備">
+
+      <RewardItem item_id="1540" value="1000"/>
+    </award>
+
+  </seven_day>
+
+  <seven_day day="3" item="送金裝武器">
+    <!--登錄-->
+    <login_awd awd_item="2129" awd_num="1" point="1" tab="1" des="今日登錄獎勵"/>
+    <!--半價-->
+    <half_buy shop_item="2134" shop_num="1" cost="1250" point="5" tab="2" des="今日半價"/>
+
+    <!--等級-->
+    <award award_id="1" type="2" param1="2,15" point="1" tab="1" des="等級到達2轉15級">
+
+      <RewardItem item_id="2141" value="50"/>
+    </award>
+    <!--消費-->
+    <award award_id="2" type="3" param1="500" point="5" tab="1" des="消費500鑽石">
+
+      <RewardItem item_id="2146" value="1"/>
+    </award>
+
+    <!--強化-->
+    <award award_id="3" type="1" param1="5" point="1" tab="3" des="強化5次裝備">
+
+      <RewardItem item_id="1540" value="50"/>
+    </award>
+
+    <award award_id="4" type="1" param1="10" point="1" tab="3" des="強化10次裝備">
+
+      <RewardItem item_id="1540" value="100"/>
+    </award>
+
+    <award award_id="5" type="1" param1="15" point="1" tab="3" des="強化15次裝備">
+
+      <RewardItem item_id="1540" value="200"/>
+    </award>
+
+    <award award_id="6" type="1" param1="20" point="1" tab="3" des="強化20次裝備">
+
+      <RewardItem item_id="1540" value="500"/>
+    </award>
+
+    <award award_id="7" type="1" param1="25" point="1" tab="3" des="強化25次裝備">
+
+      <RewardItem item_id="1540" value="1000"/>
+    </award>
+
+  </seven_day>
+  
+  
+
+  <seven_day day="4" item="送鸚鵡寵物">
+    <!--登錄-->
+    <login_awd awd_item="1618" awd_num="1" point="1" tab="1" des="今日登錄獎勵"/>
+    <!--半價-->
+    <half_buy shop_item="2135" shop_num="1" point="5" cost="1250" tab="2" des="今日半價"/>
+
+    <!--等級-->
+    <award award_id="1" type="2" param1="2,30" point="1" tab="1" des="等級到達2轉30級">
+
+      <RewardItem item_id="2142" value="1"/>
+    </award>
+    <!--消費-->
+    <award award_id="2" type="3" param1="500" point="5" tab="1" des="消費500鑽石">
+
+      <RewardItem item_id="2146" value="1"/>
+    </award>
+
+    <!--強化-->
+    <award award_id="3" type="1" param1="5" point="1" tab="3" des="強化5次裝備">
+
+      <RewardItem item_id="1540" value="50"/>
+    </award>
+
+    <award award_id="4" type="1" param1="10" point="1" tab="3" des="強化10次裝備">
+
+      <RewardItem item_id="1540" value="100"/>
+    </award>
+
+    <award award_id="5" type="1" param1="15" point="1" tab="3" des="強化15次裝備">
+
+      <RewardItem item_id="1540" value="200"/>
+    </award>
+
+    <award award_id="6" type="1" param1="20" point="1" tab="3" des="強化20次裝備">
+
+      <RewardItem item_id="1540" value="500"/>
+    </award>
+
+    <award award_id="7" type="1" param1="25" point="1" tab="3" des="強化25次裝備">
+
+      <RewardItem item_id="1540" value="1000"/>
+    </award>
+
+  </seven_day>
+
+  <seven_day day="5" item="送牛頭人召喚獸">
+    <!--登錄-->
+    <login_awd awd_item="4401" awd_num="1" point="1" tab="1" des="今日登錄獎勵"/>
+    <!--半價-->
+    <half_buy shop_item="2136" shop_num="1" point="5" cost="50" tab="2" des="今日半價"/>
+
+    <!--等級-->
+    <award award_id="1" type="2" param1="2,40" point="1" tab="1" des="等級到達2轉40級">
+
+      <RewardItem item_id="2143" value="1"/>
+    </award>
+    <!--消費-->
+    <award award_id="2" type="3" param1="500" point="5" tab="1" des="消費500鑽石">
+
+      <RewardItem item_id="2146" value="1"/>
+    </award>
+
+    <!--強化-->
+    <award award_id="3" type="1" param1="5" point="1" tab="3" des="強化5次裝備">
+
+      <RewardItem item_id="1540" value="50"/>
+    </award>
+
+    <award award_id="4" type="1" param1="10" point="1" tab="3" des="強化10次裝備">
+
+      <RewardItem item_id="1540" value="100"/>
+    </award>
+
+    <award award_id="5" type="1" param1="15" point="1" tab="3" des="強化15次裝備">
+
+      <RewardItem item_id="1540" value="200"/>
+    </award>
+
+    <award award_id="6" type="1" param1="20" point="1" tab="3" des="強化20次裝備">
+
+      <RewardItem item_id="1540" value="500"/>
+    </award>
+
+    <award award_id="7" type="1" param1="25" point="1" tab="3" des="強化25次裝備">
+
+      <RewardItem item_id="1540" value="1000"/>
+    </award>
+
+  </seven_day>
+
+  <seven_day day="6" item="送紫色項鍊">
+    <!--登錄-->
+    <login_awd awd_item="2130" awd_num="1" point="1" tab="1" des="今日登錄獎勵"/>
+    <!--半價-->
+    <half_buy shop_item="2137" shop_num="1" point="5" cost="50" tab="2" des="今日半價"/>
+
+    <!--等級-->
+    <award award_id="1" type="2" param1="1,2" point="1" tab="1" des="等級到達2轉50級">
+
+      <RewardItem item_id="2144" value="1"/>
+    </award>
+    <!--消費-->
+    <award award_id="2" type="3" param1="500" point="5" tab="1" des="消費500鑽石">
+
+      <RewardItem item_id="2146" value="1"/>
+    </award>
+
+    <!--強化-->
+    <award award_id="3" type="1" param1="5" point="1" tab="3" des="強化5次裝備">
+
+      <RewardItem item_id="1540" value="50"/>
+    </award>
+
+    <award award_id="4" type="1" param1="10" point="1" tab="3" des="強化10次裝備">
+
+      <RewardItem item_id="1540" value="100"/>
+    </award>
+
+    <award award_id="5" type="1" param1="15" point="1" tab="3" des="強化15次裝備">
+
+      <RewardItem item_id="1540" value="200"/>
+    </award>
+
+    <award award_id="6" type="1" param1="20" point="1" tab="3" des="強化20次裝備">
+
+      <RewardItem item_id="1540" value="500"/>
+    </award>
+
+    <award award_id="7" type="1" param1="25" point="1" tab="3" des="強化25次裝備">
+
+      <RewardItem item_id="1540" value="1000"/>
+    </award>
+
+  </seven_day>
+
+  <seven_day day="7" item="送紫色戒指*2">
+    <!--登錄-->
+    <login_awd awd_item="2131" awd_num="1" point="1" tab="1" des="今日登錄獎勵"/>
+    <!--半價-->
+    <half_buy shop_item="2138" shop_num="1" point="5" cost="50" tab="2" des="今日半價"/>
+
+    <!--等級-->
+    <award award_id="1" type="2" param1="1,2" point="1" tab="1" des="等級到達3轉1級">
+
+      <RewardItem item_id="2145" value="1"/>
+    </award>
+    <!--消費-->
+    <award award_id="2" type="3" param1="500" point="5" tab="1" des="消費500鑽石">
+
+      <RewardItem item_id="2146" value="1"/>
+    </award>
+
+    <!--強化-->
+    <award award_id="3" type="1" param1="5" point="1" tab="3" des="強化5次裝備">
+
+      <RewardItem item_id="1540" value="50"/>
+    </award>
+
+    <award award_id="4" type="1" param1="10" point="1" tab="3" des="強化10次裝備">
+
+      <RewardItem item_id="1540" value="100"/>
+    </award>
+
+    <award award_id="5" type="1" param1="15" point="1" tab="3" des="強化15次裝備">
+
+      <RewardItem item_id="1540" value="200"/>
+    </award>
+
+    <award award_id="6" type="1" param1="20" point="1" tab="3" des="強化20次裝備">
+
+      <RewardItem item_id="1540" value="500"/>
+    </award>
+
+    <award award_id="7" type="1" param1="25" point="1" tab="3" des="強化25次裝備">
+
+      <RewardItem item_id="1540" value="1000"/>
+    </award>
+  </seven_day>
+
+
+<!--25積分獎勵 烈焰火種100-->
+  <point_awd award_id="1" param1="25" >
+    <RewardItem item_id="1509" value="100"/>
+  </point_awd>
+  
+  <!--50積分獎勵 貓頭鷹寵物蛋-->
+  <point_awd award_id="2" param1="50" >
+    <RewardItem item_id="1619" value="1"/>
+  </point_awd>
+  
+  <!--75積分 5階紫色首飾一套-->
+  <point_awd award_id="3" param1="75" >
+    <RewardItem item_id="2125" value="1"/>
+  </point_awd>
+  <!--100積分 5階金裝一套-->
+  <point_awd award_id="4" param1="100" >
+    <RewardItem item_id="2126" value="1"/>
+  </point_awd>
+</seven_day_list>

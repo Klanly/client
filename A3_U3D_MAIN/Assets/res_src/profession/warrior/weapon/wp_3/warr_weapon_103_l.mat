@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: warr_weapon_103_l
+  m_Shader: {fileID: 4800000, guid: 8ab9797b75860a44f9d2edc670aa1bd4, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _CubeTex
+      second:
+        m_Texture: {fileID: 8900000, guid: fe6753031030b964c8b9a7389274ad02, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 0792105ea7445f04082642d4b747134c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SubTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 4aa5378e1fbf0754ebd35ee49e611d89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0.5
+    m_Colors:
+    - first:
+        name: _ChangeColor
+      second: {r: 1, g: 1, b: 1, a: 0}
+    - first:
+        name: _Color
+      second: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+    - first:
+        name: _SplColor
+      second: {r: 0.55687714, g: 0.61716986, b: 0.7352941, a: 1}
+    - first:
+        name: _SplRim
+      second: {r: 0.2, g: 0.1, b: 0.2, a: 0.2}

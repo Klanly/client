@@ -1,0 +1,63 @@
+<newbielist>
+
+<n id="1" p="onwinclose,a3_everydayLogin:zhuan,0|lv,1:st,newbie_teach_task,亲爱的勇士，这个世界需要您的力量，让我们开始这段冒险吧,page_main" />
+
+<n id="2" p="onwinclose,a3_skillopen:task,10,1:st,newbie_teach_skill,可以学习技能了，快打开技能界面试试吧,btn_9;stop:skilldraw;onskillon::st,close_newbie,恭喜你获得了强力的技能，点击这里可以返回主界面,close;stop:openexpbar|st,newbie_teach_task,让我们继续开始冒险吧,page_main" />
+
+
+<n id="3" p="ontask:task,111,0:stopmove1|closeexpbar|st,newbie_teach_friend,让我们和其他的勇士们一起进行这段冒险吧,btn_4;onwin:win,a3_shejiao:st,newbie_friend,点击这里可以打开好友界面,tab/friend;stop:st,newbie_add_friend,快来试试一键征友吧,btnClickOnceAddFriend;stop:st,newbie_add_all,点击这里，可以发送好友申请,btnAdd;stop:st,close_newbie,好了，让我们返回游戏主界面吧,close;stop:st,newbie_teach_task,点击这里，继续进行任务吧,page_main" />
+
+<n id="4" p="onwinclose,a3_funcopen:task,110,0:st,newbie_teach_do,恭喜您获得了一个宠物蛋，赶快使用吧,bg/do;stop:st,newbie_teach_exp,点击这里，打开宠物界面,btn_up;stop:st,newbie_teach_pet,激活宠物后可以获得强力的状态加成,btn_13;onwin:win,a3_new_pet:sts,showSth/help;stop:sta,help/btn,help/btn;stop:st,newbie_teach_2,激活宠物需要购买时间，快来试试吧,buyIt;stop:st,newbie_teach_3,点击这里，可以获得七天免费的宠物时间哦,buy0/image;stop:st,btn_close_newbie,恭喜您获得了宠物的状态加成，让我们返回主界面吧,btn_close;stop:st,newbie_teach_task,点击这里，继续进行任务吧,page_main" />
+
+<n id="5" p="onwinclose,a3_funcopen:task,306,0:st,newbie_teach_exp,可以强化装备了，快来试试吧,btn_up;stop:st,newbie_teach_equip,点击这里，打开装备锻造界面,btn_5;onwin:win,a3_equip:sts,help_btn;stop:sta,help/close,help/close;stop:st,newbie_equip_strength,强化装备可以大幅提升装备属性，快来试试吧,panel_tab1/btn_do;stop:st,btn_close_newbie,好了，让我们返回主界面吧,btn_close;stop:st,newbie_teach_task,点击这里，继续进行任务吧,page_main" />
+
+<n id="6" p="onwinclose,a3_funcopen:task,419,0:st,newbie_teach_exp,可以选择酷炫的翅膀了，快来看看吧,btn_up;stop:st,newbie_teach_wing,点击这里，打开飞翼界面,btn_10;onwin:win,a3_wing_skin:st,newbie_wing_choose,点击选中要激穿戴的翅膀,panel_icon/mask/scroll_rect/con_icon/1;stop:st,newbie_wing_strength,升级翅膀可以获得强力的属性加成，快来试试吧,con_level/onekey;stop:st,btn_close_newbie,好了，让我们返回主界面吧,btn_close;stop:st,newbie_teach_task,点击这里，继续进行任务吧,page_main" />
+
+<n id="7" p="ontask:task,101,0:st,newbie_teach_map,任务目标在另一个场景，让我们打开地图进行传送吧,btn_map;onwin:win,worldmap:st,newbie_map_world,点击这里，打开世界地图,tab/world;stop:st,newbie_map_selete,点击目的地就可以传送了，快试试吧,bts/2/p201;" />
+
+<n id="8" p="onaddpoint:task,502,1:closeallwin|st,newbie_teach_role,恭喜勇士转生成功，现在可以进入自由加点了，快试试吧,info/role;onwin:win,a3_role:st,btn_addpoint_nb,点击这里，可以打开角色加点界面,btn_add;stop:st,btn_add_NewBie,要我们试试推荐加点吧,btn_add_do;stop:st,btn_add_NewBie,点击确认，就可以完成加点了,btn_add_do;stop:st,btn_close_newbie,好了，让我们返回主界面吧,btn_close;" />
+
+<n id="9" p="onwinclose,a3_funcopen:task,507,0:st,newbie_teach_pk,切换战斗模式可以攻击不同的目标，快打开界面试试吧,pk" />
+
+<n id="10" p="onwinclose,a3_funcopen:task,601,0:st,newbie_teach_fb,破碎深渊开启了，通关副本可以获得大量经验，快试试吧,btnFB;onwin:win,a3_counterpart:st,newbie_part_enter,点击选择破碎深渊,exp/enter;stop:st,newbie_part_easy,点击这里可以选择难度，让我们从最简单的开始吧,choiceDef/easy" />
+
+<n id="11" p="ontask:task,325,0:stopmove1|openexpbar|st,newbie_teach_toggle,寻宝可以获得大量装备，更有概率获得极品装备，快试试手气吧,togglePlus;stop:st,newbie_teach_Lottery,点击这里打开寻宝界面,btn_enterLottery;onwin:win,a3_lottery:st,btn_freeOnce_newbie,快来试试单次寻宝吧,btn_NewBieOnce;stop:st,BtnOne_newbie,太棒了，居然是紫色衣服，快点击任意位置确认吧,BtnOne;stop:st,btn_close_newbie,好了，让我们返回主界面吧,btn_close;" />
+
+<n id="12" p="onwinclose,a3_funcopen:task,621,0:st,newbie_teach_fb,黑暗王座开启了，通关副本可以获得大量材料，快试试吧,btnFB;onwin:win,a3_counterpart:st,newbie_material_enter,点击选择黑暗王座,material/enter;stop:st,newbie_part_easy,点击这里可以选择难度，让我们从最简单的开始吧,choiceDef/easy" />
+<n id="13" p="onwinclose,a3_funcopen:task,604,0:st,newbie_teach_fb,黄金宝库开启了，通关副本可以获得大量金币，快试试吧,btnFB;onwin:win,a3_counterpart:st,newbie_gold_enter,点击选择黄金宝库,gold/enter;stop:st,newbie_part_easy,点击这里可以选择难度，让我们从最简单的开始吧,choiceDef/easy" />
+
+<n id="14" p="onwinclose,a3_funcopen:task,512,1:st,newbie_teach_exp,您的实力已经得到了认可，可以提升军衔了，快试试吧,btn_up;stop:st,newbie_teach_Ach,打击这里打开成就界面,btn_7;onwin:win,a3_achievement:st,newbie_teach_Get,您已经达成了不少的成就，快来领取荣誉点吧,con_page/view/con/901/btn_get;stop:st,newbie_teach_Get,还有可以领取的荣誉点呢,con_page/view/con/911/btn_get;stop:st,newbie_teach_Get,还有可以领取的荣誉点呢,con_page/view/con/921/btn_get;stop:st,newbie_teach_rank,好了，让我们切换到军衔界面吧,tabs/achi_name;stop:st,newbie_teach_up,提升军衔等级可以获得更多的属性加成，快来试试吧,a3_rank/con/upgrade_btn2;stop:st,btn_close_newbie,好了，让我们返回主界面吧,a3_rank/close;stop:st,newbie_teach_task,点击这里，继续进行任务吧,page_main" />
+
+<n id="15" p="ontask:task,105,0:stopmove1|openexpbar|st,newbie_teach_bag,用不上的装备可以分解成材料，快来试试吧,btn_1;onwin:win,a3_bag:st,newbie_teach_fenjie,点击这里，打开装备分解界面,item_scroll/equip;onwin:win,piliang_fenjie:st,newbie_teach_blue,这里可以选中要要分解的装备品质，让我们选中蓝色吧,Toggle_blue;stop:st,newbie_teach_do,让我们马上进行分解吧,info_bg/go;stop:st,newbie_teach_close,好了，让我们返回主界面吧,btn_close;stop:st,newbie_teach_exp,通过分解，您已经获得了不少魔晶，让我们进行技能升级吧,btn_up;stop:st,newbie_teach_skill,点击这里，打开技能界面,btn_9;onwin:win,skill_a3:st,newbie_btn_onekey,快来试试一键升级功能吧,skill/panel_left/onekey;stop:st,newbie_btn_ok,升级成功了,showOneKey/yes;stop:st,close_newbie,好了，让我们返回主界面吧,close;stop:openexpbar|st,newbie_teach_task,点击这里，继续进行任务吧,page_main" />
+
+
+<n id="16" p="onwinclose,a3_funcopen:task,704,0:st,newbie_teach_do,恭喜您获得了一只召唤兽，赶快使用吧,bg/do;stop:st,newbie_teach_exp,使用成功了，让我们打开界面看看吧,btn_up;stop:st,newbie_teach_sum,点击这里打开召唤兽界面,btn_8;onwin:win,a3_summon_new:st,newbie_teach_food,召唤兽的等级太低了，快喂食经验丹提升等级吧,exp/add;stop:st,newbie_teach_food_one,点击选中要喂养的经验丹,feeditems/scroll/content/1584;stop:st,newbie_teach_max,点击选择喂养数量,info/bodyNum/max;stop:st,newbie_teach_use,点击这里就可以喂养了，快试试吧,info/use;stop:st,newbie_teach_att,召唤兽已经升级了，快设置出战吧,btns/chuzhan;stop:st,btn_close_newbie,好了，让我们返回主界面吧,btn_close;stop:openexpbar|st,newbie_teach_task,点击这里，继续进行任务吧,page_main" />
+
+
+<n id="17" p="onwinclose,a3_funcopen:task,1104,0:st,newbie_teach_exp,精灵试炼开启了，通关副本可以解锁新的符文，快试试吧,btn_up;stop:st,newbie_teach_skill,点击这里，打开技能界面,btn_9;onwin:win,skill_a3:st,newbie_teach_shilianBt,点击这里打开试炼界面,shilian;onwin:win,a3_ygyiwu:st,newbie_shilian_jl,让我们切换到精灵试炼界面,btn/per_btn;stop:st,newbie_shilian_go,准备好了吗？让我们挑战第一个精灵吧,tab_01/per/view/con/1/t2/go" />
+
+
+<n id="18" p="onwinclose,a3_runeopen:task,1104,1:st,newbie_teach_skill,恭喜勇士解锁了新的符文，快来试试符文研究吧,btn_9;onwin:win,skill_a3:st,newbie_btn_rune,让我们切换到符文界面,panel/rune;stop:st,newbie_btn_runexz,点击选中要研究的符文,bg00/panel/100;stop:st,newbie_btn_runego,让我们赶快进行符文研究吧,rune/runeinfo/studybtn;stop:st,close_newbie,好了，让我们返回主界面吧,close;stop:openexpbar|st,newbie_teach_task,点击这里，继续进行任务吧,page_main" />
+
+<n id="19" p="onwinclose,newbie:task,3,0:st,newbie_teach_wait,快向团长报到吧,waitBG/btnDoWait" />
+
+<!-- <n id="20" p="ontask:task,13,0:st,newbie_teach_line,如果玩家过多影响体验，可以在这里切换到其它分线，快打开看看吧,btn_line" /> -->
+
+<n id="21" p="onwinclose,a3_funcopen:task,904,0:st,newbie_teach_toggle,解锁了新的战场“遗迹废墟”,togglePlus;stop:st,newbie_teach_sport,点击这里打开竞技界面,sports;onwin:win,a3_sports:st,newbie_teach_jdzc,切换到据点战场,sports_jdzc;stop:st,newbie_teach_tosure,在指定时间内，可以进行战场的匹配,tosureBt;stop:st,newbie_teach_btn_rank,点击这里可查看当前军衔进度,btn_rank;onwin:win,a3_rank:st,btn_close_newbie,可在战场内获得荣誉来提升军衔,close;onwin:win,a3_sports:st,btn_close_newbie,现在回到主界面吧,btn_close;" />
+
+<n id="22" p="onwinclose,a3_funcopen:task,713,0:st,newbie_teach_exp,圣器功能开启了,btn_up;stop:st,newbie_teach_hallows,点击这里，打开圣器界面,btn_19;onwin:win,a3_hallows:st,newbie_teach_hallowsbag,打开圣器宝箱,openbag_btn;stop:st,newbie_teach_item,选择一个圣器,hallows_bag/hallows_bg/scrollview/contain/0/icon;onwin:win,a3_itemtip:st,btn_use_newbie,点击装备，只能装备同一种类的圣器,use;stop:st,btn_fenjie_newbie,分解多余圣器，可获得圣魂,hallows_bag/hallows_bg/decompose_btn;stop:st,btn_closebag_newbie,关闭圣器宝箱,hallows_bag/hallows_bg/close_bag;stop:st,btn_tunshi_newbie,吞噬圣魂可提升当前圣器等级,right_bg/have/devour_btn;stop:st,btn_close_newbie,现在前往圣器的来源地——魔炼之地,close;stop:st,newbie_teach_huodong,点击活动,btnActive;onwin:win,a3_active:st,newbie_inmlzd,进入魔炼之地来获取圣器,contents/mlzd/enter"/>
+
+<n id="23" p="ontask:task,201,0:stopmove1|openexpbar|st,newbie_teach_toggle,让我们获得活跃,togglePlus;stop:st,newbie_teach_huoyue,点击这里可以打开活跃界面,hidBtns/canclosebtn/cont/huoyue;onwin:win,a3_activeOnline:st,newbie_teach_btn,每日完成活活跃任务可获得丰厚奖励,newbie_teach_btn;stop:st,newbie_day_btn,进入在线奖励,btn_panel/1;stop:st,newbie_get_btn,领取一次,contain_panel/1/btn" />
+
+<n id="24" p="onwinclose,newbie:task,201,0:st,btn_close_newbie,好了，让我们返回主界面吧,btn_close;stop:openexpbar|st,newbie_teach_task,点击这里，继续进行任务吧,page_main" />
+
+<n id="25" p="onwinclose,a3_funcopen:task,908,0:st,newbie_teach_exp,可以宝石操作了，快来试试吧,btn_up;stop:st,newbie_teach_equip,点击这里，打开装备锻造界面,btn_5;onwin:win,a3_equip:st,newbie_equip_hech,快来试试宝石合成吧,panelTab2/con/6;stop:sts,panel_tab7/help_btn;stop:sta,panel_tab7/help/close,panel_tab7/help/close;stop:st,newbie_equip_hech,快来试试宝石镶嵌吧,panelTab2/con/7;stop:sts,panel_tab8/help_btn;stop:sta,panel_tab8/help/close,panel_tab8/help/close;" />
+<n id="26" p="onwinclose,a3_funcopen:task,403,0:st,newbie_teach_exp,可以装备重铸了，快来试试吧,btn_up;stop:st,newbie_teach_equip,点击这里，打开装备锻造界面,btn_5;onwin:win,a3_equip:st,newbie_equip_chongzhu,快来试试装重铸吧,panelTab2/con/1;stop:sts,panel_tab2/help_btn;stop:sta,panel_tab2/help/close,panel_tab2/help/close;" />
+
+<n id="27" p="onwinclose,a3_funcopen:task,312,0:st,newbie_teach_exp,可以装备传承了，快来试试吧,btn_up;stop:st,newbie_teach_equip,点击这里，打开装备锻造界面,btn_5;onwin:win,a3_equip:st,newbie_equip_chuanch,快来试试装传承吧,panelTab2/con/2;stop:sts,panel_tab3/help_btn;stop:sta,panel_tab3/help/close,panel_tab3/help/close;" />
+
+<n id="28" p="onwinclose,a3_funcopen:task,1304,0:st,newbie_teach_exp,可以装备追加了，快来试试吧,btn_up;stop:st,newbie_teach_equip,点击这里，打开装备锻造界面,btn_5;onwin:win,a3_equip:st,newbie_equip_zhuijia,快来试试装追加吧,panelTab2/con/5;stop:sts,panel_tab6/help_btn;stop:sta,panel_tab6/help/close,panel_tab6/help/close;" />
+
+<n id="29" p="onwinclose,a3_funcopen:task,931,0:st,newbie_btn_ride,你拥有了一匹坐骑，点击这里骑乘,btn_ride/IsDown;stop:st,newbie_ride_look,骑乘后可以提升移动速度,newbie_ride_look;stop:st,newbie_teach_exp,我们来看看坐骑的基本设置,btn_up;stop:st,newbie_teach_ride,点击这里，打开坐骑界面,btn_2;onwin:win,ride_a3:st,newbie_toup,通过喂养果实进行升级,improve_auto;stop:st,newbie_model,点击外观按钮,BtnContainer/model;stop:st,newbie_model_sure,有相当多的坐骑可以选择,newbie_model_sure;stop:st,newbie_teach_close,好了，让我们返回主界面吧,close" />
+
+</newbielist>

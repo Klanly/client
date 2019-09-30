@@ -1,0 +1,26 @@
+<get_back>			
+	<!--每過t個小時，可以積攢一次領取，一共可以積攢max次-->		
+	<time t="24"  max="99"/>		
+	<!--	auto_play:掛機開關 1開 0關	-->
+	<get id="1"  icon="1" name="經驗副本" gem="1000" gem_bind="1000" auto_play="1">		
+		<itm get_exp="10000"/>	
+	</get>		
+	<get id="2" icon="2" name="金幣副本" gem="1000" gem_bind="1000" auto_play="1">		
+		<itm get_gold="10000"/>	
+	</get>		
+	<get id="3" icon="3" name="材料副本" gem="1000" gem_bind="1000" auto_play="1">		
+		<itm get_itm="1501" num="20"/>	
+		<itm get_itm="1504" num="20"/>	
+		<itm get_itm="1509" num="20"/>	
+		<itm get_itm="1510" num="20"/>	
+	</get>		
+	<get id="4" icon="4" name="裝備副本" gem="1000" gem_bind="1000" auto_play="1">		
+		<itm get_itm="3103" num="1"/>	
+	</get>		
+	<get id="5" icon="5" name="競技場" gem="1000" gem_bind="1000">		
+		<itm get_itm="3103" num="1"/>	
+	</get>		
+	<get id="6" icon="6" name="魔物獵人" gem="1000" gem_bind="1000">		
+		<itm get_itm="3103" num="1"/>	
+	</get>		
+</get_back>

@@ -1,0 +1,557 @@
+<achievementlist>								
+	<!-- 成就 -->							
+	<!-- 成就欄位說明：							
+	achievement_id 成就id							
+	category 組id(同一類型)							
+	type 成就類型 1.完成每日任務數量							
+   	              2.角色到達等級							
+				  3.獨立擊殺怪物param2 param1次				
+				  4.通關tpid=p2的副本p1次; 5.在單次的p3副本中擊殺param1次的p2怪物; 6.解鎖param1個技能				
+                7.JJC中排名達到PARAM1 8.VIP等級到達param1 9.角色戰鬥力到達param1 10.強化裝備param1次 11.拾取金幣param1量 12.罪惡值達到param1 13.好友數量達到param1								
+               14.傭兵等級達到param1 15.param1個符文到達param2級 16.翅膀階數到達param1 17.拍賣上架的物品數量到達param1 18.穿戴param1個quality為param2的裝備 19.寵物階數 ;								
+			   20在單次的p3副本中擊殺param1個怪物;21,參與擊殺param2的世界BOSS param1次;					
+			   22.訪問NPC;23.擊殺怪物;24.採集;25.達到指定的等級（和轉生數）;					
+			   26.完成p1次id為p2的任務；					
+			   27.重鑄裝備param1次；	28.裝備進階param1次；		29.裝備進行param1此寶石灌注；30.加入或著創建param1級軍團；31加入或著創建一個隊伍；32.仇人數量達到param1;33.解鎖param1個符文；		
+			   34.發送param1封郵件；	35.商城消費param1鑽石；		36.參加param1次競技場；		37.進行param1次傳承；
+			   38.分解p1次裝備；		39.升級p1次技能；			40.軍銜等級達到p1級；
+			41					
+			   42.擊殺1次p2(專屬怪)；					
+			   43.指定位置進行讀條；need_tm=讀條時間，單位秒；					
+			   44.委託任務：完成param1次委託任務					
+	param1 param2 param3 參數1 參數2 參數3							
+	bndyb 禮金							
+	point 成就點數 -->							
+ <!--成長-->
+<!--到達等級的成就-->
+  <achievement achievement_id="901" category="1" name="首次轉生" desc="角色達到等級1轉1級" type="2" param1="1" param2="1,1" bndyb="5" point="100" />
+  <achievement achievement_id="902" category="1" name="二次轉生" desc="角色達到等級2轉1級" type="2" param1="1" param2="2,1" bndyb="10" point="200" />
+  <achievement achievement_id="903" category="1" name="三次轉生" desc="角色達到等級3轉1級" type="2" param1="1" param2="3,1" bndyb="15" point="300" />
+  <achievement achievement_id="904" category="1" name="四次轉生" desc="角色達到等級4轉1級" type="2" param1="1" param2="4,1" bndyb="20" point="400" />
+  <achievement achievement_id="905" category="1" name="五次轉生" desc="角色達到等級5轉1級" type="2" param1="1" param2="5,1" bndyb="25" point="500" />
+  <achievement achievement_id="906" category="1" name="六次轉生" desc="角色達到等級6轉1級" type="2" param1="1" param2="6,1" bndyb="30" point="600" />
+  <!--
+  <achievement achievement_id="1007" category="1" name="七次轉生" desc="角色達到等級7轉1級" type="2" param1="1" param2="7,1" bndyb="35" point="700" />
+  <achievement achievement_id="1008" category="1" name="八次轉生" desc="角色達到等級8轉1級" type="2" param1="1" param2="8,1" bndyb="40" point="800" />
+  <achievement achievement_id="1009" category="1" name="九次轉生" desc="角色達到等級9轉1級" type="2" param1="1" param2="9,1" bndyb="45" point="900" />
+  <achievement achievement_id="1010" category="1" name="最終轉生" desc="角色達到等級10轉1級" type="2" param1="1" param2="10,1" bndyb="50" point="1000" />
+  -->
+  <!--技能與符文成就-->
+  <achievement achievement_id="911" category="1" name="初學武技" desc="解鎖1個技能" type="6" param1="1" bndyb="10" point="100" />
+  <achievement achievement_id="912" category="1" name="精通武技" desc="解鎖5個技能 " type="6" param1="5" bndyb="20" point="150" />
+  <achievement achievement_id="913" category="1" name="武學大師" desc="解鎖9個技能 " type="6" param1="9" bndyb="30" point="250" />
+  <achievement achievement_id="914" category="1" name="初識符文" desc="解鎖1個符文 " type="33" param1="1" bndyb="10" point="100" />
+  <achievement achievement_id="915" category="1" name="精通符文" desc="解鎖5個符文 " type="33" param1="5" bndyb="20" point="150" />
+  <achievement achievement_id="916" category="1" name="符文大師" desc="解鎖9個符文 " type="33" param1="9" bndyb="30" point="250" />
+  <!--翅膀的成就-->
+  <achievement achievement_id="921" category="1" name="1階飛翼" desc="翅膀等級達到的1階 " type="16" param1="1" bndyb="25" point="100" />
+  <achievement achievement_id="922" category="1" name="2階飛翼" desc="翅膀等級達到的2階 " type="16" param1="2" bndyb="35" point="200" />
+  <achievement achievement_id="923" category="1" name="3階飛翼" desc="翅膀等級達到的3階 " type="16" param1="3" bndyb="45" point="300" />
+  <achievement achievement_id="924" category="1" name="4階飛翼" desc="翅膀等級達到的4階 " type="16" param1="4" bndyb="55" point="400" />
+  <achievement achievement_id="925" category="1" name="5階飛翼" desc="翅膀等級達到的5階 " type="16" param1="5" bndyb="65" point="500" />
+  <achievement achievement_id="926" category="1" name="6階飛翼" desc="翅膀等級達到的6階 " type="16" param1="6" bndyb="75" point="600" />
+  <achievement achievement_id="927" category="1" name="7階飛翼" desc="翅膀等級達到的7階 " type="16" param1="7" bndyb="85" point="700" />
+  <achievement achievement_id="928" category="1" name="8階飛翼" desc="翅膀等級達到的8階 " type="16" param1="8" bndyb="95" point="800" />
+
+<!--裝備成就-->
+  <achievement achievement_id="1011" category="1" name="初識良品" desc="曾穿戴過一件綠色裝備" type="18" param1="1" param2="2" bndyb="5" point="75"/>
+  <achievement achievement_id="1012" category="1" name="全身良品" desc="曾全身穿戴過綠色裝備" type="18" param1="7" param2="2" bndyb="10" point="300"/>
+  <achievement achievement_id="1013" category="1" name="初識精品" desc="曾穿戴過一件藍色裝備" type="18" param1="1" param2="3" bndyb="15" point="100"/>
+  <achievement achievement_id="1014" category="1" name="全身精品" desc="曾全身穿戴過藍色裝備" type="18" param1="7" param2="3" bndyb="30" point="400"/>
+  <achievement achievement_id="1015" category="1" name="初識神品" desc="曾穿戴過一件紫色裝備" type="18" param1="1" param2="4" bndyb="50" point="125"/>
+  <achievement achievement_id="1016" category="1" name="全身神品" desc="曾全身穿戴過紫色裝備" type="18" param1="7" param2="4" bndyb="100" point="500"/>
+  <achievement achievement_id="1017" category="1" name="初識聖品" desc="曾穿戴過一件橙色裝備" type="18" param1="1" param2="5" bndyb="200" point="150"/>
+  <achievement achievement_id="1018" category="1" name="全身聖品" desc="曾全身穿戴過橙色裝備" type="18" param1="7" param2="5" bndyb="500" point="600"/>
+  <achievement achievement_id="1019" category="1" name="強化裝備" desc="完成一次裝備強化" type="10" param1="1"  bndyb="10" point="50"/>
+  <achievement achievement_id="1020" category="1" name="重鑄裝備" desc="完成一次裝備重鑄" type="27" param1="1"  bndyb="10" point="50"/>
+  <achievement achievement_id="1021" category="1" name="裝備傳承" desc="完成一次裝備傳承" type="37" param1="1"  bndyb="10" point="50"/>
+  <achievement achievement_id="1022" category="1" name="裝備進階" desc="完成一次裝備精煉" type="28" param1="1"  bndyb="10" point="50"/>
+  <achievement achievement_id="1023" category="1" name="寶石鑲嵌" desc="完成一次寶石鑲嵌" type="29" param1="1"  bndyb="10" point="50"/>
+<!--社交成就-->
+  <achievement achievement_id="1024" category="1" name="初識好友 " desc="添加1個好友 " type="13" param1="1" bndyb="5" point="50" />
+  <achievement achievement_id="1025" category="1" name="義氣相投 " desc="添加10個好友 " type="13" param1="10" bndyb="10" point="100" />
+  <achievement achievement_id="1026" category="1" name="社交達人 " desc="添加50個好友 " type="13" param1="50" bndyb="20" point="150" />
+  <achievement achievement_id="1027" category="1" name="名揚天下 " desc="添加100個好友 " type="13" param1="100" bndyb="30" point="200" />
+  <achievement achievement_id="1028" category="1" name="初入軍團 " desc="加入或創建一個一級軍團 " type="30" param1="1" param2="1" bndyb="10" point="100" />
+  <achievement achievement_id="1029" category="1" name="二級軍團 " desc="加入或創建一個二級軍團 " type="30" param1="1" param2="2" bndyb="20" point="200" />
+  <achievement achievement_id="1030" category="1" name="三級軍團 " desc="加入或創建一個三級軍團 " type="30" param1="1" param2="3" bndyb="30" point="300" />
+  <achievement achievement_id="1031" category="1" name="四級軍團 " desc="加入或創建一個四級軍團 " type="30" param1="1" param2="4" bndyb="40" point="400" />
+  <achievement achievement_id="1032" category="1" name="五級軍團 " desc="加入或創建一個五級軍團 " type="30" param1="1" param2="5" bndyb="50" point="500" />
+  <achievement achievement_id="1033" category="1" name="六級軍團 " desc="加入或創建一個六級軍團 " type="30" param1="1" param2="6" bndyb="60" point="600" />
+  <achievement achievement_id="1034" category="1" name="七級軍團 " desc="加入或創建一個七級軍團 " type="30" param1="1" param2="7" bndyb="70" point="700" />
+  <achievement achievement_id="1035" category="1" name="八級軍團 " desc="加入或創建一個八級軍團 " type="30" param1="1" param2="8" bndyb="80" point="800" />
+  <achievement achievement_id="1035" category="1" name="九級軍團 " desc="加入或創建一個九級軍團 " type="30" param1="1" param2="9" bndyb="90" point="900" />
+  <achievement achievement_id="1035" category="1" name="十級軍團 " desc="加入或創建一個十級軍團 " type="30" param1="1" param2="10" bndyb="100" point="1000" />
+  <achievement achievement_id="1035" category="1" name="十一級軍團 " desc="加入或創建一個十一級軍團 " type="30" param1="1" param2="11" bndyb="110" point="1100" />
+  <achievement achievement_id="1035" category="1" name="十二級軍團 " desc="加入或創建一個十二級軍團 " type="30" param1="1" param2="12" bndyb="120" point="1200" />
+  <achievement achievement_id="1036" category="1" name="結伴而行 " desc="加入或創建一個隊伍 " type="31" param1="1" bndyb="5" point="50" />
+
+<!--敵人與罪惡值成就-->
+  <achievement achievement_id="1037" category="1" name="首殺" desc="罪惡值達到1點" type="12" param1="1" bndyb="5" point="50" />
+  <achievement achievement_id="1038" category="1" name="作惡多端" desc="罪惡值達到50點" type="12" param1="50" bndyb="10" point="100" />
+  <achievement achievement_id="1039" category="1" name="罪行累累" desc="罪惡值達到100點" type="12" param1="100" bndyb="20" point="200" />
+  <achievement achievement_id="1040" category="1" name="殺人如麻" desc="罪惡值達到500點" type="12" param1="500" bndyb="50" point="500" />
+  <achievement achievement_id="1041" category="1" name="罪名昭彰" desc="罪惡值達到999點" type="12" param1="999" bndyb="100" point="1000" />
+  <achievement achievement_id="1043" category="1" name="初結仇人" desc="擁有1個仇人" type="32" param1="1" bndyb="5" point="10" />
+  <achievement achievement_id="1044" category="1" name="憤懣不平" desc="擁有10個仇人" type="32" param1="10" bndyb="5" point="20" />
+  <achievement achievement_id="1045" category="1" name="血海深仇" desc="擁有50個仇人" type="32" param1="50" bndyb="5" point="50" />
+
+
+  <!--
+  <achievement achievement_id="1060" category="1" name="9階飛翼" desc="翅膀等級達到的9階 " type="16" param1="9" bndyb="50" point="900" />
+  <achievement achievement_id="1061" category="1" name="10階飛翼" desc="翅膀等級達到的10階 " type="16" param1="10" bndyb="55" point="1000" />
+  <achievement achievement_id="1062" category="1" name="11階飛翼" desc="翅膀等級達到的11階 " type="16" param1="11" bndyb="60" point="1100" />
+  <achievement achievement_id="1063" category="1" name="12階飛翼" desc="翅膀等級達到的12階 " type="16" param1="12" bndyb="65" point="1200" />
+  -->
+<!--主線劇情的成就-->
+  <!-- <achievement achievement_id="1060" category="1" name="正史·序" desc="完成序章的劇情任務" type="26" param1="1" param2="18" bndyb="5" point="100"/>
+  <achievement achievement_id="1061" category="1" name="正史·一" desc="完成第一章的劇情任務" type="26" param1="1" param2="113" bndyb="10" point="200"/>
+  <achievement achievement_id="1062" category="1" name="正史·二" desc="完成第二章的劇情任務" type="26" param1="1" param2="214" bndyb="15" point="300"/>
+  <achievement achievement_id="1063" category="1" name="正史·三" desc="完成第三章的劇情任務" type="26" param1="1" param2="326" bndyb="20" point="400"/>
+  <achievement achievement_id="1064" category="1" name="正史·四" desc="完成第四章的劇情任務" type="26" param1="1" param2="424" bndyb="25" point="500"/>
+  <achievement achievement_id="1065" category="1" name="正史·五" desc="完成第五章的劇情任務" type="26" param1="1" param2="518" bndyb="30" point="600"/>
+  <achievement achievement_id="1066" category="1" name="正史·六" desc="完成第六章的劇情任務" type="26" param1="1" param2="626" bndyb="35" point="700"/>
+  <achievement achievement_id="1067" category="1" name="正史·七" desc="完成第七章的劇情任務" type="26" param1="1" param2="715" bndyb="40" point="800"/>
+  <achievement achievement_id="1068" category="1" name="正史·八" desc="完成第八章的劇情任務" type="26" param1="1" param2="816" bndyb="45" point="900"/>
+  <achievement achievement_id="1069" category="1" name="正史·九" desc="完成第九章的劇情任務" type="26" param1="1" param2="913" bndyb="50" point="1000"/>
+  <achievement achievement_id="1070" category="1" name="正史·十" desc="完成第十章的劇情任務" type="26" param1="1" param2="1014" bndyb="55" point="1100"/>
+  <achievement achievement_id="1071" category="1" name="正史·十一" desc="完成第十一章的劇情任務" type="26" param1="1" param2="1112" bndyb="60" point="1200"/>
+  <achievement achievement_id="1072" category="1" name="正史·十二" desc="完成第十二章的劇情任務" type="26" param1="1" param2="1213" bndyb="65" point="1300"/> -->
+<!--完成每日任務的成就-->
+  <achievement achievement_id="1073" category="1" name="委以重任" desc="完成10次委託任務 " type="44" param1="10" bndyb="10" point="100"/>
+  <achievement achievement_id="1074" category="1" name="完成使命" desc="完成30次委託任務 " type="44" param1="30" bndyb="20" point="130"/>
+  <achievement achievement_id="1075" category="1" name="恪盡職守" desc="完成70次委託任務 " type="44" param1="70" bndyb="30" point="190"/>
+  <achievement achievement_id="1076" category="1" name="持之以恆" desc="完成150次委託任務 " type="44" param1="150" bndyb="40" point="220"/>
+  <achievement achievement_id="1077" category="1" name="孜孜不倦" desc="完成300次委託任務 " type="44" param1="300" bndyb="50" point="250"/>
+  <achievement achievement_id="1078" category="1" name="任務達人" desc="完成500次委託任務 " type="44" param1="500" bndyb="60" point="280"/>
+  <achievement achievement_id="1079" category="1" name="賞金獵人" desc="完成1000次委託任務 " type="44" param1="1000" bndyb="70" point="300"/>
+<!--戰鬥力的成就-->
+  <achievement achievement_id="1080" category="1" name="一段" desc="角色達到戰鬥力10000 " type="9" param1="10000" bndyb="10" point="100" />
+  <achievement achievement_id="1081" category="1" name="二段" desc="角色達到戰鬥力20000 " type="9" param1="20000" bndyb="20" point="200" />
+  <achievement achievement_id="1082" category="1" name="三段" desc="角色達到戰鬥力30000 " type="9" param1="30000" bndyb="30" point="300" />
+  <achievement achievement_id="1083" category="1" name="四段" desc="角色達到戰鬥力50000 " type="9" param1="50000" bndyb="50" point="500" />
+  <achievement achievement_id="1084" category="1" name="五段" desc="角色達到戰鬥力70000 " type="9" param1="70000" bndyb="70" point="700" />
+  <achievement achievement_id="1085" category="1" name="六段" desc="角色達到戰鬥力100000 " type="9" param1="100000" bndyb="100" point="1000" />
+  <achievement achievement_id="1086" category="1" name="七段" desc="角色達到戰鬥力300000 " type="9" param1="300000" bndyb="300" point="3000" />
+  <achievement achievement_id="1087" category="1" name="八段" desc="角色達到戰鬥力500000 " type="9" param1="500000" bndyb="500" point="5000" />
+  <achievement achievement_id="1088" category="1" name="九段" desc="角色達到戰鬥力700000 " type="9" param1="700000" bndyb="700" point="7000" />
+  <achievement achievement_id="1089" category="1" name="化境" desc="角色達到戰鬥力1000000 " type="9" param1="1000000" bndyb="1000" point="10000" />
+<!--拍賣的成就-->
+  <achievement achievement_id="1090" category="1" name="初識拍賣" desc="在拍賣行上架1件物品 " type="17" param1="1" bndyb="5" point="10" />
+  <achievement achievement_id="1091" category="1" name="漸入拍賣" desc="在拍賣行上架10件物品 " type="17" param1="10" bndyb="15" point="50" />
+  <achievement achievement_id="1092" category="1" name="熟悉拍賣" desc="在拍賣行上架50件物品 " type="17" param1="50" bndyb="30" point="150" />
+  <achievement achievement_id="1093" category="1" name="拍賣達人" desc="在拍賣行上架100件物品 " type="17" param1="100" bndyb="70" point="300" />
+  <achievement achievement_id="1094" category="1" name="職業商人" desc="在拍賣行上架500件物品 " type="17" param1="500" bndyb="150" point="500" />
+  
+  
+ 
+ 
+<!--副本的成就-->
+  <achievement achievement_id="2001" category="2" name="初臨深淵" desc="單人或組隊通關經驗副本1次" type="4" param1="1" param2="101" bndyb="5" point="10"/>
+  <achievement achievement_id="2002" category="2" name="毀滅深淵" desc="單人或組隊通關經驗副本100次" type="4" param1="100" param2="101" bndyb="100" point="1000"/>
+  <achievement achievement_id="2003" category="2" name="深淵裁決" desc="單人或組隊通關經驗副本1000次" type="4" param1="1000" param2="101" bndyb="500" point="10000"/>
+  <achievement achievement_id="2004" category="2" name="初窺寶藏" desc="單人或組隊通關金幣副本1次" type="4" param1="1" param2="102" bndyb="5" point="10"/>
+  <achievement achievement_id="2005" category="2" name="搶奪寶藏" desc="單人或組隊通關金幣副本100次" type="4" param1="100" param2="102" bndyb="100" point="1000"/>
+  <achievement achievement_id="2006" category="2" name="黃金王的噩夢" desc="單人或組隊通關金幣副本1000次" type="4" param1="1000" param2="102" bndyb="500" point="10000"/>
+  <achievement achievement_id="2007" category="2" name="初識風神王座" desc="單人或組隊通關材料副本1次" type="4" param1="1" param2="103" bndyb="5" point="10"/>
+  <achievement achievement_id="2008" category="2" name="毀滅邪惡天使" desc="單人或組隊通關材料副本100次" type="4" param1="100" param2="103" bndyb="100" point="1000"/>
+  <achievement achievement_id="2009" category="2" name="淨化天使之城" desc="單人或組隊通關材料副本1000次" type="4" param1="1000" param2="103" bndyb="500" point="10000"/>
+<!--世界boss的成就-->
+  <achievement achievement_id="2010" category="2" name="暗天狂魔" desc="參與擊殺暗天狂魔1次" type="21" param1="1" param2="2002" bndyb="300" point="10000"/>
+  <achievement achievement_id="2011" category="2" name="墮落狂魔" desc="參與擊殺墮落狂魔1次" type="21" param1="1" param2="2003" bndyb="300" point="10000"/>
+  <achievement achievement_id="2012" category="2" name="赤血狂魔" desc="參與擊殺赤血狂魔1次" type="21" param1="1" param2="2004" bndyb="300" point="10000"/>
+  <achievement achievement_id="2013" category="2" name="勇者大陸的暗影" desc="擊殺勇者大陸隨機出現的精英怪物一次" type="3" param1="1" param2="30000" bndyb="100" point="75"/>
+  <achievement achievement_id="2014" category="2" name="幽暗森林的悲傷" desc="擊殺幽暗森林隨機出現的精英怪物一次" type="3" param1="1" param2="30001" bndyb="100" point="150"/>
+  <achievement achievement_id="2015" category="2" name="死亡沙漠的狂沙" desc="擊殺死亡沙漠隨機出現的精英怪物一次" type="3" param1="1" param2="30002" bndyb="100" point="225"/>
+  <achievement achievement_id="2016" category="2" name="坎特魯遺址的暗潮" desc="擊殺坎特魯遺址隨機出現的精英怪物一次" type="3" param1="1" param2="30003" bndyb="100" point="300"/>
+  <achievement achievement_id="2017" category="2" name="亞特蘭蒂斯的侵襲" desc="擊殺亞特蘭蒂斯隨機出現的精英怪物一次" type="3" param1="1" param2="30004" bndyb="100" point="375"/>
+  <!--
+  <achievement achievement_id="2018" category="2" name="失落聖殿的暗潮" desc="擊殺失落聖殿隨機出現的精英怪物一次" type="3" param1="1" param2="30003" bndyb="100" point="450"/>
+  <achievement achievement_id="2019" category="2" name="熔岩神殿的烈焰" desc="擊殺熔岩神殿隨機出現的精英怪物一次" type="3" param1="1" param2="2001" bndyb="100" point="525"/>
+  <achievement achievement_id="2020" category="2" name="拜魯神殿的祭祀" desc="擊殺拜魯神殿隨機出現的精英怪物一次" type="3" param1="1" param2="2001" bndyb="100" point="600"/>
+  <achievement achievement_id="2021" category="2" name="黑暗沼澤的危機" desc="擊殺地城廢墟隨機出現的精英怪物一次" type="3" param1="1" param2="2001" bndyb="100" point="675"/>
+  <achievement achievement_id="2022" category="2" name="人之禁地的秘密" desc="擊殺人之禁地隨機出現的精英怪物一次" type="3" param1="1" param2="2001" bndyb="100" point="750"/>
+  -->
+<!--地圖的成就-->
+
+
+
+  
+  
+ 
+<!--VIP等級的成就-->
+  <achievement achievement_id="3001" category="3" name="VIP1級" desc="VIP等級達到1級 " type="8" param1="1" point="100" />
+  <achievement achievement_id="3002" category="3" name="VIP2級" desc="VIP等級達到2級 " type="8" param1="2" point="500" />
+  <achievement achievement_id="3003" category="3" name="VIP3級" desc="VIP等級達到3級 " type="8" param1="3" point="1000" />
+  <achievement achievement_id="3004" category="3" name="VIP4級" desc="VIP等級達到4級 " type="8" param1="4" point="2000" />
+  <achievement achievement_id="3005" category="3" name="VIP5級" desc="VIP等級達到5級 " type="8" param1="5" point="3000" />
+  <achievement achievement_id="3006" category="3" name="VIP6級" desc="VIP等級達到6級 " type="8" param1="6" point="4000" />
+  <achievement achievement_id="3007" category="3" name="VIP7級" desc="VIP等級達到7級 " type="8" param1="7" point="5000" />
+  <achievement achievement_id="3008" category="3" name="VIP8級" desc="VIP等級達到8級 " type="8" param1="8" point="6000" />
+  <achievement achievement_id="3009" category="3" name="VIP9級" desc="VIP等級達到9級 " type="8" param1="9" point="7000" />
+  <achievement achievement_id="3010" category="3" name="VIP10級" desc="VIP等級達到10級 " type="8" param1="10" point="8000" />
+  <achievement achievement_id="3011" category="3" name="VIP11級" desc="VIP等級達到11級 " type="8" param1="11" point="9000" />
+  <achievement achievement_id="3012" category="3" name="VIP12級" desc="VIP等級達到12級 " type="8" param1="12" point="10000" />
+<!--鑽石消費的成就-->
+  <achievement achievement_id="3013" category="3" name="初次消費" desc="商城消費10鑽石及以上 " type="35" param1="10" bndyb="5" point="10" />
+  <achievement achievement_id="3014" category="3" name="奇跡平民" desc="商城消費100鑽石及以上" type="35" param1="100" bndyb="50" point="100" />
+  <achievement achievement_id="3015" category="3" name="奇跡男爵" desc="商城消費500鑽石及以上" type="35" param1="500" bndyb="100" point="500" />
+  <achievement achievement_id="3016" category="3" name="奇跡子爵" desc="商城消費1000鑽石及以上" type="35" param1="1000" bndyb="200" point="1000" />
+  <achievement achievement_id="3017" category="3" name="奇跡伯爵" desc="商城消費2000鑽石及以上" type="35" param1="2000" bndyb="300" point="2000" />
+  <achievement achievement_id="3018" category="3" name="奇跡侯爵" desc="商城消費5000鑽石及以上" type="35" param1="5000" bndyb="400" point="5000" />
+  <achievement achievement_id="3019" category="3" name="奇跡公爵" desc="商城消費10000鑽石及以上" type="35" param1="10000" bndyb="500" point="10000" />
+
+  
+  
+  
+<!--競技場中的成就-->
+  <achievement achievement_id="4001" category="4" name="試劍" desc="參與一次競技場活動 "    type="36" param1="1" bndyb="10" point="100" />
+  <achievement achievement_id="4002" category="4" name="入門" desc="在競技場中的段位達到入門" type="7" param1="1" param2="2" bndyb="10" point="10" />
+  <achievement achievement_id="4003" category="4" name="新銳" desc="在競技場中的段位達到新銳" type="7" param1="1" param2="3" bndyb="15" point="50" />
+  <achievement achievement_id="4004" category="4" name="鬥士" desc="在競技場中的段位達到鬥士" type="7" param1="1" param2="4" bndyb="20" point="100" />
+  <achievement achievement_id="4005" category="4" name="強者" desc="在競技場中的段位達到強者" type="7" param1="1" param2="5" bndyb="25" point="150" />
+  <achievement achievement_id="4006" category="4" name="狂人" desc="在競技場中的段位達到狂人" type="7" param1="1" param2="6" bndyb="30" point="200" />
+  <achievement achievement_id="4007" category="4" name="達人" desc="在競技場中的段位達到達人" type="7" param1="1" param2="7" bndyb="50" point="500" />
+  <achievement achievement_id="4008" category="4" name="名人" desc="在競技場中的段位達到名人" type="7" param1="1" param2="8" bndyb="100" point="1000" />
+  <achievement achievement_id="4009" category="4" name="霸者" desc="在競技場中的段位達到霸者" type="7" param1="1" param2="9" bndyb="200" point="3000" />
+  <achievement achievement_id="4010" category="4" name="大師" desc="在競技場中的段位達到大師" type="7" param1="1" param2="10" bndyb="300" point="5000" />
+  <achievement achievement_id="4011" category="4" name="至尊" desc="在競技場中的段位達到至尊" type="7" param1="1" param2="11" bndyb="500" point="7000" />
+  <achievement achievement_id="4012" category="4" name="鬥神" desc="在競技場中的段位達到鬥神" type="7" param1="1" param2="12" bndyb="1000" point="10000" />
+
+  
+  
+  
+
+
+
+  
+
+
+
+
+  
+
+
+ 
+
+
+
+  <!--<achievement achievement_id="1" category="1" name="任務達人" desc="完成一次每日任務數量 " type="1" param1="1" bndyb="5" point="10"/>		
+	<achievement achievement_id="2" category="1" name="任務達人" desc="角色達到等級10 " type="2" param1="10" bndyb="5" point="10" />	
+	<achievement achievement_id="3" category="1" name="任務達人" desc="擊殺15怪物數量10 " type="3" param1="15" param2="100" bndyb="5" point="10"/>	
+	<achievement achievement_id="4" category="1" name="任務達人" desc="通關110副本 " type="4" param1="110" bndyb="5" point="10"/>	
+	<achievement achievement_id="5" category="1" name="任務達人" desc="一次副本過程中，擊殺112怪物的數量10" type="5" param1="112" param2="10" bndyb="5" point="10"/>	
+	<achievement achievement_id="6" category="1" name="任務達人" desc="把3個技能提升到5等級 " type="6" param1="3" param2="5" bndyb="5" point="10" />	
+	<achievement achievement_id="7" category="1" name="任務達人" desc="在JJC中的排名達到100 " type="7" param1="100" bndyb="5" point="10" />	
+	<achievement achievement_id="8" category="1" name="任務達人" desc="VIP等級3 " type="8" param1="3" bndyb="5" point="10" />	
+	<achievement achievement_id="9" category="1" name="任務達人" desc="角色達到戰鬥力1000 " type="9" param1="1000" bndyb="5" point="10" />	
+	<achievement achievement_id="10" category="1" name="任務達人" desc="強化裝備次數5 " type="10" param1="5" bndyb="5" point="10" />	
+	<achievement achievement_id="11" category="1" name="任務達人" desc="拾取的金幣總量10000 " type="11" param1="10000" bndyb="5" point="10" />	
+	<achievement achievement_id="12" category="1" name="任務達人" desc="達到的罪惡值50 " type="12" param1="50" bndyb="5" point="10" />	
+	<achievement achievement_id="13" category="1" name="任務達人" desc="好友數量20 " type="13" param1="20" bndyb="5" point="10" />	
+	<achievement achievement_id="14" category="1" name="任務達人" desc="傭兵等級5 " type="14" param1="5" bndyb="5" point="10" />	
+	<achievement achievement_id="15" category="1" name="任務達人" desc="2個符文達到的10級 " type="15" param1="2" param2="10" bndyb="5" point="10" />	
+	<achievement achievement_id="16" category="1" name="任務達人" desc="翅膀達到的階數5 " type="16" param1="5" bndyb="5" point="10" />	
+	<achievement achievement_id="17" category="1" name="任務達人" desc="在拍賣行上架過的商品總數量10 " type="17" param1="10" bndyb="5" point="10" />	
+	<achievement achievement_id="18" category="1" name="任務達人" desc="穿戴的裝備有2個是2階以上" type="18" param1="2" param2="2" bndyb="5" point="10"/>	
+	<achievement achievement_id="19" category="1" name="任務達人" desc="寵物的階數3 " type="19" param1="3" bndyb="5" point="10"/>-->	
+		
+		
+	<!-- 軍銜-->	
+	<!-- 軍銜欄位說明：	
+	title_id 軍銜id	
+	title_name 軍銜名稱	
+	para 升至下級所需名望	
+	nature  軍銜屬性  att_type 屬性類型 att_value 屬性值 -->	
+	<title title_id="1" title_name="見習兵長" para="100">	
+    	<nature att_type="14" att_value="2800"/>	
+		<nature att_type="38" att_value="32"/>
+		<nature att_type="5" att_value="48"/>
+    	<nature att_type="6" att_value="28"/>	
+    	<nature att_type="7" att_value="28"/>	
+		<nature att_type="22" att_value="1"/>
+		<nature att_type="23" att_value="2"/>
+		<nature att_type="33" att_value="1"/>
+  	</title>	
+	<title title_id="2" title_name="低階兵長" para="1000">	
+    	<nature att_type="14" att_value="5600"/>	
+		<nature att_type="38" att_value="64"/>
+		<nature att_type="5" att_value="96"/>
+    	<nature att_type="6" att_value="56"/>	
+    	<nature att_type="7" att_value="56"/>	
+		<nature att_type="22" att_value="2"/>
+		<nature att_type="23" att_value="5"/>
+		<nature att_type="33" att_value="2"/>
+  	</title>	
+	<title title_id="3" title_name="中階兵長" para="1600">	
+    	<nature att_type="14" att_value="8400"/>	
+		<nature att_type="38" att_value="96"/>
+		<nature att_type="5" att_value="144"/>
+    	<nature att_type="6" att_value="84"/>	
+    	<nature att_type="7" att_value="84"/>	
+		<nature att_type="22" att_value="3"/>
+		<nature att_type="23" att_value="8"/>
+		<nature att_type="33" att_value="3"/>
+  	</title>	
+	<title title_id="4" title_name="高階兵長" para="2300">	
+    	<nature att_type="14" att_value="11200"/>	
+		<nature att_type="38" att_value="128"/>
+		<nature att_type="5" att_value="192"/>
+    	<nature att_type="6" att_value="112"/>	
+    	<nature att_type="7" att_value="112"/>	
+		<nature att_type="22" att_value="4"/>
+		<nature att_type="23" att_value="10"/>
+		<nature att_type="33" att_value="4"/>
+  	</title>	
+	<title title_id="5" title_name="見習尉長" para="3000">	
+    	<nature att_type="14" att_value="14000"/>	
+		<nature att_type="38" att_value="160"/>
+		<nature att_type="5" att_value="240"/>
+    	<nature att_type="6" att_value="140"/>	
+    	<nature att_type="7" att_value="140"/>	
+		<nature att_type="22" att_value="5"/>
+		<nature att_type="23" att_value="13"/>
+		<nature att_type="33" att_value="5"/>
+  	</title>	
+	<title title_id="6" title_name="低階尉長" para="3800">	
+    	<nature att_type="14" att_value="16800"/>	
+		<nature att_type="38" att_value="192"/>
+		<nature att_type="5" att_value="288"/>
+    	<nature att_type="6" att_value="168"/>	
+    	<nature att_type="7" att_value="168"/>	
+		<nature att_type="22" att_value="6"/>
+		<nature att_type="23" att_value="16"/>
+		<nature att_type="33" att_value="6"/>
+  	</title>	
+	<title title_id="7" title_name="中階尉長" para="4800">	
+    	<nature att_type="14" att_value="19600"/>	
+		<nature att_type="38" att_value="224"/>
+		<nature att_type="5" att_value="336"/>
+    	<nature att_type="6" att_value="196"/>	
+    	<nature att_type="7" att_value="196"/>	
+		<nature att_type="22" att_value="7"/>
+		<nature att_type="23" att_value="18"/>
+		<nature att_type="33" att_value="7"/>
+  	</title>	
+	<title title_id="8" title_name="高階尉長" para="5800">	
+    	<nature att_type="14" att_value="22400"/>	
+		<nature att_type="38" att_value="256"/>
+		<nature att_type="5" att_value="384"/>
+    	<nature att_type="6" att_value="224"/>	
+    	<nature att_type="7" att_value="224"/>	
+		<nature att_type="22" att_value="8"/>
+		<nature att_type="23" att_value="21"/>
+		<nature att_type="33" att_value="8"/>
+  	</title>	
+	<title title_id="9" title_name="見習騎士" para="7100">	
+    	<nature att_type="14" att_value="25200"/>	
+		<nature att_type="38" att_value="288"/>
+		<nature att_type="5" att_value="432"/>
+    	<nature att_type="6" att_value="252"/>	
+    	<nature att_type="7" att_value="252"/>	
+		<nature att_type="22" att_value="9"/>
+		<nature att_type="23" att_value="24"/>
+		<nature att_type="33" att_value="9"/>
+  	</title>	
+	<title title_id="10" title_name="低階騎士" para="8600">	
+    	<nature att_type="14" att_value="28000"/>	
+		<nature att_type="38" att_value="320"/>
+		<nature att_type="5" att_value="480"/>
+    	<nature att_type="6" att_value="280"/>	
+    	<nature att_type="7" att_value="280"/>	
+		<nature att_type="22" att_value="10"/>
+		<nature att_type="23" att_value="26"/>
+		<nature att_type="33" att_value="10"/>
+  	</title>	
+	<title title_id="11" title_name="中階騎士" para="11000">	
+    	<nature att_type="14" att_value="30800"/>	
+		<nature att_type="38" att_value="352"/>
+		<nature att_type="5" att_value="528"/>
+    	<nature att_type="6" att_value="308"/>	
+    	<nature att_type="7" att_value="308"/>	
+		<nature att_type="22" att_value="11"/>
+		<nature att_type="23" att_value="29"/>
+		<nature att_type="33" att_value="11"/>
+  	</title>	
+	<title title_id="12" title_name="高階騎士" para="13000">	
+    	<nature att_type="14" att_value="33600"/>	
+		<nature att_type="38" att_value="384"/>
+		<nature att_type="5" att_value="576"/>
+    	<nature att_type="6" att_value="336"/>	
+    	<nature att_type="7" att_value="336"/>	
+		<nature att_type="22" att_value="12"/>
+		<nature att_type="23" att_value="32"/>
+		<nature att_type="33" att_value="12"/>
+  	</title>	
+	<title title_id="13" title_name="自由騎士" para="16000">	
+    	<nature att_type="14" att_value="36400"/>	
+		<nature att_type="38" att_value="416"/>
+		<nature att_type="5" att_value="624"/>
+    	<nature att_type="6" att_value="364"/>	
+    	<nature att_type="7" att_value="364"/>	
+		<nature att_type="22" att_value="14"/>
+		<nature att_type="23" att_value="34"/>
+		<nature att_type="33" att_value="13"/>
+  	</title>	
+	<title title_id="14" title_name="圓桌騎士" para="20000">	
+    	<nature att_type="14" att_value="39200"/>	
+		<nature att_type="38" att_value="448"/>
+		<nature att_type="5" att_value="672"/>
+    	<nature att_type="6" att_value="392"/>	
+    	<nature att_type="7" att_value="392"/>	
+		<nature att_type="22" att_value="15"/>
+		<nature att_type="23" att_value="37"/>
+		<nature att_type="33" att_value="14"/>
+  	</title>	
+	<title title_id="15" title_name="龍騎士" para="25000">	
+    	<nature att_type="14" att_value="42000"/>	
+		<nature att_type="38" att_value="480"/>
+		<nature att_type="5" att_value="720"/>
+    	<nature att_type="6" att_value="420"/>	
+    	<nature att_type="7" att_value="420"/>	
+		<nature att_type="22" att_value="16"/>
+		<nature att_type="23" att_value="40"/>
+		<nature att_type="33" att_value="15"/>
+  	</title>	
+	<title title_id="16" title_name="真龍騎士" para="31000">	
+    	<nature att_type="14" att_value="44800"/>	
+		<nature att_type="38" att_value="512"/>
+		<nature att_type="5" att_value="768"/>
+    	<nature att_type="6" att_value="448"/>	
+    	<nature att_type="7" att_value="448"/>	
+		<nature att_type="22" att_value="17"/>
+		<nature att_type="23" att_value="42"/>
+		<nature att_type="33" att_value="16"/>
+  	</title>	
+	<title title_id="17" title_name="青銅之王" para="39000">	
+    	<nature att_type="14" att_value="47600"/>	
+		<nature att_type="38" att_value="544"/>
+		<nature att_type="5" att_value="816"/>
+    	<nature att_type="6" att_value="476"/>	
+    	<nature att_type="7" att_value="476"/>	
+		<nature att_type="22" att_value="18"/>
+		<nature att_type="23" att_value="45"/>
+		<nature att_type="33" att_value="17"/>
+  	</title>	
+	<title title_id="18" title_name="白銀之王" para="50000">	
+    	<nature att_type="14" att_value="50400"/>	
+		<nature att_type="38" att_value="576"/>
+		<nature att_type="5" att_value="864"/>
+    	<nature att_type="6" att_value="504"/>	
+    	<nature att_type="7" att_value="504"/>	
+		<nature att_type="22" att_value="19"/>
+		<nature att_type="23" att_value="48"/>
+		<nature att_type="33" att_value="18"/>
+  	</title>	
+	<title title_id="19" title_name="黃金之王" para="65000">	
+    	<nature att_type="14" att_value="53200"/>	
+		<nature att_type="38" att_value="608"/>
+		<nature att_type="5" att_value="912"/>
+    	<nature att_type="6" att_value="532"/>	
+    	<nature att_type="7" att_value="532"/>	
+		<nature att_type="22" att_value="20"/>
+		<nature att_type="23" att_value="50"/>
+		<nature att_type="33" att_value="19"/>
+  	</title>	
+	<title title_id="20" title_name="白金之王" para="84000">	
+    	<nature att_type="14" att_value="56000"/>	
+		<nature att_type="38" att_value="640"/>
+		<nature att_type="5" att_value="960"/>
+    	<nature att_type="6" att_value="560"/>	
+    	<nature att_type="7" att_value="560"/>	
+		<nature att_type="22" att_value="21"/>
+		<nature att_type="23" att_value="53"/>
+		<nature att_type="33" att_value="20"/>
+  	</title>	
+	<title title_id="21" title_name="統禦之王" para="110000">	
+    	<nature att_type="14" att_value="58800"/>	
+		<nature att_type="38" att_value="672"/>
+		<nature att_type="5" att_value="1008"/>
+    	<nature att_type="6" att_value="588"/>	
+    	<nature att_type="7" att_value="588"/>	
+		<nature att_type="22" att_value="22"/>
+		<nature att_type="23" att_value="56"/>
+		<nature att_type="33" att_value="21"/>
+  	</title>	
+	<title title_id="22" title_name="征服之王" para="150000">	
+    	<nature att_type="14" att_value="61600"/>	
+		<nature att_type="38" att_value="704"/>
+		<nature att_type="5" att_value="1056"/>
+    	<nature att_type="6" att_value="616"/>	
+    	<nature att_type="7" att_value="616"/>	
+		<nature att_type="22" att_value="23"/>
+		<nature att_type="23" att_value="58"/>
+		<nature att_type="33" att_value="22"/>
+  	</title>	
+	<title title_id="23" title_name="不滅之王" para="190000">	
+    	<nature att_type="14" att_value="64400"/>	
+		<nature att_type="38" att_value="736"/>
+		<nature att_type="5" att_value="1104"/>
+    	<nature att_type="6" att_value="644"/>	
+    	<nature att_type="7" att_value="644"/>	
+		<nature att_type="22" att_value="24"/>
+		<nature att_type="23" att_value="61"/>
+		<nature att_type="33" att_value="23"/>
+  	</title>	
+	<title title_id="24" title_name="大暗黑天" para="250000">	
+    	<nature att_type="14" att_value="67200"/>	
+		<nature att_type="38" att_value="768"/>
+		<nature att_type="5" att_value="1152"/>
+    	<nature att_type="6" att_value="672"/>	
+    	<nature att_type="7" att_value="672"/>	
+		<nature att_type="22" att_value="25"/>
+		<nature att_type="23" att_value="64"/>
+		<nature att_type="33" att_value="24"/>
+  	</title>	
+	<title title_id="25" title_name="天空之神" para="330000">	
+    	<nature att_type="14" att_value="70000"/>	
+		<nature att_type="38" att_value="800"/>
+		<nature att_type="5" att_value="1200"/>
+    	<nature att_type="6" att_value="700"/>	
+    	<nature att_type="7" att_value="700"/>	
+		<nature att_type="22" att_value="27"/>
+		<nature att_type="23" att_value="67"/>
+		<nature att_type="33" att_value="25"/>
+  	</title>	
+	<title title_id="26" title_name="無限之神" para="440000">	
+    	<nature att_type="14" att_value="72800"/>	
+		<nature att_type="38" att_value="832"/>
+		<nature att_type="5" att_value="1248"/>
+    	<nature att_type="6" att_value="728"/>	
+    	<nature att_type="7" att_value="728"/>	
+		<nature att_type="22" att_value="28"/>
+		<nature att_type="23" att_value="69"/>
+		<nature att_type="33" att_value="26"/>
+  	</title>	
+	<title title_id="27" title_name="眾神之神" para="580000">	
+    	<nature att_type="14" att_value="75600"/>	
+		<nature att_type="38" att_value="864"/>
+		<nature att_type="5" att_value="1296"/>
+    	<nature att_type="6" att_value="756"/>	
+    	<nature att_type="7" att_value="756"/>	
+		<nature att_type="22" att_value="29"/>
+		<nature att_type="23" att_value="72"/>
+		<nature att_type="33" att_value="27"/>
+  	</title>	
+	<title title_id="28" title_name="鑄星之神" para="770000">	
+    	<nature att_type="14" att_value="78400"/>	
+		<nature att_type="38" att_value="896"/>
+		<nature att_type="5" att_value="1344"/>
+    	<nature att_type="6" att_value="784"/>	
+    	<nature att_type="7" att_value="784"/>	
+		<nature att_type="22" att_value="30"/>
+		<nature att_type="23" att_value="75"/>
+		<nature att_type="33" att_value="28"/>
+  	</title>	
+	<title title_id="29" title_name="創世之神" para="1100000">	
+    	<nature att_type="14" att_value="81200"/>	
+		<nature att_type="38" att_value="928"/>
+		<nature att_type="5" att_value="1392"/>
+    	<nature att_type="6" att_value="812"/>	
+    	<nature att_type="7" att_value="812"/>	
+		<nature att_type="22" att_value="31"/>
+		<nature att_type="23" att_value="77"/>
+		<nature att_type="33" att_value="29"/>
+  	</title>	
+
+</achievementlist>

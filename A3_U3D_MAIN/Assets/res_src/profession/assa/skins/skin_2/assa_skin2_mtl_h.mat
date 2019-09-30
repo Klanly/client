@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: assa_skin2_mtl_h
+  m_Shader: {fileID: 4800000, guid: 59a1542c2c9f88941adf248a62dbd9bc, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _CubeTex
+      second:
+        m_Texture: {fileID: 8900000, guid: fe6753031030b964c8b9a7389274ad02, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: e2a6c350aa9721840a2e3cccd18e123f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _SubTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 534bef66a21c4b440a15e39fd2fa7f3f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: _Cutoff
+      second: 0
+    - first:
+        name: _Older
+      second: 0.48214287
+    - first:
+        name: _SHLightingScale
+      second: 1
+    m_Colors:
+    - first:
+        name: _ChangeColor
+      second: {r: 0.3544044, g: 0.27843857, b: 0.75735295, a: 0}
+    - first:
+        name: _Color
+      second: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+    - first:
+        name: _SplColor
+      second: {r: 0.53703505, g: 0.74420124, b: 0.9485294, a: 1}
+    - first:
+        name: _SplRim
+      second: {r: 1, g: 0.8, b: 0.2, a: 0.5}
+    - first:
+        name: _StrAnim
+      second: {r: 4, g: 5, b: 1, a: 0}
+    - first:
+        name: _StrColor
+      second: {r: 0.90755874, g: 0.9191176, b: 0.08109864, a: 1}

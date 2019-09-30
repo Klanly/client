@@ -1,0 +1,206 @@
+
+
+<activate_fun>
+<!--id:1:风,2:火,3:光,4:雷,5:冰-->
+<!--quality 装备品质 rate:获得词缀的概率 
+  add_min=20 add_max=80 表示词缀附加属性 固定附加值的20% ——80%之间的
+-->
+  
+   <eff>
+   <effect e="4" />
+   <effect e="7" />
+   <effect e="10" />
+   </eff>
+  
+  
+<eqp_prefix_name >
+    <rate quality="1" rate="0"   add_min="50"  add_max="80"  />
+    <rate quality="2" rate="0"  add_min="90"  add_max="120" />
+    <rate quality="3" rate="0"  add_min="130" add_max="190" />
+    <rate quality="4" rate="0"  add_min="200" add_max="300" />
+    <rate quality="5" rate="100" add_min="300" add_max="500" />
+    <rate quality="6" rate="100" add_min="500" add_max="800" />
+</eqp_prefix_name>
+  
+  
+<!--eqp_type装备类型
+     id 附加词缀 1:风,2:火,3:光,4:雷,5:冰-
+	 funtype：附加属性
+	 -->
+  <eqp eqp_type="1">
+  <prefix_fun num="1" id ="1" funtype="6"/>
+	<prefix_fun num="2" id ="2" funtype="11"/>
+	<prefix_fun num="3" id ="3" funtype="11"/>
+	<prefix_fun num="4" id ="4" funtype="7"/>
+	<prefix_fun num="5" id ="5" funtype="12"/>
+  </eqp>
+  <eqp eqp_type="2">
+  <prefix_fun num="1" id ="1" funtype="44"/>
+	<prefix_fun num="2" id ="2" funtype="11"/>
+	<prefix_fun num="3" id ="3" funtype="13"/>
+	<prefix_fun num="4" id ="4" funtype="23"/>
+	<prefix_fun num="5" id ="5" funtype="12"/>
+  </eqp>
+  <eqp eqp_type="3">
+  <prefix_fun num="1" id ="1" funtype="44"/>
+	<prefix_fun num="2" id ="2" funtype="11"/>
+	<prefix_fun num="3" id ="3" funtype="13"/>
+	<prefix_fun num="4" id ="4" funtype="23"/>
+	<prefix_fun num="5" id ="5" funtype="12"/>
+  </eqp>
+  <eqp eqp_type="4">
+  <prefix_fun num="1" id ="1" funtype="44"/>
+	<prefix_fun num="2" id ="2" funtype="11"/>
+	<prefix_fun num="3" id ="3" funtype="13"/>
+	<prefix_fun num="4" id ="4" funtype="23"/>
+	<prefix_fun num="5" id ="5" funtype="12"/>
+  </eqp>
+  <eqp eqp_type="5">
+  <prefix_fun num="1" id ="1" funtype="6"/>
+	<prefix_fun num="2" id ="2" funtype="11"/>
+	<prefix_fun num="3" id ="3" funtype="11"/>
+	<prefix_fun num="4" id ="4" funtype="7"/>
+	<prefix_fun num="5" id ="5" funtype="12"/>
+  </eqp>
+  <eqp eqp_type="6">
+
+	<prefix_fun num="1" id ="1" funtype="5"/>
+	<prefix_fun num="2" id ="2" funtype="8"/>
+	<prefix_fun num="3" id ="3" funtype="8"/>
+	<prefix_fun num="4" id ="4" funtype="45"/>
+	<prefix_fun num="5" id ="5" funtype="9"/>
+  </eqp>
+   <eqp eqp_type="7">
+  <prefix_fun num="1" id ="1" funtype="38"/>
+	<prefix_fun num="2" id ="2" funtype="8"/>
+	<prefix_fun num="3" id ="3" funtype="8"/>
+	<prefix_fun num="4" id ="4" funtype="45"/>
+	<prefix_fun num="5" id ="5" funtype="9"/>
+  </eqp>
+   <eqp eqp_type="8">
+  <prefix_fun num="1" id ="1" funtype="43"/>
+	<prefix_fun num="2" id ="2" funtype="8"/>
+	<prefix_fun num="3" id ="3" funtype="8"/>
+	<prefix_fun num="4" id ="4" funtype="22"/>
+	<prefix_fun num="5" id ="5" funtype="9"/>
+  </eqp>
+  <eqp eqp_type="9">
+  <prefix_fun num="1" id ="1" funtype="43"/>
+	<prefix_fun num="2" id ="2" funtype="8"/>
+	<prefix_fun num="3" id ="3" funtype="8"/>
+	<prefix_fun num="4" id ="4" funtype="22"/>
+	<prefix_fun num="5" id ="5" funtype="9"/>
+  </eqp>
+  <eqp eqp_type="10">
+  <prefix_fun num="1" id ="1" funtype="43"/>
+	<prefix_fun num="2" id ="2" funtype="8"/>
+	<prefix_fun num="3" id ="3" funtype="8"/>
+	<prefix_fun num="4" id ="4" funtype="22"/>
+	<prefix_fun num="5" id ="5" funtype="9"/>
+  </eqp>
+  
+  
+  
+  <!--装备的的激活规则-->
+  <!--装备类型1号可以激活2号-->
+  <activate_rule>
+  <eqp_t equip_type="1" need_type="2"/>
+	<eqp_t equip_type="2" need_type="3"/>
+	<eqp_t equip_type="3" need_type="4"/>
+	<eqp_t equip_type="4" need_type="5"/>
+	<eqp_t equip_type="5" need_type="6"/>
+	<eqp_t equip_type="6" need_type="7"/>
+	<eqp_t equip_type="7" need_type="8"/>
+  <eqp_t equip_type="8" need_type="9"/>
+	<eqp_t equip_type="9" need_type="10"/>
+	<eqp_t equip_type="10" need_type="1"/>
+  </activate_rule> 
+  <!--属性的激活规则-->
+  <!--比如 1号词缀可以激活2号词缀-->
+  <attribute_rule>
+   <attribute attribute_type="1" need_attribute="2"/>
+   <attribute attribute_type="2" need_attribute="3"/>
+   <attribute attribute_type="3" need_attribute="4"/>
+   <attribute attribute_type="4" need_attribute="5"/>
+   <attribute attribute_type="5" need_attribute="1"/>
+  </attribute_rule>
+  <!--前缀激活后额外增加的奖励-->
+  <!--cout:激活装备的数量
+      id:激活装备附加属性id
+	  num:附加属性值
+      -->
+  <activate_num>
+  	<num cout="1" >
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+  	<num cout="2" >
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+  	<num cout="3" >
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+  	<num cout="4" >
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+  	<num cout="5">
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+  	<num cout="6" >
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+  	<num cout="7">
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+  	<num cout="8" >
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+  	<num cout="9">
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+  	<num cout="10">
+  		<type att_type="14" att_value="0"/>
+  		<type att_type="7"  att_value="0"/>
+  		<type att_type="6"  att_value="0"/>
+  		<type att_type="38" att_value="0"/>
+  		<type att_type="5"  att_value="0"/>
+  	</num>
+    
+    
+  </activate_num>
+</activate_fun>

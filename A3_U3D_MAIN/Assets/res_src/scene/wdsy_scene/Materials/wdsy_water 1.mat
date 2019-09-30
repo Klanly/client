@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: wdsy_water 1
+  m_Shader: {fileID: 4800000, guid: 9c7cff8e8a0e6a24fb51115a7968f66f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _DetailTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 636e0462295b2f2479d0e7fb3c9d8f0c, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 3d528daad24a5e04c840ca427f14c12e, type: 3}
+        m_Scale: {x: 4, y: 4}
+        m_Offset: {x: 0, y: 0.8173752}
+    m_Floats:
+    - first:
+        name: _AlphaScale
+      second: 0.27
+    - first:
+        name: _AnimSpeedU
+      second: 0
+    - first:
+        name: _AnimSpeedV
+      second: 0.36
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _MMultiplier
+      second: 2
+    - first:
+        name: _Scroll2X
+      second: 3
+    - first:
+        name: _Scroll2Y
+      second: 0
+    - first:
+        name: _ScrollX
+      second: 1
+    - first:
+        name: _ScrollY
+      second: 0.3
+    - first:
+        name: _SpInt
+      second: 0.44
+    - first:
+        name: _SpeedU
+      second: 0
+    - first:
+        name: _SpeedV
+      second: 0.46
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.30817473, g: 0.52770853, b: 0.5588235, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0.6570069, g: 0.79580593, b: 0.9117647, a: 0.363}

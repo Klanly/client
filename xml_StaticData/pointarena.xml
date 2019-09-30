@@ -1,0 +1,121 @@
+<pointarena>
+	<arena_info name="据点战场" desc="战场描述" ltpid="9000" reflesh_date="7" reflesh_h="12" reflesh_m="00">
+		<side id="1" playernum="5"/>
+		<side id="2" playernum="5"/>
+	</arena_info>
+
+	<open_tm id="1" name="据点战场" date="1,2,3,4,5,6,7" > 
+	  <time id="1" start_h="20" start_m="00" end_h="22" end_m="00"/>
+	</open_tm>
+	
+<!--匹配等级段-->
+	<levelfit id="1" minlv="1,1" maxlv="1,200"/>
+	<levelfit id="2" minlv="2,1" maxlv="2,200"/>
+	<levelfit id="3" minlv="3,1" maxlv="3,200"/>
+	<levelfit id="4" minlv="4,1" maxlv="4,200"/>
+	<levelfit id="5" minlv="5,1" maxlv="5,200"/>
+	<levelfit id="6" minlv="6,1" maxlv="6,200"/>
+	<levelfit id="7" minlv="7,1" maxlv="7,200"/>
+	<levelfit id="8" minlv="8,1" maxlv="8,200"/>
+	<levelfit id="9" minlv="9,1" maxlv="9,200"/>
+	<levelfit id="10" minlv="10,1" maxlv="10,200"/>
+	
+<!--默认积分-->
+    <defaul rank="1000" />
+	
+<!--积分规则-->
+	<rank id="1" rank_min="0" rank_max="1199" win="42" lose="-2"/>
+	<rank id="1" rank_min="1200" rank_max="1399" win="35" lose="-8"/>
+	<rank id="1" rank_min="1400" rank_max="1599" win="30" lose="-10"/>
+	<rank id="1" rank_min="1600" rank_max="1799" win="27" lose="-12"/>
+	<rank id="1" rank_min="1800" rank_max="1999" win="24" lose="-14"/>
+	<rank id="1" rank_min="2000" rank_max="2199" win="23" lose="-15"/>
+	<rank id="1" rank_min="2200" rank_max="2399" win="22" lose="-17"/>
+	<rank id="1" rank_min="2400" rank_max="2599" win="20" lose="-20"/>
+	<rank id="1" rank_min="2600" rank_max="2799" win="18" lose="-20"/>
+	<rank id="1" rank_min="2800" rank_max="999999" win="17" lose="-20"/>
+		
+<!--匹配规则   匹配间隔时间、退出匹配时间、预期时间、预期时间增加（单位秒）、匹配确认等待时间-->
+	<linetime tick_tm="10" maxtime="3600" expecttime="30" expectup="30" enter_check_tm="10"/>
+		
+<!--战场数据   战场关闭时间、战场开门时间、玩家复活时间、退出战场惩罚（单位秒）-->
+	<arenatime chose="10" dooropen="15" revive="10" leavepunish="600"/>
+	
+<!--胜负分数   杀人分数、据点间隔产出分数、获胜总分-->
+	<score killscore="5" pointscore="5" winscore="1000"/>
+	
+<!--荣誉获得   杀人、助攻、参与抢占据点、当日最大获得-->
+	<prestige kill="3" sup="1" flagpay="10" daily_max="500"/>
+
+<!-- 据点配置   占点时间、加分间隔、范围、模型 --> 
+	<initpoint tm="11" span="2" range="280" avatar ="335">
+		<strongpoint id="1" x="4317" y="4664"/>
+		<strongpoint id="2" x="8352" y="8182"/>
+		<strongpoint id="3" x="9935" y="3854"/>
+	</initpoint>
+	
+	<!-- 战场胜利奖励 -->
+	<win_reward>
+		<RewardItem item_id="1557" value="1"/>
+		<RewardItem item_id="1533" value="3"/>
+		<RewardItem item_id="1558" value="1"/>
+	</win_reward>
+	<!-- 战场失败奖励 -->
+	<lose_reward>
+		<RewardItem item_id="1533" value="1"/>
+	</lose_reward>
+	
+<!--积分排名奖励-->
+	<rank_reward min="1" max="1">
+		<RewardValue type="4" value="1500"/>
+		<RewardValue type="5" value="2000"/>
+		<RewardItem item_id="1560" value="3"/>
+    </rank_reward>
+	<rank_reward min="2" max="2">
+		<RewardValue type="4" value="1200"/>
+		<RewardValue type="5" value="1700"/>
+		<RewardItem item_id="1560" value="2"/>
+    </rank_reward>
+	<rank_reward min="3" max="3">
+		<RewardValue type="4" value="950"/>
+		<RewardValue type="5" value="1400"/>
+		<RewardItem item_id="1560" value="1"/>
+    </rank_reward>
+	<rank_reward min="4" max="10">
+		<RewardValue type="4" value="650"/>
+		<RewardValue type="5" value="1000"/>
+		<RewardItem item_id="1559" value="5"/>
+    </rank_reward>
+	<rank_reward min="11" max="50">
+		<RewardValue type="4" value="500"/>
+		<RewardValue type="5" value="800"/>
+		<RewardItem item_id="1559" value="4"/>
+    </rank_reward>
+	<rank_reward min="51" max="100">
+		<RewardValue type="4" value="400"/>
+		<RewardValue type="5" value="650"/>
+		<RewardItem item_id="1559" value="3"/>
+    </rank_reward>
+	<rank_reward min="101" max="500">
+		<RewardValue type="4" value="300"/>
+		<RewardValue type="5" value="500"/>
+		<RewardItem item_id="1559" value="2"/>
+    </rank_reward>
+	<rank_reward min="501" max="1000">
+		<RewardValue type="4" value="200"/>
+		<RewardValue type="5" value="400"/>
+		<RewardItem item_id="1559" value="1"/>
+    </rank_reward>
+	<rank_reward min="1001" max="5000">
+		<RewardValue type="4" value="100"/>
+		<RewardValue type="5" value="300"/>
+		<RewardItem item_id="1558" value="2"/>
+    </rank_reward>
+	<rank_reward min="5001" max="20000">
+		<RewardValue type="4" value="50"/>
+		<RewardValue type="5" value="200"/>
+		<RewardItem item_id="1558" value="1"/>
+    </rank_reward>
+
+
+</pointarena>

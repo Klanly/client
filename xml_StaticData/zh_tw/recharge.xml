@@ -1,0 +1,20 @@
+<rechargelist>
+<!--id=商品id	
+	name=商品名稱
+	desc=前端商品描述
+	golden=商品RMB價格
+	golden_value=到賬元寶數量
+	first_double=首次購買是否雙倍元寶
+	mutex 領取疊加類型 有這個欄位時 代表之後的若干天內 每天都可以領取 相同ID的可疊加天數
+	days    領取天數
+  daynum  每日領取數量	
+	-->
+  <recharge id="1" payid="1" name="超值月卡" desc="立即到賬&lt;color=#FF0000&gt;300&lt;/color&gt;鑽石{n}每天贈送&lt;color=#FF0000&gt;120&lt;/color&gt;鑽石{n}持續30天" golden="30" golden_value="300" first_double="0" days="30" daynum="120"/>	
+  <recharge id="2" payid="2" name="超值終身卡" desc="立即到賬&lt;color=#FF0000&gt;600&lt;/color&gt;鑽石{n}每天贈送&lt;color=#FF0000&gt;100&lt;/color&gt;鑽石{n}持續永久" golden="60" golden_value="600" first_double="0" days="0"  daynum="100"/>	
+  <recharge id="3" payid="3" name="60鑽石" desc="立即到賬&lt;color=#FF0000&gt;60&lt;/color&gt;鑽石{n}首次充值鑽石雙倍" golden="6" golden_value="60" first_double="1" days="0"  daynum="0"/>	
+  <recharge id="4" payid="4" name="300鑽石" desc="立即到賬&lt;color=#FF0000&gt;300&lt;/color&gt;鑽石{n}首次充值鑽石雙倍" golden="30" golden_value="300" first_double="1" days="0"  daynum="0"/>	
+  <recharge id="5" payid="5" name="980鑽石" desc="立即到賬&lt;color=#FF0000&gt;980&lt;/color&gt;鑽石{n}首次充值鑽石雙倍" golden="98" golden_value="980" first_double="1" days="0"  daynum="0"/>	
+  <recharge id="6" payid="6" name="1980鑽石" desc="立即到賬&lt;color=#FF0000&gt;1980&lt;/color&gt;鑽石{n}首次充值鑽石雙倍" golden="198" golden_value="1980" first_double="1" days="0"  daynum="0"/>	
+  <recharge id="7" payid="7" name="3280鑽石" desc="立即到賬&lt;color=#FF0000&gt;3280&lt;/color&gt;鑽石{n}首次充值鑽石雙倍" golden="328" golden_value="3280" first_double="1" days="0"  daynum="0"/>	
+  <recharge id="8" payid="8" name="6480鑽石" desc="立即到賬&lt;color=#FF0000&gt;6480&lt;/color&gt;鑽石{n}首次充值鑽石雙倍" golden="648" golden_value="6480" first_double="1" days="0"  daynum="0"/>	
+</rechargelist>	

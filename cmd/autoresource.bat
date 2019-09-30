@@ -1,0 +1,1 @@
+D:\Unity54\Editor\Unity.exe -quit -batchmode -projectPath D:\mu\A3Main\A3_U3D_MAIN -executeMethod ProjectBuild.SVNBuildWindowsResource 1

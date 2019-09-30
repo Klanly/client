@@ -1,0 +1,36 @@
+<A3_offline_exp>
+<!--字段说明
+rate_type 不同倍数经验 type  0倍,1倍,2倍,3倍,4倍
+cost_type 不同倍数经验花费类型 0 无消耗;2 金币;3 钻石
+cost_value 每十分钟消耗数量
+--> 	 
+	<rate_type type= "1" cost_type= "0" cost_value= "1" vip_level="0">
+	</rate_type>
+ 
+	<rate_type type= "2" cost_type= "2" cost_value= "10000" vip_level="0">
+	</rate_type>
+
+	<rate_type type= "3" cost_type= "3" cost_value= "2" vip_level="3">
+	</rate_type>
+
+	<rate_type type= "4" cost_type= "3" cost_value= "4" vip_level="5">
+	</rate_type>
+
+	<offline_exp cd="600" exp="18026"/>
+	<offline_eqp cd="3600"/>
+	<offline_drop zhuan="1" level="1" drop_id="70001"/>
+	<offline_drop zhuan="1" level="50" drop_id="70002"/>
+	<offline_drop zhuan="2" level="1" drop_id="70003"/>
+	<offline_drop zhuan="2" level="50" drop_id="70004"/>
+	<offline_drop zhuan="3" level="1" drop_id="70005"/>
+	<offline_drop zhuan="3" level="60" drop_id="70006"/>
+	<offline_drop zhuan="4" level="1" drop_id="70007"/>
+	<offline_drop zhuan="4" level="40" drop_id="70008"/>
+	<offline_drop zhuan="4" level="80" drop_id="70009"/>
+	<offline_drop zhuan="5" level="1" drop_id="70010"/>
+	<offline_drop zhuan="5" level="70" drop_id="70011"/>
+	<offline_drop zhuan="6" level="1" drop_id="70012"/>
+	<offline_drop zhuan="6" level="50" drop_id="70013"/>
+	<offline_drop zhuan="6" level="100" drop_id="70014"/>
+
+</A3_offline_exp>

@@ -1,0 +1,154 @@
+<jjc>
+  <!-- 匹配池 -->
+  <interval id="1" min="0" max="10000"/>
+  <interval id="2" min="10000" max="20000"/>
+  <interval id="3" min="20000" max="30000"/>
+  <interval id="4" min="30000" max="50000"/>
+  <interval id="5" min="50000" max="70000"/>
+  <interval id="6" min="70000" max="90000"/>
+  <interval id="7" min="90000" max="110000"/>
+  <interval id="8" min="110000" max="130000"/>
+  <interval id="9" min="130000" max="160000"/>
+  <interval id="10" min="160000" max="190000"/>
+  <interval id="11" min="190000" max="220000"/>
+  <interval id="12" min="220000" max="250000"/>
+  <interval id="13" min="250000" max="280000"/>
+  <interval id="14" min="280000" max="310000"/>
+  <interval id="15" min="310000" max="350000"/>
+  <interval id="16" min="350000" max="390000"/>
+  <interval id="17" min="390000" max="430000"/>
+  <interval id="18" min="430000" max="470000"/>
+  <interval id="19" min="470000" max="510000"/>
+  <interval id="20" min="510000" max="9999999"/>
+  <!-- 匹配时间 -->
+  <!-- <interval_tm tm="5"/> -->
+ <!--开启时间和每日可免费玩的次数-->
+  <t id="1" opnetime="0,24"/>
+
+  <!-- 开启时间 -->
+  <date year="2016" mon="10" day="12" wd="3"/>
+
+	<!--每次单场获得胜利奖励的基础经验和声望-->
+	<win basic_gold="10000" basic_exp="10000" basic_rep="1000"/>
+	<!--每次单场获得失败奖励的基础经验和声望-->
+	<lose basic_gold="5000" basic_exp="5000" basic_rep="0"/>
+  
+  <!-- jjc相关数据 -->
+  <!-- 挑战次数 购买次数 购买消耗  匹配时间 最大匹配时间 副本id -->
+ <info callenge_cnt="10" buy_cnt="0" buy_cost="20" interval_tm="1" max_interval_tm="3" llid="107"/>
+  
+ <!--每个段位可以获得奖励 以及需要的点数-->
+  <!--<reward grade="0" name="0" star="3" win="1" lose="0" s_win="2">
+     <needpoint p="0"/>
+  </reward>-->
+
+  <reward grade="1" star="3" name="论外" win="1" lose="0" s_win="2" robot="60">
+   <needpoint p="0"/>
+ 
+  </reward>
+
+  <reward grade="2" star="3" name="入门" win="1" lose="0" s_win="2" robot="60">
+    <needpoint p="3"/>
+    <box id="3012" num="1"/>
+    <reward id="3058" num="1"/>
+    <gem num="50"/>
+    <rep num="50"/>
+  </reward>
+
+  <reward grade="3" star="3" name="新锐" win="1" lose="0" s_win="2" robot="65">
+    <needpoint p="6"/>
+    <box id="3011" num="1"/>
+    <reward id="3059" num="1"/>
+    <gem num="100"/>
+    <rep num="100"/>
+  </reward>
+
+  <reward grade="4" star="3" name="斗士" win="1" lose="0" s_win="2" robot="65">
+    <needpoint p="9"/>
+    <box id="3010" num="1"/>
+    <reward id="3060" num="1"/>
+    <gem num="200"/>
+    <rep num="200"/>
+  </reward>
+
+  <reward grade="5" star="3" name="强者" win="1" lose="0" s_win="2" robot="70">
+    <needpoint p="12"/>
+    <box id="3009" num="1"/>
+    <reward id="3061" num="1"/>
+    <gem num="300"/>
+    <rep num="300"/>
+  </reward>
+
+  <reward grade="6" star="3" name="狂人" win="1" lose="0" s_win="2" robot="70">
+    <needpoint p="15"/>
+    <box id="3008" num="1"/>
+    <reward id="3062" num="1"/>
+    <gem num="400"/>
+    <rep num="400"/>
+  </reward>
+
+  <reward grade="7" star="3" name="达人" win="1" lose="0" s_win="2" robot="75">
+    <needpoint p="18"/>
+    <box id="3007" num="1"/>
+    <reward id="3063" num="1"/>
+    <gem num="500"/>
+    <rep num="500"/>
+  </reward>
+
+
+  <reward grade="8" star="3" name="名人" win="1" lose="0" s_win="2" robot="75">
+    <needpoint p="21"/>
+    <box id="3006" num="1"/>
+    <reward id="3064" num="1"/>
+    <gem num="600"/>
+    <rep num="600"/>
+  </reward>
+
+
+  <reward grade="9" star="3" name="霸者" win="1" lose="-1" s_win="1" robot="80">
+    <needpoint p="23"/>
+    <box id="3005" num="1"/>
+    <reward id="3065" num="1"/>
+    <gem num="700"/>
+    <rep num="700"/>
+  </reward>
+
+  <reward grade="10" star="3" name="大师" win="1" lose="-1" s_win="1" robot="80">
+    <needpoint p="27"/>
+    <box id="3004" num="1"/>
+    <reward id="3066" num="1"/>
+    <gem num="800"/>
+    <rep num="800"/>
+  </reward>
+
+
+  <reward grade="11" star="5" name="至尊" win="1" lose="-1" s_win="1" robot="80">
+    <needpoint p="30"/>
+    <box id="3003" num="1"/>
+    <reward id="3067" num="1"/>
+    <gem num="900"/>
+    <rep num="900"/>
+  </reward>
+
+  <reward grade="12" star="5" name="斗神" win="1" lose="0" s_win="1" robot="80">
+    <needpoint p="35"/>
+    <box id="3002" num="1"/>
+    <reward id="3068" num="1"/>
+    <gem num="1000"/>
+    <rep num="1000"/>
+    <buff state_id="20000"/>
+  </reward>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </jjc>

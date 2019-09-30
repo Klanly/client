@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: FX_texture_04105
+  m_Shader: {fileID: 10, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _Illum
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 4276b63a9ff45304f855a38482c1c43d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MaskTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 2faa1aed9aaabc5438e1af9291d4950a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _NoiseTex
+      second:
+        m_Texture: {fileID: 2800000, guid: ae529ed04ab60b449aa61b4a9dcc843d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: PixelSnap
+      second: 0
+    - first:
+        name: _AlphaCtl
+      second: 1
+    - first:
+        name: _AlphaScale
+      second: 1
+    - first:
+        name: _DistortionScaleX
+      second: 2.1535714
+    - first:
+        name: _DistortionScaleY
+      second: 0.1
+    - first:
+        name: _EmissionLM
+      second: 0
+    - first:
+        name: _ForceX
+      second: 0.1
+    - first:
+        name: _ForceY
+      second: 0.1
+    - first:
+        name: _HeatTime
+      second: 0.10714286
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _MainScale
+      second: 1
+    - first:
+        name: _SpeedU
+      second: 0.25
+    - first:
+        name: _SpeedV
+      second: 0.5
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 0.16163793, g: 0.08272058, b: 0.2205882, a: 1}
+    - first:
+        name: _MainColor
+      second: {r: 0.38057804, g: 0, b: 0.5808823, a: 1}
+    - first:
+        name: _TintColor
+      second: {r: 0, g: 0, b: 0, a: 1}

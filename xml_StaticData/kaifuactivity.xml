@@ -1,0 +1,215 @@
+<!--time为活动持续时间 单位为小时-->
+<activelist>
+  <kaifu_time y="2015" mon="12" d="13" h="12" min="0" s="0"/>
+  <server_active id="1" active_name="欢乐七天送"  time="168">
+    <day time="1">
+      <item item_id="10830" item_num="1"/>
+      <item item_id="10161" item_num="5"/>
+      <item item_id="10162" item_num="5"/>
+      <item item_id="10023" item_num="10"/>
+    </day>
+    <day time="2">
+      <item item_id="10050" item_num="10"/>
+      <item item_id="10051" item_num="10"/>
+      <item item_id="10052" item_num="10"/>
+      <item item_id="10831" item_num="1"/>
+    </day>
+    <day time="3">
+      <item item_id="10101" item_num="5"/>
+      <item item_id="10117" item_num="5"/>
+      <item item_id="10105" item_num="5"/>
+	  <item item_id="10121" item_num="5"/>
+    </day>
+    <day time="4">
+      <item item_id="10101" item_num="5"/>
+      <item item_id="10117" item_num="5"/>
+      <item item_id="10105" item_num="5"/>
+	  <item item_id="10121" item_num="5"/>
+    </day>
+    <day time="5">
+      <item item_id="10603" item_num="1"/>
+      <item item_id="10607" item_num="1"/>
+      <item item_id="10611" item_num="1"/>
+	  <item item_id="10615" item_num="1"/>	  
+    </day>
+    <day time="6">
+      <item item_id="10060" item_num="5"/>
+      <item item_id="10061" item_num="5"/>
+      <item item_id="10062" item_num="5"/>
+      <item item_id="10023" item_num="20"/>
+    </day>
+    <day time="7">
+      <item item_id="10210" item_num="25"/>
+      <item item_id="10005" item_num="5"/>
+      <item item_id="10051" item_num="10"/>
+      <item item_id="10052" item_num="10"/>
+    </day>
+   
+  </server_active>
+  <server_active id="2" active_name="在线抽奖" time="72">
+    <reward time="1" time_limit="300">
+      <random item_id="10023" item_num="5" rate="50"/>
+      <random item_id="10022" item_num="15" rate="50"/>
+	  <random item_id="10050" item_num="5" rate="50"/>
+	  <random item_id="10051" item_num="5" rate="50"/>
+	  <random item_id="10052" item_num="5" rate="50"/>	  
+    </reward>
+    <reward time="2" time_limit="300">
+      <random item_id="10162" item_num="5" rate="50"/>
+      <random item_id="10023" item_num="5" rate="50"/>
+	  <random item_id="10160" item_num="5" rate="50"/>
+	  <random item_id="10161" item_num="5" rate="50"/>
+	  <random item_id="10022" item_num="15" rate="50"/>	
+    </reward>
+    <reward time="3" time_limit="600">
+      <random item_id="10052" item_num="5" rate="50"/>
+      <random item_id="10050" item_num="8" rate="50"/>
+	  <random item_id="10051" item_num="10" rate="50"/>
+	  <random item_id="10022" item_num="5" rate="50"/>
+	  <random item_id="10023" item_num="5" rate="50"/>	
+    </reward>  
+	<reward time="4" time_limit="600">
+      <random item_id="10062" item_num="2" rate="50"/>
+      <random item_id="10061" item_num="3" rate="50"/>
+	  <random item_id="10060" item_num="5" rate="50"/>
+	  <random item_id="10022" item_num="5" rate="50"/>
+	  <random item_id="10023" item_num="5" rate="50"/>	
+	 
+    </reward>  
+	<reward time="5" time_limit="900">
+      <random item_id="10007" item_num="1" rate="50"/>
+      <random item_id="10006" item_num="1" rate="50"/>
+	  <random item_id="10012" item_num="1" rate="50"/>
+	  <random item_id="10022" item_num="5" rate="50"/>
+	  <random item_id="10023" item_num="5" rate="50"/>	
+    </reward>  
+
+  </server_active>
+  <server_active id="3" active_name="等级奖励" time="168">
+    <grade level="10">
+      <item item_id="10022" item_num="20"/> 
+	  <item item_id="10205" item_num="5"/> 
+	  
+    </grade>
+    <grade level="20">
+      <item item_id="10160" item_num="20"/>
+      <item item_id="10205" item_num="10"/>	
+    </grade>
+	<grade level="30">
+      <item item_id="10023" item_num="10"/>
+      <item item_id="10205" item_num="10"/>	
+    </grade>
+	<grade level="35">
+      <item item_id="10007" item_num="1"/>
+      <item item_id="10060" item_num="10"/>	  
+    </grade>
+	<grade level="40">
+      <item item_id="10052" item_num="10"/>
+      <item item_id="10203" item_num="5"/>	  
+    </grade>
+	 
+  
+  </server_active>
+  <server_active id="4" activer_name="礼包促销"  time="72">
+    <package id="1" yb_cost="399" name="圣诞时装礼包">
+      <item item_id="10800" item_num="1"/>
+      <item item_id="10801" item_num="1"/>
+      <item item_id="10802" item_num="1"/>
+      <item item_id="10803" item_num="1"/>
+    </package>
+
+    <package id="2" yb_cost="399" name="万圣时装礼包">
+      <item item_id="10804" item_num="1"/>
+      <item item_id="10805" item_num="1"/>
+      <item item_id="10806" item_num="1"/>
+      <item item_id="10807" item_num="1"/>
+    </package>
+
+    <package id="3" yb_cost="399" name="猫猫时装礼包">
+      <item item_id="10816" item_num="1"/>
+      <item item_id="10817" item_num="1"/>
+      <item item_id="10818" item_num="1"/>
+      <item item_id="10819" item_num="1"/>
+    </package>
+
+    <package id="4" yb_cost="266" name="装备强化礼包">
+      <item item_id="10160" item_num="20"/>
+      <item item_id="10161" item_num="20"/>
+      <item item_id="10162" item_num="20"/>
+      <item item_id="10163" item_num="20"/>
+    </package>
+
+    <package id="5" yb_cost="266" name="英雄升级礼包">
+      <item item_id="10050" item_num="40"/>
+      <item item_id="10051" item_num="20"/>
+      <item item_id="10052" item_num="10"/>
+      <item item_id="10053" item_num="5"/>
+    </package>
+
+    <package id="6" yb_cost="266" name="神兵材料礼包">
+      <item item_id="10603" item_num="5"/>
+      <item item_id="10607" item_num="5"/>
+      <item item_id="10611" item_num="5"/>
+      <item item_id="10615" item_num="5"/>
+    </package>
+<!--family_share 是家族分享字段 这个字段表示购买了这个礼包的玩家所在的家族所有成员都能获得分享礼包id的道具-->
+	<package id="7" yb_cost="300" name="家族分享礼包" family_share="10825">
+      <item item_id="10007" item_num="2"/>
+      <item item_id="10023" item_num="20"/>
+      <item item_id="10005" item_num="50"/>
+      <item item_id="10062" item_num="5"/>
+    </package>
+
+
+  </server_active>
+  <server_active id="5" activer_name="累计充值" time="168">
+    <recharge amount="300">
+      <item item_id="10206" item_num="5"/>
+
+    </recharge>
+
+    <recharge amount="680">
+      <item item_id="10206" item_num="5"/>
+	  <item item_id="10208" item_num="5"/>
+	  <item item_id="10005" item_num="5"/>
+    </recharge>
+
+
+    <recharge amount="1280">
+      <item item_id="10206" item_num="5"/>
+	  <item item_id="10208" item_num="5"/>
+	  <item item_id="10005" item_num="15"/>
+    </recharge>
+
+    <recharge amount="3200">
+      <item item_id="10206" item_num="5"/>
+	  <item item_id="10208" item_num="5"/>
+	  <item item_id="10207" item_num="5"/>	  
+	  <item item_id="10005" item_num="20"/>
+    </recharge>
+
+    <recharge amount="6480">
+      <item item_id="10206" item_num="5"/>
+	  <item item_id="10208" item_num="5"/>
+	  <item item_id="10207" item_num="5"/>
+	  <item item_id="10005" item_num="40"/> 
+    </recharge>
+
+    <recharge amount="12800">
+      <item item_id="10206" item_num="5"/>
+	  <item item_id="10208" item_num="5"/>
+	  <item item_id="10207" item_num="15"/>
+	  <item item_id="10005" item_num="100"/> 
+    </recharge>
+
+  </server_active>
+  <server_active  id="6" activer_name="限时抢购" time="48">
+    <shop_item total="1000" purchase="25" yb_cost="5" item_id="10211"/>
+    <shop_item total="1000" purchase="25" yb_cost="5" item_id="10206"/>
+    <shop_item total="1000" purchase="25" yb_cost="5" item_id="10216"/>
+    <shop_item total="1000" purchase="25" yb_cost="5" item_id="10213"/>
+    <shop_item total="1000" purchase="25" yb_cost="5" item_id="10217"/>
+	<shop_item total="1000" purchase="25" yb_cost="5" item_id="10215"/>
+ 
+  </server_active>
+</activelist>

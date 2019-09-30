@@ -1,0 +1,197 @@
+<monsterhunter>
+	<vip_cost value="50"/>
+	<daily_cnt num="10"/>
+	<item id="1" item="1763"/>
+	<item id="2" item="1756"/>
+	<item id="3" item="1757"/>
+	<item id="4" item="1758"/>
+	<item id="5" item="1759"/>
+	<item id="6" item="1760"/>	
+	<!--地图点-->
+	<map mapid="1" point_id="101">
+		<mappoint id="1" x="178" y="120"/>
+		<mappoint id="2" x="135" y="167"/>
+		<mappoint id="3" x="95" y="169"/>
+		<mappoint id="4" x="56" y="63"/>
+	</map>
+	<map mapid="2" point_id="201">
+		<mappoint id="1" x="200" y="69"/>
+		<mappoint id="2" x="141" y="112"/>
+		<mappoint id="3" x="83" y="130"/>
+		<mappoint id="4" x="88" y="177"/>
+	</map>
+	<map mapid="3" point_id="301">
+		<mappoint id="1" x="223" y="106"/>
+		<mappoint id="2" x="124" y="139"/>
+		<mappoint id="3" x="180" y="211"/>
+		<mappoint id="4" x="312" y="114"/>
+	</map>
+	<map mapid="4" point_id="401">
+		<mappoint id="1" x="173" y="87"/>
+		<mappoint id="2" x="75" y="84"/>
+		<mappoint id="3" x="74" y="171"/>
+		<mappoint id="4" x="163" y="162"/>
+	</map>
+	<!--
+	<map mapid="5" point_id="20007">
+		<mappoint id="1" x="36" y="140" />
+		<mappoint id="2" x="32" y="36" />
+		<mappoint id="3" x="49" y="89" />
+		<mappoint id="4" x="85" y="35" />
+	</map>
+	<map mapid="6" point_id="20008">
+		<mappoint id="1" x="124" y="124" />
+		<mappoint id="2" x="75" y="81" />
+		<mappoint id="3" x="168" y="91" />
+		<mappoint id="4" x="171" y="168" />
+		<mappoint id="5" x="80" y="167" />
+	</map>
+	<map mapid="8" point_id="20010">
+		<mappoint id="1" x="121" y="115" />
+		<mappoint id="2" x="99" y="40" />
+		<mappoint id="3" x="55" y="119" />
+	</map>
+	-->
+	<!--沙漠死海暂时没有这个地图
+		<map mapid="9" point_id="20011">
+		<mappoint id="1" x="33" y="33" />
+		<mappoint id="2" x="33" y="33" />
+		<mappoint id="3" x="33" y="33" />
+		<mappoint id="4" x="33" y="33" />
+		<mappoint id="5" x="33" y="33" />
+	</map>
+	-->
+	<!--地城1-->
+	<map mapid="11" point_id="1101">
+		<mappoint id="1" x="104" y="47"/>
+		<mappoint id="2" x="51" y="29"/>
+		<mappoint id="3" x="35" y="68"/>
+		<mappoint id="4" x="57" y="119"/>
+	</map>
+	<!--
+	<map mapid="12" point_id="20014">
+		<mappoint id="1" x="44" y="84" />
+		<mappoint id="2" x="7" y="34" />
+		<mappoint id="3" x="71" y="39" />
+	</map>
+	<map mapid="13" point_id="20015">
+		<mappoint id="1" x="127" y="47" />
+		<mappoint id="2" x="79" y="49" />
+		<mappoint id="3" x="36" y="49" />
+		<mappoint id="4" x="54" y="110" />
+	</map>
+	<map mapid="15" point_id="20017">
+		<mappoint id="1" x="120" y="48" />
+		<mappoint id="2" x="148" y="130" />
+		<mappoint id="3" x="92" y="142" />
+	</map>
+	<map mapid="16" point_id="20018">
+		<mappoint id="1" x="33" y="33" />
+		<mappoint id="2" x="33" y="33" />
+		<mappoint id="3" x="33" y="33" />
+		<mappoint id="4" x="33" y="33" />
+		<mappoint id="5" x="33" y="33" />
+	</map>
+	<map mapid="17" point_id="20019">
+		<mappoint id="1" x="33" y="33" />
+		<mappoint id="2" x="33" y="33" />
+		<mappoint id="3" x="33" y="33" />
+		<mappoint id="4" x="33" y="33" />
+		<mappoint id="5" x="33" y="33" />
+	</map>
+	<map mapid="18" point_id="20020">
+		<mappoint id="1" x="33" y="33" />
+		<mappoint id="2" x="33" y="33" />
+		<mappoint id="3" x="33" y="33" />
+		<mappoint id="4" x="33" y="33" />
+		<mappoint id="5" x="33" y="33" />
+	</map>
+	<map mapid="19" point_id="20021">
+		<mappoint id="1" x="33" y="33" />
+		<mappoint id="2" x="33" y="33" />
+		<mappoint id="3" x="33" y="33" />
+		<mappoint id="4" x="33" y="33" />
+		<mappoint id="5" x="33" y="33" />
+	</map>
+	<map mapid="20" point_id="20022">
+		<mappoint id="1" x="33" y="33" />
+		<mappoint id="2" x="33" y="33" />
+		<mappoint id="3" x="33" y="33" />
+		<mappoint id="4" x="33" y="33" />
+		<mappoint id="5" x="33" y="33" />
+	</map>
+	-->
+	<!--怪物种类-->
+	<monster id="1" mid="6001"/>
+	<monster id="2" mid="6002"/>
+	<monster id="3" mid="6003"/>
+	<monster id="4" mid="6004"/>
+	<monster id="5" mid="6005"/>
+	<monster id="6" mid="6006"/>
+	<monster id="7" mid="6007"/>
+	<monster id="8" mid="6008"/>
+	<monster id="9" mid="6009"/>
+	<monster id="10" mid="6010"/>
+	<monster id="11" mid="6011"/>
+	<monster id="12" mid="6012"/>
+	<monster id="13" mid="6013"/>
+	<monster id="14" mid="6014"/>
+	<monster id="15" mid="6015"/>
+	<monster id="16" mid="6016"/>
+	<!--按照转生发放奖励-->
+	<reward zhuansheng="0" item_normal="3013" item_lux="3023" exp="0">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="1" item_normal="3014" item_lux="3024" exp="1100000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="2" item_normal="3015" item_lux="3025" exp="1320000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="3" item_normal="3016" item_lux="3026" exp="1540000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="4" item_normal="3017" item_lux="3027" exp="1760000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="5" item_normal="3018" item_lux="3028" exp="1980000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="6" item_normal="3019" item_lux="3029" exp="2200000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="7" item_normal="3020" item_lux="3030" exp="2420000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="8" item_normal="3021" item_lux="3031" exp="2640000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="9" item_normal="3022" item_lux="3032" exp="2860000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+	<reward zhuansheng="10" item_normal="3022" item_lux="3032" exp="3080000">
+		<show_item id="1101"/>
+		<show_item id="1102"/>
+		<show_item id="1103"/>
+	</reward>
+</monsterhunter>

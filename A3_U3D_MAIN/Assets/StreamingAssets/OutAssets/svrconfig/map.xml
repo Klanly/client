@@ -1,0 +1,1540 @@
+<?xml version="1.0" encoding="utf-8"?>
+<maps>
+<!--player_volume角色在当前地图使用的碰撞体积：默认0.5  只可小于这个值-->
+<!--maptype="1"表示在副本中,不能打开地图-->
+<!--trans="1":有该字段表示该传送点会算在自动寻路内,无该字段,表示该传送点不会被自动寻路所考虑
+	 pk_hint="1":进入该场景弹出场景PK模式的提醒
+	 pk:0安全场景，不会受到其它玩家的攻击；1普通场景，击杀其它白名玩家后会增加罪恶值；2PK场景，击杀所有玩家都不会增加罪恶值；
+	 -->
+<!--p表示采集物-->
+<!--map_title 表示进入地图时是否显示地图名称飘字 0不显示 1显示-->
+<!--
+pk_lock:无该字段表示可以自由切换PK模式；0锁定为和平模式；1锁定为全体模式；2锁定为团队模式；5锁定为战场模式	
+-->
+
+	<m id="1" name="kqzd_scene" map_name="幽暗森林" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		<m mid="15" x="36" y="81" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="15" x="31" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="15" x="36" y="86" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="15" x="41" y="84" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="15" x="42" y="118" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="15" x="45" y="124" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="15" x="49" y="129" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="15" x="56" y="127" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="15" x="51" y="122" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="15" x="48" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="144" y="37" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="144" y="42" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="139" y="34" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="139" y="39" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="79" y="41" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="76" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="74" y="41" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="81" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="98" y="63" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="97" y="56" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="104" y="58" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="102" y="53" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="94" y="59" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="105" y="64" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="100" y="59" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="31" y="186" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="35" y="192" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="36" y="183" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="41" y="193" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="13" x="41" y="187" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="166" y="127" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="165" y="122" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="160" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="172" y="125" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="171" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="165" y="115" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="163" y="94" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="162" y="88" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="156" y="89" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="14" x="156" y="95" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="199" y="215" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="204" y="213" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="204" y="207" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="199" y="211" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="165" y="207" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="172" y="208" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="179" y="208" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="169" y="203" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="176" y="203" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="16" x="183" y="203" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+
+		<!--<m mid="502" x="92" y="228" r_x="10" r_y="10" spwan_time="21600000" sideid="0" />-->
+    <!--地宫入口的精英怪-->
+    <m mid="30001" x="195" y="162" r_x="10" r_y="10" spwan_time="900000" sideid="0" />
+
+		<!--采集物-->
+		<m mid="5041" x="90" y="86" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5041" x="87" y="84" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5041" x="94" y="88" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5041" x="92" y="90" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5041" x="95" y="92" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5041" x="88" y="81" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5041" x="91" y="81" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5042" x="189" y="111" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+
+		<m mid="5043" x="135" y="104" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+		<m mid="5044" x="216" y="216" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5044" x="219" y="212" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5044" x="218" y="214" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+		<m mid="5045" x="182" y="195" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+
+		<m mid="5046" x="76" y="105" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5046" x="74" y="100" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5046" x="75" y="102" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5046" x="77" y="103" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5046" x="78" y="104" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5046" x="80" y="105" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5046" x="79" y="106" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5046" x="81" y="107" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+		<m mid="5047" x="124" y="147" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+
+		<m mid="5048" x="94" y="203" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+		<m mid="5049" x="85" y="140" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5049" x="84" y="142" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5049" x="85" y="144" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5049" x="86" y="141" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5049" x="83" y="139" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+		<m mid="5051" x="92" y="160" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+
+		
+		<l id="1" gto="2" to_x="201" to_y="49" x="123" y="229" uw="1" uh="9.505666" ux="74.06" uy="0.65" uz="137.79" trans="1"/>
+		<l id="2" gto="15" to_x="57" to_y="22" x="27" y="216" uw="1" uh="9.505664" ux="16.41" uy="0.94" uz="129.78" trans="1"/>
+		<l id="3" gto="8" to_x="23" to_y="99" faceto="90" x="213" y="30" uw="4.619822" uh="1" ux="128.45" uy="0.16" uz="18.25" trans="1"/>
+	</m>
+
+	<m id="2" name="zshh_scene" map_name="勇者大陆" icon="2" music="2" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="1" player_volume="0.5" map_title="1" point_id="201">
+	  <g file="data/maps/maps/1.grd" />
+	  <born mpid="10" width="300" height="300" x="2879" y="3626" />
+
+	  <m mid="30000" x="75" y="85" r_x="3" r_y="3" spwan_time="15000" sideid="0" />
+
+	<m mid="5" x="161" y="211" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="5" x="164" y="214" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="5" x="159" y="206" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="5" x="165" y="203" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="5" x="166" y="209" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="6" x="214" y="155" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="6" x="206" y="147" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="6" x="218" y="149" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="6" x="201" y="148" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="6" x="207" y="154" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="6" x="211" y="150" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="6" x="213" y="144" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="6" x="206" y="142" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="153" x="78" y="207" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="153" x="72" y="201" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="153" x="82" y="195" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="153" x="76" y="200" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="153" x="73" y="194" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="153" x="81" y="202" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="126" y="136" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="131" y="132" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="118" y="135" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="123" y="130" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="118" y="113" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="115" y="108" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="123" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="112" y="114" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="117" y="120" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="152" x="123" y="109" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="151" x="128" y="75" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="151" x="134" y="71" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="151" x="134" y="77" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="151" x="137" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="151" x="130" y="82" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="151" x="139" y="75" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="7" x="204" y="97" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="7" x="210" y="98" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="7" x="212" y="93" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="7" x="207" y="89" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="7" x="202" y="93" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="8" x="191" y="73" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="8" x="186" y="76" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="8" x="189" y="79" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="8" x="183" y="73" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="8" x="182" y="79" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="81" y="145" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="87" y="144" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="84" y="140" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="85" y="149" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="86" y="166" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="91" y="168" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="88" y="161" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="98" y="166" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="93" y="163" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="154" x="96" y="159" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+  <!--采集物配置-->
+	<m mid="5001" x="127" y="64" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+  <m mid="5001" x="132" y="64" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+  <m mid="5001" x="135" y="67" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+  <m mid="5001" x="121" y="66" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+  <m mid="5001" x="124" y="64" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+  <m mid="5001" x="128" y="65" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+
+
+    <m mid="5005" x="66" y="137" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+    
+
+	<m mid="5002" x="139" y="101" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+
+
+
+
+    <l id="1" gto="4" to_x="240" to_y="124" x="78" y="72" uw="4.734819" uh="1" ux="46.93" uy="-2.8" uz="43.35" trans="1"/>
+	  <l id="2" gto="3" to_x="279" to_y="310" faceto="270" x="37" y="171" uw="1" uh="6.128828" ux="22.22" uy="0.37" uz="102.91" trans="1"/>
+	  <l id="3" gto="10" to_x="89" to_y="173" faceto="180" x="203" y="218" uw="3.874427" uh="2.745956" ux="122.35" uy="0.2" uz="130.93" trans="1"/>
+	  <l id="4" gto="1"  to_x="114" to_y="229" faceto="180" x="202" y="46" uw="3.628183" uh="1" ux="121.702" uy="0.1" uz="28.102" trans="1"/>
+	</m>
+
+	<m id="3" name="xssm_scene" map_name="死亡沙漠" icon="3" music="3" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="1" lv="1" player_volume="0.5" map_title="1" point_id="301">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="6409" y="5349" />
+		
+		<m mid="17" x="256" y="304" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="261" y="309" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="265" y="308" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="265" y="303" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="261" y="305" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="264" y="282" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="263" y="276" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="257" y="282" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="257" y="277" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="261" y="284" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="17" x="260" y="279" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="228" y="236" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="226" y="241" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="232" y="240" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="224" y="232" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="230" y="232" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="233" y="235" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="226" y="261" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="232" y="261" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="232" y="269" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="229" y="265" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="158" x="234" y="265" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="176" y="237" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="171" y="234" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="170" y="228" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="177" y="227" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="184" y="226" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="185" y="233" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="182" y="230" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="177" y="232" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="160" y="207" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="163" y="209" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="167" y="209" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="169" y="206" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="164" y="204" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="200" y="215" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="196" y="213" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="19" x="200" y="210" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="18" x="122" y="188" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="18" x="123" y="182" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="18" x="119" y="185" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="18" x="117" y="180" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="18" x="113" y="183" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="18" x="114" y="187" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="18" x="108" y="183" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="18" x="112" y="179" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="156" x="114" y="145" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="156" x="110" y="143" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="156" x="111" y="138" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="156" x="117" y="141" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="156" x="116" y="136" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="156" x="121" y="137" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="156" x="121" y="144" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="156" x="124" y="141" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="197" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="203" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="206" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="207" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="197" y="110" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="194" y="115" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="201" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="200" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="231" y="127" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="234" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="232" y="115" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="229" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="244" y="138" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="252" y="138" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="248" y="133" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="157" x="247" y="140" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="276" y="176" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="270" y="173" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="267" y="169" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="270" y="163" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="276" y="164" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="280" y="169" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="281" y="174" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="276" y="171" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="272" y="168" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="266" y="164" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="322" y="152" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="316" y="150" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="312" y="146" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="316" y="139" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="322" y="140" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="326" y="145" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="326" y="150" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="321" y="148" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="317" y="144" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="20" x="311" y="140" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="285" y="215" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="280" y="210" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="281" y="205" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="287" y="204" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="291" y="210" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="286" y="209" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="276" y="236" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="279" y="239" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="277" y="231" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="159" x="281" y="234" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		
+		
+		<!--采集物-->
+		<m mid="5121" x="86" y="168" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+		<!-- <m mid="5122" x="36" y="100" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5122" x="34" y="98" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5122" x="38" y="102" r_x="10" r_y="10" spwan_time="5000" sideid="0" /> -->
+		
+		<!-- <m mid="5123" x="41" y="43" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5123" x="43" y="45" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5123" x="38" y="41" r_x="10" r_y="10" spwan_time="5000" sideid="0" /> -->
+		
+		<!-- <m mid="5124" x="186" y="67" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5124" x="188" y="69" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5124" x="190" y="65" r_x="10" r_y="10" spwan_time="5000" sideid="0" /> -->
+		
+		<m mid="5125" x="314" y="160" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+		<m mid="5126" x="252" y="163" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+		<!-- <m mid="5127" x="150" y="47" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5127" x="152" y="49" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5127" x="148" y="45" r_x="10" r_y="10" spwan_time="5000" sideid="0" /> -->
+    
+    <!--精英怪物-->
+		<m mid="30002" x="117" y="114" r_x="10" r_y="10" spwan_time="900000" sideid="0" />
+		
+		
+		
+		<l id="2" gto="2" to_x="48" to_y="174" faceto="90" x="288" y="317" uw="7.952393" uh="1" ux="172.89" uy="4.8" uz="190.61"  trans="1"/>
+		<l id="3" gto="11" to_x="158" to_y="48" faceto="90" x="319" y="85" uw="7.952394" uh="1" ux="191.5" uy="10.44" uz="51.45"  trans="1"/>
+		<l id="4" gto="9" to_x="37" to_y="53" faceto="90" x="62" y="150" uw="9.317112" uh="6.230644" ux="37.28" uy="4.8" uz="90.3"  trans="1"/>
+
+    <fb id="1" fb_id="108"   x="334" y="113" uw="3.927743" uh="5.617887" ux="200.7" uy="10.51" uz="68.11" />
+ 
+
+
+  </m>
+  <!--拜鲁1层-->
+	<m id="4" name="blsd_scene" map_name="暗黑神殿一层" icon="4" music="4" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" lv_up="3" lv="1" player_volume="0.5" pk_hint="1" map_title="1" point_id="401">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+   
+	<m mid="1000" x="79" y="123" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="76" y="127" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="79" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="75" y="122" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="88" y="142" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="92" y="139" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="88" y="136" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="50" y="140" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="54" y="136" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="44" y="138" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="48" y="136" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="46" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="44" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="48" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1000" x="50" y="113" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="121" y="167" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="121" y="173" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="128" y="174" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="131" y="169" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="126" y="167" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="130" y="161" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="124" y="160" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="170" y="169" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="179" y="165" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="174" y="165" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="176" y="170" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="88" y="173" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="93" y="174" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="94" y="170" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1001" x="90" y="169" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="174" y="124" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="168" y="125" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="161" y="124" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="175" y="118" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="170" y="118" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="165" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="156" y="146" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="160" y="144" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="160" y="149" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="164" y="148" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="206" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="203" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="196" y="114" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="201" y="115" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1002" x="199" y="118" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="121" y="92" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="127" y="93" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="124" y="89" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="129" y="89" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="129" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="121" y="85" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="124" y="81" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="170" y="84" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="175" y="86" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="174" y="81" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="171" y="90" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="71" y="82" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="77" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="74" y="86" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1003" x="74" y="79" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<!--采集物-->
+	<m mid="5061" x="219" y="110" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5062" x="31" y="109" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5063" x="108" y="152" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5064" x="140" y="152" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5065" x="230" y="110" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5066" x="174" y="73" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5067" x="74" y="73" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5068" x="19" y="110" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5069" x="74" y="176" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5070" x="176" y="170" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5071" x="124" y="125" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    
+		<l id="2" gto="2" to_x="78" to_y="78" x="243" y="124" uw="2.128632" uh="6.291754" ux="146.3" uy="0.46" uz="74.75" trans="1"/>
+		<l id="3" gto="5" to_x="127" to_y="178" x="137" y="124" uw="1" uh="5.483294" ux="82.75" uy="2" uz="74.99" trans="1"/>
+	</m>
+  <!--拜鲁2层-->
+	<m id="5" name="blsd4_scene"  map_name="暗黑神殿二层" icon="4" music="4" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" lv_up="3" lv="1" player_volume="0.5" map_title="1" point_id="401">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		<m mid="1004" x="114" y="156" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="110" y="158" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="105" y="157" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="108" y="152" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="90" y="140" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="95" y="138" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="90" y="136" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="83" y="138" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="48" y="127" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="50" y="124" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="45" y="123" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="39" y="144" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="35" y="143" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="36" y="139" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1004" x="42" y="140" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="87" y="88" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="91" y="88" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="92" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="88" y="84" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="88" y="107" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="84" y="107" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="79" y="111" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="85" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="50" y="75" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="53" y="72" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="49" y="71" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="32" y="37" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="35" y="33" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="32" y="29" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1005" x="29" y="33" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="67" y="26" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="74" y="27" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="78" y="23" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="76" y="17" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="67" y="21" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="70" y="18" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="73" y="22" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="86" y="39" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="82" y="38" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="79" y="41" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="84" y="42" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="100" y="33" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="102" y="30" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="105" y="34" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1006" x="102" y="38" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="129" y="23" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="130" y="18" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="134" y="16" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="139" y="19" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="135" y="20" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="136" y="26" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="132" y="26" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="132" y="22" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="142" y="24" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1007" x="138" y="23" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<!--采集物-->
+	<m mid="5081" x="109" y="185" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5082" x="49" y="150" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5083" x="114" y="145" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5084" x="117" y="112" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5085" x="109" y="78" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5086" x="97" y="24" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5087" x="135" y="49" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5088" x="152" y="48" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+
+		<l id="1" gto="4" to_x="124" to_y="124" x="133" y="179" uw="2.402279" uh="5.241864" ux="80.29" uy="7.2" uz="107.87" trans="1"/>
+		<l id="2" gto="6" to_x="122" to_y="230" faceto="180" x="157" y="33" uw="2.841915" uh="6.067265" ux="94.75" uy="3.55" uz="19.92"  trans="1"/>
+	</m>
+  <!--拜鲁3层-->
+	<m id="6" name="blsd3_scene"  map_name="暗黑神殿三层" icon="4" music="4" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" lv_up="3" lv="1" player_volume="0.5" map_title="1" point_id="401">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+
+	<m mid="1008" x="148" y="55" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="145" y="58" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="143" y="54" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="147" y="50" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="102" y="53" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="100" y="57" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="104" y="56" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="107" y="53" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="129" y="79" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="124" y="81" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="119" y="78" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="125" y="78" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="124" y="85" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="129" y="85" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1008" x="119" y="84" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="85" y="95" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="82" y="91" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="88" y="91" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="91" y="95" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="89" y="142" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="91" y="139" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="78" y="118" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="73" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="87" y="139" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="78" y="123" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="82" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="87" y="171" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="91" y="170" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="84" y="169" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1009" x="87" y="168" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="159" y="174" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="157" y="169" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="153" y="174" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="162" y="170" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="172" y="137" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="170" y="133" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="173" y="129" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="175" y="133" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="159" y="106" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="158" y="110" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="164" y="107" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="161" y="77" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="161" y="82" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="157" y="80" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1010" x="157" y="74" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="106" y="198" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="102" y="196" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="100" y="192" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="106" y="194" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="145" y="197" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="149" y="199" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="147" y="194" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="143" y="193" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="123" y="170" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="126" y="165" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="121" y="164" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="131" y="166" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="129" y="171" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="123" y="161" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1011" x="129" y="161" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<!--采集物-->
+	<m mid="5101" x="111" y="152" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5102" x="72" y="158" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5103" x="79" y="85" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5104" x="137" y="85" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5105" x="155" y="162" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5106" x="174" y="72" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5107" x="146" y="33" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	<m mid="5108" x="124" y="125" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+	
+		<l id="1" gto="5" to_x="153" to_y="33" x="125" y="235" faceto="270" uw="6.120888" uh="3.547798" ux="75.3" uy="0.6" uz="141.6" trans="1"/>
+		<l id="2" gto="7" to_x="113" to_y="129" faceto="180" x="125" y="9" uw="5.356856" uh="8.451468" ux="75.35" uy="0.59" uz="5.6" trans="1"/>
+	</m>
+  <!--拜鲁4层-->  
+	<m id="7" name="blsd5_scene" map_name="暗黑殿堂" music="7" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1"  player_volume="0.5" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		<!-- <m mid="1009" x="62" y="42" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1009" x="62" y="54" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1009" x="62" y="61" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1009" x="62" y="73" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1009" x="68" y="48" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1009" x="55" y="48" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1009" x="68" y="59" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1009" x="56" y="68" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1010" x="14" y="76" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1010" x="25" y="68" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1010" x="13" y="62" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1010" x="26" y="58" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1010" x="21" y="76" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1010" x="21" y="69" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1010" x="21" y="62" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1010" x="14" y="55" r_x="10" r_y="10" spwan_time="5000" sideid="0" /> -->
+		<!-- <l id="1" gto="6" to_x="124" to_y="18" faceto="0" x="66" y="101" uw="5.643856" uh="6.355514" ux="39.81" uy="0.59" uz="60.89" trans="1"/> -->
+		<l id="1" gto="6" to_x="124" to_y="18" faceto="0" x="134" y="135" uw="6" uh="4" ux="83.38" uy="4.72" uz="80.5" trans="1"/>
+	</m>
+  <!--黑暗沼泽-->
+	<m id="8" name="hazz_scene" map_name="洛瓦湿地" icon="8" music="8" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="5" lv="70" player_volume="0.5" map_title="1" point_id="801">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		<m mid="11" x="45" y="51" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="11" x="39" y="57" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="11" x="40" y="62" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="11" x="36" y="51" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="11" x="35" y="65" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="11" x="30" y="60" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="9" x="74" y="60" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="9" x="69" y="49" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="9" x="78" y="67" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="9" x="75" y="52" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="9" x="74" y="40" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="9" x="81" y="59" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="9" x="80" y="46" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="9" x="88" y="39" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="12" x="124" y="86" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="12" x="109" y="81" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="12" x="126" y="93" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="12" x="118" y="79" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="12" x="124" y="79" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="12" x="124" y="72" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="10" x="36" y="108" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="10" x="33" y="86" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="10" x="43" y="113" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="10" x="38" y="92" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="10" x="41" y="81" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="10" x="56" y="85" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="10" x="46" y="86" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="10" x="61" y="105" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+
+
+    <m mid="11" x="45" y="51" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="11" x="39" y="57" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="11" x="40" y="62" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="11" x="36" y="51" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="11" x="35" y="65" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="11" x="30" y="60" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="9" x="74" y="60" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="9" x="69" y="49" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="9" x="78" y="67" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="9" x="75" y="52" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="9" x="74" y="40" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="9" x="81" y="59" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="9" x="80" y="46" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="9" x="88" y="39" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="12" x="124" y="86" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="12" x="109" y="81" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="12" x="126" y="93" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="12" x="118" y="79" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="12" x="124" y="79" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="12" x="124" y="72" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="10" x="36" y="108" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="10" x="33" y="86" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="10" x="43" y="113" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="10" x="38" y="92" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="10" x="41" y="81" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="10" x="56" y="85" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="10" x="46" y="86" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="10" x="61" y="105" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<!--采集物-->
+		<m mid="5021" x="83" y="127" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5021" x="84" y="128" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5021" x="82" y="124" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5022" x="107" y="112" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5022" x="105" y="111" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5022" x="105" y="113" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5023" x="118" y="56" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5023" x="117" y="54" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5023" x="117" y="53" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5024" x="111" y="96" r_x="10" r_y="10" spwan_time="5000" sideid="0" />    
+		<m mid="5025" x="97" y="60" r_x="10" r_y="10" spwan_time="5000" sideid="0" />     
+		<m mid="5026" x="63" y="71" r_x="10" r_y="10" spwan_time="5000" sideid="0" />     
+		<m mid="5027" x="50" y="101" r_x="10" r_y="10" spwan_time="5000" sideid="0" />    
+		<m mid="5028" x="72" y="113" r_x="10" r_y="10" spwan_time="5000" sideid="0" />    
+		<m mid="5029" x="38" y="101" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5029" x="36" y="102" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5029" x="35" y="101" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5030" x="83" y="120" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5033" x="96" y="34" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5032" x="54" y="68" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5032" x="51" y="71" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5032" x="53" y="69" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+<!--精英怪物-->
+    <m mid="30005" x="84" y="91" r_x="10" r_y="10" spwan_time="900000" sideid="0" />
+
+		<l id="1" gto="1" to_x="213" to_y="33" faceto="0" x="17" y="101" uw="1" uh="4.008965" ux="10.49" uy="0.5099998" uz="60.96" trans="1"/>
+	</m>
+  <!--沙漠死海-->
+	<m id="9" name="smsh_scene" map_name="亚特兰蒂斯" icon="9" music="9" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="3" lv="60" map_title="1" point_id="901">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	<m mid="21" x="35" y="120" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="38" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="34" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="68" y="115" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="63" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="68" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="84" y="159" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="81" y="164" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="86" y="164" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="84" y="168" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="46" y="93" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="46" y="88" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="51" y="85" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="54" y="90" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="21" x="50" y="90" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="111" y="128" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="116" y="128" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="112" y="124" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="129" y="156" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="129" y="152" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="133" y="153" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="162" y="182" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="162" y="177" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="157" y="177" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="202" y="192" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="207" y="190" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="208" y="185" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="200" y="188" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="204" y="187" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="22" x="203" y="183" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="181" y="144" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="183" y="141" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="179" y="140" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="142" y="111" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="147" y="108" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="143" y="106" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="104" y="67" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="104" y="62" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="108" y="65" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="115" y="38" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="115" y="32" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="111" y="29" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="110" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="107" y="32" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="23" x="102" y="30" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="216" y="114" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="214" y="109" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="219" y="109" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="195" y="91" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="193" y="87" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="199" y="87" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="162" y="52" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="167" y="48" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="172" y="50" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="168" y="54" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="170" y="30" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="165" y="28" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="172" y="35" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="167" y="33" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="24" x="160" y="30" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+
+    <m mid="30004"     x="216" y="36" r_x="10" r_y="10" spwan_time="900000" sideid="0" />
+	<!--采集点配置-->
+	<m mid="5181" x="19" y="124" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5181" x="21" y="122" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5181" x="17" y="126" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5182" x="209" y="83" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5182" x="210" y="81" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5182" x="208" y="85" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+
+
+    <l id="1" gto="3" to_x="78" to_y="154" faceto="0" x="38" y="42" uw="8.23752" uh="2.973167" ux="23.28" uy="0.26" uz="25.41" trans="1"/>
+		<born mpid="10" width="10" height="10" x="2879" y="3626" />
+	</m>
+  <!--主城-->
+	<m id="10" name="zc_scene" map_name="曙光城堡" music="10" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="1" player_volume="0" map_title="1" pk_lock="0">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		<l id="1" gto="2" to_x="199" to_y="208" faceto="180" x="89" y="182" uw="3.749038" uh="3.808435" ux="53.836" uy="0.557" uz="109.58" trans="1"/>
+	</m>
+	<m id="24" name="zc3_scene" map_name="天启城" music="10" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="1" player_volume="0" map_title="1" pk_lock="0">
+	    <opentime id="1" start_h="20" start_m="00" end_h="24" end_m="00"/>
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		<l id="1" gto="2" to_x="199" to_y="208" faceto="180" x="89" y="182" uw="3.749038" uh="3.808435" ux="53.836" uy="0.557" uz="109.58" trans="1"/>
+	</m>
+  <!--地城废墟1-->
+	<m id="11" name="dcfx_scene" map_name="地下城一层" icon="11" music="11" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" lv_up="1" lv="1" player_volume="0.5" pk_hint="1" map_title="1" point_id="1101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		<m mid="1012" x="140" y="51" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="141" y="47" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="138" y="44" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="136" y="49" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="120" y="47" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="118" y="50" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="123" y="49" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="122" y="43" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="125" y="45" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="117" y="44" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="115" y="48" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="94" y="48" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="97" y="44" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="100" y="48" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1012" x="97" y="51" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="72" y="66" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="76" y="62" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="66" y="63" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="70" y="60" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="67" y="33" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="72" y="37" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="72" y="32" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="76" y="35" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="77" y="31" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="74" y="27" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="68" y="29" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="47" y="28" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="40" y="30" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="45" y="31" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1013" x="42" y="27" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="58" y="84" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="54" y="73" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="48" y="84" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="59" y="78" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="55" y="80" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="53" y="84" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="47" y="78" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="49" y="73" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="51" y="77" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="57" y="75" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="32" y="57" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="36" y="53" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="36" y="61" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="32" y="61" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1014" x="38" y="58" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="54" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="53" y="107" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="52" y="114" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="56" y="111" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="60" y="113" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="56" y="115" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="59" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="50" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="50" y="110" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="59" y="107" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1015" x="47" y="115" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		
+		<!--采集点-->
+		<m mid="5141" x="147" y="66" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5141" x="145" y="64" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5141" x="149" y="68" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5142" x="152" y="35" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5142" x="150" y="33" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5142" x="154" y="34" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5143" x="83" y="23" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5143" x="81" y="21" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5143" x="85" y="23" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5144" x="84" y="66" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5144" x="82" y="64" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5144" x="84" y="62" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5145" x="70" y="77" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5145" x="72" y="75" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5145" x="68" y="77" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5146" x="23" y="74" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5146" x="21" y="72" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5146" x="19" y="74" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5147" x="64" y="142" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5147" x="62" y="140" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="5147" x="64" y="144" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		
+
+		<l id="1" gto="3" to_x="311" to_y="102" faceto="0" x="164" y="47" uw="3.505832" uh="5.015764" ux="98.98" uy="0.38" uz="28.69" trans="1"/>
+
+		<l id="2" gto="12" to_x="29" to_y="131" faceto="180" x="53" y="154" uw="6.946374" uh="2.993339" ux="32.3" uy="1.96" uz="93.02" trans="1"/>
+	</m>
+  <!--地城废墟2-->
+	<m id="12" name="dcfx2_scene" map_name="地下城二层" icon="11" music="11" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" lv_up="1" lv="1" player_volume="0.5" map_title="1" point_id="1101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		
+		<m mid="1016" x="62" y="42" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="67" y="45" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="66" y="41" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="61" y="38" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="72" y="43" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="66" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="71" y="39" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="75" y="32" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="79" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="70" y="32" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1016" x="75" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="4" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="14" y="38" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="8" y="39" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="14" y="33" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="10" y="35" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="6" y="31" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="11" y="30" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="47" y="42" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="47" y="37" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="43" y="43" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="42" y="39" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="29" y="26" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="30" y="30" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="26" y="31" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1017" x="24" y="26" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="28" y="55" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="26" y="52" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="23" y="56" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="26" y="59" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="31" y="59" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="31" y="52" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="32" y="56" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="21" y="59" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="40" y="96" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="36" y="95" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="35" y="90" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="39" y="92" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="43" y="91" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="43" y="87" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1018" x="38" y="86" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="37" y="125" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="40" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="34" y="120" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="38" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="17" y="92" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="20" y="88" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="15" y="88" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="18" y="82" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="16" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="21" y="122" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="20" y="118" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="15" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="14" y="111" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="20" y="113" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="1019" x="19" y="109" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+  
+		
+		<l id="1" gto="11" to_x="53" to_y="149" faceto="180" x="28" y="137" uw="4.955803" uh="3.105324" ux="17.33" uy="4.92" uz="82.51" trans="1"/>
+		<l id="2" gto="13" to_x="173" to_y="121" faceto="270" x="107" y="40" uw="3.414863" uh="4.124232" ux="64.62" uy="8.3" uz="24.11" trans="1"/>
+	</m>
+  <m id="13" name="fxmg_scene" map_name="地下城三层" icon="11" music="11" tile_size="32" tile_set="1" pk="2" width="400" height="400" lv_up="1" lv="1" revive="1" map_title="1" point_id="1101">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="300" height="300" x="2879" y="3626" />
+	
+	<m mid="1020" x="153" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1020" x="150" y="114" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1020" x="152" y="126" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1020" x="147" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1020" x="152" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1020" x="147" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1020" x="129" y="99" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1020" x="131" y="94" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1020" x="134" y="99" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1020" x="136" y="93" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="145" y="63" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="143" y="58" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="149" y="58" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="145" y="53" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="144" y="35" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="140" y="31" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="143" y="41" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="137" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="132" y="33" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="138" y="42" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="132" y="37" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="113" y="32" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="111" y="26" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="108" y="30" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1021" x="110" y="35" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="87" y="32" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="84" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="78" y="37" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="73" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="38" y="54" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="48" y="58" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="42" y="49" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="49" y="48" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="51" y="53" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="45" y="53" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="42" y="57" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="38" y="79" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="43" y="78" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="37" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1022" x="41" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="34" y="110" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="38" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="31" y="106" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="37" y="107" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="34" y="104" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="42" y="108" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="42" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="39" y="103" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="49" y="111" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="46" y="108" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1023" x="46" y="104" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+
+	
+	<!--采集点-->
+	<m mid="30007" x="113" y="129" r_x="10" r_y="10" spwan_time="900000" sideid="0" />
+    <l id="1" gto="12" to_x="97" to_y="39" faceto="0" x="180" y="121" uw="3.776998" uh="6.80778" ux="108.6" uy="9.99" uz="72.87" trans="1"/>
+    <l id="2" gto="14" to_x="87" to_y="210" faceto="0" x="41" y="158" uw="6.389925" uh="5.512908" ux="24.77" uy="10.04" uz="94.98" trans="1"/>
+  </m>
+  <!--废墟宫殿-->
+	<m id="14" name="dcfx4_scene" map_name="王族陵墓" music="14" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	<l id="1" gto="13" to_x="39" to_y="147" faceto="0" x="85" y="230" uw="12.6522" uh="2.175846" ux="51.31" uy="0" uz="138.38" trans="1"/>
+
+    <trigger id="104" initcr="1" rate="100"  >
+      <skill skill_id="28" cnt="1" sideid="0"/>
+      <addmon>
+        <m mid="2013" x="84"  y="97" spwan_time="0" r_x="0" r_y="0" sideid="0"  face="0"  boss="0"/>
+        <m mid="2013" x="87"  y="107" spwan_time="0" r_x="0" r_y="0" sideid="0"  face="0"  boss="0"/>
+        <m mid="2013" x="114"  y="101" spwan_time="0" r_x="0" r_y="0" sideid="0" face="0"  boss="0"/>
+        <m mid="2013" x="109"  y="110" spwan_time="0" r_x="0" r_y="0" sideid="0" face="0"  boss="0"/>
+        <m mid="2013" x="121"  y="113" spwan_time="0" r_x="0" r_y="0" sideid="0" face="0"  boss="0"/>
+        <m mid="2013" x="114"  y="120" spwan_time="0" r_x="0" r_y="0" sideid="0"  face="0"  boss="0"/>
+        <m mid="2013" x="82"  y="115" spwan_time="0" r_x="0" r_y="0" sideid="0"  face="0"  boss="0"/>
+        <m mid="2013" x="78"  y="106" spwan_time="0" r_x="0" r_y="0" sideid="0"  face="0"  boss="0"/>
+
+
+      </addmon>
+    </trigger>
+	</m>
+
+  <!--失落圣殿-->
+	<m id="15" name="slsd_scene" map_name="坎特鲁遗址" icon="15" music="15" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="3" lv="1" map_title="1" point_id="1501">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+    
+		<m mid="25" x="37" y="121" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="42" y="123" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="42" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="38" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="34" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="61" y="103" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="63" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="60" y="111" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="56" y="102" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="57" y="107" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="68" y="129" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="68" y="131" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="62" y="132" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="67" y="125" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="25" x="63" y="128" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="87" y="145" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="90" y="151" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="95" y="151" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="93" y="146" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="109" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="115" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="113" y="122" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="140" y="139" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="135" y="137" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="26" x="137" y="133" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="166" y="92" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="169" y="88" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="166" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="160" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="164" y="86" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="160" y="90" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="148" y="70" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="151" y="63" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="152" y="67" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="148" y="66" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="101" y="91" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="104" y="87" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="106" y="82" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="101" y="79" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="27" x="98" y="85" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="80" y="25" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="80" y="28" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="85" y="28" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="90" y="24" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="84" y="22" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="109" y="40" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="110" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="104" y="39" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="105" y="36" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="103" y="42" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="49" y="55" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="56" y="55" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="52" y="50" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="52" y="53" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+		<m mid="28" x="53" y="58" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+    
+    
+  <!--采集点配置-->
+	<m mid="5161" x="92" y="105" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5161" x="90" y="107" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5161" x="92" y="109" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5162" x="161" y="42" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5162" x="158" y="40" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5162" x="162" y="42" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+
+<!--精英怪物-->
+
+    <!-- <m mid="505" x="105" y="79" r_x="10" r_y="10" spwan_time="21600000" sideid="0" /> -->
+	<m mid="30003" x="188" y="73" r_x="10" r_y="10" spwan_time="900000" sideid="0" />
+    <l id="1" gto="1" to_x="29" to_y="208" faceto="0" x="47" y="14" uw="7.920241" uh="8.929077" ux="28.43" uy="0.08" uz="8.45" trans="1"/>
+    <l id="2" gto="17" to_x="133" to_y="34" faceto="0" x="24" y="140" uw="7.655247" uh="7.7641" ux="14.83" uy="0.54" uz="84.05" trans="1"/>
+
+    <fb id="1" fb_id="110"    x="154" y="128" uw="4.642501" uh="6.09401" ux="93.01" uy="0.47" uz="76.9"/>
+  </m>
+
+  <!--熔岩神殿-->
+	<m id="16" name="jbfb_scene" map_name="末日火山" music="16" tile_size="23" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="5" lv="1" map_title="1"> 
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+    <fb id="1" fb_id="109"    x="199" y="83" uw="13.30207" uh="9.999592" ux="119.96" uy="4.89" uz="49.93"/>
+	</m>
+
+  <!--人之禁地1-->
+	<m id="17" name="rzjd_1_scene" map_name="冰风谷一层" icon="17" music="17" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" lv_up="6" lv="1" map_title="1" point_id="1701">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+    
+    
+    <m mid="1024" x="165" y="150" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1024" x="169" y="145" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1024" x="162" y="144" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1024" x="157" y="149" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1024" x="165" y="138" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1024" x="158" y="140" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    
+    <m mid="1025" x="85" y="104" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1025" x="92" y="102" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1025" x="84" y="113" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1025" x="89" y="108" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1025" x="96" y="109" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1025" x="92" y="114" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    
+    <m mid="1026" x="41" y="139" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1026" x="47" y="134" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1026" x="34" y="133" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1026" x="35" y="138" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1026" x="40" y="132" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1026" x="29" y="131" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    
+    <m mid="1027" x="144" y="95" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1027" x="145" y="106" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1027" x="136" y="99" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1027" x="141" y="101" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1027" x="141" y="111" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1027" x="136" y="107" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <l id="1" gto="15" to_x="34" to_y="130" faceto="0" x="133" y="27" uw="6.849427" uh="3.748277" ux="80.38" uy="0.58" uz="16.5" trans="1"/>
+    <l id="2" gto="18" to_x="154" to_y="42" faceto="0" x="92" y="165" uw="7.315736" uh="3.870255" ux="55.72" uy="0.32" uz="99.13" trans="1"/>
+    <l id="3" gto="23" to_x="64" to_y="22" faceto="0" x="184" y="152" uw="4.423182" uh="5.149144" ux="110.72" uy="3.9" uz="91.51" />
+	</m>
+
+  <!--人之禁地2-->
+	<m id="18" name="rzjd_2_scene" map_name="冰风谷二层" icon="17" music="18" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" lv_up="6" lv="1" map_title="1" point_id="1701">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+
+    <m mid="1028" x="183" y="204" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1028" x="183" y="196" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1028" x="175" y="200" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1028" x="175" y="190" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1028" x="167" y="196" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1029" x="201" y="125" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1029" x="194" y="124" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1029" x="204" y="116" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1029" x="188" y="120" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1029" x="197" y="116" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1030" x="67" y="116" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1030" x="67" y="121" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1030" x="59" y="118" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1030" x="63" y="111" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1030" x="74" y="111" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1031" x="94" y="157" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1031" x="94" y="165" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1031" x="86" y="161" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1031" x="105" y="154" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1031" x="90" y="148" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+
+    <l id="1" gto="17" to_x="93" to_y="156" faceto="0" x="155" y="26" uw="3.749038" uh="3.808435" ux="93.3" uy="21.98" uz="16.07" trans="1"/>
+	<l id="2" gto="19" to_x="61" to_y="151" faceto="0" x="66" y="223" uw="3.749038" uh="3.808435" ux="39.9" uy="22.63" uz="134.32" trans="1"/>
+	</m>
+
+  <!--人之禁地3-->
+	<m id="19" name="rzjd_3_scene" map_name="冰风谷三层" icon="17" music="19" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" lv_up="6" lv="1" map_title="1" point_id="1701">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		
+		<l id="1" gto="18" to_x="67" to_y="213" faceto="0" x="60" y="157" uw="3.749038" uh="3.808435" ux="36.55" uy="-1.22" uz="95.18001" trans="1"/>
+		<l id="2" gto="20" to_x="105" to_y="62" faceto="0" x="174" y="145" uw="3.749038" uh="3.808435" ux="105.68" uy="4.59" uz="87.78" trans="1"/>
+  </m>
+
+  <!--人之禁地BOSS-->
+	<m id="20" name="rzjd_4_scene" map_name="寒冰宫殿" music="20" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		
+		<l id="1" gto="19" to_x="93" to_y="156" faceto="0" x="111" y="53" uw="3.749038" uh="3.808435" ux="66.79" uy="17.73" uz="32.11" trans="1"/>
+	</m>
+
+  <!--地城废墟3-->
+  <m id="21" name="dcfx3_scene" map_name="地下城三层" music="13" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" lv_up="5" lv="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+		<m mid="1020" x="128" y="52" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1020" x="123" y="49" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1020" x="117" y="47" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1020" x="114" y="51" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1020" x="109" y="46" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1020" x="107" y="51" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1020" x="103" y="46" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1021" x="42" y="27" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1021" x="45" y="31" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1021" x="47" y="27" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1021" x="52" y="32" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1021" x="55" y="28" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1021" x="61" y="30" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1021" x="66" y="33" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1021" x="70" y="29" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1022" x="68" y="69" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1022" x="64" y="73" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1022" x="59" y="70" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1022" x="53" y="68" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1022" x="50" y="72" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1022" x="45" y="68" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1022" x="43" y="72" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1022" x="40" y="67" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1023" x="58" y="106" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1023" x="44" y="103" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1023" x="59" y="118" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1023" x="50" y="122" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1023" x="58" y="126" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1023" x="54" y="135" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1023" x="45" y="137" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<m mid="1023" x="55" y="144" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+		<l id="1" gto="14" to_x="51" to_y="131" faceto="180" x="53" y="148" uw="6.946374" uh="2.993339" ux="32.3" uy="1.96" uz="93.02" trans="1"/>
+		<l id="2" gto="12" to_x="102" to_y="40" faceto="0" x="53" y="154" uw="3.505832" uh="5.015764" ux="98.98" uy="0.38" uz="28.69" trans="1"/>
+	</m>
+
+  <!--底下迷宫-->
+  <m id="22" name="fxmg_scene" map_name="地下迷宫" music="20" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="1" map_title="1">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="300" height="300" x="2879" y="3626" />
+    <m mid="1032" x="119" y="129" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1032" x="123" y="133" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1032" x="121" y="122" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1032" x="129" y="130" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1032" x="128" y="123" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+
+    <m mid="1033" x="147" y="36" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1033" x="147" y="41" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1033" x="153" y="41" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1033" x="150" y="47" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1033" x="140" y="42" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+
+    <m mid="1034" x="50" y="42" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1034" x="50" y="47" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1034" x="57" y="38" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1034" x="57" y="45" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1034" x="57" y="53" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+
+    <m mid="1035" x="46" y="126" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1035" x="46" y="117" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1035" x="46" y="111" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1035" x="38" y="119" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <m mid="1035" x="38" y="114" r_x="10" r_y="10" spwan_time="5000" sideid="0" />
+    <l id="1" gto="15" to_x="161" to_y="47" faceto="0" x="180" y="121" uw="3.776998" uh="6.80778" ux="108.6" uy="9.99" uz="72.87" trans="1"/>
+    <l id="2" gto="0" to_x="0" to_y="0" faceto="0" x="41" y="158" uw="6.389925" uh="5.512908" ux="24.77" uy="10.04" uz="94.98" trans="1"/>
+  </m>
+
+  <m id="23" name="rysd_scene" map_name="末日神殿" icon="23" music="20" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="5" lv="1" player_volume="0.5" map_title="1" point_id="2301">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="300" height="300" x="2066" y="669" />
+	
+	<m mid="1036" x="84" y="22" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1036" x="85" y="26" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1036" x="87" y="24" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1036" x="82" y="20" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1036" x="77" y="23" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1036" x="78" y="28" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1036" x="85" y="28" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1036" x="86" y="19" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1036" x="90" y="22" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1036" x="90" y="28" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	
+	<m mid="1037" x="131" y="58" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1037" x="136" y="57" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1037" x="137" y="51" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1037" x="132" y="52" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1037" x="133" y="64" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1037" x="137" y="63" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1037" x="132" y="69" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1037" x="137" y="67" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1037" x="136" y="45" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1037" x="132" y="44" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	
+	<m mid="1038" x="115" y="87" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1038" x="111" y="92" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1038" x="106" y="90" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1038" x="99" y="91" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1038" x="99" y="83" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1038" x="100" y="75" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1038" x="110" y="69" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1038" x="117" y="71" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1038" x="119" y="79" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1038" x="120" y="82" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	
+	<m mid="1039" x="120" y="115" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1039" x="116" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1039" x="115" y="111" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1039" x="112" y="114" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1039" x="110" y="118" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1039" x="108" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1039" x="104" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1039" x="103" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1039" x="101" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1039" x="97" y="117" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	
+	<m mid="1040" x="75" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1040" x="73" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1040" x="71" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1040" x="70" y="115" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1040" x="66" y="114" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1040" x="66" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1040" x="62" y="119" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1040" x="62" y="116" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1040" x="62" y="111" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	<m mid="1040" x="70" y="112" r_x="1" r_y="1" spwan_time="5000" sideid="0" />
+	
+	<m mid="5201" x="140" y="88" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5201" x="137" y="85" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5201" x="134" y="87" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	<m mid="5201" x="133" y="82" r_x="10" r_y="10" spwan_time="3100" sideid="0" />
+	
+	<m mid="30006" x="191" y="73" r_x="1" r_y="1" spwan_time="900000" sideid="0" />
+    <l id="1" gto="17" to_x="176" to_y="148" faceto="0" x="63" y="14" uw="3.807489" uh="3.703743" ux="38.45" uy="18.24" uz="7.49" trans="1" />
+    <fb id="1" fb_id="109"   x="49" y="104" uw="5.467109" uh="4.895915" ux="29.39" uy="16.26" uz="62.07"/>
+
+
+  </m>
+
+  <m id="3333" name="demo2" map_name="末日神殿" music="3333" tile_size="3333" tile_set="1" pk="0" width="400" height="400" revive="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="1" width="0" height="0" x="3723" y="7289" />
+	</m>
+
+  <m id="3334" name="jingyan_scene" map_name="破碎深渊" music="3334" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="1338" y="1694" />
+
+	</m>
+  
+  <m id="3335" name="jbfb_scene" map_name="黄金宝库" music="3335" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="2463" y="1565" />
+	</m>
+
+  <m id="3336" name="jingyan_scene" map_name="破碎深渊" music="3336" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="1"  player_volume="0.5"  maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+
+		<m mid="2002" x="47" y="60" r_x="10" r_y="10" spwan_time="60000" sideid="0" />
+		<born mpid="10" width="10" height="10" x="2879" y="3626" />
+	</m>
+
+  <m id="3337" name="zhsly_scene" map_name="召唤兽峡谷" music="3337" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="1338" y="1694" />
+	</m>
+
+  <m id="3338" name="mlzd_scene" map_name="魔炼之地" music="3338" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0" player_volume="0" maptype="1" map_title="1">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="10" height="10" x="1079" y="1310" />
+
+  </m>
+
+  <m id="3339" name="fswz_scene" map_name="黑暗王座" music="3339" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="1">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="0" width="1" height="1" x="3515" y="3839" />
+
+
+  </m>
+
+  <m id="3340" name="zhsly_scene" map_name="兽灵秘境1层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+
+  <m id="3341" name="jjc_scene" map_name="斗技场" music="3340" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="1" pk_lock="1">
+    <g file="data/maps/maps/1.grd" />
+    
+    <born x="2017" y="2085" width="1" height="1" faceto="180"  />
+
+    <born x="1968" y="1640" width="1" height="1" faceto="0"/>
+  </m>
+
+  <m id="3342" name="wdsy_scene" map_name="托维尔墓穴" music="3334" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1" pk_lock="0">
+    <g file="data/maps/maps/1.grd" />
+    <born  width="10" height="10" x="1085" y="4036" faceto="180" />
+
+  </m>
+
+  <m id="3343" name="clfb_scene" map_name="丛林" music="3334" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="1">
+    <g file="data/maps/maps/1.grd" />
+    <born  width="10" height="10" x="1085" y="4036" faceto="90" />
+
+  </m>
+
+  <m id="3344" name="tlfb_scene" map_name="巨龙深渊" music="3340" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1" pk_lock="0">
+	<g file="data/maps/maps/1.grd" />
+	<born mpid="10" width="10" height="10" x="9297" y="12376" />
+  </m>
+
+  <m id="3345" name="tlfb_scene" map_name="驯龙者巢穴" music="3340" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1" pk_lock="0">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="10" height="10" x="9297" y="12376" />
+  </m>
+  <m id="3346" name="tlfb3_sence" map_name="血色丛林" music="3340" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1" pk_lock="0">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="10" height="10" x="7973" y="14251" />
+  </m>
+  <m id="3347" name="tlfb2_scene" map_name="幽光祭坛" music="3340" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="1" pk_lock="0">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="10" height="10" x="3410" y="1863" />
+  </m>
+  <m id="3348" name="zhsly_scene" map_name="兽灵秘境2层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+  <m id="3349" name="zhsly_scene" map_name="兽灵秘境3层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+  <m id="3350" name="zhsly_scene" map_name="兽灵秘境4层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+  <m id="3351" name="zhsly_scene" map_name="兽灵秘境5层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+  <m id="3352" name="zhsly_scene" map_name="兽灵秘境6层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+  <m id="3353" name="zhsly_scene" map_name="兽灵秘境7层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+  <m id="3354" name="zhsly_scene" map_name="兽灵秘境8层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+  <m id="3355" name="zhsly_scene" map_name="兽灵秘境9层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+  <m id="3356" name="zhsly_scene" map_name="兽灵秘境10层" music="3340" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="10" height="10" x="3051" y="1813" />
+  </m>
+	
+  <m id="3357" name="zc_smsm" map_name="战场据点" music="3340" tile_size="32" tile_set="1" pk="2" width="400" height="400" revive="3"  player_volume="0.5" maptype="1" map_title="1" pk_lock="5">
+    <g file="data/maps/maps/1.grd" />   
+    <born x="3869" y="3038" width="300" height="300" faceto="180"  />
+    <born x="10170" y="8262" width="300" height="300" faceto="0"/>
+  </m>
+  
+  <m id="3358" name="zc2_scene" map_name="攻城战" music="3338" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="3" player_volume="0" maptype="1" map_title="1" pk_lock="5">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="10" height="10" x="1093" y="2232" />
+
+  </m>
+  
+    <m id="3359" name="zhanchang10" map_name="神佑之地1层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+	<m id="3360" name="zhanchang10" map_name="神佑之地2层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+	<m id="3361" name="zhanchang10" map_name="神佑之地3层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+	<m id="3362" name="zhanchang10" map_name="神佑之地4层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+	<m id="3363" name="zhanchang10" map_name="神佑之地5层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+	<m id="3364" name="zhanchang10" map_name="神佑之地6层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+	<m id="3365" name="zhanchang10" map_name="神佑之地7层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+	<m id="3366" name="zhanchang10" map_name="神佑之地8层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+	<m id="3367" name="zhanchang10" map_name="神佑之地9层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+	<m id="3368" name="zhanchang10" map_name="神佑之地10层" icon="1" music="1" tile_size="32" tile_set="1" pk="1" width="400" height="400" revive="1" lv_up="0" lv="40" player_volume="0.5" map_title="1" point_id="101">
+		<g file="data/maps/maps/1.grd" />
+		<born mpid="10" width="300" height="300" x="2879" y="3626" />
+	</m>
+  <!-- 
+  <m id="3345" name="tlfb2_scene" map_name="巨龙深渊" music="3340" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="1"  player_volume="0.5" maptype="1" map_title="1" pk_lock="0">
+	<g file="data/maps/maps/1.grd" />
+	<born mpid="10" width="10" height="10" x="9555" y="12207" />
+  </m>
+-->
+  <!--以下为剧情副本-->
+
+  <m id="4000" name="jjc_scene" map_name="古代斗技场" music="3339" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="0">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="10" height="10" x="1999" y="766" />
+  </m>
+  
+  <m id="4001" name="zshh_fb_scene" map_name="实验场" music="3339" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="1">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="10" height="10" x="2559" y="3078" faceto="180" />
+  </m>
+
+  <m id="4002" name="clfb_scene" map_name="丛林" music="3334" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="1">
+    <g file="data/maps/maps/1.grd" />
+    <born  width="10" height="10" x="2153" y="2942" faceto="90" />
+
+  </m>
+  
+  <m id="4003" name="hazz_fb_scene" map_name="黑暗仪式" music="3339" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="0">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="10" height="10" x="2774" y="3188" faceto="180"/>
+  </m>
+
+  <m id="4004" name="xssm_fb_scene" map_name="废墟入口" music="3339" tile_size="32" tile_set="1" pk="0" width="400" height="400" revive="0"  player_volume="0.5" maptype="1" map_title="0">
+    <g file="data/maps/maps/1.grd" />
+    <born mpid="10" width="10" height="10" x="5246" y="1975" faceto="150"/>
+  </m>
+  
+  
+</maps>

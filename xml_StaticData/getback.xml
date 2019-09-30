@@ -1,0 +1,52 @@
+<get_back>
+  <!--每过t个小时，可以积攒一次领取，一共可以积攒max次-->
+  <time t="24"  max="99"/>
+  <!--经验-->
+  <!--
+	auto_play:挂机开关 1开 0关
+	-->
+  <get id="1"  icon="1" name="经验副本" gem="1000" gem_bind="1000" auto_play="1"  >
+    
+    <itm get_exp="10000"/>
+
+  
+  </get>
+
+<!--金币-->
+  <get id="2" icon="2" name="金币副本" gem="1000" gem_bind="1000" auto_play="1"  >
+
+    <itm get_gold="10000"/>
+
+
+  </get>
+
+  <get id="3" icon="3" name="材料副本" gem="1000" gem_bind="1000" auto_play="1"  >
+
+    <itm get_itm="1501" num="20"/>
+    <itm get_itm="1504" num="20"/>
+    <itm get_itm="1509" num="20"/>
+    <itm get_itm="1510" num="20"/>
+
+  </get>
+
+  <get id="4" icon="4" name="装备副本" gem="1000" gem_bind="1000" auto_play="1"  >
+
+    <itm get_itm="3103" num="1"/>
+
+  </get>
+
+
+  <get id="5" icon="5" name="竞技场" gem="1000" gem_bind="1000"   >
+
+    <itm get_itm="3103" num="1"/>
+
+  </get>
+
+  <get id="6" icon="6" name="魔物猎人" gem="1000" gem_bind="1000"   >
+
+    <itm get_itm="3103" num="1"/>
+
+  </get>
+  
+  
+</get_back>
